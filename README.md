@@ -95,6 +95,8 @@ labels were retained. See `data/duplicate_audit.json` and the recorded inspectio
 
 ## Report
 
+[Download the compiled PDF](report/AI6103_Report_ZhangMufan_G2505269G.pdf).
+
 Open `report/main.tex` in a LaTeX editor, or upload the `report/` directory to Overleaf.
 The report uses the supplied AAAI 2024 template. The report appendix links this repository
 and the archived results release.
