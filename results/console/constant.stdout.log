@@ -1,0 +1,1801 @@
+WARNING: official data have 10 cross-split duplicate groups and 6 conflicting-label groups; original membership/labels are preserved and audited.
+constant: epoch 1/300, lr=0.05
+  batch 1/56 CE=4.83301
+  batch 20/56 CE=4.96363
+  batch 40/56 CE=4.98940
+  batch 56/56 CE=4.96316
+  train CE=4.96316, acc=0.85%; val CE=4.80618, acc=1.04%; 45.4s
+constant: epoch 2/300, lr=0.05
+  batch 1/56 CE=4.99658
+  batch 20/56 CE=4.85120
+  batch 40/56 CE=4.82391
+  batch 56/56 CE=4.81377
+  train CE=4.81377, acc=1.22%; val CE=4.94139, acc=1.24%; 35.1s
+constant: epoch 3/300, lr=0.05
+  batch 1/56 CE=4.73303
+  batch 20/56 CE=4.78094
+  batch 40/56 CE=4.78072
+  batch 56/56 CE=4.78001
+  train CE=4.78001, acc=1.05%; val CE=4.79066, acc=1.44%; 35.2s
+constant: epoch 4/300, lr=0.05
+  batch 1/56 CE=4.74915
+  batch 20/56 CE=4.75308
+  batch 40/56 CE=4.74637
+  batch 56/56 CE=4.74748
+  train CE=4.74748, acc=1.80%; val CE=4.73033, acc=1.70%; 34.4s
+constant: epoch 5/300, lr=0.05
+  batch 1/56 CE=4.72363
+  batch 20/56 CE=4.71417
+  batch 40/56 CE=4.71953
+  batch 56/56 CE=4.71910
+  train CE=4.71910, acc=1.57%; val CE=4.71297, acc=1.70%; 34.8s
+constant: epoch 6/300, lr=0.05
+  batch 1/56 CE=4.71155
+  batch 20/56 CE=4.68611
+  batch 40/56 CE=4.68507
+  batch 56/56 CE=4.68136
+  train CE=4.68136, acc=1.89%; val CE=4.75816, acc=2.02%; 35.1s
+constant: epoch 7/300, lr=0.05
+  batch 1/56 CE=4.59912
+  batch 20/56 CE=4.64614
+  batch 40/56 CE=4.63893
+  batch 56/56 CE=4.63520
+  train CE=4.63520, acc=2.61%; val CE=4.64864, acc=2.54%; 35.3s
+constant: epoch 8/300, lr=0.05
+  batch 1/56 CE=4.57666
+  batch 20/56 CE=4.56911
+  batch 40/56 CE=4.57226
+  batch 56/56 CE=4.56429
+  train CE=4.56429, acc=2.57%; val CE=4.90095, acc=2.94%; 35.1s
+constant: epoch 9/300, lr=0.05
+  batch 1/56 CE=4.48975
+  batch 20/56 CE=4.48977
+  batch 40/56 CE=4.50212
+  batch 56/56 CE=4.49389
+  train CE=4.49389, acc=3.28%; val CE=4.45830, acc=3.52%; 34.4s
+constant: epoch 10/300, lr=0.05
+  batch 1/56 CE=4.48401
+  batch 20/56 CE=4.44911
+  batch 40/56 CE=4.43996
+  batch 56/56 CE=4.42923
+  train CE=4.42923, acc=3.83%; val CE=4.47397, acc=3.26%; 34.5s
+constant: epoch 11/300, lr=0.05
+  batch 1/56 CE=4.22644
+  batch 20/56 CE=4.33566
+  batch 40/56 CE=4.36772
+  batch 56/56 CE=4.37153
+  train CE=4.37153, acc=4.22%; val CE=4.37463, acc=4.63%; 35.1s
+constant: epoch 12/300, lr=0.05
+  batch 1/56 CE=4.26782
+  batch 20/56 CE=4.28583
+  batch 40/56 CE=4.28756
+  batch 56/56 CE=4.28776
+  train CE=4.28776, acc=4.88%; val CE=4.41364, acc=3.72%; 34.8s
+constant: epoch 13/300, lr=0.05
+  batch 1/56 CE=4.31531
+  batch 20/56 CE=4.24415
+  batch 40/56 CE=4.23824
+  batch 56/56 CE=4.24692
+  train CE=4.24692, acc=5.55%; val CE=4.32658, acc=4.83%; 34.4s
+constant: epoch 14/300, lr=0.05
+  batch 1/56 CE=4.17896
+  batch 20/56 CE=4.14863
+  batch 40/56 CE=4.19582
+  batch 56/56 CE=4.19939
+  train CE=4.19939, acc=5.49%; val CE=4.37912, acc=4.96%; 34.9s
+constant: epoch 15/300, lr=0.05
+  batch 1/56 CE=4.05029
+  batch 20/56 CE=4.12051
+  batch 40/56 CE=4.15730
+  batch 56/56 CE=4.15879
+  train CE=4.15879, acc=6.21%; val CE=4.29301, acc=4.83%; 34.4s
+constant: epoch 16/300, lr=0.05
+  batch 1/56 CE=4.03857
+  batch 20/56 CE=4.10956
+  batch 40/56 CE=4.11358
+  batch 56/56 CE=4.11989
+  train CE=4.11989, acc=6.69%; val CE=4.22369, acc=6.52%; 34.7s
+constant: epoch 17/300, lr=0.05
+  batch 1/56 CE=3.77759
+  batch 20/56 CE=4.06051
+  batch 40/56 CE=4.07150
+  batch 56/56 CE=4.06654
+  train CE=4.06654, acc=7.02%; val CE=4.21619, acc=5.61%; 35.3s
+constant: epoch 18/300, lr=0.05
+  batch 1/56 CE=3.87830
+  batch 20/56 CE=3.99258
+  batch 40/56 CE=4.01062
+  batch 56/56 CE=4.01065
+  train CE=4.01065, acc=7.60%; val CE=4.22076, acc=6.33%; 34.9s
+constant: epoch 19/300, lr=0.05
+  batch 1/56 CE=4.11829
+  batch 20/56 CE=3.95047
+  batch 40/56 CE=3.97973
+  batch 56/56 CE=3.96792
+  train CE=3.96792, acc=8.40%; val CE=4.26053, acc=7.63%; 34.7s
+constant: epoch 20/300, lr=0.05
+  batch 1/56 CE=3.53046
+  batch 20/56 CE=3.88067
+  batch 40/56 CE=3.92188
+  batch 56/56 CE=3.94507
+  train CE=3.94507, acc=8.25%; val CE=4.38664, acc=6.39%; 34.0s
+constant: epoch 21/300, lr=0.05
+  batch 1/56 CE=3.86157
+  batch 20/56 CE=3.84960
+  batch 40/56 CE=3.87072
+  batch 56/56 CE=3.88474
+  train CE=3.88474, acc=9.13%; val CE=4.20184, acc=6.52%; 34.8s
+constant: epoch 22/300, lr=0.05
+  batch 1/56 CE=3.73810
+  batch 20/56 CE=3.73560
+  batch 40/56 CE=3.78078
+  batch 56/56 CE=3.80557
+  train CE=3.80557, acc=10.27%; val CE=4.16952, acc=6.72%; 34.9s
+constant: epoch 23/300, lr=0.05
+  batch 1/56 CE=3.87662
+  batch 20/56 CE=3.77343
+  batch 40/56 CE=3.78322
+  batch 56/56 CE=3.77387
+  train CE=3.77387, acc=11.14%; val CE=4.11468, acc=9.52%; 34.9s
+constant: epoch 24/300, lr=0.05
+  batch 1/56 CE=3.46545
+  batch 20/56 CE=3.71112
+  batch 40/56 CE=3.71995
+  batch 56/56 CE=3.74100
+  train CE=3.74100, acc=10.94%; val CE=4.22543, acc=7.83%; 34.7s
+constant: epoch 25/300, lr=0.05
+  batch 1/56 CE=3.64409
+  batch 20/56 CE=3.59905
+  batch 40/56 CE=3.65372
+  batch 56/56 CE=3.67942
+  train CE=3.67942, acc=12.24%; val CE=4.00297, acc=9.26%; 34.8s
+constant: epoch 26/300, lr=0.05
+  batch 1/56 CE=3.55843
+  batch 20/56 CE=3.59823
+  batch 40/56 CE=3.60520
+  batch 56/56 CE=3.64038
+  train CE=3.64038, acc=12.75%; val CE=4.12958, acc=8.28%; 34.8s
+constant: epoch 27/300, lr=0.05
+  batch 1/56 CE=3.42065
+  batch 20/56 CE=3.53094
+  batch 40/56 CE=3.55752
+  batch 56/56 CE=3.55647
+  train CE=3.55647, acc=13.54%; val CE=4.05558, acc=9.46%; 34.5s
+constant: epoch 28/300, lr=0.05
+  batch 1/56 CE=3.51456
+  batch 20/56 CE=3.46152
+  batch 40/56 CE=3.50353
+  batch 56/56 CE=3.52335
+  train CE=3.52335, acc=14.65%; val CE=4.00082, acc=9.59%; 35.1s
+constant: epoch 29/300, lr=0.05
+  batch 1/56 CE=3.53578
+  batch 20/56 CE=3.41810
+  batch 40/56 CE=3.45845
+  batch 56/56 CE=3.45319
+  train CE=3.45319, acc=15.35%; val CE=4.06981, acc=9.92%; 34.7s
+constant: epoch 30/300, lr=0.05
+  batch 1/56 CE=3.04860
+  batch 20/56 CE=3.33415
+  batch 40/56 CE=3.35861
+  batch 56/56 CE=3.42245
+  train CE=3.42245, acc=16.27%; val CE=4.02592, acc=9.72%; 34.5s
+constant: epoch 31/300, lr=0.05
+  batch 1/56 CE=3.41732
+  batch 20/56 CE=3.28193
+  batch 40/56 CE=3.29190
+  batch 56/56 CE=3.32507
+  train CE=3.32507, acc=17.97%; val CE=4.08387, acc=10.70%; 34.3s
+constant: epoch 32/300, lr=0.05
+  batch 1/56 CE=3.08174
+  batch 20/56 CE=3.28684
+  batch 40/56 CE=3.27060
+  batch 56/56 CE=3.29907
+  train CE=3.29907, acc=17.81%; val CE=4.10234, acc=11.29%; 34.7s
+constant: epoch 33/300, lr=0.05
+  batch 1/56 CE=3.03508
+  batch 20/56 CE=3.15470
+  batch 40/56 CE=3.20578
+  batch 56/56 CE=3.24215
+  train CE=3.24215, acc=19.04%; val CE=3.96052, acc=12.46%; 34.9s
+constant: epoch 34/300, lr=0.05
+  batch 1/56 CE=2.91341
+  batch 20/56 CE=3.04062
+  batch 40/56 CE=3.12233
+  batch 56/56 CE=3.15524
+  train CE=3.15524, acc=20.35%; val CE=3.93375, acc=12.20%; 35.7s
+constant: epoch 35/300, lr=0.05
+  batch 1/56 CE=3.09344
+  batch 20/56 CE=3.09633
+  batch 40/56 CE=3.11018
+  batch 56/56 CE=3.12121
+  train CE=3.12121, acc=20.98%; val CE=4.06734, acc=10.57%; 34.9s
+constant: epoch 36/300, lr=0.05
+  batch 1/56 CE=3.05636
+  batch 20/56 CE=2.99471
+  batch 40/56 CE=3.02147
+  batch 56/56 CE=3.04242
+  train CE=3.04242, acc=23.51%; val CE=3.96538, acc=12.20%; 34.1s
+constant: epoch 37/300, lr=0.05
+  batch 1/56 CE=2.83911
+  batch 20/56 CE=2.90617
+  batch 40/56 CE=2.94409
+  batch 56/56 CE=2.96859
+  train CE=2.96859, acc=23.68%; val CE=4.04342, acc=12.20%; 34.5s
+constant: epoch 38/300, lr=0.05
+  batch 1/56 CE=2.90009
+  batch 20/56 CE=2.86142
+  batch 40/56 CE=2.89165
+  batch 56/56 CE=2.92568
+  train CE=2.92568, acc=25.16%; val CE=3.97605, acc=13.37%; 35.0s
+constant: epoch 39/300, lr=0.05
+  batch 1/56 CE=2.81492
+  batch 20/56 CE=2.81785
+  batch 40/56 CE=2.84822
+  batch 56/56 CE=2.86932
+  train CE=2.86932, acc=24.77%; val CE=4.06153, acc=12.85%; 34.9s
+constant: epoch 40/300, lr=0.05
+  batch 1/56 CE=2.77944
+  batch 20/56 CE=2.69678
+  batch 40/56 CE=2.77738
+  batch 56/56 CE=2.80760
+  train CE=2.80760, acc=27.17%; val CE=3.91895, acc=12.98%; 34.5s
+constant: epoch 41/300, lr=0.05
+  batch 1/56 CE=2.49326
+  batch 20/56 CE=2.65270
+  batch 40/56 CE=2.71070
+  batch 56/56 CE=2.75556
+  train CE=2.75556, acc=27.70%; val CE=4.02187, acc=12.39%; 34.2s
+constant: epoch 42/300, lr=0.05
+  batch 1/56 CE=2.52866
+  batch 20/56 CE=2.55412
+  batch 40/56 CE=2.60227
+  batch 56/56 CE=2.64624
+  train CE=2.64624, acc=29.76%; val CE=4.35331, acc=11.15%; 35.6s
+constant: epoch 43/300, lr=0.05
+  batch 1/56 CE=2.52574
+  batch 20/56 CE=2.47588
+  batch 40/56 CE=2.56635
+  batch 56/56 CE=2.60639
+  train CE=2.60639, acc=31.42%; val CE=3.94378, acc=14.87%; 34.8s
+constant: epoch 44/300, lr=0.05
+  batch 1/56 CE=2.32792
+  batch 20/56 CE=2.38966
+  batch 40/56 CE=2.42746
+  batch 56/56 CE=2.46048
+  train CE=2.46048, acc=33.96%; val CE=4.20288, acc=13.89%; 35.0s
+constant: epoch 45/300, lr=0.05
+  batch 1/56 CE=2.41390
+  batch 20/56 CE=2.36652
+  batch 40/56 CE=2.40679
+  batch 56/56 CE=2.45289
+  train CE=2.45289, acc=34.27%; val CE=4.12022, acc=14.16%; 34.5s
+constant: epoch 46/300, lr=0.05
+  batch 1/56 CE=2.20380
+  batch 20/56 CE=2.34544
+  batch 40/56 CE=2.35179
+  batch 56/56 CE=2.37718
+  train CE=2.37718, acc=35.11%; val CE=4.26125, acc=13.70%; 34.7s
+constant: epoch 47/300, lr=0.05
+  batch 1/56 CE=2.09705
+  batch 20/56 CE=2.15250
+  batch 40/56 CE=2.21251
+  batch 56/56 CE=2.25770
+  train CE=2.25770, acc=38.49%; val CE=4.42341, acc=12.92%; 34.7s
+constant: epoch 48/300, lr=0.05
+  batch 1/56 CE=2.13614
+  batch 20/56 CE=2.17151
+  batch 40/56 CE=2.18243
+  batch 56/56 CE=2.23644
+  train CE=2.23644, acc=38.28%; val CE=4.31410, acc=13.96%; 34.4s
+constant: epoch 49/300, lr=0.05
+  batch 1/56 CE=2.03643
+  batch 20/56 CE=2.12357
+  batch 40/56 CE=2.16139
+  batch 56/56 CE=2.17831
+  train CE=2.17831, acc=39.75%; val CE=4.39728, acc=15.46%; 35.3s
+constant: epoch 50/300, lr=0.05
+  batch 1/56 CE=2.05916
+  batch 20/56 CE=1.99099
+  batch 40/56 CE=2.01514
+  batch 56/56 CE=2.07317
+  train CE=2.07317, acc=42.05%; val CE=4.51044, acc=14.42%; 34.7s
+constant: epoch 51/300, lr=0.05
+  batch 1/56 CE=1.81150
+  batch 20/56 CE=1.94783
+  batch 40/56 CE=1.97400
+  batch 56/56 CE=2.00843
+  train CE=2.00843, acc=43.62%; val CE=4.47780, acc=14.35%; 35.4s
+constant: epoch 52/300, lr=0.05
+  batch 1/56 CE=1.99010
+  batch 20/56 CE=1.84798
+  batch 40/56 CE=1.89308
+  batch 56/56 CE=1.91024
+  train CE=1.91024, acc=46.44%; val CE=4.50992, acc=13.57%; 34.3s
+constant: epoch 53/300, lr=0.05
+  batch 1/56 CE=1.78429
+  batch 20/56 CE=1.72969
+  batch 40/56 CE=1.77358
+  batch 56/56 CE=1.83476
+  train CE=1.83476, acc=48.23%; val CE=4.75842, acc=13.63%; 34.9s
+constant: epoch 54/300, lr=0.05
+  batch 1/56 CE=1.57454
+  batch 20/56 CE=1.71649
+  batch 40/56 CE=1.74859
+  batch 56/56 CE=1.78258
+  train CE=1.78258, acc=48.60%; val CE=4.83245, acc=15.26%; 34.8s
+constant: epoch 55/300, lr=0.05
+  batch 1/56 CE=1.55224
+  batch 20/56 CE=1.61758
+  batch 40/56 CE=1.66863
+  batch 56/56 CE=1.69224
+  train CE=1.69224, acc=51.08%; val CE=4.86289, acc=14.94%; 34.8s
+constant: epoch 56/300, lr=0.05
+  batch 1/56 CE=1.43573
+  batch 20/56 CE=1.51558
+  batch 40/56 CE=1.54828
+  batch 56/56 CE=1.62541
+  train CE=1.62541, acc=53.35%; val CE=4.89674, acc=14.61%; 34.6s
+constant: epoch 57/300, lr=0.05
+  batch 1/56 CE=1.34541
+  batch 20/56 CE=1.39221
+  batch 40/56 CE=1.47030
+  batch 56/56 CE=1.53372
+  train CE=1.53372, acc=55.85%; val CE=4.90979, acc=14.35%; 34.5s
+constant: epoch 58/300, lr=0.05
+  batch 1/56 CE=1.25165
+  batch 20/56 CE=1.36393
+  batch 40/56 CE=1.42341
+  batch 56/56 CE=1.46096
+  train CE=1.46096, acc=57.86%; val CE=5.16459, acc=12.98%; 34.6s
+constant: epoch 59/300, lr=0.05
+  batch 1/56 CE=1.45105
+  batch 20/56 CE=1.37882
+  batch 40/56 CE=1.38872
+  batch 56/56 CE=1.42123
+  train CE=1.42123, acc=57.79%; val CE=5.14458, acc=14.02%; 35.3s
+constant: epoch 60/300, lr=0.05
+  batch 1/56 CE=1.19121
+  batch 20/56 CE=1.19575
+  batch 40/56 CE=1.25312
+  batch 56/56 CE=1.31459
+  train CE=1.31459, acc=61.06%; val CE=5.27564, acc=15.92%; 34.9s
+constant: epoch 61/300, lr=0.05
+  batch 1/56 CE=1.10619
+  batch 20/56 CE=1.18554
+  batch 40/56 CE=1.21840
+  batch 56/56 CE=1.25885
+  train CE=1.25885, acc=62.45%; val CE=5.26496, acc=15.66%; 34.7s
+constant: epoch 62/300, lr=0.05
+  batch 1/56 CE=1.08223
+  batch 20/56 CE=1.09114
+  batch 40/56 CE=1.16822
+  batch 56/56 CE=1.21882
+  train CE=1.21882, acc=63.10%; val CE=5.51131, acc=14.22%; 34.5s
+constant: epoch 63/300, lr=0.05
+  batch 1/56 CE=1.14429
+  batch 20/56 CE=1.11474
+  batch 40/56 CE=1.15229
+  batch 56/56 CE=1.14954
+  train CE=1.14954, acc=66.28%; val CE=5.50260, acc=15.33%; 34.6s
+constant: epoch 64/300, lr=0.05
+  batch 1/56 CE=0.70759
+  batch 20/56 CE=0.95909
+  batch 40/56 CE=1.02832
+  batch 56/56 CE=1.07225
+  train CE=1.07225, acc=67.53%; val CE=5.43414, acc=15.85%; 34.3s
+constant: epoch 65/300, lr=0.05
+  batch 1/56 CE=0.89054
+  batch 20/56 CE=0.94166
+  batch 40/56 CE=0.99073
+  batch 56/56 CE=1.00978
+  train CE=1.00978, acc=69.74%; val CE=5.50032, acc=14.35%; 34.6s
+constant: epoch 66/300, lr=0.05
+  batch 1/56 CE=0.90412
+  batch 20/56 CE=0.83383
+  batch 40/56 CE=0.84685
+  batch 56/56 CE=0.89048
+  train CE=0.89048, acc=73.71%; val CE=5.74888, acc=16.37%; 34.6s
+constant: epoch 67/300, lr=0.05
+  batch 1/56 CE=0.85948
+  batch 20/56 CE=0.86042
+  batch 40/56 CE=0.87340
+  batch 56/56 CE=0.88974
+  train CE=0.88974, acc=73.15%; val CE=5.77212, acc=15.26%; 35.3s
+constant: epoch 68/300, lr=0.05
+  batch 1/56 CE=0.70550
+  batch 20/56 CE=0.77046
+  batch 40/56 CE=0.79987
+  batch 56/56 CE=0.82686
+  train CE=0.82686, acc=74.61%; val CE=5.93831, acc=15.07%; 34.9s
+constant: epoch 69/300, lr=0.05
+  batch 1/56 CE=0.89417
+  batch 20/56 CE=0.74461
+  batch 40/56 CE=0.76591
+  batch 56/56 CE=0.77970
+  train CE=0.77970, acc=76.09%; val CE=6.17840, acc=15.07%; 34.3s
+constant: epoch 70/300, lr=0.05
+  batch 1/56 CE=0.65403
+  batch 20/56 CE=0.67397
+  batch 40/56 CE=0.70972
+  batch 56/56 CE=0.73615
+  train CE=0.73615, acc=77.16%; val CE=6.04125, acc=15.46%; 34.6s
+constant: epoch 71/300, lr=0.05
+  batch 1/56 CE=0.85147
+  batch 20/56 CE=0.70973
+  batch 40/56 CE=0.72731
+  batch 56/56 CE=0.73931
+  train CE=0.73931, acc=77.09%; val CE=6.20256, acc=15.92%; 34.8s
+constant: epoch 72/300, lr=0.05
+  batch 1/56 CE=0.42759
+  batch 20/56 CE=0.56734
+  batch 40/56 CE=0.61576
+  batch 56/56 CE=0.65582
+  train CE=0.65582, acc=79.09%; val CE=6.13967, acc=16.83%; 34.9s
+constant: epoch 73/300, lr=0.05
+  batch 1/56 CE=0.53584
+  batch 20/56 CE=0.62277
+  batch 40/56 CE=0.61602
+  batch 56/56 CE=0.65158
+  train CE=0.65158, acc=80.14%; val CE=6.36684, acc=14.35%; 34.3s
+constant: epoch 74/300, lr=0.05
+  batch 1/56 CE=0.52387
+  batch 20/56 CE=0.61092
+  batch 40/56 CE=0.59874
+  batch 56/56 CE=0.61104
+  train CE=0.61104, acc=81.10%; val CE=6.19926, acc=15.79%; 34.0s
+constant: epoch 75/300, lr=0.05
+  batch 1/56 CE=0.44684
+  batch 20/56 CE=0.52544
+  batch 40/56 CE=0.52841
+  batch 56/56 CE=0.54949
+  train CE=0.54949, acc=82.84%; val CE=6.32218, acc=16.50%; 34.8s
+constant: epoch 76/300, lr=0.05
+  batch 1/56 CE=0.57317
+  batch 20/56 CE=0.51873
+  batch 40/56 CE=0.54238
+  batch 56/56 CE=0.54504
+  train CE=0.54504, acc=83.02%; val CE=6.28965, acc=15.92%; 36.0s
+constant: epoch 77/300, lr=0.05
+  batch 1/56 CE=0.23452
+  batch 20/56 CE=0.46762
+  batch 40/56 CE=0.46900
+  batch 56/56 CE=0.48691
+  train CE=0.48691, acc=84.72%; val CE=6.45375, acc=16.11%; 35.1s
+constant: epoch 78/300, lr=0.05
+  batch 1/56 CE=0.42786
+  batch 20/56 CE=0.40159
+  batch 40/56 CE=0.41603
+  batch 56/56 CE=0.44957
+  train CE=0.44957, acc=86.14%; val CE=6.59338, acc=14.35%; 34.1s
+constant: epoch 79/300, lr=0.05
+  batch 1/56 CE=0.38057
+  batch 20/56 CE=0.39390
+  batch 40/56 CE=0.44390
+  batch 56/56 CE=0.44184
+  train CE=0.44184, acc=86.07%; val CE=6.36973, acc=17.09%; 34.3s
+constant: epoch 80/300, lr=0.05
+  batch 1/56 CE=0.29580
+  batch 20/56 CE=0.38459
+  batch 40/56 CE=0.40946
+  batch 56/56 CE=0.40939
+  train CE=0.40939, acc=87.32%; val CE=6.39021, acc=16.57%; 34.7s
+constant: epoch 81/300, lr=0.05
+  batch 1/56 CE=0.36248
+  batch 20/56 CE=0.34702
+  batch 40/56 CE=0.34476
+  batch 56/56 CE=0.34759
+  train CE=0.34759, acc=89.64%; val CE=6.50585, acc=16.63%; 34.9s
+constant: epoch 82/300, lr=0.05
+  batch 1/56 CE=0.33935
+  batch 20/56 CE=0.34250
+  batch 40/56 CE=0.34311
+  batch 56/56 CE=0.34352
+  train CE=0.34352, acc=89.10%; val CE=6.63457, acc=16.44%; 34.8s
+constant: epoch 83/300, lr=0.05
+  batch 1/56 CE=0.26085
+  batch 20/56 CE=0.28980
+  batch 40/56 CE=0.29834
+  batch 56/56 CE=0.30427
+  train CE=0.30427, acc=90.50%; val CE=6.75460, acc=16.63%; 34.6s
+constant: epoch 84/300, lr=0.05
+  batch 1/56 CE=0.21582
+  batch 20/56 CE=0.28841
+  batch 40/56 CE=0.28286
+  batch 56/56 CE=0.29266
+  train CE=0.29266, acc=91.38%; val CE=7.03314, acc=16.63%; 34.8s
+constant: epoch 85/300, lr=0.05
+  batch 1/56 CE=0.25114
+  batch 20/56 CE=0.26384
+  batch 40/56 CE=0.28452
+  batch 56/56 CE=0.28872
+  train CE=0.28872, acc=91.26%; val CE=7.04990, acc=15.46%; 34.7s
+constant: epoch 86/300, lr=0.05
+  batch 1/56 CE=0.23900
+  batch 20/56 CE=0.28394
+  batch 40/56 CE=0.29638
+  batch 56/56 CE=0.29469
+  train CE=0.29469, acc=90.61%; val CE=6.82525, acc=17.94%; 34.9s
+constant: epoch 87/300, lr=0.05
+  batch 1/56 CE=0.29109
+  batch 20/56 CE=0.26915
+  batch 40/56 CE=0.26421
+  batch 56/56 CE=0.27664
+  train CE=0.27664, acc=91.38%; val CE=7.00216, acc=16.96%; 34.7s
+constant: epoch 88/300, lr=0.05
+  batch 1/56 CE=0.26056
+  batch 20/56 CE=0.27069
+  batch 40/56 CE=0.29316
+  batch 56/56 CE=0.29764
+  train CE=0.29764, acc=90.38%; val CE=7.23982, acc=14.94%; 34.6s
+constant: epoch 89/300, lr=0.05
+  batch 1/56 CE=0.28406
+  batch 20/56 CE=0.28783
+  batch 40/56 CE=0.29356
+  batch 56/56 CE=0.29057
+  train CE=0.29057, acc=90.85%; val CE=7.00856, acc=15.79%; 34.4s
+constant: epoch 90/300, lr=0.05
+  batch 1/56 CE=0.27163
+  batch 20/56 CE=0.26084
+  batch 40/56 CE=0.25927
+  batch 56/56 CE=0.26802
+  train CE=0.26802, acc=91.75%; val CE=7.24373, acc=16.89%; 34.5s
+constant: epoch 91/300, lr=0.05
+  batch 1/56 CE=0.12562
+  batch 20/56 CE=0.21527
+  batch 40/56 CE=0.21553
+  batch 56/56 CE=0.22686
+  train CE=0.22686, acc=93.14%; val CE=7.09208, acc=17.03%; 34.7s
+constant: epoch 92/300, lr=0.05
+  batch 1/56 CE=0.14672
+  batch 20/56 CE=0.20848
+  batch 40/56 CE=0.21673
+  batch 56/56 CE=0.22519
+  train CE=0.22519, acc=93.11%; val CE=7.28190, acc=16.11%; 35.0s
+constant: epoch 93/300, lr=0.05
+  batch 1/56 CE=0.19504
+  batch 20/56 CE=0.21159
+  batch 40/56 CE=0.22847
+  batch 56/56 CE=0.23508
+  train CE=0.23508, acc=93.00%; val CE=7.20041, acc=15.59%; 35.2s
+constant: epoch 94/300, lr=0.05
+  batch 1/56 CE=0.19181
+  batch 20/56 CE=0.18810
+  batch 40/56 CE=0.19022
+  batch 56/56 CE=0.19186
+  train CE=0.19186, acc=94.02%; val CE=7.16853, acc=16.31%; 35.1s
+constant: epoch 95/300, lr=0.05
+  batch 1/56 CE=0.22749
+  batch 20/56 CE=0.18438
+  batch 40/56 CE=0.18516
+  batch 56/56 CE=0.19080
+  train CE=0.19080, acc=94.17%; val CE=7.39346, acc=16.44%; 34.9s
+constant: epoch 96/300, lr=0.05
+  batch 1/56 CE=0.12004
+  batch 20/56 CE=0.14810
+  batch 40/56 CE=0.16495
+  batch 56/56 CE=0.17593
+  train CE=0.17593, acc=94.62%; val CE=7.37853, acc=15.39%; 34.7s
+constant: epoch 97/300, lr=0.05
+  batch 1/56 CE=0.13048
+  batch 20/56 CE=0.15776
+  batch 40/56 CE=0.16302
+  batch 56/56 CE=0.17257
+  train CE=0.17257, acc=94.68%; val CE=7.40076, acc=16.89%; 34.7s
+constant: epoch 98/300, lr=0.05
+  batch 1/56 CE=0.17598
+  batch 20/56 CE=0.15654
+  batch 40/56 CE=0.15488
+  batch 56/56 CE=0.15917
+  train CE=0.15917, acc=95.09%; val CE=7.46243, acc=15.79%; 34.7s
+constant: epoch 99/300, lr=0.05
+  batch 1/56 CE=0.12378
+  batch 20/56 CE=0.15012
+  batch 40/56 CE=0.15221
+  batch 56/56 CE=0.16325
+  train CE=0.16325, acc=95.00%; val CE=7.40915, acc=16.83%; 34.6s
+constant: epoch 100/300, lr=0.05
+  batch 1/56 CE=0.11976
+  batch 20/56 CE=0.15350
+  batch 40/56 CE=0.15235
+  batch 56/56 CE=0.16225
+  train CE=0.16225, acc=94.79%; val CE=7.39870, acc=15.85%; 34.4s
+constant: epoch 101/300, lr=0.05
+  batch 1/56 CE=0.12956
+  batch 20/56 CE=0.13457
+  batch 40/56 CE=0.14415
+  batch 56/56 CE=0.15101
+  train CE=0.15101, acc=95.29%; val CE=7.47442, acc=16.44%; 35.3s
+constant: epoch 102/300, lr=0.05
+  batch 1/56 CE=0.11236
+  batch 20/56 CE=0.15878
+  batch 40/56 CE=0.15306
+  batch 56/56 CE=0.15507
+  train CE=0.15507, acc=95.46%; val CE=7.50454, acc=17.61%; 35.1s
+constant: epoch 103/300, lr=0.05
+  batch 1/56 CE=0.06784
+  batch 20/56 CE=0.11360
+  batch 40/56 CE=0.12935
+  batch 56/56 CE=0.13291
+  train CE=0.13291, acc=95.90%; val CE=7.54495, acc=17.94%; 34.7s
+constant: epoch 104/300, lr=0.05
+  batch 1/56 CE=0.05832
+  batch 20/56 CE=0.11702
+  batch 40/56 CE=0.13018
+  batch 56/56 CE=0.13234
+  train CE=0.13234, acc=95.70%; val CE=7.56516, acc=16.57%; 34.7s
+constant: epoch 105/300, lr=0.05
+  batch 1/56 CE=0.13803
+  batch 20/56 CE=0.13418
+  batch 40/56 CE=0.13295
+  batch 56/56 CE=0.13871
+  train CE=0.13871, acc=95.44%; val CE=7.65568, acc=16.76%; 34.9s
+constant: epoch 106/300, lr=0.05
+  batch 1/56 CE=0.18652
+  batch 20/56 CE=0.14436
+  batch 40/56 CE=0.15255
+  batch 56/56 CE=0.16004
+  train CE=0.16004, acc=95.32%; val CE=7.84216, acc=17.42%; 34.7s
+constant: epoch 107/300, lr=0.05
+  batch 1/56 CE=0.27792
+  batch 20/56 CE=0.13622
+  batch 40/56 CE=0.13297
+  batch 56/56 CE=0.13460
+  train CE=0.13460, acc=95.74%; val CE=7.60837, acc=16.37%; 35.0s
+constant: epoch 108/300, lr=0.05
+  batch 1/56 CE=0.11374
+  batch 20/56 CE=0.12278
+  batch 40/56 CE=0.12121
+  batch 56/56 CE=0.12665
+  train CE=0.12665, acc=95.92%; val CE=7.60408, acc=17.94%; 34.6s
+constant: epoch 109/300, lr=0.05
+  batch 1/56 CE=0.15932
+  batch 20/56 CE=0.13631
+  batch 40/56 CE=0.12954
+  batch 56/56 CE=0.12654
+  train CE=0.12654, acc=96.18%; val CE=7.74138, acc=16.31%; 35.5s
+constant: epoch 110/300, lr=0.05
+  batch 1/56 CE=0.03883
+  batch 20/56 CE=0.11141
+  batch 40/56 CE=0.11628
+  batch 56/56 CE=0.12211
+  train CE=0.12211, acc=96.20%; val CE=7.66377, acc=16.89%; 34.4s
+constant: epoch 111/300, lr=0.05
+  batch 1/56 CE=0.11573
+  batch 20/56 CE=0.11483
+  batch 40/56 CE=0.13120
+  batch 56/56 CE=0.13908
+  train CE=0.13908, acc=95.99%; val CE=7.72860, acc=15.92%; 34.5s
+constant: epoch 112/300, lr=0.05
+  batch 1/56 CE=0.11847
+  batch 20/56 CE=0.12784
+  batch 40/56 CE=0.13075
+  batch 56/56 CE=0.12948
+  train CE=0.12948, acc=95.97%; val CE=7.67606, acc=16.70%; 34.6s
+constant: epoch 113/300, lr=0.05
+  batch 1/56 CE=0.09395
+  batch 20/56 CE=0.11271
+  batch 40/56 CE=0.11493
+  batch 56/56 CE=0.11544
+  train CE=0.11544, acc=96.34%; val CE=7.66530, acc=18.20%; 35.1s
+constant: epoch 114/300, lr=0.05
+  batch 1/56 CE=0.04633
+  batch 20/56 CE=0.10769
+  batch 40/56 CE=0.11847
+  batch 56/56 CE=0.11961
+  train CE=0.11961, acc=96.32%; val CE=7.88119, acc=16.57%; 34.7s
+constant: epoch 115/300, lr=0.05
+  batch 1/56 CE=0.12974
+  batch 20/56 CE=0.07869
+  batch 40/56 CE=0.08138
+  batch 56/56 CE=0.08121
+  train CE=0.08121, acc=97.46%; val CE=7.75986, acc=16.89%; 34.3s
+constant: epoch 116/300, lr=0.05
+  batch 1/56 CE=0.08871
+  batch 20/56 CE=0.08896
+  batch 40/56 CE=0.08937
+  batch 56/56 CE=0.09308
+  train CE=0.09308, acc=97.15%; val CE=7.85154, acc=18.20%; 34.4s
+constant: epoch 117/300, lr=0.05
+  batch 1/56 CE=0.05807
+  batch 20/56 CE=0.08019
+  batch 40/56 CE=0.07741
+  batch 56/56 CE=0.08161
+  train CE=0.08161, acc=97.41%; val CE=7.79518, acc=17.29%; 34.7s
+constant: epoch 118/300, lr=0.05
+  batch 1/56 CE=0.14943
+  batch 20/56 CE=0.08965
+  batch 40/56 CE=0.08894
+  batch 56/56 CE=0.08855
+  train CE=0.08855, acc=97.46%; val CE=7.76803, acc=16.83%; 35.4s
+constant: epoch 119/300, lr=0.05
+  batch 1/56 CE=0.06189
+  batch 20/56 CE=0.08252
+  batch 40/56 CE=0.09325
+  batch 56/56 CE=0.10094
+  train CE=0.10094, acc=97.04%; val CE=7.71150, acc=17.48%; 34.8s
+constant: epoch 120/300, lr=0.05
+  batch 1/56 CE=0.13743
+  batch 20/56 CE=0.11548
+  batch 40/56 CE=0.11425
+  batch 56/56 CE=0.11296
+  train CE=0.11296, acc=96.51%; val CE=7.58304, acc=18.33%; 34.5s
+constant: epoch 121/300, lr=0.05
+  batch 1/56 CE=0.05996
+  batch 20/56 CE=0.07970
+  batch 40/56 CE=0.07795
+  batch 56/56 CE=0.07701
+  train CE=0.07701, acc=97.68%; val CE=7.66718, acc=16.05%; 34.4s
+constant: epoch 122/300, lr=0.05
+  batch 1/56 CE=0.07589
+  batch 20/56 CE=0.06538
+  batch 40/56 CE=0.07154
+  batch 56/56 CE=0.07293
+  train CE=0.07293, acc=97.72%; val CE=7.86589, acc=17.09%; 34.9s
+constant: epoch 123/300, lr=0.05
+  batch 1/56 CE=0.05648
+  batch 20/56 CE=0.06567
+  batch 40/56 CE=0.06571
+  batch 56/56 CE=0.07030
+  train CE=0.07030, acc=97.90%; val CE=7.70190, acc=17.74%; 35.2s
+constant: epoch 124/300, lr=0.05
+  batch 1/56 CE=0.05867
+  batch 20/56 CE=0.07783
+  batch 40/56 CE=0.08380
+  batch 56/56 CE=0.08527
+  train CE=0.08527, acc=97.51%; val CE=7.94221, acc=16.05%; 34.5s
+constant: epoch 125/300, lr=0.05
+  batch 1/56 CE=0.03005
+  batch 20/56 CE=0.05880
+  batch 40/56 CE=0.06660
+  batch 56/56 CE=0.06965
+  train CE=0.06965, acc=98.03%; val CE=7.84424, acc=15.72%; 34.7s
+constant: epoch 126/300, lr=0.05
+  batch 1/56 CE=0.12306
+  batch 20/56 CE=0.06746
+  batch 40/56 CE=0.07190
+  batch 56/56 CE=0.08034
+  train CE=0.08034, acc=97.81%; val CE=7.88624, acc=16.89%; 35.0s
+constant: epoch 127/300, lr=0.05
+  batch 1/56 CE=0.03496
+  batch 20/56 CE=0.06700
+  batch 40/56 CE=0.06687
+  batch 56/56 CE=0.07728
+  train CE=0.07728, acc=97.81%; val CE=8.06552, acc=16.57%; 35.0s
+constant: epoch 128/300, lr=0.05
+  batch 1/56 CE=0.05900
+  batch 20/56 CE=0.07094
+  batch 40/56 CE=0.07156
+  batch 56/56 CE=0.07450
+  train CE=0.07450, acc=97.55%; val CE=7.87845, acc=17.42%; 34.6s
+constant: epoch 129/300, lr=0.05
+  batch 1/56 CE=0.05187
+  batch 20/56 CE=0.07728
+  batch 40/56 CE=0.06686
+  batch 56/56 CE=0.06808
+  train CE=0.06808, acc=98.17%; val CE=7.90482, acc=18.20%; 34.5s
+constant: epoch 130/300, lr=0.05
+  batch 1/56 CE=0.04032
+  batch 20/56 CE=0.06887
+  batch 40/56 CE=0.06728
+  batch 56/56 CE=0.06747
+  train CE=0.06747, acc=97.89%; val CE=7.92787, acc=17.48%; 34.7s
+constant: epoch 131/300, lr=0.05
+  batch 1/56 CE=0.03891
+  batch 20/56 CE=0.05727
+  batch 40/56 CE=0.05998
+  batch 56/56 CE=0.06053
+  train CE=0.06053, acc=98.23%; val CE=8.04085, acc=17.61%; 34.9s
+constant: epoch 132/300, lr=0.05
+  batch 1/56 CE=0.01483
+  batch 20/56 CE=0.06185
+  batch 40/56 CE=0.06631
+  batch 56/56 CE=0.06791
+  train CE=0.06791, acc=98.03%; val CE=8.07615, acc=18.00%; 34.5s
+constant: epoch 133/300, lr=0.05
+  batch 1/56 CE=0.04724
+  batch 20/56 CE=0.05049
+  batch 40/56 CE=0.05176
+  batch 56/56 CE=0.05750
+  train CE=0.05750, acc=98.03%; val CE=8.23092, acc=18.85%; 34.4s
+constant: epoch 134/300, lr=0.05
+  batch 1/56 CE=0.03378
+  batch 20/56 CE=0.05695
+  batch 40/56 CE=0.05629
+  batch 56/56 CE=0.05798
+  train CE=0.05798, acc=98.21%; val CE=8.07796, acc=19.05%; 35.0s
+constant: epoch 135/300, lr=0.05
+  batch 1/56 CE=0.06567
+  batch 20/56 CE=0.05246
+  batch 40/56 CE=0.05424
+  batch 56/56 CE=0.05288
+  train CE=0.05288, acc=98.49%; val CE=8.16073, acc=16.89%; 35.1s
+constant: epoch 136/300, lr=0.05
+  batch 1/56 CE=0.13001
+  batch 20/56 CE=0.06220
+  batch 40/56 CE=0.06189
+  batch 56/56 CE=0.06048
+  train CE=0.06048, acc=98.29%; val CE=8.08277, acc=16.63%; 34.3s
+constant: epoch 137/300, lr=0.05
+  batch 1/56 CE=0.02851
+  batch 20/56 CE=0.04656
+  batch 40/56 CE=0.05214
+  batch 56/56 CE=0.05329
+  train CE=0.05329, acc=98.42%; val CE=8.04277, acc=18.79%; 34.9s
+constant: epoch 138/300, lr=0.05
+  batch 1/56 CE=0.03959
+  batch 20/56 CE=0.04784
+  batch 40/56 CE=0.05013
+  batch 56/56 CE=0.04876
+  train CE=0.04876, acc=98.41%; val CE=8.07553, acc=17.16%; 34.7s
+constant: epoch 139/300, lr=0.05
+  batch 1/56 CE=0.12573
+  batch 20/56 CE=0.05944
+  batch 40/56 CE=0.05525
+  batch 56/56 CE=0.05803
+  train CE=0.05803, acc=98.36%; val CE=8.20943, acc=17.48%; 35.3s
+constant: epoch 140/300, lr=0.05
+  batch 1/56 CE=0.03433
+  batch 20/56 CE=0.06421
+  batch 40/56 CE=0.06466
+  batch 56/56 CE=0.06583
+  train CE=0.06583, acc=98.00%; val CE=8.14551, acc=17.94%; 34.7s
+constant: epoch 141/300, lr=0.05
+  batch 1/56 CE=0.08137
+  batch 20/56 CE=0.04736
+  batch 40/56 CE=0.04916
+  batch 56/56 CE=0.05137
+  train CE=0.05137, acc=98.42%; val CE=8.39821, acc=16.37%; 34.7s
+constant: epoch 142/300, lr=0.05
+  batch 1/56 CE=0.09304
+  batch 20/56 CE=0.05854
+  batch 40/56 CE=0.05616
+  batch 56/56 CE=0.05052
+  train CE=0.05052, acc=98.53%; val CE=8.12944, acc=17.68%; 34.4s
+constant: epoch 143/300, lr=0.05
+  batch 1/56 CE=0.03066
+  batch 20/56 CE=0.03758
+  batch 40/56 CE=0.03546
+  batch 56/56 CE=0.03717
+  train CE=0.03717, acc=98.81%; val CE=8.17429, acc=18.33%; 35.4s
+constant: epoch 144/300, lr=0.05
+  batch 1/56 CE=0.02394
+  batch 20/56 CE=0.03819
+  batch 40/56 CE=0.03924
+  batch 56/56 CE=0.03921
+  train CE=0.03921, acc=98.73%; val CE=8.22063, acc=16.96%; 34.7s
+constant: epoch 145/300, lr=0.05
+  batch 1/56 CE=0.04807
+  batch 20/56 CE=0.04427
+  batch 40/56 CE=0.04741
+  batch 56/56 CE=0.05205
+  train CE=0.05205, acc=98.49%; val CE=8.27147, acc=16.70%; 34.7s
+constant: epoch 146/300, lr=0.05
+  batch 1/56 CE=0.08566
+  batch 20/56 CE=0.06569
+  batch 40/56 CE=0.06519
+  batch 56/56 CE=0.06790
+  train CE=0.06790, acc=97.97%; val CE=8.49327, acc=15.92%; 34.7s
+constant: epoch 147/300, lr=0.05
+  batch 1/56 CE=0.03996
+  batch 20/56 CE=0.06180
+  batch 40/56 CE=0.05863
+  batch 56/56 CE=0.06041
+  train CE=0.06041, acc=98.11%; val CE=8.24521, acc=17.68%; 34.4s
+constant: epoch 148/300, lr=0.05
+  batch 1/56 CE=0.05891
+  batch 20/56 CE=0.04722
+  batch 40/56 CE=0.05065
+  batch 56/56 CE=0.05301
+  train CE=0.05301, acc=98.28%; val CE=8.27478, acc=17.68%; 34.7s
+constant: epoch 149/300, lr=0.05
+  batch 1/56 CE=0.02847
+  batch 20/56 CE=0.05161
+  batch 40/56 CE=0.05473
+  batch 56/56 CE=0.05879
+  train CE=0.05879, acc=98.21%; val CE=8.20995, acc=17.35%; 34.7s
+constant: epoch 150/300, lr=0.05
+  batch 1/56 CE=0.03104
+  batch 20/56 CE=0.05497
+  batch 40/56 CE=0.05477
+  batch 56/56 CE=0.05612
+  train CE=0.05612, acc=98.24%; val CE=8.29719, acc=16.89%; 34.8s
+constant: epoch 151/300, lr=0.05
+  batch 1/56 CE=0.02825
+  batch 20/56 CE=0.04957
+  batch 40/56 CE=0.04947
+  batch 56/56 CE=0.05152
+  train CE=0.05152, acc=98.36%; val CE=8.36456, acc=17.94%; 34.7s
+constant: epoch 152/300, lr=0.05
+  batch 1/56 CE=0.03308
+  batch 20/56 CE=0.04891
+  batch 40/56 CE=0.04748
+  batch 56/56 CE=0.04895
+  train CE=0.04895, acc=98.57%; val CE=8.23137, acc=17.09%; 35.2s
+constant: epoch 153/300, lr=0.05
+  batch 1/56 CE=0.04467
+  batch 20/56 CE=0.03624
+  batch 40/56 CE=0.03852
+  batch 56/56 CE=0.04162
+  train CE=0.04162, acc=98.63%; val CE=8.27258, acc=18.13%; 35.2s
+constant: epoch 154/300, lr=0.05
+  batch 1/56 CE=0.01835
+  batch 20/56 CE=0.04835
+  batch 40/56 CE=0.04842
+  batch 56/56 CE=0.04888
+  train CE=0.04888, acc=98.52%; val CE=8.07064, acc=18.00%; 35.0s
+constant: epoch 155/300, lr=0.05
+  batch 1/56 CE=0.03217
+  batch 20/56 CE=0.04124
+  batch 40/56 CE=0.04101
+  batch 56/56 CE=0.03990
+  train CE=0.03990, acc=98.77%; val CE=8.24170, acc=17.42%; 35.3s
+constant: epoch 156/300, lr=0.05
+  batch 1/56 CE=0.03783
+  batch 20/56 CE=0.04277
+  batch 40/56 CE=0.03953
+  batch 56/56 CE=0.03852
+  train CE=0.03852, acc=98.71%; val CE=8.28948, acc=17.48%; 34.8s
+constant: epoch 157/300, lr=0.05
+  batch 1/56 CE=0.07990
+  batch 20/56 CE=0.04085
+  batch 40/56 CE=0.04446
+  batch 56/56 CE=0.04482
+  train CE=0.04482, acc=98.53%; val CE=8.38003, acc=18.13%; 34.5s
+constant: epoch 158/300, lr=0.05
+  batch 1/56 CE=0.02809
+  batch 20/56 CE=0.04356
+  batch 40/56 CE=0.04656
+  batch 56/56 CE=0.04573
+  train CE=0.04573, acc=98.74%; val CE=8.26538, acc=17.35%; 34.6s
+constant: epoch 159/300, lr=0.05
+  batch 1/56 CE=0.04522
+  batch 20/56 CE=0.04713
+  batch 40/56 CE=0.04390
+  batch 56/56 CE=0.04326
+  train CE=0.04326, acc=98.62%; val CE=8.39380, acc=17.68%; 34.6s
+constant: epoch 160/300, lr=0.05
+  batch 1/56 CE=0.00822
+  batch 20/56 CE=0.03914
+  batch 40/56 CE=0.03630
+  batch 56/56 CE=0.03858
+  train CE=0.03858, acc=98.90%; val CE=8.22929, acc=17.61%; 35.3s
+constant: epoch 161/300, lr=0.05
+  batch 1/56 CE=0.00946
+  batch 20/56 CE=0.02603
+  batch 40/56 CE=0.03248
+  batch 56/56 CE=0.03312
+  train CE=0.03312, acc=98.99%; val CE=8.39795, acc=17.55%; 35.0s
+constant: epoch 162/300, lr=0.05
+  batch 1/56 CE=0.05739
+  batch 20/56 CE=0.03245
+  batch 40/56 CE=0.03151
+  batch 56/56 CE=0.03238
+  train CE=0.03238, acc=98.97%; val CE=8.35281, acc=17.42%; 34.8s
+constant: epoch 163/300, lr=0.05
+  batch 1/56 CE=0.08669
+  batch 20/56 CE=0.03123
+  batch 40/56 CE=0.03538
+  batch 56/56 CE=0.03897
+  train CE=0.03897, acc=98.90%; val CE=8.51922, acc=17.94%; 34.1s
+constant: epoch 164/300, lr=0.05
+  batch 1/56 CE=0.08809
+  batch 20/56 CE=0.03617
+  batch 40/56 CE=0.04300
+  batch 56/56 CE=0.04118
+  train CE=0.04118, acc=98.71%; val CE=8.57396, acc=16.37%; 35.1s
+constant: epoch 165/300, lr=0.05
+  batch 1/56 CE=0.05683
+  batch 20/56 CE=0.03443
+  batch 40/56 CE=0.03750
+  batch 56/56 CE=0.03675
+  train CE=0.03675, acc=98.94%; val CE=8.45805, acc=17.68%; 35.2s
+constant: epoch 166/300, lr=0.05
+  batch 1/56 CE=0.00870
+  batch 20/56 CE=0.03247
+  batch 40/56 CE=0.03219
+  batch 56/56 CE=0.03475
+  train CE=0.03475, acc=98.92%; val CE=8.58992, acc=16.96%; 34.6s
+constant: epoch 167/300, lr=0.05
+  batch 1/56 CE=0.03000
+  batch 20/56 CE=0.03573
+  batch 40/56 CE=0.03489
+  batch 56/56 CE=0.03804
+  train CE=0.03804, acc=98.77%; val CE=8.63779, acc=18.13%; 34.9s
+constant: epoch 168/300, lr=0.05
+  batch 1/56 CE=0.01359
+  batch 20/56 CE=0.02522
+  batch 40/56 CE=0.03748
+  batch 56/56 CE=0.03406
+  train CE=0.03406, acc=98.90%; val CE=8.44924, acc=17.42%; 35.2s
+constant: epoch 169/300, lr=0.05
+  batch 1/56 CE=0.05662
+  batch 20/56 CE=0.05351
+  batch 40/56 CE=0.04676
+  batch 56/56 CE=0.04298
+  train CE=0.04298, acc=98.69%; val CE=8.38225, acc=18.53%; 34.6s
+constant: epoch 170/300, lr=0.05
+  batch 1/56 CE=0.03225
+  batch 20/56 CE=0.04104
+  batch 40/56 CE=0.03934
+  batch 56/56 CE=0.03929
+  train CE=0.03929, acc=98.77%; val CE=8.52707, acc=17.03%; 34.9s
+constant: epoch 171/300, lr=0.05
+  batch 1/56 CE=0.00985
+  batch 20/56 CE=0.03661
+  batch 40/56 CE=0.03760
+  batch 56/56 CE=0.04046
+  train CE=0.04046, acc=98.70%; val CE=8.51305, acc=16.89%; 34.7s
+constant: epoch 172/300, lr=0.05
+  batch 1/56 CE=0.03585
+  batch 20/56 CE=0.03954
+  batch 40/56 CE=0.03833
+  batch 56/56 CE=0.03861
+  train CE=0.03861, acc=98.71%; val CE=8.44160, acc=18.85%; 34.5s
+constant: epoch 173/300, lr=0.05
+  batch 1/56 CE=0.03346
+  batch 20/56 CE=0.03491
+  batch 40/56 CE=0.03351
+  batch 56/56 CE=0.03662
+  train CE=0.03662, acc=98.87%; val CE=8.49015, acc=18.00%; 34.5s
+constant: epoch 174/300, lr=0.05
+  batch 1/56 CE=0.10715
+  batch 20/56 CE=0.03115
+  batch 40/56 CE=0.02810
+  batch 56/56 CE=0.02675
+  train CE=0.02675, acc=99.20%; val CE=8.45285, acc=18.07%; 34.5s
+constant: epoch 175/300, lr=0.05
+  batch 1/56 CE=0.04109
+  batch 20/56 CE=0.02281
+  batch 40/56 CE=0.02495
+  batch 56/56 CE=0.02321
+  train CE=0.02321, acc=99.34%; val CE=8.42254, acc=18.59%; 34.8s
+constant: epoch 176/300, lr=0.05
+  batch 1/56 CE=0.02326
+  batch 20/56 CE=0.01630
+  batch 40/56 CE=0.02011
+  batch 56/56 CE=0.02375
+  train CE=0.02375, acc=99.33%; val CE=8.49736, acc=18.00%; 35.4s
+constant: epoch 177/300, lr=0.05
+  batch 1/56 CE=0.01018
+  batch 20/56 CE=0.02996
+  batch 40/56 CE=0.03070
+  batch 56/56 CE=0.03239
+  train CE=0.03239, acc=98.97%; val CE=8.53665, acc=17.16%; 35.4s
+constant: epoch 178/300, lr=0.05
+  batch 1/56 CE=0.02382
+  batch 20/56 CE=0.03013
+  batch 40/56 CE=0.02780
+  batch 56/56 CE=0.03128
+  train CE=0.03128, acc=98.98%; val CE=8.63471, acc=16.63%; 34.1s
+constant: epoch 179/300, lr=0.05
+  batch 1/56 CE=0.02838
+  batch 20/56 CE=0.02365
+  batch 40/56 CE=0.03237
+  batch 56/56 CE=0.03750
+  train CE=0.03750, acc=99.06%; val CE=8.66109, acc=18.00%; 34.2s
+constant: epoch 180/300, lr=0.05
+  batch 1/56 CE=0.00893
+  batch 20/56 CE=0.03853
+  batch 40/56 CE=0.03755
+  batch 56/56 CE=0.03405
+  train CE=0.03405, acc=98.92%; val CE=8.47246, acc=17.94%; 35.3s
+constant: epoch 181/300, lr=0.05
+  batch 1/56 CE=0.02721
+  batch 20/56 CE=0.03416
+  batch 40/56 CE=0.03144
+  batch 56/56 CE=0.03053
+  train CE=0.03053, acc=99.04%; val CE=8.59741, acc=17.81%; 35.5s
+constant: epoch 182/300, lr=0.05
+  batch 1/56 CE=0.01603
+  batch 20/56 CE=0.02634
+  batch 40/56 CE=0.02266
+  batch 56/56 CE=0.02225
+  train CE=0.02225, acc=99.36%; val CE=8.50968, acc=18.07%; 34.6s
+constant: epoch 183/300, lr=0.05
+  batch 1/56 CE=0.01443
+  batch 20/56 CE=0.02333
+  batch 40/56 CE=0.02319
+  batch 56/56 CE=0.02319
+  train CE=0.02319, acc=99.34%; val CE=8.52414, acc=18.66%; 34.9s
+constant: epoch 184/300, lr=0.05
+  batch 1/56 CE=0.00616
+  batch 20/56 CE=0.02309
+  batch 40/56 CE=0.02412
+  batch 56/56 CE=0.02534
+  train CE=0.02534, acc=99.18%; val CE=8.68053, acc=18.20%; 34.3s
+constant: epoch 185/300, lr=0.05
+  batch 1/56 CE=0.03640
+  batch 20/56 CE=0.02113
+  batch 40/56 CE=0.02108
+  batch 56/56 CE=0.02163
+  train CE=0.02163, acc=99.34%; val CE=8.55989, acc=19.11%; 35.6s
+constant: epoch 186/300, lr=0.05
+  batch 1/56 CE=0.01883
+  batch 20/56 CE=0.02176
+  batch 40/56 CE=0.02135
+  batch 56/56 CE=0.02525
+  train CE=0.02525, acc=99.20%; val CE=8.80004, acc=17.74%; 35.2s
+constant: epoch 187/300, lr=0.05
+  batch 1/56 CE=0.02590
+  batch 20/56 CE=0.02953
+  batch 40/56 CE=0.02783
+  batch 56/56 CE=0.02696
+  train CE=0.02696, acc=99.12%; val CE=8.54864, acc=17.35%; 34.6s
+constant: epoch 188/300, lr=0.05
+  batch 1/56 CE=0.01375
+  batch 20/56 CE=0.01893
+  batch 40/56 CE=0.01979
+  batch 56/56 CE=0.01854
+  train CE=0.01854, acc=99.45%; val CE=8.60179, acc=17.87%; 34.4s
+constant: epoch 189/300, lr=0.05
+  batch 1/56 CE=0.01490
+  batch 20/56 CE=0.01398
+  batch 40/56 CE=0.01536
+  batch 56/56 CE=0.01562
+  train CE=0.01562, acc=99.45%; val CE=8.71500, acc=17.87%; 35.1s
+constant: epoch 190/300, lr=0.05
+  batch 1/56 CE=0.00380
+  batch 20/56 CE=0.01970
+  batch 40/56 CE=0.02034
+  batch 56/56 CE=0.02069
+  train CE=0.02069, acc=99.41%; val CE=8.73003, acc=18.26%; 34.7s
+constant: epoch 191/300, lr=0.05
+  batch 1/56 CE=0.02748
+  batch 20/56 CE=0.02020
+  batch 40/56 CE=0.01983
+  batch 56/56 CE=0.02059
+  train CE=0.02059, acc=99.40%; val CE=8.67004, acc=17.74%; 34.3s
+constant: epoch 192/300, lr=0.05
+  batch 1/56 CE=0.00823
+  batch 20/56 CE=0.01187
+  batch 40/56 CE=0.01582
+  batch 56/56 CE=0.01657
+  train CE=0.01657, acc=99.51%; val CE=8.62812, acc=18.53%; 34.9s
+constant: epoch 193/300, lr=0.05
+  batch 1/56 CE=0.00140
+  batch 20/56 CE=0.01386
+  batch 40/56 CE=0.01608
+  batch 56/56 CE=0.01824
+  train CE=0.01824, acc=99.47%; val CE=8.92005, acc=17.16%; 35.5s
+constant: epoch 194/300, lr=0.05
+  batch 1/56 CE=0.00848
+  batch 20/56 CE=0.01858
+  batch 40/56 CE=0.02458
+  batch 56/56 CE=0.02547
+  train CE=0.02547, acc=99.18%; val CE=8.72021, acc=17.74%; 34.4s
+constant: epoch 195/300, lr=0.05
+  batch 1/56 CE=0.00822
+  batch 20/56 CE=0.02025
+  batch 40/56 CE=0.02073
+  batch 56/56 CE=0.02321
+  train CE=0.02321, acc=99.39%; val CE=8.64064, acc=18.00%; 34.6s
+constant: epoch 196/300, lr=0.05
+  batch 1/56 CE=0.00658
+  batch 20/56 CE=0.02620
+  batch 40/56 CE=0.02318
+  batch 56/56 CE=0.02547
+  train CE=0.02547, acc=99.16%; val CE=8.68258, acc=16.63%; 34.9s
+constant: epoch 197/300, lr=0.05
+  batch 1/56 CE=0.01874
+  batch 20/56 CE=0.01946
+  batch 40/56 CE=0.02190
+  batch 56/56 CE=0.02293
+  train CE=0.02293, acc=99.27%; val CE=8.84893, acc=16.83%; 35.0s
+constant: epoch 198/300, lr=0.05
+  batch 1/56 CE=0.01815
+  batch 20/56 CE=0.02369
+  batch 40/56 CE=0.02620
+  batch 56/56 CE=0.02580
+  train CE=0.02580, acc=99.27%; val CE=8.77101, acc=17.94%; 34.6s
+constant: epoch 199/300, lr=0.05
+  batch 1/56 CE=0.01117
+  batch 20/56 CE=0.02054
+  batch 40/56 CE=0.01916
+  batch 56/56 CE=0.02014
+  train CE=0.02014, acc=99.41%; val CE=8.79808, acc=17.55%; 34.5s
+constant: epoch 200/300, lr=0.05
+  batch 1/56 CE=0.01416
+  batch 20/56 CE=0.01650
+  batch 40/56 CE=0.02052
+  batch 56/56 CE=0.02388
+  train CE=0.02388, acc=99.23%; val CE=8.89662, acc=17.48%; 34.9s
+constant: epoch 201/300, lr=0.05
+  batch 1/56 CE=0.02020
+  batch 20/56 CE=0.02072
+  batch 40/56 CE=0.01648
+  batch 56/56 CE=0.01656
+  train CE=0.01656, acc=99.54%; val CE=8.67983, acc=18.53%; 35.0s
+constant: epoch 202/300, lr=0.05
+  batch 1/56 CE=0.00392
+  batch 20/56 CE=0.01078
+  batch 40/56 CE=0.01046
+  batch 56/56 CE=0.01166
+  train CE=0.01166, acc=99.62%; val CE=8.83404, acc=17.94%; 35.2s
+constant: epoch 203/300, lr=0.05
+  batch 1/56 CE=0.00475
+  batch 20/56 CE=0.01134
+  batch 40/56 CE=0.01566
+  batch 56/56 CE=0.01432
+  train CE=0.01432, acc=99.47%; val CE=8.76542, acc=17.94%; 34.5s
+constant: epoch 204/300, lr=0.05
+  batch 1/56 CE=0.00265
+  batch 20/56 CE=0.01149
+  batch 40/56 CE=0.01215
+  batch 56/56 CE=0.01381
+  train CE=0.01381, acc=99.62%; val CE=8.80422, acc=18.66%; 34.8s
+constant: epoch 205/300, lr=0.05
+  batch 1/56 CE=0.01081
+  batch 20/56 CE=0.02363
+  batch 40/56 CE=0.01900
+  batch 56/56 CE=0.01925
+  train CE=0.01925, acc=99.54%; val CE=8.89938, acc=18.98%; 34.7s
+constant: epoch 206/300, lr=0.05
+  batch 1/56 CE=0.08453
+  batch 20/56 CE=0.01624
+  batch 40/56 CE=0.01790
+  batch 56/56 CE=0.01819
+  train CE=0.01819, acc=99.48%; val CE=8.88752, acc=18.07%; 34.9s
+constant: epoch 207/300, lr=0.05
+  batch 1/56 CE=0.00867
+  batch 20/56 CE=0.02128
+  batch 40/56 CE=0.02470
+  batch 56/56 CE=0.02486
+  train CE=0.02486, acc=99.29%; val CE=8.91779, acc=18.40%; 34.6s
+constant: epoch 208/300, lr=0.05
+  batch 1/56 CE=0.01328
+  batch 20/56 CE=0.02753
+  batch 40/56 CE=0.02449
+  batch 56/56 CE=0.02422
+  train CE=0.02422, acc=99.34%; val CE=8.91645, acc=18.13%; 34.1s
+constant: epoch 209/300, lr=0.05
+  batch 1/56 CE=0.02225
+  batch 20/56 CE=0.03532
+  batch 40/56 CE=0.03277
+  batch 56/56 CE=0.03024
+  train CE=0.03024, acc=99.05%; val CE=8.75694, acc=17.94%; 35.0s
+constant: epoch 210/300, lr=0.05
+  batch 1/56 CE=0.04528
+  batch 20/56 CE=0.03302
+  batch 40/56 CE=0.03040
+  batch 56/56 CE=0.03010
+  train CE=0.03010, acc=99.11%; val CE=8.75428, acc=18.40%; 34.9s
+constant: epoch 211/300, lr=0.05
+  batch 1/56 CE=0.00611
+  batch 20/56 CE=0.01628
+  batch 40/56 CE=0.02135
+  batch 56/56 CE=0.02251
+  train CE=0.02251, acc=99.37%; val CE=8.82532, acc=17.68%; 35.4s
+constant: epoch 212/300, lr=0.05
+  batch 1/56 CE=0.03484
+  batch 20/56 CE=0.01565
+  batch 40/56 CE=0.02228
+  batch 56/56 CE=0.02368
+  train CE=0.02368, acc=99.29%; val CE=8.85362, acc=17.68%; 34.6s
+constant: epoch 213/300, lr=0.05
+  batch 1/56 CE=0.03511
+  batch 20/56 CE=0.01444
+  batch 40/56 CE=0.02137
+  batch 56/56 CE=0.02354
+  train CE=0.02354, acc=99.32%; val CE=8.92793, acc=17.55%; 34.4s
+constant: epoch 214/300, lr=0.05
+  batch 1/56 CE=0.03413
+  batch 20/56 CE=0.02313
+  batch 40/56 CE=0.02324
+  batch 56/56 CE=0.02478
+  train CE=0.02478, acc=99.23%; val CE=8.76679, acc=17.87%; 34.6s
+constant: epoch 215/300, lr=0.05
+  batch 1/56 CE=0.00751
+  batch 20/56 CE=0.02211
+  batch 40/56 CE=0.02177
+  batch 56/56 CE=0.02226
+  train CE=0.02226, acc=99.37%; val CE=8.74216, acc=18.00%; 35.1s
+constant: epoch 216/300, lr=0.05
+  batch 1/56 CE=0.01897
+  batch 20/56 CE=0.02330
+  batch 40/56 CE=0.02269
+  batch 56/56 CE=0.02138
+  train CE=0.02138, acc=99.26%; val CE=8.79586, acc=17.42%; 34.7s
+constant: epoch 217/300, lr=0.05
+  batch 1/56 CE=0.00417
+  batch 20/56 CE=0.01803
+  batch 40/56 CE=0.01743
+  batch 56/56 CE=0.01668
+  train CE=0.01668, acc=99.58%; val CE=8.70484, acc=18.26%; 35.0s
+constant: epoch 218/300, lr=0.05
+  batch 1/56 CE=0.01805
+  batch 20/56 CE=0.01368
+  batch 40/56 CE=0.01465
+  batch 56/56 CE=0.01433
+  train CE=0.01433, acc=99.47%; val CE=8.71162, acc=18.00%; 34.7s
+constant: epoch 219/300, lr=0.05
+  batch 1/56 CE=0.00413
+  batch 20/56 CE=0.01151
+  batch 40/56 CE=0.01423
+  batch 56/56 CE=0.01520
+  train CE=0.01520, acc=99.47%; val CE=8.77943, acc=17.74%; 35.8s
+constant: epoch 220/300, lr=0.05
+  batch 1/56 CE=0.00345
+  batch 20/56 CE=0.01897
+  batch 40/56 CE=0.01598
+  batch 56/56 CE=0.02032
+  train CE=0.02032, acc=99.41%; val CE=8.93294, acc=18.00%; 34.8s
+constant: epoch 221/300, lr=0.05
+  batch 1/56 CE=0.00436
+  batch 20/56 CE=0.01499
+  batch 40/56 CE=0.02277
+  batch 56/56 CE=0.02161
+  train CE=0.02161, acc=99.40%; val CE=8.81564, acc=18.40%; 35.0s
+constant: epoch 222/300, lr=0.05
+  batch 1/56 CE=0.00735
+  batch 20/56 CE=0.01947
+  batch 40/56 CE=0.01912
+  batch 56/56 CE=0.02135
+  train CE=0.02135, acc=99.27%; val CE=9.06167, acc=17.68%; 34.0s
+constant: epoch 223/300, lr=0.05
+  batch 1/56 CE=0.01001
+  batch 20/56 CE=0.03260
+  batch 40/56 CE=0.02898
+  batch 56/56 CE=0.03205
+  train CE=0.03205, acc=99.09%; val CE=8.80295, acc=19.31%; 34.5s
+constant: epoch 224/300, lr=0.05
+  batch 1/56 CE=0.06256
+  batch 20/56 CE=0.02910
+  batch 40/56 CE=0.02631
+  batch 56/56 CE=0.02795
+  train CE=0.02795, acc=99.16%; val CE=8.76382, acc=18.85%; 35.0s
+constant: epoch 225/300, lr=0.05
+  batch 1/56 CE=0.00716
+  batch 20/56 CE=0.02417
+  batch 40/56 CE=0.02530
+  batch 56/56 CE=0.02815
+  train CE=0.02815, acc=99.23%; val CE=9.00306, acc=17.81%; 34.9s
+constant: epoch 226/300, lr=0.05
+  batch 1/56 CE=0.01083
+  batch 20/56 CE=0.02124
+  batch 40/56 CE=0.01925
+  batch 56/56 CE=0.02063
+  train CE=0.02063, acc=99.36%; val CE=8.84619, acc=18.07%; 35.1s
+constant: epoch 227/300, lr=0.05
+  batch 1/56 CE=0.01160
+  batch 20/56 CE=0.02460
+  batch 40/56 CE=0.02194
+  batch 56/56 CE=0.02190
+  train CE=0.02190, acc=99.32%; val CE=8.82834, acc=17.74%; 34.6s
+constant: epoch 228/300, lr=0.05
+  batch 1/56 CE=0.00674
+  batch 20/56 CE=0.01738
+  batch 40/56 CE=0.02045
+  batch 56/56 CE=0.02100
+  train CE=0.02100, acc=99.32%; val CE=8.76886, acc=18.33%; 34.4s
+constant: epoch 229/300, lr=0.05
+  batch 1/56 CE=0.01582
+  batch 20/56 CE=0.02033
+  batch 40/56 CE=0.01976
+  batch 56/56 CE=0.02131
+  train CE=0.02131, acc=99.34%; val CE=8.72947, acc=19.44%; 34.5s
+constant: epoch 230/300, lr=0.05
+  batch 1/56 CE=0.00773
+  batch 20/56 CE=0.02127
+  batch 40/56 CE=0.02527
+  batch 56/56 CE=0.02783
+  train CE=0.02783, acc=99.08%; val CE=8.94545, acc=19.70%; 35.0s
+constant: epoch 231/300, lr=0.05
+  batch 1/56 CE=0.01475
+  batch 20/56 CE=0.02343
+  batch 40/56 CE=0.02298
+  batch 56/56 CE=0.02577
+  train CE=0.02577, acc=99.22%; val CE=8.72990, acc=18.53%; 34.7s
+constant: epoch 232/300, lr=0.05
+  batch 1/56 CE=0.03763
+  batch 20/56 CE=0.02622
+  batch 40/56 CE=0.02676
+  batch 56/56 CE=0.02653
+  train CE=0.02653, acc=99.23%; val CE=8.58284, acc=18.92%; 34.8s
+constant: epoch 233/300, lr=0.05
+  batch 1/56 CE=0.00411
+  batch 20/56 CE=0.01833
+  batch 40/56 CE=0.02409
+  batch 56/56 CE=0.02171
+  train CE=0.02171, acc=99.30%; val CE=8.77932, acc=18.33%; 34.3s
+constant: epoch 234/300, lr=0.05
+  batch 1/56 CE=0.02031
+  batch 20/56 CE=0.01590
+  batch 40/56 CE=0.01781
+  batch 56/56 CE=0.02084
+  train CE=0.02084, acc=99.37%; val CE=8.69835, acc=18.46%; 34.6s
+constant: epoch 235/300, lr=0.05
+  batch 1/56 CE=0.01005
+  batch 20/56 CE=0.01605
+  batch 40/56 CE=0.02083
+  batch 56/56 CE=0.02063
+  train CE=0.02063, acc=99.39%; val CE=8.77626, acc=17.29%; 35.1s
+constant: epoch 236/300, lr=0.05
+  batch 1/56 CE=0.01196
+  batch 20/56 CE=0.02109
+  batch 40/56 CE=0.02248
+  batch 56/56 CE=0.02326
+  train CE=0.02326, acc=99.33%; val CE=8.75222, acc=18.07%; 34.8s
+constant: epoch 237/300, lr=0.05
+  batch 1/56 CE=0.00965
+  batch 20/56 CE=0.01808
+  batch 40/56 CE=0.02063
+  batch 56/56 CE=0.02247
+  train CE=0.02247, acc=99.29%; val CE=8.84697, acc=18.33%; 35.0s
+constant: epoch 238/300, lr=0.05
+  batch 1/56 CE=0.01208
+  batch 20/56 CE=0.02125
+  batch 40/56 CE=0.01848
+  batch 56/56 CE=0.01873
+  train CE=0.01873, acc=99.36%; val CE=8.81673, acc=18.92%; 34.2s
+constant: epoch 239/300, lr=0.05
+  batch 1/56 CE=0.01775
+  batch 20/56 CE=0.02200
+  batch 40/56 CE=0.01996
+  batch 56/56 CE=0.01827
+  train CE=0.01827, acc=99.45%; val CE=9.01991, acc=18.13%; 34.6s
+constant: epoch 240/300, lr=0.05
+  batch 1/56 CE=0.01194
+  batch 20/56 CE=0.01577
+  batch 40/56 CE=0.01863
+  batch 56/56 CE=0.01872
+  train CE=0.01872, acc=99.52%; val CE=8.72486, acc=19.24%; 34.9s
+constant: epoch 241/300, lr=0.05
+  batch 1/56 CE=0.00456
+  batch 20/56 CE=0.01099
+  batch 40/56 CE=0.01326
+  batch 56/56 CE=0.01529
+  train CE=0.01529, acc=99.61%; val CE=8.90222, acc=18.07%; 34.9s
+constant: epoch 242/300, lr=0.05
+  batch 1/56 CE=0.01901
+  batch 20/56 CE=0.01734
+  batch 40/56 CE=0.01872
+  batch 56/56 CE=0.01892
+  train CE=0.01892, acc=99.40%; val CE=8.83101, acc=18.20%; 34.4s
+constant: epoch 243/300, lr=0.05
+  batch 1/56 CE=0.00352
+  batch 20/56 CE=0.02247
+  batch 40/56 CE=0.01966
+  batch 56/56 CE=0.02001
+  train CE=0.02001, acc=99.36%; val CE=8.92082, acc=18.59%; 35.1s
+constant: epoch 244/300, lr=0.05
+  batch 1/56 CE=0.01383
+  batch 20/56 CE=0.01133
+  batch 40/56 CE=0.01453
+  batch 56/56 CE=0.01682
+  train CE=0.01682, acc=99.44%; val CE=8.76206, acc=18.53%; 35.0s
+constant: epoch 245/300, lr=0.05
+  batch 1/56 CE=0.03969
+  batch 20/56 CE=0.01833
+  batch 40/56 CE=0.01698
+  batch 56/56 CE=0.01843
+  train CE=0.01843, acc=99.32%; val CE=8.85983, acc=17.29%; 34.8s
+constant: epoch 246/300, lr=0.05
+  batch 1/56 CE=0.01027
+  batch 20/56 CE=0.01994
+  batch 40/56 CE=0.02080
+  batch 56/56 CE=0.02180
+  train CE=0.02180, acc=99.34%; val CE=9.14387, acc=18.20%; 34.4s
+constant: epoch 247/300, lr=0.05
+  batch 1/56 CE=0.06351
+  batch 20/56 CE=0.02629
+  batch 40/56 CE=0.02231
+  batch 56/56 CE=0.02361
+  train CE=0.02361, acc=99.25%; val CE=8.93849, acc=18.92%; 34.5s
+constant: epoch 248/300, lr=0.05
+  batch 1/56 CE=0.00193
+  batch 20/56 CE=0.02070
+  batch 40/56 CE=0.02215
+  batch 56/56 CE=0.02287
+  train CE=0.02287, acc=99.36%; val CE=8.95601, acc=17.81%; 35.0s
+constant: epoch 249/300, lr=0.05
+  batch 1/56 CE=0.00490
+  batch 20/56 CE=0.01610
+  batch 40/56 CE=0.01865
+  batch 56/56 CE=0.01919
+  train CE=0.01919, acc=99.39%; val CE=8.85817, acc=16.76%; 34.4s
+constant: epoch 250/300, lr=0.05
+  batch 1/56 CE=0.01788
+  batch 20/56 CE=0.01703
+  batch 40/56 CE=0.01791
+  batch 56/56 CE=0.01710
+  train CE=0.01710, acc=99.48%; val CE=8.95503, acc=17.68%; 35.1s
+constant: epoch 251/300, lr=0.05
+  batch 1/56 CE=0.00216
+  batch 20/56 CE=0.01924
+  batch 40/56 CE=0.02251
+  batch 56/56 CE=0.02106
+  train CE=0.02106, acc=99.44%; val CE=8.91498, acc=18.20%; 34.9s
+constant: epoch 252/300, lr=0.05
+  batch 1/56 CE=0.00528
+  batch 20/56 CE=0.01680
+  batch 40/56 CE=0.01567
+  batch 56/56 CE=0.01371
+  train CE=0.01371, acc=99.62%; val CE=8.95754, acc=17.42%; 34.8s
+constant: epoch 253/300, lr=0.05
+  batch 1/56 CE=0.00892
+  batch 20/56 CE=0.01096
+  batch 40/56 CE=0.01066
+  batch 56/56 CE=0.01055
+  train CE=0.01055, acc=99.75%; val CE=8.93849, acc=18.00%; 34.7s
+constant: epoch 254/300, lr=0.05
+  batch 1/56 CE=0.01825
+  batch 20/56 CE=0.01921
+  batch 40/56 CE=0.01561
+  batch 56/56 CE=0.01432
+  train CE=0.01432, acc=99.65%; val CE=8.87704, acc=17.48%; 34.8s
+constant: epoch 255/300, lr=0.05
+  batch 1/56 CE=0.04656
+  batch 20/56 CE=0.01061
+  batch 40/56 CE=0.01440
+  batch 56/56 CE=0.01408
+  train CE=0.01408, acc=99.64%; val CE=8.82671, acc=18.53%; 34.8s
+constant: epoch 256/300, lr=0.05
+  batch 1/56 CE=0.02076
+  batch 20/56 CE=0.01262
+  batch 40/56 CE=0.01421
+  batch 56/56 CE=0.01377
+  train CE=0.01377, acc=99.59%; val CE=8.88607, acc=17.94%; 34.4s
+constant: epoch 257/300, lr=0.05
+  batch 1/56 CE=0.00282
+  batch 20/56 CE=0.01560
+  batch 40/56 CE=0.01710
+  batch 56/56 CE=0.01561
+  train CE=0.01561, acc=99.57%; val CE=8.79023, acc=18.07%; 34.5s
+constant: epoch 258/300, lr=0.05
+  batch 1/56 CE=0.00338
+  batch 20/56 CE=0.00646
+  batch 40/56 CE=0.00769
+  batch 56/56 CE=0.00795
+  train CE=0.00795, acc=99.78%; val CE=8.86241, acc=18.46%; 34.8s
+constant: epoch 259/300, lr=0.05
+  batch 1/56 CE=0.00182
+  batch 20/56 CE=0.01005
+  batch 40/56 CE=0.01199
+  batch 56/56 CE=0.01190
+  train CE=0.01190, acc=99.62%; val CE=8.86560, acc=18.53%; 34.6s
+constant: epoch 260/300, lr=0.05
+  batch 1/56 CE=0.01272
+  batch 20/56 CE=0.01454
+  batch 40/56 CE=0.01787
+  batch 56/56 CE=0.01644
+  train CE=0.01644, acc=99.52%; val CE=8.81967, acc=18.79%; 35.1s
+constant: epoch 261/300, lr=0.05
+  batch 1/56 CE=0.01022
+  batch 20/56 CE=0.01288
+  batch 40/56 CE=0.01050
+  batch 56/56 CE=0.01307
+  train CE=0.01307, acc=99.57%; val CE=8.89164, acc=18.20%; 34.6s
+constant: epoch 262/300, lr=0.05
+  batch 1/56 CE=0.02671
+  batch 20/56 CE=0.01634
+  batch 40/56 CE=0.01254
+  batch 56/56 CE=0.01331
+  train CE=0.01331, acc=99.57%; val CE=8.82815, acc=18.92%; 34.6s
+constant: epoch 263/300, lr=0.05
+  batch 1/56 CE=0.01950
+  batch 20/56 CE=0.01255
+  batch 40/56 CE=0.01493
+  batch 56/56 CE=0.01526
+  train CE=0.01526, acc=99.55%; val CE=8.85230, acc=18.66%; 34.5s
+constant: epoch 264/300, lr=0.05
+  batch 1/56 CE=0.01389
+  batch 20/56 CE=0.02308
+  batch 40/56 CE=0.01944
+  batch 56/56 CE=0.01859
+  train CE=0.01859, acc=99.44%; val CE=9.13640, acc=17.74%; 34.6s
+constant: epoch 265/300, lr=0.05
+  batch 1/56 CE=0.01956
+  batch 20/56 CE=0.01278
+  batch 40/56 CE=0.01817
+  batch 56/56 CE=0.01893
+  train CE=0.01893, acc=99.47%; val CE=9.03335, acc=17.94%; 34.9s
+constant: epoch 266/300, lr=0.05
+  batch 1/56 CE=0.00489
+  batch 20/56 CE=0.02249
+  batch 40/56 CE=0.01983
+  batch 56/56 CE=0.01972
+  train CE=0.01972, acc=99.36%; val CE=9.05016, acc=18.53%; 34.8s
+constant: epoch 267/300, lr=0.05
+  batch 1/56 CE=0.00138
+  batch 20/56 CE=0.01587
+  batch 40/56 CE=0.01616
+  batch 56/56 CE=0.01678
+  train CE=0.01678, acc=99.44%; val CE=8.97223, acc=18.66%; 34.7s
+constant: epoch 268/300, lr=0.05
+  batch 1/56 CE=0.01010
+  batch 20/56 CE=0.01519
+  batch 40/56 CE=0.01678
+  batch 56/56 CE=0.01517
+  train CE=0.01517, acc=99.55%; val CE=8.95809, acc=17.55%; 34.8s
+constant: epoch 269/300, lr=0.05
+  batch 1/56 CE=0.04858
+  batch 20/56 CE=0.01275
+  batch 40/56 CE=0.01015
+  batch 56/56 CE=0.01054
+  train CE=0.01054, acc=99.69%; val CE=8.87115, acc=17.03%; 35.3s
+constant: epoch 270/300, lr=0.05
+  batch 1/56 CE=0.00322
+  batch 20/56 CE=0.01064
+  batch 40/56 CE=0.01248
+  batch 56/56 CE=0.01185
+  train CE=0.01185, acc=99.61%; val CE=8.98280, acc=17.55%; 35.3s
+constant: epoch 271/300, lr=0.05
+  batch 1/56 CE=0.00707
+  batch 20/56 CE=0.01012
+  batch 40/56 CE=0.01191
+  batch 56/56 CE=0.01504
+  train CE=0.01504, acc=99.51%; val CE=9.13499, acc=17.74%; 34.9s
+constant: epoch 272/300, lr=0.05
+  batch 1/56 CE=0.02869
+  batch 20/56 CE=0.01843
+  batch 40/56 CE=0.01809
+  batch 56/56 CE=0.01793
+  train CE=0.01793, acc=99.51%; val CE=9.19428, acc=17.74%; 34.8s
+constant: epoch 273/300, lr=0.05
+  batch 1/56 CE=0.02909
+  batch 20/56 CE=0.01238
+  batch 40/56 CE=0.01451
+  batch 56/56 CE=0.01374
+  train CE=0.01374, acc=99.57%; val CE=9.08561, acc=18.07%; 34.1s
+constant: epoch 274/300, lr=0.05
+  batch 1/56 CE=0.00079
+  batch 20/56 CE=0.01897
+  batch 40/56 CE=0.02161
+  batch 56/56 CE=0.02123
+  train CE=0.02123, acc=99.36%; val CE=9.15373, acc=16.37%; 34.4s
+constant: epoch 275/300, lr=0.05
+  batch 1/56 CE=0.01386
+  batch 20/56 CE=0.01997
+  batch 40/56 CE=0.01835
+  batch 56/56 CE=0.01951
+  train CE=0.01951, acc=99.45%; val CE=9.02565, acc=16.57%; 35.0s
+constant: epoch 276/300, lr=0.05
+  batch 1/56 CE=0.00572
+  batch 20/56 CE=0.00754
+  batch 40/56 CE=0.01034
+  batch 56/56 CE=0.01092
+  train CE=0.01092, acc=99.69%; val CE=8.88830, acc=17.42%; 34.6s
+constant: epoch 277/300, lr=0.05
+  batch 1/56 CE=0.01273
+  batch 20/56 CE=0.01314
+  batch 40/56 CE=0.01382
+  batch 56/56 CE=0.01420
+  train CE=0.01420, acc=99.55%; val CE=8.81335, acc=17.68%; 35.6s
+constant: epoch 278/300, lr=0.05
+  batch 1/56 CE=0.00494
+  batch 20/56 CE=0.01219
+  batch 40/56 CE=0.01468
+  batch 56/56 CE=0.01579
+  train CE=0.01579, acc=99.51%; val CE=8.94055, acc=17.16%; 34.3s
+constant: epoch 279/300, lr=0.05
+  batch 1/56 CE=0.00790
+  batch 20/56 CE=0.01752
+  batch 40/56 CE=0.01383
+  batch 56/56 CE=0.01283
+  train CE=0.01283, acc=99.65%; val CE=8.83258, acc=17.87%; 34.8s
+constant: epoch 280/300, lr=0.05
+  batch 1/56 CE=0.00263
+  batch 20/56 CE=0.00873
+  batch 40/56 CE=0.01040
+  batch 56/56 CE=0.01132
+  train CE=0.01132, acc=99.64%; val CE=8.87172, acc=16.89%; 34.6s
+constant: epoch 281/300, lr=0.05
+  batch 1/56 CE=0.00128
+  batch 20/56 CE=0.00962
+  batch 40/56 CE=0.01149
+  batch 56/56 CE=0.01081
+  train CE=0.01081, acc=99.64%; val CE=8.88747, acc=17.68%; 34.9s
+constant: epoch 282/300, lr=0.05
+  batch 1/56 CE=0.02479
+  batch 20/56 CE=0.01218
+  batch 40/56 CE=0.01000
+  batch 56/56 CE=0.01160
+  train CE=0.01160, acc=99.57%; val CE=9.09407, acc=18.59%; 34.6s
+constant: epoch 283/300, lr=0.05
+  batch 1/56 CE=0.01301
+  batch 20/56 CE=0.01516
+  batch 40/56 CE=0.01443
+  batch 56/56 CE=0.01370
+  train CE=0.01370, acc=99.64%; val CE=9.09756, acc=17.03%; 34.4s
+constant: epoch 284/300, lr=0.05
+  batch 1/56 CE=0.00030
+  batch 20/56 CE=0.01624
+  batch 40/56 CE=0.01527
+  batch 56/56 CE=0.01580
+  train CE=0.01580, acc=99.57%; val CE=8.99994, acc=17.48%; 34.5s
+constant: epoch 285/300, lr=0.05
+  batch 1/56 CE=0.00687
+  batch 20/56 CE=0.01433
+  batch 40/56 CE=0.01114
+  batch 56/56 CE=0.01262
+  train CE=0.01262, acc=99.59%; val CE=8.83926, acc=18.40%; 35.2s
+constant: epoch 286/300, lr=0.05
+  batch 1/56 CE=0.00185
+  batch 20/56 CE=0.00934
+  batch 40/56 CE=0.01023
+  batch 56/56 CE=0.00880
+  train CE=0.00880, acc=99.78%; val CE=8.84057, acc=18.59%; 35.0s
+constant: epoch 287/300, lr=0.05
+  batch 1/56 CE=0.01971
+  batch 20/56 CE=0.01280
+  batch 40/56 CE=0.01305
+  batch 56/56 CE=0.01307
+  train CE=0.01307, acc=99.61%; val CE=8.84434, acc=18.07%; 34.8s
+constant: epoch 288/300, lr=0.05
+  batch 1/56 CE=0.00117
+  batch 20/56 CE=0.00607
+  batch 40/56 CE=0.00680
+  batch 56/56 CE=0.00797
+  train CE=0.00797, acc=99.80%; val CE=8.93804, acc=17.68%; 37.2s
+constant: epoch 289/300, lr=0.05
+  batch 1/56 CE=0.00522
+  batch 20/56 CE=0.00801
+  batch 40/56 CE=0.00741
+  batch 56/56 CE=0.00723
+  train CE=0.00723, acc=99.78%; val CE=8.79194, acc=18.66%; 34.8s
+constant: epoch 290/300, lr=0.05
+  batch 1/56 CE=0.00876
+  batch 20/56 CE=0.00863
+  batch 40/56 CE=0.00768
+  batch 56/56 CE=0.00761
+  train CE=0.00761, acc=99.76%; val CE=8.84831, acc=19.18%; 34.8s
+constant: epoch 291/300, lr=0.05
+  batch 1/56 CE=0.00774
+  batch 20/56 CE=0.00450
+  batch 40/56 CE=0.00584
+  batch 56/56 CE=0.00520
+  train CE=0.00520, acc=99.90%; val CE=8.75212, acc=19.70%; 34.8s
+constant: epoch 292/300, lr=0.05
+  batch 1/56 CE=0.00103
+  batch 20/56 CE=0.00631
+  batch 40/56 CE=0.00693
+  batch 56/56 CE=0.00915
+  train CE=0.00915, acc=99.79%; val CE=8.82443, acc=18.92%; 34.6s
+constant: epoch 293/300, lr=0.05
+  batch 1/56 CE=0.00113
+  batch 20/56 CE=0.01245
+  batch 40/56 CE=0.01064
+  batch 56/56 CE=0.01006
+  train CE=0.01006, acc=99.73%; val CE=8.81126, acc=19.24%; 35.1s
+constant: epoch 294/300, lr=0.05
+  batch 1/56 CE=0.00435
+  batch 20/56 CE=0.01388
+  batch 40/56 CE=0.01153
+  batch 56/56 CE=0.01292
+  train CE=0.01292, acc=99.58%; val CE=9.07495, acc=19.63%; 34.7s
+constant: epoch 295/300, lr=0.05
+  batch 1/56 CE=0.00187
+  batch 20/56 CE=0.00534
+  batch 40/56 CE=0.00733
+  batch 56/56 CE=0.00813
+  train CE=0.00813, acc=99.71%; val CE=8.90253, acc=19.70%; 34.8s
+constant: epoch 296/300, lr=0.05
+  batch 1/56 CE=0.00721
+  batch 20/56 CE=0.00666
+  batch 40/56 CE=0.00745
+  batch 56/56 CE=0.00748
+  train CE=0.00748, acc=99.76%; val CE=8.80275, acc=19.05%; 35.5s
+constant: epoch 297/300, lr=0.05
+  batch 1/56 CE=0.01173
+  batch 20/56 CE=0.00830
+  batch 40/56 CE=0.00797
+  batch 56/56 CE=0.00886
+  train CE=0.00886, acc=99.68%; val CE=9.05000, acc=18.59%; 34.4s
+constant: epoch 298/300, lr=0.05
+  batch 1/56 CE=0.00249
+  batch 20/56 CE=0.01703
+  batch 40/56 CE=0.01464
+  batch 56/56 CE=0.01444
+  train CE=0.01444, acc=99.61%; val CE=8.97718, acc=18.66%; 35.1s
+constant: epoch 299/300, lr=0.05
+  batch 1/56 CE=0.00355
+  batch 20/56 CE=0.01543
+  batch 40/56 CE=0.01542
+  batch 56/56 CE=0.01419
+  train CE=0.01419, acc=99.58%; val CE=9.07241, acc=18.40%; 34.8s
+constant: epoch 300/300, lr=0.05
+  batch 1/56 CE=0.01083
+  batch 20/56 CE=0.00670
+  batch 40/56 CE=0.00722
+  batch 56/56 CE=0.00878
+  train CE=0.00878, acc=99.66%; val CE=8.97405, acc=18.13%; 34.4s

@@ -1,0 +1,15 @@
+{
+  "backup": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\performance_optimization\\backup_20261024_212440",
+  "checkpoint": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\performance_optimization\\backup_20261024_212440\\cosine_checkpoints\\last.pt",
+  "completed_at": "2026-10-24T16:22:59.117719+00:00",
+  "completed_epoch": 141,
+  "evidence": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\performance_optimization\\equivalence.json",
+  "process_exit": "Old exec job ended with its watcher; last fully committed epoch verified.",
+  "resumed_from_epoch": 141,
+  "runtime": "scripts/train_optimized.py",
+  "status": "complete",
+  "stopped_training_pid": 18868,
+  "stopped_watcher_pid": 30892,
+  "updated_at": "2026-10-24T13:24:42.905137+00:00",
+  "verified_at": "2026-10-24T13:32:08.014911+00:00"
+}

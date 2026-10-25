@@ -1,0 +1,51 @@
+{
+  "batch_size": 128,
+  "channels_last": false,
+  "content_duplicate_policy": "preserve_official",
+  "data_root": "data",
+  "dependencies": {
+    "baseline": "wd_5e4",
+    "baseline_sources": {
+      "constant": "fe91582c36104ed9cf607ed4734ec9f9a7c3aef3a642e575171558af9f65792d",
+      "cosine": "a5fdda5654cbb1b9517b58c481c0b6b39aa247dec96b3d664ad60ed7a793ec5a",
+      "wd_1e4": "6b9d63c967ff98f54f2922f6e66734ad893e1420bd04e7354893bc59bbb22c9b",
+      "wd_5e4": "f0924e94b278bf268114e54cc1ce8701e5c9563fb40b8db313d8c4a464f53686"
+    },
+    "lr_experiment": "lr_005",
+    "lr_sources": {
+      "lr_0001": "798685cbd45086aae8961d87b11ef99f1c41f4a55fb520fd0d693e9cb44c4987",
+      "lr_005": "5dbaf817d8669fc0410b2865f2f28105826061f66ab8037c47fe6ecbbda72dbc",
+      "lr_05": "23c2d879aba1c671e1b2617573268b9627787e48083384f9b072206f8fd37e7b"
+    }
+  },
+  "deterministic": true,
+  "device": "cuda",
+  "epochs": 300,
+  "experiment": "mixup",
+  "flip_probability": 0.5,
+  "image_size": 100,
+  "lr": 0.05,
+  "manifest": "data/manifest.json",
+  "memory_fraction": 1.0,
+  "mixup_alpha": 0.2,
+  "model": "efficientnet_v2_s",
+  "momentum": 0.9,
+  "num_classes": 120,
+  "optimizer": "SGD",
+  "padding": 12,
+  "persistent_workers": false,
+  "pin_memory": true,
+  "precision": "amp_bf16",
+  "prefetch_factor": 2,
+  "pretrained": false,
+  "scheduler": "cosine",
+  "seed": 6103,
+  "split_counts": [
+    7155,
+    1533,
+    1534
+  ],
+  "statistics": "data/statistics.json",
+  "weight_decay": 0.0005,
+  "workers": 4
+}

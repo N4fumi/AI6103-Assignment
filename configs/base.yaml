@@ -1,0 +1,31 @@
+seed: 6103
+model: efficientnet_v2_s
+pretrained: false
+num_classes: 120
+data_root: data
+manifest: data/manifest.json
+statistics: data/statistics.json
+split_counts: [7155, 1533, 1534]
+# The supplied official split has byte-identical images across partitions.
+# Preserve its mandatory membership/counts and audit it explicitly.
+content_duplicate_policy: preserve_official
+image_size: 100
+padding: 12
+flip_probability: 0.5
+batch_size: 128
+optimizer: SGD
+momentum: 0.9
+lr: null
+epochs: 300
+scheduler: constant
+weight_decay: 0.0
+mixup_alpha: 0.0
+precision: amp_bf16
+device: cuda
+workers: 4
+pin_memory: true
+persistent_workers: false
+prefetch_factor: 2
+deterministic: true
+memory_fraction: 1.0
+channels_last: false

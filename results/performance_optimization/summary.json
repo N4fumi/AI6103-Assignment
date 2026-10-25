@@ -1,0 +1,26 @@
+{
+  "actual_resumed_state_bitwise_matches_probe": true,
+  "approx_epoch_wall_seconds": 10.420453566667373,
+  "checkpoint_seconds_mean": 0.8023676166679555,
+  "completed_experiment_files_unchanged": 36,
+  "epoch_seconds_max": 9.747145700006513,
+  "epoch_seconds_mean": 9.618085949999417,
+  "epoch_seconds_min": 9.444790099994862,
+  "exact_equivalence_passed": true,
+  "note": "Epoch timer includes training and FP32 validation; checkpoint saving is timed separately. First epoch after worker startup is excluded from the steady-state sample.",
+  "preserved_old_epochs": 141,
+  "previous_epoch_seconds": 44.44949597000232,
+  "recorded_at": "2026-10-24T13:33:42.328057+00:00",
+  "same_checkpoint_probe_baseline": 45.52239220000047,
+  "same_checkpoint_probe_optimized": 10.311448000007658,
+  "sample_epochs": [
+    143,
+    144,
+    145,
+    146,
+    147,
+    148
+  ],
+  "status": "active_optimized",
+  "training_validation_speedup": 4.621449236477765
+}

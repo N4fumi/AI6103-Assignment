@@ -1,0 +1,91 @@
+WARNING: official data have 10 cross-split duplicate groups and 6 conflicting-label groups; original membership/labels are preserved and audited.
+lr_005: epoch 1/15, lr=0.05
+  batch 1/56 CE=4.83301
+  batch 20/56 CE=4.96363
+  batch 40/56 CE=4.98940
+  batch 56/56 CE=4.96316
+  train CE=4.96316, acc=0.85%; val CE=4.80618, acc=1.04%; 46.2s
+lr_005: epoch 2/15, lr=0.05
+  batch 1/56 CE=4.99658
+  batch 20/56 CE=4.85120
+  batch 40/56 CE=4.82391
+  batch 56/56 CE=4.81377
+  train CE=4.81377, acc=1.22%; val CE=4.94139, acc=1.24%; 35.7s
+lr_005: epoch 3/15, lr=0.05
+  batch 1/56 CE=4.73303
+  batch 20/56 CE=4.78094
+  batch 40/56 CE=4.78072
+  batch 56/56 CE=4.78001
+  train CE=4.78001, acc=1.05%; val CE=4.79066, acc=1.44%; 36.1s
+lr_005: epoch 4/15, lr=0.05
+  batch 1/56 CE=4.74915
+  batch 20/56 CE=4.75308
+  batch 40/56 CE=4.74637
+  batch 56/56 CE=4.74748
+  train CE=4.74748, acc=1.80%; val CE=4.73033, acc=1.70%; 36.3s
+lr_005: epoch 5/15, lr=0.05
+  batch 1/56 CE=4.72363
+  batch 20/56 CE=4.71417
+  batch 40/56 CE=4.71953
+  batch 56/56 CE=4.71910
+  train CE=4.71910, acc=1.57%; val CE=4.71297, acc=1.70%; 35.9s
+lr_005: epoch 6/15, lr=0.05
+  batch 1/56 CE=4.71155
+  batch 20/56 CE=4.68611
+  batch 40/56 CE=4.68507
+  batch 56/56 CE=4.68136
+  train CE=4.68136, acc=1.89%; val CE=4.75816, acc=2.02%; 36.7s
+lr_005: epoch 7/15, lr=0.05
+  batch 1/56 CE=4.59912
+  batch 20/56 CE=4.64614
+  batch 40/56 CE=4.63893
+  batch 56/56 CE=4.63520
+  train CE=4.63520, acc=2.61%; val CE=4.64864, acc=2.54%; 39.5s
+lr_005: epoch 8/15, lr=0.05
+  batch 1/56 CE=4.57666
+  batch 20/56 CE=4.56911
+  batch 40/56 CE=4.57226
+  batch 56/56 CE=4.56429
+  train CE=4.56429, acc=2.57%; val CE=4.90095, acc=2.94%; 40.1s
+lr_005: epoch 9/15, lr=0.05
+  batch 1/56 CE=4.48975
+  batch 20/56 CE=4.48977
+  batch 40/56 CE=4.50212
+  batch 56/56 CE=4.49389
+  train CE=4.49389, acc=3.28%; val CE=4.45830, acc=3.52%; 37.0s
+lr_005: epoch 10/15, lr=0.05
+  batch 1/56 CE=4.48401
+  batch 20/56 CE=4.44911
+  batch 40/56 CE=4.43996
+  batch 56/56 CE=4.42923
+  train CE=4.42923, acc=3.83%; val CE=4.47397, acc=3.26%; 36.5s
+lr_005: epoch 11/15, lr=0.05
+  batch 1/56 CE=4.22644
+  batch 20/56 CE=4.33566
+  batch 40/56 CE=4.36772
+  batch 56/56 CE=4.37153
+  train CE=4.37153, acc=4.22%; val CE=4.37463, acc=4.63%; 36.5s
+lr_005: epoch 12/15, lr=0.05
+  batch 1/56 CE=4.26782
+  batch 20/56 CE=4.28583
+  batch 40/56 CE=4.28756
+  batch 56/56 CE=4.28776
+  train CE=4.28776, acc=4.88%; val CE=4.41364, acc=3.72%; 37.0s
+lr_005: epoch 13/15, lr=0.05
+  batch 1/56 CE=4.31531
+  batch 20/56 CE=4.24415
+  batch 40/56 CE=4.23824
+  batch 56/56 CE=4.24692
+  train CE=4.24692, acc=5.55%; val CE=4.32658, acc=4.83%; 36.3s
+lr_005: epoch 14/15, lr=0.05
+  batch 1/56 CE=4.17896
+  batch 20/56 CE=4.14863
+  batch 40/56 CE=4.19582
+  batch 56/56 CE=4.19939
+  train CE=4.19939, acc=5.49%; val CE=4.37912, acc=4.96%; 36.9s
+lr_005: epoch 15/15, lr=0.05
+  batch 1/56 CE=4.05029
+  batch 20/56 CE=4.12051
+  batch 40/56 CE=4.15730
+  batch 56/56 CE=4.15879
+  train CE=4.15879, acc=6.21%; val CE=4.29301, acc=4.83%; 36.1s

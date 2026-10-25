@@ -1,0 +1,10 @@
+{
+  "checkpoint_sha256": "0609a1441414064c03bc50baad4e50d953aaf8dd0a3af364fb948996c4d4b973",
+  "finished_at": "2026-10-24T16:22:59.117719+00:00",
+  "latest_human_instruction_checked": "Only progress/performance questions followed the conditional authorization; no explicit return, cancellation or change of evaluation arrangement.",
+  "result_sha256": "9d95564ec6b7669a9738875e60958c28068b90e7ec9bf6045eeb0b179f0173af",
+  "single_holdout_evaluation": true,
+  "started_at": "2026-10-24T16:20:35.539991+00:00",
+  "status": "complete",
+  "training_complete": true
+}

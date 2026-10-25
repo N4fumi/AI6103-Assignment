@@ -1,0 +1,41 @@
+{
+  "child_pid": null,
+  "command": [
+    "D:/WORKSPACE/Anaconda/envs/ntuai/python.exe",
+    "-m",
+    "src.evaluate",
+    "--test"
+  ],
+  "completed_epochs": 300,
+  "completed_experiments": [
+    "lr_05",
+    "lr_005",
+    "lr_0001",
+    "constant",
+    "cosine",
+    "wd_5e4",
+    "wd_1e4",
+    "mixup"
+  ],
+  "created_at": "2026-10-24T08:28:06.684834+00:00",
+  "current_experiment": null,
+  "execution_adapter": "scripts/train_optimized.py",
+  "final_experiment": "mixup",
+  "final_selection": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\final_selection.json",
+  "final_summary": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\final_summary.json",
+  "final_test": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\final_test.json",
+  "final_test_accuracy": 0.3754889178617992,
+  "note": "All eight experiments, validation-only final selection, one authorized hold-out evaluation, numeric summaries and plots completed; no report prose generated.",
+  "optimization_evidence": "results/performance_optimization/equivalence.json",
+  "previous_watcher_pid": 30892,
+  "project": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment",
+  "python": "D:\\WORKSPACE\\Anaconda\\envs\\ntuai\\python.exe",
+  "source_config_signature": "0b39788fd593dc2b5a547f130163da19e3aac84b32a41eac20f4c755f5010bc9",
+  "status": "complete",
+  "stderr": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\console\\mixup.stderr.log",
+  "stdout": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\console\\mixup.stdout.log",
+  "test_evaluation_authorized": true,
+  "test_evaluation_policy": "A follow-up in this chat may evaluate the frozen final model after training if the user has not returned or changed instructions. This watcher does not itself evaluate test data.",
+  "updated_at": "2026-10-24T16:22:59.117719+00:00",
+  "watcher_pid": 57376
+}

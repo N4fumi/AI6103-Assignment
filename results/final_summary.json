@@ -1,0 +1,211 @@
+{
+  "accuracy_units": "fraction",
+  "dataset_audit": {
+    "conflicting_label_groups": 6,
+    "content_duplicate_policy": "preserve_official",
+    "cross_split_content_groups": 10,
+    "duplicate_content_groups": 15,
+    "path_overlap": 0
+  },
+  "experiments": [
+    {
+      "best_validation_accuracy": 0.025440313111545987,
+      "best_validation_epoch": 11,
+      "best_validation_loss": 4.695453418288756,
+      "epochs": 15,
+      "experiment": "lr_05",
+      "final_training_accuracy": 0.021243885394828792,
+      "final_training_loss": 4.62732573715146,
+      "selected_for_test": false,
+      "test_accuracy": "",
+      "test_loss": ""
+    },
+    {
+      "best_validation_accuracy": 0.04957599478147423,
+      "best_validation_epoch": 14,
+      "best_validation_loss": 4.3791205458445095,
+      "epochs": 15,
+      "experiment": "lr_005",
+      "final_training_accuracy": 0.0620545073375262,
+      "final_training_loss": 4.158788104693762,
+      "selected_for_test": false,
+      "test_accuracy": "",
+      "test_loss": ""
+    },
+    {
+      "best_validation_accuracy": 0.014350945857795172,
+      "best_validation_epoch": 14,
+      "best_validation_loss": 4.825654268420295,
+      "epochs": 15,
+      "experiment": "lr_0001",
+      "final_training_accuracy": 0.01243885394828791,
+      "final_training_loss": 4.7873831681652055,
+      "selected_for_test": false,
+      "test_accuracy": "",
+      "test_loss": ""
+    },
+    {
+      "best_validation_accuracy": 0.19699934768427918,
+      "best_validation_epoch": 291,
+      "best_validation_loss": 8.752121132802746,
+      "epochs": 300,
+      "experiment": "constant",
+      "final_training_accuracy": 0.9966457023060796,
+      "final_training_loss": 0.00878019251064726,
+      "selected_for_test": false,
+      "test_accuracy": "",
+      "test_loss": ""
+    },
+    {
+      "best_validation_accuracy": 0.1989562948467058,
+      "best_validation_epoch": 188,
+      "best_validation_loss": 8.296892238300918,
+      "epochs": 300,
+      "experiment": "cosine",
+      "final_training_accuracy": 0.9997204751921733,
+      "final_training_loss": 0.0022375285239196446,
+      "selected_for_test": false,
+      "test_accuracy": "",
+      "test_loss": ""
+    },
+    {
+      "best_validation_accuracy": 0.3476842791911285,
+      "best_validation_epoch": 214,
+      "best_validation_loss": 3.421137941482405,
+      "epochs": 300,
+      "experiment": "wd_5e4",
+      "final_training_accuracy": 0.9998602375960867,
+      "final_training_loss": 0.019889890616805215,
+      "selected_for_test": false,
+      "test_accuracy": "",
+      "test_loss": ""
+    },
+    {
+      "best_validation_accuracy": 0.27332028701891714,
+      "best_validation_epoch": 238,
+      "best_validation_loss": 5.571027772533917,
+      "epochs": 300,
+      "experiment": "wd_1e4",
+      "final_training_accuracy": 0.99958071278826,
+      "final_training_loss": 0.003603389062661649,
+      "selected_for_test": false,
+      "test_accuracy": "",
+      "test_loss": ""
+    },
+    {
+      "best_validation_accuracy": 0.3861709067188519,
+      "best_validation_epoch": 273,
+      "best_validation_loss": 2.715138880940566,
+      "epochs": 300,
+      "experiment": "mixup",
+      "final_training_accuracy": 0.8765679301455835,
+      "final_training_loss": 0.8899621267780234,
+      "selected_for_test": true,
+      "test_accuracy": 0.3754889178617992,
+      "test_loss": 2.750519468078713
+    }
+  ],
+  "figures": {
+    "pdf_count": 31,
+    "png_count": 31
+  },
+  "final_selection": {
+    "baseline": "wd_5e4",
+    "best_validation": {
+      "elapsed_seconds": 2343.076068699971,
+      "epoch": 273,
+      "epoch_seconds": 8.585508900010609,
+      "lr": 0.0010670125616983183,
+      "next_lr": 0.0009926578580764227,
+      "train_accuracy": 0.9208024345520573,
+      "train_loss": 0.5928405096695858,
+      "val_accuracy": 0.3861709067188519,
+      "val_loss": 2.715138880940566
+    },
+    "checkpoint": "checkpoints/mixup/best.pt",
+    "checkpoint_sha256": "0609a1441414064c03bc50baad4e50d953aaf8dd0a3af364fb948996c4d4b973",
+    "config": {
+      "batch_size": 128,
+      "channels_last": false,
+      "content_duplicate_policy": "preserve_official",
+      "data_root": "data",
+      "dependencies": {
+        "baseline": "wd_5e4",
+        "baseline_sources": {
+          "constant": "fe91582c36104ed9cf607ed4734ec9f9a7c3aef3a642e575171558af9f65792d",
+          "cosine": "a5fdda5654cbb1b9517b58c481c0b6b39aa247dec96b3d664ad60ed7a793ec5a",
+          "wd_1e4": "6b9d63c967ff98f54f2922f6e66734ad893e1420bd04e7354893bc59bbb22c9b",
+          "wd_5e4": "f0924e94b278bf268114e54cc1ce8701e5c9563fb40b8db313d8c4a464f53686"
+        },
+        "lr_experiment": "lr_005",
+        "lr_sources": {
+          "lr_0001": "798685cbd45086aae8961d87b11ef99f1c41f4a55fb520fd0d693e9cb44c4987",
+          "lr_005": "5dbaf817d8669fc0410b2865f2f28105826061f66ab8037c47fe6ecbbda72dbc",
+          "lr_05": "23c2d879aba1c671e1b2617573268b9627787e48083384f9b072206f8fd37e7b"
+        }
+      },
+      "deterministic": true,
+      "device": "cuda",
+      "epochs": 300,
+      "experiment": "mixup",
+      "flip_probability": 0.5,
+      "image_size": 100,
+      "lr": 0.05,
+      "manifest": "data/manifest.json",
+      "memory_fraction": 1.0,
+      "mixup_alpha": 0.2,
+      "model": "efficientnet_v2_s",
+      "momentum": 0.9,
+      "num_classes": 120,
+      "optimizer": "SGD",
+      "padding": 12,
+      "persistent_workers": false,
+      "pin_memory": true,
+      "precision": "amp_bf16",
+      "prefetch_factor": 2,
+      "pretrained": false,
+      "scheduler": "cosine",
+      "seed": 6103,
+      "split_counts": [
+        7155,
+        1533,
+        1534
+      ],
+      "statistics": "data/statistics.json",
+      "weight_decay": 0.0005,
+      "workers": 4
+    },
+    "criterion": "highest validation accuracy over epochs; lowest validation CE, earliest epoch, experiment ID break ties",
+    "data_signature": "590ead402d48eecbd75c1f418419c3c13dd2f9a8a517826328edd554dd19ea11",
+    "experiment": "mixup",
+    "source_summaries": {
+      "mixup": "a1d1273afa7028f97d060cadc25d32c814772628e4ec12a2f17824720b72f72e",
+      "wd_5e4": "f0924e94b278bf268114e54cc1ce8701e5c9563fb40b8db313d8c4a464f53686"
+    }
+  },
+  "final_test": {
+    "checkpoint_sha256": "0609a1441414064c03bc50baad4e50d953aaf8dd0a3af364fb948996c4d4b973",
+    "count": 1534,
+    "data_signature": "590ead402d48eecbd75c1f418419c3c13dd2f9a8a517826328edd554dd19ea11",
+    "device": "cuda",
+    "epoch": 273,
+    "experiment": "mixup",
+    "precision": "fp32",
+    "selection_signature": "aeb13b7521a045a7589954db0137d7e6783793a6ad0c5b70cb66ef8df4af2e0f",
+    "test_accuracy": 0.3754889178617992,
+    "test_loss": 2.750519468078713
+  },
+  "final_test_sha256": "9d95564ec6b7669a9738875e60958c28068b90e7ec9bf6045eeb0b179f0173af",
+  "limitations": [
+    "Single seed; no confidence interval from repeated runs.",
+    "Official split membership and labels retained despite duplicate content and conflicting labels.",
+    "Pre/post optimization timing reflects different execution implementations; numerical equivalence is separately audited."
+  ],
+  "preservation": {
+    "pre_optimization_cosine_epochs_unchanged": 141,
+    "previously_completed_files_unchanged": 36,
+    "src_and_configs_unchanged": true
+  },
+  "status": "complete",
+  "verified_at": "2026-10-24T16:22:59.117719+00:00"
+}

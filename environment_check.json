@@ -1,0 +1,35 @@
+{
+  "bf16_supported": true,
+  "compiled_architectures": [
+    "sm_70",
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120"
+  ],
+  "compute_capability": [
+    12,
+    0
+  ],
+  "cuda_available": true,
+  "cuda_runtime": "12.9",
+  "cuda_tensor_check": true,
+  "device": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "executable": "D:\\WORKSPACE\\Anaconda\\envs\\ntuai\\python.exe",
+  "nvidia_smi": "NVIDIA GeForce RTX 5070 Ti Laptop GPU, 621.01, 12227 MiB, 12.0",
+  "packages": {
+    "Pillow": "11.3.0",
+    "PyYAML": "6.0.3",
+    "matplotlib": "3.10.6",
+    "numpy": "2.2.6",
+    "torch": "2.9.0.dev20250905+cu129",
+    "torchvision": "0.24.0.dev20250901+cu129"
+  },
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.10.18 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:08:55) [MSC v.1929 64 bit (AMD64)]",
+  "torch": "2.9.0.dev20250905+cu129",
+  "torchvision": "0.24.0.dev20250901+cu129",
+  "training_executed": false
+}

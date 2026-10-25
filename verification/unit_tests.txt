@@ -1,0 +1,30 @@
+test_actual_assignment_labels_csv_layout (test_project.DataTests) ... ok
+test_deterministic_exact_stratified_split (test_project.DataTests) ... ok
+test_explicit_csv_and_unknown_indices (test_project.DataTests) ... ok
+test_official_duplicate_content_is_audited_but_never_silent (test_project.DataTests) ... ok
+test_official_folder_split_preserved (test_project.DataTests) ... ok
+test_preprocessing_order_shapes_and_determinism (test_project.DataTests) ... ok
+test_required_large_split_counts (test_project.DataTests) ... ok
+test_stateless_augmentation_ignores_other_rng_draws (test_project.DataTests) ... ok
+test_train_only_statistics_population_definition (test_project.DataTests) ... ok
+test_windows_dataloader_workers_and_shared_epoch (test_project.DataTests) ... ok
+test_all_configurations_and_corrected_lr (test_project.DependencyTests) ... ok
+test_final_test_cannot_run_without_selection (test_project.DependencyTests) ... ERROR: Run python -m src.experiments --select-final after all experiments complete.
+ok
+test_full_dependency_graph_and_mixup_need_not_win (test_project.DependencyTests) ... ok
+test_lr_uses_only_final_training_loss (test_project.DependencyTests) ... ok
+test_missing_lr_prerequisite_fails_with_commands (test_project.DependencyTests) ... ok
+test_readonly_final_selection_does_not_rewrite_evidence (test_project.DependencyTests) ... ok
+test_checkpoint_and_rng_roundtrip_without_optimization (test_project.MathAndModelTests) ... D:\WORKSPACE\Anaconda\envs\ntuai\lib\site-packages\torch\backends\__init__.py:46: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\Context.cpp:85.)
+  self.setter(val)
+ok
+test_metric_weighting_and_mixup_correctness (test_project.MathAndModelTests) ... ok
+test_mixup_pairing_and_interpolated_loss (test_project.MathAndModelTests) ... ok
+test_model_output_on_meta_device_no_numeric_forward (test_project.MathAndModelTests) ... ok
+test_scheduler_configuration_state_and_formula (test_project.MathAndModelTests) ... ok
+test_scheduler_restores_midpoint_without_any_updates (test_project.MathAndModelTests) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 13.389s
+
+OK

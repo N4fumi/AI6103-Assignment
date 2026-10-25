@@ -1,0 +1,1969 @@
+WARNING: official data have 10 cross-split duplicate groups and 6 conflicting-label groups; original membership/labels are preserved and audited.
+cosine: epoch 1/300, lr=0.05
+  batch 1/56 CE=4.83301
+  batch 20/56 CE=4.96363
+  batch 40/56 CE=4.98940
+  batch 56/56 CE=4.96316
+  train CE=4.96316, acc=0.85%; val CE=4.80618, acc=1.04%; 46.1s
+cosine: epoch 2/300, lr=0.049998629
+  batch 1/56 CE=4.99658
+  batch 20/56 CE=4.85175
+  batch 40/56 CE=4.82698
+  batch 56/56 CE=4.81681
+  train CE=4.81681, acc=1.27%; val CE=4.78062, acc=1.37%; 34.9s
+cosine: epoch 3/300, lr=0.049994517
+  batch 1/56 CE=4.73950
+  batch 20/56 CE=4.78320
+  batch 40/56 CE=4.78613
+  batch 56/56 CE=4.78443
+  train CE=4.78443, acc=0.98%; val CE=4.79154, acc=1.37%; 34.9s
+cosine: epoch 4/300, lr=0.049987664
+  batch 1/56 CE=4.77686
+  batch 20/56 CE=4.77480
+  batch 40/56 CE=4.77158
+  batch 56/56 CE=4.77124
+  train CE=4.77124, acc=1.38%; val CE=4.75668, acc=1.89%; 34.8s
+cosine: epoch 5/300, lr=0.049978071
+  batch 1/56 CE=4.75720
+  batch 20/56 CE=4.73466
+  batch 40/56 CE=4.73738
+  batch 56/56 CE=4.73720
+  train CE=4.73720, acc=1.51%; val CE=4.72740, acc=1.50%; 35.2s
+cosine: epoch 6/300, lr=0.049965738
+  batch 1/56 CE=4.70496
+  batch 20/56 CE=4.70537
+  batch 40/56 CE=4.70242
+  batch 56/56 CE=4.70330
+  train CE=4.70330, acc=1.38%; val CE=4.70041, acc=1.44%; 35.6s
+cosine: epoch 7/300, lr=0.049950668
+  batch 1/56 CE=4.66541
+  batch 20/56 CE=4.66882
+  batch 40/56 CE=4.66560
+  batch 56/56 CE=4.66890
+  train CE=4.66890, acc=2.36%; val CE=4.69172, acc=2.22%; 34.7s
+cosine: epoch 8/300, lr=0.049932862
+  batch 1/56 CE=4.66675
+  batch 20/56 CE=4.63720
+  batch 40/56 CE=4.64573
+  batch 56/56 CE=4.64057
+  train CE=4.64057, acc=2.10%; val CE=4.63204, acc=2.61%; 34.0s
+cosine: epoch 9/300, lr=0.049912321
+  batch 1/56 CE=4.50269
+  batch 20/56 CE=4.58262
+  batch 40/56 CE=4.58378
+  batch 56/56 CE=4.58393
+  train CE=4.58393, acc=2.43%; val CE=4.57055, acc=2.61%; 35.5s
+cosine: epoch 10/300, lr=0.049889049
+  batch 1/56 CE=4.56311
+  batch 20/56 CE=4.52678
+  batch 40/56 CE=4.52468
+  batch 56/56 CE=4.51843
+  train CE=4.51843, acc=3.13%; val CE=4.76705, acc=2.48%; 35.1s
+cosine: epoch 11/300, lr=0.049863047
+  batch 1/56 CE=4.42273
+  batch 20/56 CE=4.44545
+  batch 40/56 CE=4.46698
+  batch 56/56 CE=4.45739
+  train CE=4.45739, acc=3.27%; val CE=4.45005, acc=3.78%; 34.8s
+cosine: epoch 12/300, lr=0.049834319
+  batch 1/56 CE=4.33899
+  batch 20/56 CE=4.39649
+  batch 40/56 CE=4.39346
+  batch 56/56 CE=4.38314
+  train CE=4.38314, acc=3.77%; val CE=4.37196, acc=3.91%; 34.8s
+cosine: epoch 13/300, lr=0.049802868
+  batch 1/56 CE=4.33112
+  batch 20/56 CE=4.28445
+  batch 40/56 CE=4.29284
+  batch 56/56 CE=4.30144
+  train CE=4.30144, acc=4.72%; val CE=4.31009, acc=4.76%; 34.8s
+cosine: epoch 14/300, lr=0.049768696
+  batch 1/56 CE=4.19897
+  batch 20/56 CE=4.22300
+  batch 40/56 CE=4.24410
+  batch 56/56 CE=4.23997
+  train CE=4.23997, acc=5.05%; val CE=4.29567, acc=5.54%; 34.5s
+cosine: epoch 15/300, lr=0.049731808
+  batch 1/56 CE=4.04553
+  batch 20/56 CE=4.15489
+  batch 40/56 CE=4.18292
+  batch 56/56 CE=4.17341
+  train CE=4.17341, acc=5.74%; val CE=4.40502, acc=4.37%; 35.1s
+cosine: epoch 16/300, lr=0.049692209
+  batch 1/56 CE=4.00677
+  batch 20/56 CE=4.10919
+  batch 40/56 CE=4.12119
+  batch 56/56 CE=4.12751
+  train CE=4.12751, acc=6.26%; val CE=4.21113, acc=6.59%; 35.1s
+cosine: epoch 17/300, lr=0.049649901
+  batch 1/56 CE=3.88879
+  batch 20/56 CE=4.04962
+  batch 40/56 CE=4.06103
+  batch 56/56 CE=4.06181
+  train CE=4.06181, acc=6.37%; val CE=4.19910, acc=6.07%; 34.9s
+cosine: epoch 18/300, lr=0.04960489
+  batch 1/56 CE=3.76703
+  batch 20/56 CE=4.00696
+  batch 40/56 CE=4.04049
+  batch 56/56 CE=4.03342
+  train CE=4.03342, acc=7.30%; val CE=4.12674, acc=6.20%; 35.0s
+cosine: epoch 19/300, lr=0.049557181
+  batch 1/56 CE=4.03290
+  batch 20/56 CE=3.91283
+  batch 40/56 CE=3.96641
+  batch 56/56 CE=3.95907
+  train CE=3.95907, acc=7.48%; val CE=4.13421, acc=6.33%; 34.8s
+cosine: epoch 20/300, lr=0.049506779
+  batch 1/56 CE=3.60376
+  batch 20/56 CE=3.88301
+  batch 40/56 CE=3.91675
+  batch 56/56 CE=3.93160
+  train CE=3.93160, acc=7.84%; val CE=4.16278, acc=7.05%; 35.0s
+cosine: epoch 21/300, lr=0.04945369
+  batch 1/56 CE=3.78235
+  batch 20/56 CE=3.85391
+  batch 40/56 CE=3.86623
+  batch 56/56 CE=3.87855
+  train CE=3.87855, acc=8.99%; val CE=4.33026, acc=6.46%; 35.2s
+cosine: epoch 22/300, lr=0.049397919
+  batch 1/56 CE=3.72067
+  batch 20/56 CE=3.73041
+  batch 40/56 CE=3.77256
+  batch 56/56 CE=3.79441
+  train CE=3.79441, acc=10.20%; val CE=4.17866, acc=7.96%; 34.7s
+cosine: epoch 23/300, lr=0.049339473
+  batch 1/56 CE=3.78378
+  batch 20/56 CE=3.74852
+  batch 40/56 CE=3.76554
+  batch 56/56 CE=3.76065
+  train CE=3.76065, acc=10.59%; val CE=4.03536, acc=9.07%; 35.1s
+cosine: epoch 24/300, lr=0.049278357
+  batch 1/56 CE=3.52361
+  batch 20/56 CE=3.70232
+  batch 40/56 CE=3.70495
+  batch 56/56 CE=3.72213
+  train CE=3.72213, acc=11.04%; val CE=4.05643, acc=9.33%; 34.7s
+cosine: epoch 25/300, lr=0.049214579
+  batch 1/56 CE=3.67752
+  batch 20/56 CE=3.58895
+  batch 40/56 CE=3.64976
+  batch 56/56 CE=3.67039
+  train CE=3.67039, acc=13.04%; val CE=3.99487, acc=9.59%; 34.9s
+cosine: epoch 26/300, lr=0.049148146
+  batch 1/56 CE=3.66875
+  batch 20/56 CE=3.59426
+  batch 40/56 CE=3.58241
+  batch 56/56 CE=3.60377
+  train CE=3.60377, acc=13.54%; val CE=3.97300, acc=10.37%; 35.6s
+cosine: epoch 27/300, lr=0.049079064
+  batch 1/56 CE=3.37534
+  batch 20/56 CE=3.53455
+  batch 40/56 CE=3.55781
+  batch 56/56 CE=3.55900
+  train CE=3.55900, acc=13.24%; val CE=3.95356, acc=10.83%; 34.5s
+cosine: epoch 28/300, lr=0.049007342
+  batch 1/56 CE=3.51279
+  batch 20/56 CE=3.44672
+  batch 40/56 CE=3.50137
+  batch 56/56 CE=3.53218
+  train CE=3.53218, acc=14.21%; val CE=3.93627, acc=10.63%; 34.4s
+cosine: epoch 29/300, lr=0.048932987
+  batch 1/56 CE=3.41794
+  batch 20/56 CE=3.42481
+  batch 40/56 CE=3.45814
+  batch 56/56 CE=3.46347
+  train CE=3.46347, acc=14.54%; val CE=4.01206, acc=9.85%; 34.5s
+cosine: epoch 30/300, lr=0.048856008
+  batch 1/56 CE=3.15839
+  batch 20/56 CE=3.33075
+  batch 40/56 CE=3.38055
+  batch 56/56 CE=3.42223
+  train CE=3.42223, acc=15.90%; val CE=3.96462, acc=10.76%; 35.4s
+cosine: epoch 31/300, lr=0.048776413
+  batch 1/56 CE=3.23703
+  batch 20/56 CE=3.29253
+  batch 40/56 CE=3.31054
+  batch 56/56 CE=3.35214
+  train CE=3.35214, acc=18.04%; val CE=4.07056, acc=11.02%; 35.5s
+cosine: epoch 32/300, lr=0.04869421
+  batch 1/56 CE=3.05449
+  batch 20/56 CE=3.30520
+  batch 40/56 CE=3.30798
+  batch 56/56 CE=3.33429
+  train CE=3.33429, acc=17.39%; val CE=3.96413, acc=12.00%; 34.6s
+cosine: epoch 33/300, lr=0.048609409
+  batch 1/56 CE=2.98463
+  batch 20/56 CE=3.13564
+  batch 40/56 CE=3.21662
+  batch 56/56 CE=3.25622
+  train CE=3.25622, acc=18.83%; val CE=4.00321, acc=12.20%; 34.5s
+cosine: epoch 34/300, lr=0.048522019
+  batch 1/56 CE=3.04810
+  batch 20/56 CE=3.08001
+  batch 40/56 CE=3.14799
+  batch 56/56 CE=3.18408
+  train CE=3.18408, acc=20.35%; val CE=3.97803, acc=11.48%; 35.6s
+cosine: epoch 35/300, lr=0.04843205
+  batch 1/56 CE=3.09599
+  batch 20/56 CE=3.10626
+  batch 40/56 CE=3.19061
+  batch 56/56 CE=3.23090
+  train CE=3.23090, acc=19.39%; val CE=4.15780, acc=9.98%; 34.6s
+cosine: epoch 36/300, lr=0.048339511
+  batch 1/56 CE=3.19423
+  batch 20/56 CE=3.16286
+  batch 40/56 CE=3.16862
+  batch 56/56 CE=3.17122
+  train CE=3.17122, acc=21.06%; val CE=3.98926, acc=13.70%; 35.0s
+cosine: epoch 37/300, lr=0.048244412
+  batch 1/56 CE=2.98716
+  batch 20/56 CE=3.00073
+  batch 40/56 CE=3.02434
+  batch 56/56 CE=3.04366
+  train CE=3.04366, acc=22.19%; val CE=4.15328, acc=11.68%; 34.7s
+cosine: epoch 38/300, lr=0.048146765
+  batch 1/56 CE=3.00467
+  batch 20/56 CE=2.93874
+  batch 40/56 CE=2.97638
+  batch 56/56 CE=2.97918
+  train CE=2.97918, acc=23.40%; val CE=3.89797, acc=13.63%; 34.7s
+cosine: epoch 39/300, lr=0.048046579
+  batch 1/56 CE=2.90887
+  batch 20/56 CE=2.85310
+  batch 40/56 CE=2.90158
+  batch 56/56 CE=2.94505
+  train CE=2.94505, acc=23.96%; val CE=4.03136, acc=13.11%; 34.5s
+cosine: epoch 40/300, lr=0.047943866
+  batch 1/56 CE=2.91415
+  batch 20/56 CE=2.76255
+  batch 40/56 CE=2.83893
+  batch 56/56 CE=2.86112
+  train CE=2.86112, acc=25.53%; val CE=4.01464, acc=13.76%; 35.1s
+cosine: epoch 41/300, lr=0.047838636
+  batch 1/56 CE=2.79293
+  batch 20/56 CE=2.72949
+  batch 40/56 CE=2.76452
+  batch 56/56 CE=2.79910
+  train CE=2.79910, acc=26.75%; val CE=3.96881, acc=13.05%; 34.8s
+cosine: epoch 42/300, lr=0.047730903
+  batch 1/56 CE=2.56891
+  batch 20/56 CE=2.64095
+  batch 40/56 CE=2.70359
+  batch 56/56 CE=2.77502
+  train CE=2.77502, acc=27.78%; val CE=4.00215, acc=12.65%; 35.1s
+cosine: epoch 43/300, lr=0.047620676
+  batch 1/56 CE=2.78302
+  batch 20/56 CE=2.60257
+  batch 40/56 CE=2.65092
+  batch 56/56 CE=2.67248
+  train CE=2.67248, acc=30.09%; val CE=4.25395, acc=13.50%; 35.8s
+cosine: epoch 44/300, lr=0.047507969
+  batch 1/56 CE=2.35172
+  batch 20/56 CE=2.47804
+  batch 40/56 CE=2.52512
+  batch 56/56 CE=2.55969
+  train CE=2.55969, acc=31.47%; val CE=4.09276, acc=15.20%; 34.7s
+cosine: epoch 45/300, lr=0.047392794
+  batch 1/56 CE=2.46899
+  batch 20/56 CE=2.38993
+  batch 40/56 CE=2.44508
+  batch 56/56 CE=2.48662
+  train CE=2.48662, acc=33.74%; val CE=4.09327, acc=14.68%; 35.2s
+cosine: epoch 46/300, lr=0.047275163
+  batch 1/56 CE=2.33443
+  batch 20/56 CE=2.35958
+  batch 40/56 CE=2.42408
+  batch 56/56 CE=2.46567
+  train CE=2.46567, acc=33.96%; val CE=4.12261, acc=14.55%; 35.1s
+cosine: epoch 47/300, lr=0.047155089
+  batch 1/56 CE=2.31882
+  batch 20/56 CE=2.25908
+  batch 40/56 CE=2.29581
+  batch 56/56 CE=2.34999
+  train CE=2.34999, acc=36.25%; val CE=4.23252, acc=14.16%; 34.9s
+cosine: epoch 48/300, lr=0.047032586
+  batch 1/56 CE=2.18209
+  batch 20/56 CE=2.17656
+  batch 40/56 CE=2.20770
+  batch 56/56 CE=2.28250
+  train CE=2.28250, acc=37.85%; val CE=4.18106, acc=15.13%; 35.0s
+cosine: epoch 49/300, lr=0.046907667
+  batch 1/56 CE=2.00101
+  batch 20/56 CE=2.18000
+  batch 40/56 CE=2.21082
+  batch 56/56 CE=2.22795
+  train CE=2.22795, acc=38.59%; val CE=4.25848, acc=16.89%; 34.5s
+cosine: epoch 50/300, lr=0.046780345
+  batch 1/56 CE=1.98431
+  batch 20/56 CE=2.00438
+  batch 40/56 CE=2.07580
+  batch 56/56 CE=2.13370
+  train CE=2.13370, acc=40.95%; val CE=4.31998, acc=15.39%; 35.2s
+cosine: epoch 51/300, lr=0.046650635
+  batch 1/56 CE=1.87842
+  batch 20/56 CE=1.95817
+  batch 40/56 CE=1.98747
+  batch 56/56 CE=2.03927
+  train CE=2.03927, acc=43.30%; val CE=4.76923, acc=14.81%; 35.4s
+cosine: epoch 52/300, lr=0.046518551
+  batch 1/56 CE=1.90310
+  batch 20/56 CE=1.89730
+  batch 40/56 CE=1.96184
+  batch 56/56 CE=1.99948
+  train CE=1.99948, acc=45.12%; val CE=4.49614, acc=14.35%; 35.4s
+cosine: epoch 53/300, lr=0.046384107
+  batch 1/56 CE=1.62160
+  batch 20/56 CE=1.81244
+  batch 40/56 CE=1.85376
+  batch 56/56 CE=1.89629
+  train CE=1.89629, acc=46.58%; val CE=4.83265, acc=14.55%; 35.2s
+cosine: epoch 54/300, lr=0.046247317
+  batch 1/56 CE=1.60729
+  batch 20/56 CE=1.75459
+  batch 40/56 CE=1.78714
+  batch 56/56 CE=1.82517
+  train CE=1.82517, acc=48.83%; val CE=4.71643, acc=14.42%; 34.7s
+cosine: epoch 55/300, lr=0.046108198
+  batch 1/56 CE=1.64463
+  batch 20/56 CE=1.66039
+  batch 40/56 CE=1.70466
+  batch 56/56 CE=1.71860
+  train CE=1.71860, acc=50.75%; val CE=4.58653, acc=15.66%; 34.9s
+cosine: epoch 56/300, lr=0.045966764
+  batch 1/56 CE=1.52774
+  batch 20/56 CE=1.52250
+  batch 40/56 CE=1.58101
+  batch 56/56 CE=1.64940
+  train CE=1.64940, acc=53.32%; val CE=4.74506, acc=14.68%; 35.1s
+cosine: epoch 57/300, lr=0.045823031
+  batch 1/56 CE=1.42256
+  batch 20/56 CE=1.54319
+  batch 40/56 CE=1.55539
+  batch 56/56 CE=1.59464
+  train CE=1.59464, acc=53.17%; val CE=4.91819, acc=14.87%; 34.9s
+cosine: epoch 58/300, lr=0.045677014
+  batch 1/56 CE=1.38061
+  batch 20/56 CE=1.36320
+  batch 40/56 CE=1.41471
+  batch 56/56 CE=1.45782
+  train CE=1.45782, acc=57.44%; val CE=4.98011, acc=15.13%; 34.9s
+cosine: epoch 59/300, lr=0.04552873
+  batch 1/56 CE=1.37108
+  batch 20/56 CE=1.33312
+  batch 40/56 CE=1.36701
+  batch 56/56 CE=1.41156
+  train CE=1.41156, acc=58.74%; val CE=5.14598, acc=15.07%; 35.4s
+cosine: epoch 60/300, lr=0.045378195
+  batch 1/56 CE=1.23912
+  batch 20/56 CE=1.25453
+  batch 40/56 CE=1.32121
+  batch 56/56 CE=1.36465
+  train CE=1.36465, acc=59.83%; val CE=5.13025, acc=15.46%; 35.3s
+cosine: epoch 61/300, lr=0.045225425
+  batch 1/56 CE=1.12977
+  batch 20/56 CE=1.17910
+  batch 40/56 CE=1.22174
+  batch 56/56 CE=1.26154
+  train CE=1.26154, acc=62.32%; val CE=5.26851, acc=15.72%; 34.9s
+cosine: epoch 62/300, lr=0.045070437
+  batch 1/56 CE=1.04998
+  batch 20/56 CE=1.06650
+  batch 40/56 CE=1.14029
+  batch 56/56 CE=1.17446
+  train CE=1.17446, acc=65.21%; val CE=5.36911, acc=14.87%; 35.1s
+cosine: epoch 63/300, lr=0.044913248
+  batch 1/56 CE=1.17407
+  batch 20/56 CE=1.01097
+  batch 40/56 CE=1.04889
+  batch 56/56 CE=1.06906
+  train CE=1.06906, acc=67.28%; val CE=5.47053, acc=15.13%; 34.9s
+cosine: epoch 64/300, lr=0.044753875
+  batch 1/56 CE=0.84218
+  batch 20/56 CE=0.95415
+  batch 40/56 CE=0.99042
+  batch 56/56 CE=1.02881
+  train CE=1.02881, acc=68.93%; val CE=5.46150, acc=16.44%; 34.6s
+cosine: epoch 65/300, lr=0.044592336
+  batch 1/56 CE=0.80472
+  batch 20/56 CE=0.88623
+  batch 40/56 CE=0.91555
+  batch 56/56 CE=0.96157
+  train CE=0.96157, acc=70.16%; val CE=5.58232, acc=16.76%; 34.9s
+cosine: epoch 66/300, lr=0.044428649
+  batch 1/56 CE=0.89432
+  batch 20/56 CE=0.89383
+  batch 40/56 CE=0.92624
+  batch 56/56 CE=0.95475
+  train CE=0.95475, acc=71.17%; val CE=5.66411, acc=14.09%; 35.2s
+cosine: epoch 67/300, lr=0.044262831
+  batch 1/56 CE=0.86335
+  batch 20/56 CE=0.84927
+  batch 40/56 CE=0.88520
+  batch 56/56 CE=0.90945
+  train CE=0.90945, acc=72.52%; val CE=5.60195, acc=16.18%; 35.0s
+cosine: epoch 68/300, lr=0.044094901
+  batch 1/56 CE=0.53385
+  batch 20/56 CE=0.73117
+  batch 40/56 CE=0.76060
+  batch 56/56 CE=0.77511
+  train CE=0.77511, acc=75.99%; val CE=5.74075, acc=17.22%; 35.5s
+cosine: epoch 69/300, lr=0.043924876
+  batch 1/56 CE=0.65586
+  batch 20/56 CE=0.64133
+  batch 40/56 CE=0.68204
+  batch 56/56 CE=0.71007
+  train CE=0.71007, acc=78.03%; val CE=5.96619, acc=15.13%; 34.7s
+cosine: epoch 70/300, lr=0.043752777
+  batch 1/56 CE=0.81470
+  batch 20/56 CE=0.63814
+  batch 40/56 CE=0.68654
+  batch 56/56 CE=0.70428
+  train CE=0.70428, acc=78.41%; val CE=6.06016, acc=16.96%; 34.6s
+cosine: epoch 71/300, lr=0.043578621
+  batch 1/56 CE=0.69421
+  batch 20/56 CE=0.61086
+  batch 40/56 CE=0.64010
+  batch 56/56 CE=0.65469
+  train CE=0.65469, acc=79.64%; val CE=6.13954, acc=16.11%; 35.0s
+cosine: epoch 72/300, lr=0.043402427
+  batch 1/56 CE=0.34733
+  batch 20/56 CE=0.51683
+  batch 40/56 CE=0.57857
+  batch 56/56 CE=0.60664
+  train CE=0.60664, acc=81.44%; val CE=6.26986, acc=14.87%; 35.3s
+cosine: epoch 73/300, lr=0.043224216
+  batch 1/56 CE=0.48906
+  batch 20/56 CE=0.52964
+  batch 40/56 CE=0.55608
+  batch 56/56 CE=0.57615
+  train CE=0.57615, acc=81.93%; val CE=6.32175, acc=16.50%; 34.7s
+cosine: epoch 74/300, lr=0.043044006
+  batch 1/56 CE=0.41832
+  batch 20/56 CE=0.50460
+  batch 40/56 CE=0.53256
+  batch 56/56 CE=0.56831
+  train CE=0.56831, acc=82.10%; val CE=6.41321, acc=15.26%; 34.8s
+cosine: epoch 75/300, lr=0.042861817
+  batch 1/56 CE=0.57640
+  batch 20/56 CE=0.54921
+  batch 40/56 CE=0.55754
+  batch 56/56 CE=0.56360
+  train CE=0.56360, acc=82.70%; val CE=6.41806, acc=16.18%; 34.4s
+cosine: epoch 76/300, lr=0.04267767
+  batch 1/56 CE=0.47439
+  batch 20/56 CE=0.45475
+  batch 40/56 CE=0.44664
+  batch 56/56 CE=0.46549
+  train CE=0.46549, acc=85.84%; val CE=6.27580, acc=17.22%; 35.7s
+cosine: epoch 77/300, lr=0.042491584
+  batch 1/56 CE=0.24058
+  batch 20/56 CE=0.40267
+  batch 40/56 CE=0.40279
+  batch 56/56 CE=0.41231
+  train CE=0.41231, acc=87.24%; val CE=6.55189, acc=16.89%; 35.5s
+cosine: epoch 78/300, lr=0.042303579
+  batch 1/56 CE=0.19664
+  batch 20/56 CE=0.35364
+  batch 40/56 CE=0.36373
+  batch 56/56 CE=0.38272
+  train CE=0.38272, acc=87.67%; val CE=6.64258, acc=16.24%; 35.0s
+cosine: epoch 79/300, lr=0.042113678
+  batch 1/56 CE=0.37856
+  batch 20/56 CE=0.32521
+  batch 40/56 CE=0.34663
+  batch 56/56 CE=0.36351
+  train CE=0.36351, acc=88.53%; val CE=6.61852, acc=16.05%; 34.5s
+cosine: epoch 80/300, lr=0.041921899
+  batch 1/56 CE=0.22912
+  batch 20/56 CE=0.32079
+  batch 40/56 CE=0.34420
+  batch 56/56 CE=0.36276
+  train CE=0.36276, acc=88.96%; val CE=6.61171, acc=16.57%; 34.5s
+cosine: epoch 81/300, lr=0.041728265
+  batch 1/56 CE=0.39018
+  batch 20/56 CE=0.32637
+  batch 40/56 CE=0.32128
+  batch 56/56 CE=0.32493
+  train CE=0.32493, acc=90.20%; val CE=6.79097, acc=16.24%; 34.7s
+cosine: epoch 82/300, lr=0.041532797
+  batch 1/56 CE=0.31059
+  batch 20/56 CE=0.27347
+  batch 40/56 CE=0.28115
+  batch 56/56 CE=0.28880
+  train CE=0.28880, acc=91.32%; val CE=6.85661, acc=16.96%; 35.6s
+cosine: epoch 83/300, lr=0.041335515
+  batch 1/56 CE=0.18027
+  batch 20/56 CE=0.23498
+  batch 40/56 CE=0.24924
+  batch 56/56 CE=0.25294
+  train CE=0.25294, acc=92.29%; val CE=6.92805, acc=16.76%; 34.8s
+cosine: epoch 84/300, lr=0.041136442
+  batch 1/56 CE=0.19913
+  batch 20/56 CE=0.23247
+  batch 40/56 CE=0.23957
+  batch 56/56 CE=0.24313
+  train CE=0.24313, acc=92.70%; val CE=6.73885, acc=17.48%; 35.3s
+cosine: epoch 85/300, lr=0.0409356
+  batch 1/56 CE=0.27162
+  batch 20/56 CE=0.22657
+  batch 40/56 CE=0.24029
+  batch 56/56 CE=0.25701
+  train CE=0.25701, acc=92.20%; val CE=7.09066, acc=16.37%; 34.8s
+cosine: epoch 86/300, lr=0.04073301
+  batch 1/56 CE=0.27037
+  batch 20/56 CE=0.24630
+  batch 40/56 CE=0.23615
+  batch 56/56 CE=0.23490
+  train CE=0.23490, acc=92.77%; val CE=6.95066, acc=18.26%; 34.8s
+cosine: epoch 87/300, lr=0.040528695
+  batch 1/56 CE=0.30968
+  batch 20/56 CE=0.24031
+  batch 40/56 CE=0.22906
+  batch 56/56 CE=0.23229
+  train CE=0.23229, acc=93.12%; val CE=7.00189, acc=17.55%; 34.9s
+cosine: epoch 88/300, lr=0.040322676
+  batch 1/56 CE=0.23827
+  batch 20/56 CE=0.20250
+  batch 40/56 CE=0.21355
+  batch 56/56 CE=0.22732
+  train CE=0.22732, acc=92.84%; val CE=7.09302, acc=16.96%; 35.1s
+cosine: epoch 89/300, lr=0.040114978
+  batch 1/56 CE=0.31258
+  batch 20/56 CE=0.20995
+  batch 40/56 CE=0.21827
+  batch 56/56 CE=0.22265
+  train CE=0.22265, acc=93.21%; val CE=7.00700, acc=17.35%; 34.6s
+cosine: epoch 90/300, lr=0.039905622
+  batch 1/56 CE=0.22559
+  batch 20/56 CE=0.18472
+  batch 40/56 CE=0.16953
+  batch 56/56 CE=0.16962
+  train CE=0.16962, acc=94.65%; val CE=7.11760, acc=17.16%; 34.0s
+cosine: epoch 91/300, lr=0.039694631
+  batch 1/56 CE=0.17883
+  batch 20/56 CE=0.13788
+  batch 40/56 CE=0.13711
+  batch 56/56 CE=0.14453
+  train CE=0.14453, acc=95.50%; val CE=7.20455, acc=17.48%; 35.2s
+cosine: epoch 92/300, lr=0.039482029
+  batch 1/56 CE=0.15709
+  batch 20/56 CE=0.13389
+  batch 40/56 CE=0.13250
+  batch 56/56 CE=0.13310
+  train CE=0.13310, acc=95.93%; val CE=7.16612, acc=17.22%; 37.5s
+cosine: epoch 93/300, lr=0.039267839
+  batch 1/56 CE=0.06204
+  batch 20/56 CE=0.13681
+  batch 40/56 CE=0.13870
+  batch 56/56 CE=0.14769
+  train CE=0.14769, acc=95.72%; val CE=7.38981, acc=16.44%; 37.3s
+cosine: epoch 94/300, lr=0.039052084
+  batch 1/56 CE=0.14105
+  batch 20/56 CE=0.15708
+  batch 40/56 CE=0.16415
+  batch 56/56 CE=0.16394
+  train CE=0.16394, acc=95.26%; val CE=7.32313, acc=16.83%; 43.6s
+cosine: epoch 95/300, lr=0.038834789
+  batch 1/56 CE=0.13700
+  batch 20/56 CE=0.13454
+  batch 40/56 CE=0.13776
+  batch 56/56 CE=0.14115
+  train CE=0.14115, acc=95.93%; val CE=7.37485, acc=17.61%; 42.6s
+cosine: epoch 96/300, lr=0.038615976
+  batch 1/56 CE=0.06419
+  batch 20/56 CE=0.12991
+  batch 40/56 CE=0.11873
+  batch 56/56 CE=0.12630
+  train CE=0.12630, acc=96.28%; val CE=7.51903, acc=16.50%; 42.4s
+cosine: epoch 97/300, lr=0.03839567
+  batch 1/56 CE=0.13805
+  batch 20/56 CE=0.12440
+  batch 40/56 CE=0.12956
+  batch 56/56 CE=0.13453
+  train CE=0.13453, acc=95.79%; val CE=7.38115, acc=17.35%; 43.4s
+cosine: epoch 98/300, lr=0.038173895
+  batch 1/56 CE=0.08955
+  batch 20/56 CE=0.10797
+  batch 40/56 CE=0.10960
+  batch 56/56 CE=0.11330
+  train CE=0.11330, acc=96.62%; val CE=7.41153, acc=18.66%; 43.1s
+cosine: epoch 99/300, lr=0.037950675
+  batch 1/56 CE=0.06308
+  batch 20/56 CE=0.12122
+  batch 40/56 CE=0.11386
+  batch 56/56 CE=0.11275
+  train CE=0.11275, acc=96.59%; val CE=7.45814, acc=16.24%; 44.9s
+cosine: epoch 100/300, lr=0.037726035
+  batch 1/56 CE=0.06363
+  batch 20/56 CE=0.08897
+  batch 40/56 CE=0.09261
+  batch 56/56 CE=0.10142
+  train CE=0.10142, acc=97.04%; val CE=7.59363, acc=17.55%; 44.4s
+cosine: epoch 101/300, lr=0.0375
+  batch 1/56 CE=0.05793
+  batch 20/56 CE=0.12626
+  batch 40/56 CE=0.12174
+  batch 56/56 CE=0.12509
+  train CE=0.12509, acc=96.55%; val CE=7.35318, acc=17.81%; 43.6s
+cosine: epoch 102/300, lr=0.037272594
+  batch 1/56 CE=0.09136
+  batch 20/56 CE=0.09889
+  batch 40/56 CE=0.09829
+  batch 56/56 CE=0.09963
+  train CE=0.09963, acc=97.09%; val CE=7.55007, acc=16.63%; 43.2s
+cosine: epoch 103/300, lr=0.037043842
+  batch 1/56 CE=0.06309
+  batch 20/56 CE=0.08682
+  batch 40/56 CE=0.08564
+  batch 56/56 CE=0.08498
+  train CE=0.08498, acc=97.68%; val CE=7.40262, acc=18.13%; 43.6s
+cosine: epoch 104/300, lr=0.036813769
+  batch 1/56 CE=0.04603
+  batch 20/56 CE=0.07922
+  batch 40/56 CE=0.08131
+  batch 56/56 CE=0.08331
+  train CE=0.08331, acc=97.53%; val CE=7.63182, acc=17.55%; 42.9s
+cosine: epoch 105/300, lr=0.036582401
+  batch 1/56 CE=0.04226
+  batch 20/56 CE=0.08186
+  batch 40/56 CE=0.08341
+  batch 56/56 CE=0.08237
+  train CE=0.08237, acc=97.46%; val CE=7.54084, acc=17.22%; 44.7s
+cosine: epoch 106/300, lr=0.036349762
+  batch 1/56 CE=0.02763
+  batch 20/56 CE=0.08020
+  batch 40/56 CE=0.08747
+  batch 56/56 CE=0.08417
+  train CE=0.08417, acc=97.61%; val CE=7.52610, acc=18.53%; 43.6s
+cosine: epoch 107/300, lr=0.036115879
+  batch 1/56 CE=0.05957
+  batch 20/56 CE=0.07134
+  batch 40/56 CE=0.06563
+  batch 56/56 CE=0.06227
+  train CE=0.06227, acc=98.20%; val CE=7.56709, acc=17.09%; 43.6s
+cosine: epoch 108/300, lr=0.035880777
+  batch 1/56 CE=0.02116
+  batch 20/56 CE=0.05050
+  batch 40/56 CE=0.05165
+  batch 56/56 CE=0.05454
+  train CE=0.05454, acc=98.45%; val CE=7.63150, acc=17.35%; 44.0s
+cosine: epoch 109/300, lr=0.035644482
+  batch 1/56 CE=0.03327
+  batch 20/56 CE=0.05020
+  batch 40/56 CE=0.05515
+  batch 56/56 CE=0.05429
+  train CE=0.05429, acc=98.48%; val CE=7.68098, acc=17.74%; 44.1s
+cosine: epoch 110/300, lr=0.03540702
+  batch 1/56 CE=0.01890
+  batch 20/56 CE=0.04549
+  batch 40/56 CE=0.04772
+  batch 56/56 CE=0.05248
+  train CE=0.05248, acc=98.52%; val CE=7.62319, acc=18.20%; 43.0s
+cosine: epoch 111/300, lr=0.035168416
+  batch 1/56 CE=0.01392
+  batch 20/56 CE=0.06472
+  batch 40/56 CE=0.06314
+  batch 56/56 CE=0.06216
+  train CE=0.06216, acc=98.07%; val CE=7.79140, acc=17.42%; 43.1s
+cosine: epoch 112/300, lr=0.034928697
+  batch 1/56 CE=0.00977
+  batch 20/56 CE=0.04068
+  batch 40/56 CE=0.04936
+  batch 56/56 CE=0.05277
+  train CE=0.05277, acc=98.43%; val CE=7.82605, acc=17.94%; 42.6s
+cosine: epoch 113/300, lr=0.03468789
+  batch 1/56 CE=0.07248
+  batch 20/56 CE=0.04933
+  batch 40/56 CE=0.05405
+  batch 56/56 CE=0.05916
+  train CE=0.05916, acc=98.29%; val CE=7.90809, acc=17.55%; 43.8s
+cosine: epoch 114/300, lr=0.03444602
+  batch 1/56 CE=0.05577
+  batch 20/56 CE=0.06559
+  batch 40/56 CE=0.06198
+  batch 56/56 CE=0.06254
+  train CE=0.06254, acc=97.97%; val CE=7.73669, acc=17.74%; 45.0s
+cosine: epoch 115/300, lr=0.034203114
+  batch 1/56 CE=0.13100
+  batch 20/56 CE=0.05663
+  batch 40/56 CE=0.05933
+  batch 56/56 CE=0.05881
+  train CE=0.05881, acc=98.29%; val CE=7.81725, acc=16.96%; 45.2s
+cosine: epoch 116/300, lr=0.033959199
+  batch 1/56 CE=0.03282
+  batch 20/56 CE=0.04818
+  batch 40/56 CE=0.04997
+  batch 56/56 CE=0.05242
+  train CE=0.05242, acc=98.48%; val CE=7.69328, acc=17.94%; 42.9s
+cosine: epoch 117/300, lr=0.033714301
+  batch 1/56 CE=0.07378
+  batch 20/56 CE=0.04219
+  batch 40/56 CE=0.04539
+  batch 56/56 CE=0.04823
+  train CE=0.04823, acc=98.57%; val CE=7.84215, acc=18.26%; 45.5s
+cosine: epoch 118/300, lr=0.033468448
+  batch 1/56 CE=0.03602
+  batch 20/56 CE=0.05242
+  batch 40/56 CE=0.05413
+  batch 56/56 CE=0.05364
+  train CE=0.05364, acc=98.35%; val CE=7.79357, acc=18.92%; 44.1s
+cosine: epoch 119/300, lr=0.033221666
+  batch 1/56 CE=0.05177
+  batch 20/56 CE=0.04792
+  batch 40/56 CE=0.05371
+  batch 56/56 CE=0.05209
+  train CE=0.05209, acc=98.36%; val CE=7.93553, acc=18.33%; 45.5s
+cosine: epoch 120/300, lr=0.032973983
+  batch 1/56 CE=0.02017
+  batch 20/56 CE=0.03890
+  batch 40/56 CE=0.03579
+  batch 56/56 CE=0.03969
+  train CE=0.03969, acc=98.87%; val CE=7.88858, acc=18.26%; 45.4s
+cosine: epoch 121/300, lr=0.032725425
+  batch 1/56 CE=0.02910
+  batch 20/56 CE=0.03359
+  batch 40/56 CE=0.03379
+  batch 56/56 CE=0.03514
+  train CE=0.03514, acc=98.99%; val CE=7.91336, acc=18.59%; 45.1s
+cosine: epoch 122/300, lr=0.03247602
+  batch 1/56 CE=0.00983
+  batch 20/56 CE=0.02683
+  batch 40/56 CE=0.03075
+  batch 56/56 CE=0.03191
+  train CE=0.03191, acc=99.11%; val CE=7.95180, acc=18.53%; 44.2s
+cosine: epoch 123/300, lr=0.032225795
+  batch 1/56 CE=0.02844
+  batch 20/56 CE=0.02918
+  batch 40/56 CE=0.03177
+  batch 56/56 CE=0.03391
+  train CE=0.03391, acc=99.05%; val CE=7.94878, acc=19.11%; 44.7s
+cosine: epoch 124/300, lr=0.031974778
+  batch 1/56 CE=0.03593
+  batch 20/56 CE=0.03919
+  batch 40/56 CE=0.03869
+  batch 56/56 CE=0.04058
+  train CE=0.04058, acc=98.77%; val CE=7.98028, acc=18.72%; 44.2s
+cosine: epoch 125/300, lr=0.031722996
+  batch 1/56 CE=0.01518
+  batch 20/56 CE=0.02873
+  batch 40/56 CE=0.03131
+  batch 56/56 CE=0.03266
+  train CE=0.03266, acc=99.20%; val CE=8.01166, acc=18.66%; 44.3s
+cosine: epoch 126/300, lr=0.031470476
+  batch 1/56 CE=0.07319
+  batch 20/56 CE=0.03582
+  batch 40/56 CE=0.03506
+  batch 56/56 CE=0.03470
+  train CE=0.03470, acc=99.05%; val CE=8.02866, acc=17.68%; 43.7s
+cosine: epoch 127/300, lr=0.031217247
+  batch 1/56 CE=0.01572
+  batch 20/56 CE=0.02868
+  batch 40/56 CE=0.02762
+  batch 56/56 CE=0.02974
+  train CE=0.02974, acc=99.19%; val CE=8.03397, acc=18.46%; 43.3s
+cosine: epoch 128/300, lr=0.030963336
+  batch 1/56 CE=0.02177
+  batch 20/56 CE=0.02947
+  batch 40/56 CE=0.02912
+  batch 56/56 CE=0.02770
+  train CE=0.02770, acc=99.39%; val CE=8.00517, acc=19.18%; 45.9s
+cosine: epoch 129/300, lr=0.030708772
+  batch 1/56 CE=0.02367
+  batch 20/56 CE=0.01968
+  batch 40/56 CE=0.02091
+  batch 56/56 CE=0.02310
+  train CE=0.02310, acc=99.33%; val CE=8.00876, acc=18.33%; 44.7s
+cosine: epoch 130/300, lr=0.030453581
+  batch 1/56 CE=0.03390
+  batch 20/56 CE=0.03352
+  batch 40/56 CE=0.03120
+  batch 56/56 CE=0.02991
+  train CE=0.02991, acc=99.18%; val CE=8.13127, acc=18.46%; 44.7s
+cosine: epoch 131/300, lr=0.030197792
+  batch 1/56 CE=0.08497
+  batch 20/56 CE=0.04092
+  batch 40/56 CE=0.03664
+  batch 56/56 CE=0.03660
+  train CE=0.03660, acc=98.97%; val CE=8.07233, acc=18.66%; 42.9s
+cosine: epoch 132/300, lr=0.029941434
+  batch 1/56 CE=0.01315
+  batch 20/56 CE=0.03407
+  batch 40/56 CE=0.03365
+  batch 56/56 CE=0.03084
+  train CE=0.03084, acc=99.16%; val CE=7.99313, acc=18.79%; 45.7s
+cosine: epoch 133/300, lr=0.029684533
+  batch 1/56 CE=0.01780
+  batch 20/56 CE=0.02629
+  batch 40/56 CE=0.02374
+  batch 56/56 CE=0.02464
+  train CE=0.02464, acc=99.50%; val CE=8.05523, acc=19.11%; 46.0s
+cosine: epoch 134/300, lr=0.029427119
+  batch 1/56 CE=0.03603
+  batch 20/56 CE=0.02101
+  batch 40/56 CE=0.02175
+  batch 56/56 CE=0.02090
+  train CE=0.02090, acc=99.37%; val CE=8.14487, acc=19.44%; 45.8s
+cosine: epoch 135/300, lr=0.029169219
+  batch 1/56 CE=0.00825
+  batch 20/56 CE=0.01877
+  batch 40/56 CE=0.02021
+  batch 56/56 CE=0.02011
+  train CE=0.02011, acc=99.40%; val CE=8.12487, acc=18.92%; 42.6s
+cosine: epoch 136/300, lr=0.028910862
+  batch 1/56 CE=0.01452
+  batch 20/56 CE=0.01915
+  batch 40/56 CE=0.01996
+  batch 56/56 CE=0.02168
+  train CE=0.02168, acc=99.45%; val CE=8.05668, acc=18.66%; 43.7s
+cosine: epoch 137/300, lr=0.028652076
+  batch 1/56 CE=0.00507
+  batch 20/56 CE=0.01659
+  batch 40/56 CE=0.01902
+  batch 56/56 CE=0.01769
+  train CE=0.01769, acc=99.50%; val CE=8.13540, acc=18.72%; 42.8s
+cosine: epoch 138/300, lr=0.028392889
+  batch 1/56 CE=0.01804
+  batch 20/56 CE=0.01392
+  batch 40/56 CE=0.01232
+  batch 56/56 CE=0.01476
+  train CE=0.01476, acc=99.59%; val CE=8.11222, acc=18.59%; 43.3s
+cosine: epoch 139/300, lr=0.028133331
+  batch 1/56 CE=0.01644
+  batch 20/56 CE=0.01475
+  batch 40/56 CE=0.01770
+  batch 56/56 CE=0.01815
+  train CE=0.01815, acc=99.55%; val CE=8.23129, acc=18.59%; 46.6s
+cosine: epoch 140/300, lr=0.027873429
+  batch 1/56 CE=0.00757
+  batch 20/56 CE=0.02286
+  batch 40/56 CE=0.01957
+  batch 56/56 CE=0.01787
+  train CE=0.01787, acc=99.61%; val CE=8.22780, acc=18.66%; 53.2s
+cosine: epoch 141/300, lr=0.027613212
+  batch 1/56 CE=0.02477
+  batch 20/56 CE=0.01526
+  batch 40/56 CE=0.01496
+  batch 56/56 CE=0.01400
+  train CE=0.01400, acc=99.59%; val CE=8.17669, acc=18.33%; 49.4s
+cosine: epoch 142/300, lr=0.027352708
+  batch 1/56 CE=0.01024
+  batch 20/56 CE=0.01954
+  batch 40/56 CE=0.01925
+  batch 56/56 CE=0.01884
+
+=== User-authorized verified optimization resume; existing history preserved ===
+Verified execution adapter: {'version': 1, 'adapter': 'scripts\\optimized_runtime.py', 'adapter_sha256': 'f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd', 'evidence': 'results\\performance_optimization\\equivalence.json', 'evidence_sha256': '2f981d9ea604ca06ece589ffdbe4d870670e54193bf485fc5a030b22c5828923', 'effective_from_epoch': 142, 'persistent_workers': True, 'sampler_rng_compatible': True, 'gradient_checks': 'same finite predicate; one host synchronization', 'best_checkpoint_policy': 'write on improvement; last.pt still written every epoch', 'frozen_recipe_unchanged': True, 'timing_comparability': 'execution changed; recipe and numerical trajectory verified'}
+WARNING: official data have 10 cross-split duplicate groups and 6 conflicting-label groups; original membership/labels are preserved and audited.
+cosine: epoch 142/300, lr=0.027352708
+  batch 1/56 CE=0.01024
+  batch 20/56 CE=0.01954
+  batch 40/56 CE=0.01925
+  batch 56/56 CE=0.01884
+  performance: {"train_seconds": 32.88973690000421, "validation_seconds": 18.05407890000788, "checkpoint_seconds": 0.9930867000075523, "best_checkpoint_skipped": true, "epoch": 142, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01884, acc=99.41%; val CE=8.20730, acc=19.11%; 50.9s
+cosine: epoch 143/300, lr=0.027091946
+  batch 1/56 CE=0.01032
+  batch 20/56 CE=0.01781
+  batch 40/56 CE=0.01740
+  batch 56/56 CE=0.01663
+  performance: {"train_seconds": 8.575878799994825, "validation_seconds": 1.0361586000071838, "checkpoint_seconds": 0.7573140999884345, "best_checkpoint_skipped": true, "epoch": 143, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01663, acc=99.54%; val CE=8.18043, acc=18.40%; 9.6s
+cosine: epoch 144/300, lr=0.026830955
+  batch 1/56 CE=0.01262
+  batch 20/56 CE=0.01097
+  batch 40/56 CE=0.01354
+  batch 56/56 CE=0.01341
+  performance: {"train_seconds": 8.692689599993173, "validation_seconds": 1.0542099000012968, "checkpoint_seconds": 0.7721683999989182, "best_checkpoint_skipped": true, "epoch": 144, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01341, acc=99.68%; val CE=8.16883, acc=18.59%; 9.7s
+cosine: epoch 145/300, lr=0.026569763
+  batch 1/56 CE=0.01036
+  batch 20/56 CE=0.01044
+  batch 40/56 CE=0.01635
+  batch 56/56 CE=0.01598
+  performance: {"train_seconds": 8.49293019999459, "validation_seconds": 1.0572132000088459, "checkpoint_seconds": 0.9139483000035398, "best_checkpoint_skipped": true, "epoch": 145, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01598, acc=99.58%; val CE=8.20258, acc=18.72%; 9.6s
+cosine: epoch 146/300, lr=0.026308399
+  batch 1/56 CE=0.02320
+  batch 20/56 CE=0.01802
+  batch 40/56 CE=0.01595
+  batch 56/56 CE=0.01580
+  performance: {"train_seconds": 8.608711299995775, "validation_seconds": 1.0089571999997133, "checkpoint_seconds": 0.7467415999999503, "best_checkpoint_skipped": true, "epoch": 146, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01580, acc=99.58%; val CE=8.10744, acc=18.79%; 9.6s
+cosine: epoch 147/300, lr=0.026046891
+  batch 1/56 CE=0.00691
+  batch 20/56 CE=0.00941
+  batch 40/56 CE=0.01452
+  batch 56/56 CE=0.01454
+  performance: {"train_seconds": 8.410021500007133, "validation_seconds": 1.0343147000094177, "checkpoint_seconds": 0.7541421000059927, "best_checkpoint_skipped": true, "epoch": 147, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01454, acc=99.71%; val CE=8.14937, acc=18.46%; 9.4s
+cosine: epoch 148/300, lr=0.025785269
+  batch 1/56 CE=0.03763
+  batch 20/56 CE=0.01425
+  batch 40/56 CE=0.01494
+  batch 56/56 CE=0.01406
+  performance: {"train_seconds": 8.620446700006141, "validation_seconds": 1.1152793999935966, "checkpoint_seconds": 0.8698912000108976, "best_checkpoint_skipped": true, "epoch": 148, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01406, acc=99.59%; val CE=8.19725, acc=18.46%; 9.7s
+cosine: epoch 149/300, lr=0.02552356
+  batch 1/56 CE=0.00792
+  batch 20/56 CE=0.01170
+  batch 40/56 CE=0.01234
+  batch 56/56 CE=0.01386
+  performance: {"train_seconds": 8.59996439999668, "validation_seconds": 1.0515173000021605, "checkpoint_seconds": 0.7429700999928173, "best_checkpoint_skipped": true, "epoch": 149, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01386, acc=99.66%; val CE=8.10776, acc=18.53%; 9.7s
+cosine: epoch 150/300, lr=0.025261795
+  batch 1/56 CE=0.01787
+  batch 20/56 CE=0.01181
+  batch 40/56 CE=0.01176
+  batch 56/56 CE=0.01249
+  performance: {"train_seconds": 8.433729600001243, "validation_seconds": 1.018948900004034, "checkpoint_seconds": 1.0215967000112869, "best_checkpoint_skipped": false, "epoch": 150, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01249, acc=99.73%; val CE=8.15067, acc=19.70%; 9.5s
+cosine: epoch 151/300, lr=0.025
+  batch 1/56 CE=0.00443
+  batch 20/56 CE=0.01483
+  batch 40/56 CE=0.01202
+  batch 56/56 CE=0.01178
+  performance: {"train_seconds": 8.542938800004777, "validation_seconds": 1.0348197999992408, "checkpoint_seconds": 0.7777103999978863, "best_checkpoint_skipped": true, "epoch": 151, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01178, acc=99.73%; val CE=8.15850, acc=19.24%; 9.6s
+cosine: epoch 152/300, lr=0.024738205
+  batch 1/56 CE=0.01797
+  batch 20/56 CE=0.01059
+  batch 40/56 CE=0.00944
+  batch 56/56 CE=0.00971
+  performance: {"train_seconds": 8.47748539999884, "validation_seconds": 1.247138900012942, "checkpoint_seconds": 0.7904111999960151, "best_checkpoint_skipped": true, "epoch": 152, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00971, acc=99.76%; val CE=8.16874, acc=18.26%; 9.7s
+cosine: epoch 153/300, lr=0.02447644
+  batch 1/56 CE=0.01180
+  batch 20/56 CE=0.01327
+  batch 40/56 CE=0.01193
+  batch 56/56 CE=0.01157
+  performance: {"train_seconds": 8.811896999992314, "validation_seconds": 1.0302490000030957, "checkpoint_seconds": 0.7662922000017716, "best_checkpoint_skipped": true, "epoch": 153, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01157, acc=99.75%; val CE=8.29746, acc=17.94%; 9.8s
+cosine: epoch 154/300, lr=0.024214731
+  batch 1/56 CE=0.00303
+  batch 20/56 CE=0.01169
+  batch 40/56 CE=0.01105
+  batch 56/56 CE=0.01247
+  performance: {"train_seconds": 8.687453100006678, "validation_seconds": 1.0703519999951823, "checkpoint_seconds": 0.7298486999934539, "best_checkpoint_skipped": true, "epoch": 154, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01247, acc=99.64%; val CE=8.27420, acc=17.22%; 9.8s
+cosine: epoch 155/300, lr=0.023953109
+  batch 1/56 CE=0.03033
+  batch 20/56 CE=0.01027
+  batch 40/56 CE=0.01021
+  batch 56/56 CE=0.00916
+  performance: {"train_seconds": 8.618209199994453, "validation_seconds": 1.0284839000087231, "checkpoint_seconds": 0.7395555999974022, "best_checkpoint_skipped": true, "epoch": 155, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00916, acc=99.79%; val CE=8.23112, acc=18.59%; 9.6s
+cosine: epoch 156/300, lr=0.023691601
+  batch 1/56 CE=0.00350
+  batch 20/56 CE=0.00925
+  batch 40/56 CE=0.00892
+  batch 56/56 CE=0.00887
+  performance: {"train_seconds": 8.41846169999917, "validation_seconds": 1.0498313999996753, "checkpoint_seconds": 0.7606339999911143, "best_checkpoint_skipped": true, "epoch": 156, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00887, acc=99.79%; val CE=8.30315, acc=18.00%; 9.5s
+cosine: epoch 157/300, lr=0.023430237
+  batch 1/56 CE=0.00536
+  batch 20/56 CE=0.00545
+  batch 40/56 CE=0.00765
+  batch 56/56 CE=0.00831
+  performance: {"train_seconds": 9.028932899993379, "validation_seconds": 1.035703299989109, "checkpoint_seconds": 0.9541349000064656, "best_checkpoint_skipped": true, "epoch": 157, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00831, acc=99.86%; val CE=8.30209, acc=18.33%; 10.1s
+cosine: epoch 158/300, lr=0.023169045
+  batch 1/56 CE=0.00399
+  batch 20/56 CE=0.01113
+  batch 40/56 CE=0.00920
+  batch 56/56 CE=0.00850
+  performance: {"train_seconds": 9.21795839999686, "validation_seconds": 1.049625699990429, "checkpoint_seconds": 0.7652109000046039, "best_checkpoint_skipped": true, "epoch": 158, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00850, acc=99.75%; val CE=8.29974, acc=18.13%; 10.3s
+cosine: epoch 159/300, lr=0.022908054
+  batch 1/56 CE=0.00817
+  batch 20/56 CE=0.00895
+  batch 40/56 CE=0.00892
+  batch 56/56 CE=0.00894
+  performance: {"train_seconds": 8.752717499999562, "validation_seconds": 1.0673754000017652, "checkpoint_seconds": 0.7949044000124559, "best_checkpoint_skipped": true, "epoch": 159, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00894, acc=99.72%; val CE=8.27368, acc=18.46%; 9.8s
+cosine: epoch 160/300, lr=0.022647292
+  batch 1/56 CE=0.03168
+  batch 20/56 CE=0.00985
+  batch 40/56 CE=0.00927
+  batch 56/56 CE=0.00829
+  performance: {"train_seconds": 8.70548270001018, "validation_seconds": 1.0737732999987202, "checkpoint_seconds": 0.7587666000035824, "best_checkpoint_skipped": true, "epoch": 160, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00829, acc=99.78%; val CE=8.28216, acc=18.79%; 9.8s
+cosine: epoch 161/300, lr=0.022386788
+  batch 1/56 CE=0.00229
+  batch 20/56 CE=0.00531
+  batch 40/56 CE=0.00753
+  batch 56/56 CE=0.00913
+  performance: {"train_seconds": 8.887298699992243, "validation_seconds": 1.0390066999971168, "checkpoint_seconds": 0.7834882000024663, "best_checkpoint_skipped": true, "epoch": 161, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00913, acc=99.80%; val CE=8.32825, acc=18.92%; 9.9s
+cosine: epoch 162/300, lr=0.022126571
+  batch 1/56 CE=0.00217
+  batch 20/56 CE=0.00776
+  batch 40/56 CE=0.00808
+  batch 56/56 CE=0.00812
+  performance: {"train_seconds": 8.892196700006025, "validation_seconds": 1.144154499997967, "checkpoint_seconds": 0.8069305000099121, "best_checkpoint_skipped": true, "epoch": 162, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00812, acc=99.82%; val CE=8.34640, acc=18.79%; 10.0s
+cosine: epoch 163/300, lr=0.021866669
+  batch 1/56 CE=0.00377
+  batch 20/56 CE=0.00577
+  batch 40/56 CE=0.00722
+  batch 56/56 CE=0.00797
+  performance: {"train_seconds": 8.78652530000545, "validation_seconds": 1.0521019000007072, "checkpoint_seconds": 0.7499878000089666, "best_checkpoint_skipped": true, "epoch": 163, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00797, acc=99.83%; val CE=8.31460, acc=18.85%; 9.8s
+cosine: epoch 164/300, lr=0.021607111
+  batch 1/56 CE=0.00395
+  batch 20/56 CE=0.00817
+  batch 40/56 CE=0.00751
+  batch 56/56 CE=0.00751
+  performance: {"train_seconds": 8.885807600003318, "validation_seconds": 1.055308299997705, "checkpoint_seconds": 0.7766523999889614, "best_checkpoint_skipped": true, "epoch": 164, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00751, acc=99.80%; val CE=8.31891, acc=19.70%; 9.9s
+cosine: epoch 165/300, lr=0.021347924
+  batch 1/56 CE=0.00913
+  batch 20/56 CE=0.00658
+  batch 40/56 CE=0.00644
+  batch 56/56 CE=0.00686
+  performance: {"train_seconds": 8.80218130000867, "validation_seconds": 1.0896509000012884, "checkpoint_seconds": 0.7921814000001177, "best_checkpoint_skipped": true, "epoch": 165, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00686, acc=99.87%; val CE=8.34765, acc=18.53%; 9.9s
+cosine: epoch 166/300, lr=0.021089138
+  batch 1/56 CE=0.00339
+  batch 20/56 CE=0.00814
+  batch 40/56 CE=0.00701
+  batch 56/56 CE=0.00830
+  performance: {"train_seconds": 8.872363900009077, "validation_seconds": 1.094241900005727, "checkpoint_seconds": 0.7693699000083143, "best_checkpoint_skipped": true, "epoch": 166, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00830, acc=99.80%; val CE=8.31864, acc=19.57%; 10.0s
+cosine: epoch 167/300, lr=0.020830781
+  batch 1/56 CE=0.00176
+  batch 20/56 CE=0.00597
+  batch 40/56 CE=0.00828
+  batch 56/56 CE=0.00728
+  performance: {"train_seconds": 8.94227640000463, "validation_seconds": 1.023650799994357, "checkpoint_seconds": 0.8442113999917638, "best_checkpoint_skipped": true, "epoch": 167, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00728, acc=99.80%; val CE=8.31884, acc=19.18%; 10.0s
+cosine: epoch 168/300, lr=0.020572881
+  batch 1/56 CE=0.00407
+  batch 20/56 CE=0.00871
+  batch 40/56 CE=0.00768
+  batch 56/56 CE=0.00822
+  performance: {"train_seconds": 8.874081400004798, "validation_seconds": 1.0468166999926325, "checkpoint_seconds": 0.802339200003189, "best_checkpoint_skipped": true, "epoch": 168, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00822, acc=99.80%; val CE=8.24278, acc=18.79%; 9.9s
+cosine: epoch 169/300, lr=0.020315467
+  batch 1/56 CE=0.00303
+  batch 20/56 CE=0.00576
+  batch 40/56 CE=0.00816
+  batch 56/56 CE=0.00869
+  performance: {"train_seconds": 8.985836899999413, "validation_seconds": 1.063568599987775, "checkpoint_seconds": 0.7734297999995761, "best_checkpoint_skipped": true, "epoch": 169, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00869, acc=99.76%; val CE=8.28310, acc=18.72%; 10.0s
+cosine: epoch 170/300, lr=0.020058566
+  batch 1/56 CE=0.01484
+  batch 20/56 CE=0.00443
+  batch 40/56 CE=0.00524
+  batch 56/56 CE=0.00555
+  performance: {"train_seconds": 8.778871700007585, "validation_seconds": 1.0446815000032075, "checkpoint_seconds": 0.7565821000025608, "best_checkpoint_skipped": true, "epoch": 170, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00555, acc=99.87%; val CE=8.32685, acc=18.72%; 9.8s
+cosine: epoch 171/300, lr=0.019802208
+  batch 1/56 CE=0.00307
+  batch 20/56 CE=0.00608
+  batch 40/56 CE=0.00581
+  batch 56/56 CE=0.00574
+  performance: {"train_seconds": 8.639586100005545, "validation_seconds": 1.0687738000124227, "checkpoint_seconds": 0.746958400006406, "best_checkpoint_skipped": true, "epoch": 171, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00574, acc=99.89%; val CE=8.35351, acc=19.05%; 9.7s
+cosine: epoch 172/300, lr=0.019546419
+  batch 1/56 CE=0.00277
+  batch 20/56 CE=0.00471
+  batch 40/56 CE=0.00504
+  batch 56/56 CE=0.00522
+  performance: {"train_seconds": 8.775780199997826, "validation_seconds": 1.080847300007008, "checkpoint_seconds": 0.7652302000060445, "best_checkpoint_skipped": true, "epoch": 172, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00522, acc=99.89%; val CE=8.33264, acc=18.85%; 9.9s
+cosine: epoch 173/300, lr=0.019291228
+  batch 1/56 CE=0.00764
+  batch 20/56 CE=0.00602
+  batch 40/56 CE=0.00637
+  batch 56/56 CE=0.00761
+  performance: {"train_seconds": 9.047023399994941, "validation_seconds": 1.0820015000062995, "checkpoint_seconds": 0.7933075000037206, "best_checkpoint_skipped": true, "epoch": 173, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00761, acc=99.86%; val CE=8.33968, acc=18.98%; 10.1s
+cosine: epoch 174/300, lr=0.019036664
+  batch 1/56 CE=0.00511
+  batch 20/56 CE=0.00615
+  batch 40/56 CE=0.00531
+  batch 56/56 CE=0.00550
+  performance: {"train_seconds": 8.963557499999297, "validation_seconds": 1.0722234999993816, "checkpoint_seconds": 0.7681806999898981, "best_checkpoint_skipped": true, "epoch": 174, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00550, acc=99.89%; val CE=8.33579, acc=19.57%; 10.0s
+cosine: epoch 175/300, lr=0.018782753
+  batch 1/56 CE=0.00205
+  batch 20/56 CE=0.00673
+  batch 40/56 CE=0.00662
+  batch 56/56 CE=0.00642
+  performance: {"train_seconds": 8.85297609999543, "validation_seconds": 1.0526553000090644, "checkpoint_seconds": 0.829066199992667, "best_checkpoint_skipped": true, "epoch": 175, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00642, acc=99.80%; val CE=8.37530, acc=19.37%; 9.9s
+cosine: epoch 176/300, lr=0.018529524
+  batch 1/56 CE=0.00102
+  batch 20/56 CE=0.00814
+  batch 40/56 CE=0.00730
+  batch 56/56 CE=0.00648
+  performance: {"train_seconds": 8.77193050000642, "validation_seconds": 1.0789856999908807, "checkpoint_seconds": 0.9095838000066578, "best_checkpoint_skipped": true, "epoch": 176, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00648, acc=99.80%; val CE=8.39528, acc=19.18%; 9.9s
+cosine: epoch 177/300, lr=0.018277004
+  batch 1/56 CE=0.00326
+  batch 20/56 CE=0.00562
+  batch 40/56 CE=0.00677
+  batch 56/56 CE=0.00693
+  performance: {"train_seconds": 8.795554500000435, "validation_seconds": 1.043467099996633, "checkpoint_seconds": 0.8172896000032779, "best_checkpoint_skipped": true, "epoch": 177, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00693, acc=99.80%; val CE=8.35975, acc=19.05%; 9.8s
+cosine: epoch 178/300, lr=0.018025222
+  batch 1/56 CE=0.00283
+  batch 20/56 CE=0.00755
+  batch 40/56 CE=0.00643
+  batch 56/56 CE=0.00662
+  performance: {"train_seconds": 8.93515330000082, "validation_seconds": 1.0529530000058003, "checkpoint_seconds": 0.7805755000008503, "best_checkpoint_skipped": true, "epoch": 178, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00662, acc=99.80%; val CE=8.32895, acc=19.18%; 10.0s
+cosine: epoch 179/300, lr=0.017774205
+  batch 1/56 CE=0.00443
+  batch 20/56 CE=0.00866
+  batch 40/56 CE=0.00662
+  batch 56/56 CE=0.00614
+  performance: {"train_seconds": 8.820872600001167, "validation_seconds": 1.0537971000012476, "checkpoint_seconds": 0.7932956000004197, "best_checkpoint_skipped": true, "epoch": 179, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00614, acc=99.85%; val CE=8.26926, acc=18.98%; 9.9s
+cosine: epoch 180/300, lr=0.01752398
+  batch 1/56 CE=0.00079
+  batch 20/56 CE=0.00576
+  batch 40/56 CE=0.00652
+  batch 56/56 CE=0.00624
+  performance: {"train_seconds": 8.739411899994593, "validation_seconds": 1.057348300004378, "checkpoint_seconds": 0.9834393999917665, "best_checkpoint_skipped": true, "epoch": 180, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00624, acc=99.85%; val CE=8.28282, acc=19.57%; 9.8s
+cosine: epoch 181/300, lr=0.017274575
+  batch 1/56 CE=0.00221
+  batch 20/56 CE=0.00655
+  batch 40/56 CE=0.00552
+  batch 56/56 CE=0.00524
+  performance: {"train_seconds": 8.992108799997368, "validation_seconds": 1.0923204999999143, "checkpoint_seconds": 0.8739167000021553, "best_checkpoint_skipped": true, "epoch": 181, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00524, acc=99.87%; val CE=8.31094, acc=18.85%; 10.1s
+cosine: epoch 182/300, lr=0.017026017
+  batch 1/56 CE=0.00145
+  batch 20/56 CE=0.00470
+  batch 40/56 CE=0.00478
+  batch 56/56 CE=0.00566
+  performance: {"train_seconds": 8.949418999996851, "validation_seconds": 1.0225324000057299, "checkpoint_seconds": 0.8538930000067921, "best_checkpoint_skipped": true, "epoch": 182, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00566, acc=99.89%; val CE=8.35014, acc=19.63%; 10.0s
+cosine: epoch 183/300, lr=0.016778334
+  batch 1/56 CE=0.02236
+  batch 20/56 CE=0.00695
+  batch 40/56 CE=0.00607
+  batch 56/56 CE=0.00635
+  performance: {"train_seconds": 8.818399999989197, "validation_seconds": 1.0876282999961404, "checkpoint_seconds": 0.7819623999967007, "best_checkpoint_skipped": true, "epoch": 183, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00635, acc=99.83%; val CE=8.34774, acc=18.66%; 9.9s
+cosine: epoch 184/300, lr=0.016531552
+  batch 1/56 CE=0.01469
+  batch 20/56 CE=0.00476
+  batch 40/56 CE=0.00461
+  batch 56/56 CE=0.00477
+  performance: {"train_seconds": 8.702829400004703, "validation_seconds": 1.0142306000052486, "checkpoint_seconds": 0.8245006000070134, "best_checkpoint_skipped": true, "epoch": 184, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00477, acc=99.93%; val CE=8.36526, acc=19.24%; 9.7s
+cosine: epoch 185/300, lr=0.016285699
+  batch 1/56 CE=0.00097
+  batch 20/56 CE=0.00552
+  batch 40/56 CE=0.00566
+  batch 56/56 CE=0.00522
+  performance: {"train_seconds": 8.786857099999906, "validation_seconds": 1.090077899993048, "checkpoint_seconds": 0.882967199999257, "best_checkpoint_skipped": true, "epoch": 185, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00522, acc=99.86%; val CE=8.33022, acc=19.11%; 9.9s
+cosine: epoch 186/300, lr=0.016040801
+  batch 1/56 CE=0.00520
+  batch 20/56 CE=0.00682
+  batch 40/56 CE=0.00505
+  batch 56/56 CE=0.00528
+  performance: {"train_seconds": 8.871808099996997, "validation_seconds": 1.2797759000095539, "checkpoint_seconds": 1.1842093000013847, "best_checkpoint_skipped": false, "epoch": 186, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00528, acc=99.85%; val CE=8.31217, acc=19.83%; 10.2s
+cosine: epoch 187/300, lr=0.015796886
+  batch 1/56 CE=0.00166
+  batch 20/56 CE=0.00333
+  batch 40/56 CE=0.00380
+  batch 56/56 CE=0.00441
+  performance: {"train_seconds": 8.782514799997443, "validation_seconds": 1.0593561999994563, "checkpoint_seconds": 0.8499994000012521, "best_checkpoint_skipped": true, "epoch": 187, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00441, acc=99.94%; val CE=8.31531, acc=19.70%; 9.8s
+cosine: epoch 188/300, lr=0.01555398
+  batch 1/56 CE=0.00528
+  batch 20/56 CE=0.00764
+  batch 40/56 CE=0.00597
+  batch 56/56 CE=0.00561
+  performance: {"train_seconds": 8.72739040000306, "validation_seconds": 1.0623840000043856, "checkpoint_seconds": 1.0673462000122527, "best_checkpoint_skipped": false, "epoch": 188, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00561, acc=99.89%; val CE=8.29689, acc=19.90%; 9.8s
+cosine: epoch 189/300, lr=0.01531211
+  batch 1/56 CE=0.00467
+  batch 20/56 CE=0.00341
+  batch 40/56 CE=0.00358
+  batch 56/56 CE=0.00350
+  performance: {"train_seconds": 8.694049800003995, "validation_seconds": 1.2875980000098934, "checkpoint_seconds": 0.8131094999989728, "best_checkpoint_skipped": true, "epoch": 189, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00350, acc=99.92%; val CE=8.31329, acc=19.50%; 10.0s
+cosine: epoch 190/300, lr=0.015071303
+  batch 1/56 CE=0.00639
+  batch 20/56 CE=0.00483
+  batch 40/56 CE=0.00396
+  batch 56/56 CE=0.00352
+  performance: {"train_seconds": 8.890390299988212, "validation_seconds": 1.0931188999966253, "checkpoint_seconds": 0.7834224999969592, "best_checkpoint_skipped": true, "epoch": 190, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00352, acc=99.90%; val CE=8.31528, acc=19.63%; 10.0s
+cosine: epoch 191/300, lr=0.014831584
+  batch 1/56 CE=0.00080
+  batch 20/56 CE=0.00561
+  batch 40/56 CE=0.00453
+  batch 56/56 CE=0.00467
+  performance: {"train_seconds": 8.832806699996581, "validation_seconds": 1.0429816000105347, "checkpoint_seconds": 0.7483072000031825, "best_checkpoint_skipped": true, "epoch": 191, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00467, acc=99.86%; val CE=8.35093, acc=19.70%; 9.9s
+cosine: epoch 192/300, lr=0.01459298
+  batch 1/56 CE=0.00239
+  batch 20/56 CE=0.00437
+  batch 40/56 CE=0.00466
+  batch 56/56 CE=0.00403
+  performance: {"train_seconds": 8.712374900002033, "validation_seconds": 1.1341534000093816, "checkpoint_seconds": 0.961477200005902, "best_checkpoint_skipped": true, "epoch": 192, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00403, acc=99.87%; val CE=8.32843, acc=19.63%; 9.8s
+cosine: epoch 193/300, lr=0.014355518
+  batch 1/56 CE=0.00549
+  batch 20/56 CE=0.00340
+  batch 40/56 CE=0.00298
+  batch 56/56 CE=0.00339
+  performance: {"train_seconds": 8.718023200010066, "validation_seconds": 1.0570373000082327, "checkpoint_seconds": 0.8116245999990497, "best_checkpoint_skipped": true, "epoch": 193, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00339, acc=99.94%; val CE=8.33397, acc=19.63%; 9.8s
+cosine: epoch 194/300, lr=0.014119223
+  batch 1/56 CE=0.00156
+  batch 20/56 CE=0.00499
+  batch 40/56 CE=0.00489
+  batch 56/56 CE=0.00431
+  performance: {"train_seconds": 8.738994400002412, "validation_seconds": 1.0477204000053462, "checkpoint_seconds": 0.7866237999987788, "best_checkpoint_skipped": true, "epoch": 194, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00431, acc=99.89%; val CE=8.31439, acc=19.83%; 9.8s
+cosine: epoch 195/300, lr=0.013884121
+  batch 1/56 CE=0.00061
+  batch 20/56 CE=0.00586
+  batch 40/56 CE=0.00548
+  batch 56/56 CE=0.00503
+  performance: {"train_seconds": 8.852981700008968, "validation_seconds": 1.0394329999980982, "checkpoint_seconds": 0.7718426999927033, "best_checkpoint_skipped": true, "epoch": 195, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00503, acc=99.83%; val CE=8.29851, acc=19.70%; 9.9s
+cosine: epoch 196/300, lr=0.013650238
+  batch 1/56 CE=0.00080
+  batch 20/56 CE=0.00352
+  batch 40/56 CE=0.00353
+  batch 56/56 CE=0.00393
+  performance: {"train_seconds": 8.695441200005007, "validation_seconds": 1.0681647999881534, "checkpoint_seconds": 0.7764159000071231, "best_checkpoint_skipped": true, "epoch": 196, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00393, acc=99.93%; val CE=8.31638, acc=19.63%; 9.8s
+cosine: epoch 197/300, lr=0.013417599
+  batch 1/56 CE=0.00148
+  batch 20/56 CE=0.00463
+  batch 40/56 CE=0.00402
+  batch 56/56 CE=0.00407
+  performance: {"train_seconds": 8.968135699993582, "validation_seconds": 1.0410964000038803, "checkpoint_seconds": 0.7635718000092311, "best_checkpoint_skipped": true, "epoch": 197, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00407, acc=99.92%; val CE=8.30682, acc=19.18%; 10.0s
+cosine: epoch 198/300, lr=0.013186231
+  batch 1/56 CE=0.00125
+  batch 20/56 CE=0.00286
+  batch 40/56 CE=0.00368
+  batch 56/56 CE=0.00375
+  performance: {"train_seconds": 8.650668800008134, "validation_seconds": 1.0913888000068255, "checkpoint_seconds": 0.8235570999968331, "best_checkpoint_skipped": true, "epoch": 198, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00375, acc=99.90%; val CE=8.32250, acc=19.11%; 9.7s
+cosine: epoch 199/300, lr=0.012956158
+  batch 1/56 CE=0.00341
+  batch 20/56 CE=0.00371
+  batch 40/56 CE=0.00377
+  batch 56/56 CE=0.00371
+  performance: {"train_seconds": 8.755883299993002, "validation_seconds": 1.0416524000029312, "checkpoint_seconds": 0.7396203000098467, "best_checkpoint_skipped": true, "epoch": 199, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00371, acc=99.92%; val CE=8.35986, acc=19.37%; 9.8s
+cosine: epoch 200/300, lr=0.012727406
+  batch 1/56 CE=0.00085
+  batch 20/56 CE=0.00290
+  batch 40/56 CE=0.00404
+  batch 56/56 CE=0.00411
+  performance: {"train_seconds": 8.653206800008775, "validation_seconds": 1.044233799999347, "checkpoint_seconds": 0.7659920000005513, "best_checkpoint_skipped": true, "epoch": 200, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00411, acc=99.97%; val CE=8.35418, acc=19.50%; 9.7s
+cosine: epoch 201/300, lr=0.0125
+  batch 1/56 CE=0.00398
+  batch 20/56 CE=0.00675
+  batch 40/56 CE=0.00476
+  batch 56/56 CE=0.00457
+  performance: {"train_seconds": 8.776079699993716, "validation_seconds": 1.2317202000122052, "checkpoint_seconds": 0.9735010000003967, "best_checkpoint_skipped": true, "epoch": 201, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00457, acc=99.89%; val CE=8.37168, acc=19.57%; 10.0s
+cosine: epoch 202/300, lr=0.012273965
+  batch 1/56 CE=0.00081
+  batch 20/56 CE=0.00317
+  batch 40/56 CE=0.00278
+  batch 56/56 CE=0.00298
+  performance: {"train_seconds": 9.271758400005638, "validation_seconds": 1.0268766000081087, "checkpoint_seconds": 0.7252837999985786, "best_checkpoint_skipped": true, "epoch": 202, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00298, acc=99.96%; val CE=8.36502, acc=19.31%; 10.3s
+cosine: epoch 203/300, lr=0.012049325
+  batch 1/56 CE=0.00041
+  batch 20/56 CE=0.00308
+  batch 40/56 CE=0.00282
+  batch 56/56 CE=0.00309
+  performance: {"train_seconds": 9.079979799993453, "validation_seconds": 1.1175581999996211, "checkpoint_seconds": 0.9600738999870373, "best_checkpoint_skipped": true, "epoch": 203, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00309, acc=99.94%; val CE=8.36241, acc=19.24%; 10.2s
+cosine: epoch 204/300, lr=0.011826105
+  batch 1/56 CE=0.00109
+  batch 20/56 CE=0.00268
+  batch 40/56 CE=0.00245
+  batch 56/56 CE=0.00290
+  performance: {"train_seconds": 8.848062000004575, "validation_seconds": 1.0241528000042308, "checkpoint_seconds": 0.766178799996851, "best_checkpoint_skipped": true, "epoch": 204, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00290, acc=99.94%; val CE=8.44834, acc=19.11%; 9.9s
+cosine: epoch 205/300, lr=0.01160433
+  batch 1/56 CE=0.00186
+  batch 20/56 CE=0.00255
+  batch 40/56 CE=0.00226
+  batch 56/56 CE=0.00260
+  performance: {"train_seconds": 8.568140700008371, "validation_seconds": 1.0563227999955416, "checkpoint_seconds": 0.7491980999911902, "best_checkpoint_skipped": true, "epoch": 205, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00260, acc=99.97%; val CE=8.36381, acc=19.63%; 9.6s
+cosine: epoch 206/300, lr=0.011384024
+  batch 1/56 CE=0.00183
+  batch 20/56 CE=0.00202
+  batch 40/56 CE=0.00289
+  batch 56/56 CE=0.00263
+  performance: {"train_seconds": 8.72394379999605, "validation_seconds": 1.036112800007686, "checkpoint_seconds": 0.7618153000075836, "best_checkpoint_skipped": true, "epoch": 206, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00263, acc=99.97%; val CE=8.43902, acc=18.85%; 9.8s
+cosine: epoch 207/300, lr=0.011165211
+  batch 1/56 CE=0.00118
+  batch 20/56 CE=0.00279
+  batch 40/56 CE=0.00301
+  batch 56/56 CE=0.00301
+  performance: {"train_seconds": 8.907996999987517, "validation_seconds": 1.0200922999938484, "checkpoint_seconds": 0.7843963999912376, "best_checkpoint_skipped": true, "epoch": 207, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00301, acc=99.96%; val CE=8.38632, acc=19.18%; 9.9s
+cosine: epoch 208/300, lr=0.010947916
+  batch 1/56 CE=0.00304
+  batch 20/56 CE=0.00546
+  batch 40/56 CE=0.00423
+  batch 56/56 CE=0.00373
+  performance: {"train_seconds": 9.078618999992614, "validation_seconds": 1.0773915000027046, "checkpoint_seconds": 0.7584250000072643, "best_checkpoint_skipped": true, "epoch": 208, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00373, acc=99.92%; val CE=8.42809, acc=18.85%; 10.2s
+cosine: epoch 209/300, lr=0.010732161
+  batch 1/56 CE=0.00079
+  batch 20/56 CE=0.00325
+  batch 40/56 CE=0.00288
+  batch 56/56 CE=0.00279
+  performance: {"train_seconds": 8.616043699992588, "validation_seconds": 1.2632379999995464, "checkpoint_seconds": 0.8329061999975238, "best_checkpoint_skipped": true, "epoch": 209, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00279, acc=99.93%; val CE=8.39354, acc=19.11%; 9.9s
+cosine: epoch 210/300, lr=0.010517971
+  batch 1/56 CE=0.00165
+  batch 20/56 CE=0.00326
+  batch 40/56 CE=0.00469
+  batch 56/56 CE=0.00421
+  performance: {"train_seconds": 8.598498599996674, "validation_seconds": 1.0328968999965582, "checkpoint_seconds": 0.7490789000003133, "best_checkpoint_skipped": true, "epoch": 210, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00421, acc=99.89%; val CE=8.39871, acc=18.98%; 9.6s
+cosine: epoch 211/300, lr=0.010305369
+  batch 1/56 CE=0.00054
+  batch 20/56 CE=0.00363
+  batch 40/56 CE=0.00380
+  batch 56/56 CE=0.00415
+  performance: {"train_seconds": 8.57150599999295, "validation_seconds": 1.087159899994731, "checkpoint_seconds": 0.7623081000056118, "best_checkpoint_skipped": true, "epoch": 211, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00415, acc=99.86%; val CE=8.35516, acc=18.85%; 9.7s
+cosine: epoch 212/300, lr=0.010094378
+  batch 1/56 CE=0.00138
+  batch 20/56 CE=0.00469
+  batch 40/56 CE=0.00365
+  batch 56/56 CE=0.00356
+  performance: {"train_seconds": 8.52117750000616, "validation_seconds": 1.0302231999958167, "checkpoint_seconds": 0.7770682999980636, "best_checkpoint_skipped": true, "epoch": 212, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00356, acc=99.93%; val CE=8.40224, acc=19.24%; 9.6s
+cosine: epoch 213/300, lr=0.0098850221
+  batch 1/56 CE=0.00080
+  batch 20/56 CE=0.00322
+  batch 40/56 CE=0.00304
+  batch 56/56 CE=0.00372
+  performance: {"train_seconds": 8.544339000000036, "validation_seconds": 1.0183736000035424, "checkpoint_seconds": 0.8230584999982966, "best_checkpoint_skipped": true, "epoch": 213, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00372, acc=99.90%; val CE=8.37819, acc=18.53%; 9.6s
+cosine: epoch 214/300, lr=0.0096773237
+  batch 1/56 CE=0.00158
+  batch 20/56 CE=0.00239
+  batch 40/56 CE=0.00306
+  batch 56/56 CE=0.00402
+  performance: {"train_seconds": 8.597880300003453, "validation_seconds": 1.0325646999990568, "checkpoint_seconds": 0.758654999997816, "best_checkpoint_skipped": true, "epoch": 214, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00402, acc=99.87%; val CE=8.35559, acc=18.92%; 9.6s
+cosine: epoch 215/300, lr=0.0094713055
+  batch 1/56 CE=0.00065
+  batch 20/56 CE=0.00289
+  batch 40/56 CE=0.00333
+  batch 56/56 CE=0.00293
+  performance: {"train_seconds": 8.87355099999695, "validation_seconds": 1.2539016000082484, "checkpoint_seconds": 0.8221857000025921, "best_checkpoint_skipped": true, "epoch": 215, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00293, acc=99.94%; val CE=8.36822, acc=19.05%; 10.1s
+cosine: epoch 216/300, lr=0.0092669902
+  batch 1/56 CE=0.00149
+  batch 20/56 CE=0.00326
+  batch 40/56 CE=0.00304
+  batch 56/56 CE=0.00414
+  performance: {"train_seconds": 9.005193199991481, "validation_seconds": 1.0400221000018064, "checkpoint_seconds": 0.8275730000023032, "best_checkpoint_skipped": true, "epoch": 216, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00414, acc=99.90%; val CE=8.37189, acc=19.24%; 10.0s
+cosine: epoch 217/300, lr=0.0090644003
+  batch 1/56 CE=0.00055
+  batch 20/56 CE=0.00148
+  batch 40/56 CE=0.00247
+  batch 56/56 CE=0.00277
+  performance: {"train_seconds": 8.7476747000037, "validation_seconds": 1.0568290000082925, "checkpoint_seconds": 0.7551362000085646, "best_checkpoint_skipped": true, "epoch": 217, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00277, acc=99.92%; val CE=8.37944, acc=19.63%; 9.8s
+cosine: epoch 218/300, lr=0.0088635578
+  batch 1/56 CE=0.00090
+  batch 20/56 CE=0.00452
+  batch 40/56 CE=0.00340
+  batch 56/56 CE=0.00388
+  performance: {"train_seconds": 8.83581299999787, "validation_seconds": 1.0546332000085386, "checkpoint_seconds": 0.8030008999921847, "best_checkpoint_skipped": true, "epoch": 218, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00388, acc=99.92%; val CE=8.39145, acc=19.50%; 9.9s
+cosine: epoch 219/300, lr=0.0086644849
+  batch 1/56 CE=0.00015
+  batch 20/56 CE=0.00255
+  batch 40/56 CE=0.00271
+  batch 56/56 CE=0.00313
+  performance: {"train_seconds": 8.527907399999094, "validation_seconds": 1.030184699993697, "checkpoint_seconds": 0.7825939000031212, "best_checkpoint_skipped": true, "epoch": 219, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00313, acc=99.90%; val CE=8.37220, acc=19.50%; 9.6s
+cosine: epoch 220/300, lr=0.0084672034
+  batch 1/56 CE=0.00085
+  batch 20/56 CE=0.00428
+  batch 40/56 CE=0.00350
+  batch 56/56 CE=0.00314
+  performance: {"train_seconds": 8.667081799998414, "validation_seconds": 1.0457327000040095, "checkpoint_seconds": 0.8436535999935586, "best_checkpoint_skipped": true, "epoch": 220, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00314, acc=99.93%; val CE=8.36833, acc=19.63%; 9.7s
+cosine: epoch 221/300, lr=0.0082717348
+  batch 1/56 CE=0.00086
+  batch 20/56 CE=0.00199
+  batch 40/56 CE=0.00290
+  batch 56/56 CE=0.00260
+  performance: {"train_seconds": 9.5287432000041, "validation_seconds": 1.0994098000082886, "checkpoint_seconds": 0.9094669999903999, "best_checkpoint_skipped": true, "epoch": 221, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00260, acc=99.96%; val CE=8.35767, acc=19.24%; 10.6s
+cosine: epoch 222/300, lr=0.0080781008
+  batch 1/56 CE=0.00094
+  batch 20/56 CE=0.00229
+  batch 40/56 CE=0.00278
+  batch 56/56 CE=0.00387
+  performance: {"train_seconds": 8.035035199995036, "validation_seconds": 0.9525936999998521, "checkpoint_seconds": 0.7344130999990739, "best_checkpoint_skipped": true, "epoch": 222, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00387, acc=99.92%; val CE=8.43177, acc=19.11%; 9.0s
+cosine: epoch 223/300, lr=0.0078863224
+  batch 1/56 CE=0.00340
+  batch 20/56 CE=0.00454
+  batch 40/56 CE=0.00314
+  batch 56/56 CE=0.00264
+  performance: {"train_seconds": 7.592242700004135, "validation_seconds": 0.9668157000123756, "checkpoint_seconds": 0.7323542999947676, "best_checkpoint_skipped": true, "epoch": 223, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00264, acc=99.97%; val CE=8.39683, acc=19.18%; 8.6s
+cosine: epoch 224/300, lr=0.0076964207
+  batch 1/56 CE=0.00153
+  batch 20/56 CE=0.00255
+  batch 40/56 CE=0.00383
+  batch 56/56 CE=0.00385
+  performance: {"train_seconds": 7.475159900001017, "validation_seconds": 0.9812938999966718, "checkpoint_seconds": 0.736829100002069, "best_checkpoint_skipped": true, "epoch": 224, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00385, acc=99.92%; val CE=8.40808, acc=18.92%; 8.5s
+cosine: epoch 225/300, lr=0.0075084165
+  batch 1/56 CE=0.00379
+  batch 20/56 CE=0.00370
+  batch 40/56 CE=0.00342
+  batch 56/56 CE=0.00289
+  performance: {"train_seconds": 7.535880299998098, "validation_seconds": 0.9486089999991236, "checkpoint_seconds": 0.7327253999974346, "best_checkpoint_skipped": true, "epoch": 225, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00289, acc=99.93%; val CE=8.40937, acc=19.18%; 8.5s
+cosine: epoch 226/300, lr=0.0073223305
+  batch 1/56 CE=0.00034
+  batch 20/56 CE=0.00193
+  batch 40/56 CE=0.00235
+  batch 56/56 CE=0.00246
+  performance: {"train_seconds": 8.355673500002013, "validation_seconds": 0.9519556000013836, "checkpoint_seconds": 0.8542769999912707, "best_checkpoint_skipped": true, "epoch": 226, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00246, acc=99.94%; val CE=8.40745, acc=18.98%; 9.3s
+cosine: epoch 227/300, lr=0.007138183
+  batch 1/56 CE=0.00146
+  batch 20/56 CE=0.00447
+  batch 40/56 CE=0.00369
+  batch 56/56 CE=0.00326
+  performance: {"train_seconds": 7.822686200001044, "validation_seconds": 0.8499434999976074, "checkpoint_seconds": 0.7542516999965301, "best_checkpoint_skipped": true, "epoch": 227, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00326, acc=99.93%; val CE=8.37371, acc=19.11%; 8.7s
+cosine: epoch 228/300, lr=0.0069559943
+  batch 1/56 CE=0.00110
+  batch 20/56 CE=0.00269
+  batch 40/56 CE=0.00269
+  batch 56/56 CE=0.00347
+  performance: {"train_seconds": 6.981760000009672, "validation_seconds": 0.7832952000026125, "checkpoint_seconds": 0.7101742000086233, "best_checkpoint_skipped": true, "epoch": 228, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00347, acc=99.89%; val CE=8.41543, acc=19.11%; 7.8s
+cosine: epoch 229/300, lr=0.0067757843
+  batch 1/56 CE=0.00161
+  batch 20/56 CE=0.00174
+  batch 40/56 CE=0.00209
+  batch 56/56 CE=0.00229
+  performance: {"train_seconds": 6.872972099998151, "validation_seconds": 0.7829560999962268, "checkpoint_seconds": 0.6924373999936506, "best_checkpoint_skipped": true, "epoch": 229, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00229, acc=99.96%; val CE=8.38023, acc=19.57%; 7.7s
+cosine: epoch 230/300, lr=0.0065975728
+  batch 1/56 CE=0.02332
+  batch 20/56 CE=0.00327
+  batch 40/56 CE=0.00399
+  batch 56/56 CE=0.00368
+  performance: {"train_seconds": 6.998787799995625, "validation_seconds": 0.8194944999995641, "checkpoint_seconds": 0.7422603000013623, "best_checkpoint_skipped": true, "epoch": 230, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00368, acc=99.92%; val CE=8.41762, acc=19.44%; 7.8s
+cosine: epoch 231/300, lr=0.0064213794
+  batch 1/56 CE=0.00306
+  batch 20/56 CE=0.00421
+  batch 40/56 CE=0.00398
+  batch 56/56 CE=0.00375
+  performance: {"train_seconds": 6.893997899998794, "validation_seconds": 0.7914524999941932, "checkpoint_seconds": 0.6536001000058604, "best_checkpoint_skipped": true, "epoch": 231, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00375, acc=99.94%; val CE=8.39829, acc=19.11%; 7.7s
+cosine: epoch 232/300, lr=0.0062472233
+  batch 1/56 CE=0.00109
+  batch 20/56 CE=0.00404
+  batch 40/56 CE=0.00318
+  batch 56/56 CE=0.00285
+  performance: {"train_seconds": 6.840861300006509, "validation_seconds": 0.7913731000007829, "checkpoint_seconds": 0.6469119999965187, "best_checkpoint_skipped": true, "epoch": 232, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00285, acc=99.93%; val CE=8.40701, acc=18.98%; 7.6s
+cosine: epoch 233/300, lr=0.0060751236
+  batch 1/56 CE=0.00096
+  batch 20/56 CE=0.00210
+  batch 40/56 CE=0.00270
+  batch 56/56 CE=0.00285
+  performance: {"train_seconds": 6.754668900000979, "validation_seconds": 0.7802437999926042, "checkpoint_seconds": 0.6857240999961505, "best_checkpoint_skipped": true, "epoch": 233, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00285, acc=99.93%; val CE=8.40850, acc=19.05%; 7.5s
+cosine: epoch 234/300, lr=0.0059050993
+  batch 1/56 CE=0.00453
+  batch 20/56 CE=0.00209
+  batch 40/56 CE=0.00270
+  batch 56/56 CE=0.00305
+  performance: {"train_seconds": 6.834975999998278, "validation_seconds": 0.8070107999956235, "checkpoint_seconds": 0.6613795000012033, "best_checkpoint_skipped": true, "epoch": 234, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00305, acc=99.93%; val CE=8.42145, acc=18.92%; 7.6s
+cosine: epoch 235/300, lr=0.0057371689
+  batch 1/56 CE=0.00048
+  batch 20/56 CE=0.00224
+  batch 40/56 CE=0.00276
+  batch 56/56 CE=0.00224
+  performance: {"train_seconds": 6.948064100011834, "validation_seconds": 0.7857056999928318, "checkpoint_seconds": 0.6922558000078425, "best_checkpoint_skipped": true, "epoch": 235, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00224, acc=99.94%; val CE=8.40248, acc=19.18%; 7.7s
+cosine: epoch 236/300, lr=0.005571351
+  batch 1/56 CE=0.00043
+  batch 20/56 CE=0.00267
+  batch 40/56 CE=0.00296
+  batch 56/56 CE=0.00271
+  performance: {"train_seconds": 6.897493700002087, "validation_seconds": 0.7749119000072824, "checkpoint_seconds": 0.6461211999994703, "best_checkpoint_skipped": true, "epoch": 236, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00271, acc=99.94%; val CE=8.38481, acc=19.24%; 7.7s
+cosine: epoch 237/300, lr=0.0054076636
+  batch 1/56 CE=0.00116
+  batch 20/56 CE=0.00295
+  batch 40/56 CE=0.00299
+  batch 56/56 CE=0.00285
+  performance: {"train_seconds": 6.778284400003031, "validation_seconds": 0.7853565999976126, "checkpoint_seconds": 0.6516440000123112, "best_checkpoint_skipped": true, "epoch": 237, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00285, acc=99.94%; val CE=8.40744, acc=18.85%; 7.6s
+cosine: epoch 238/300, lr=0.0052461247
+  batch 1/56 CE=0.00050
+  batch 20/56 CE=0.00229
+  batch 40/56 CE=0.00228
+  batch 56/56 CE=0.00243
+  performance: {"train_seconds": 6.866832500003511, "validation_seconds": 0.7921042000089074, "checkpoint_seconds": 0.6557042999920668, "best_checkpoint_skipped": true, "epoch": 238, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00243, acc=99.96%; val CE=8.41160, acc=19.57%; 7.7s
+cosine: epoch 239/300, lr=0.005086752
+  batch 1/56 CE=0.00104
+  batch 20/56 CE=0.00311
+  batch 40/56 CE=0.00245
+  batch 56/56 CE=0.00269
+  performance: {"train_seconds": 6.745600900001591, "validation_seconds": 0.7787458999955561, "checkpoint_seconds": 0.6840330000122776, "best_checkpoint_skipped": true, "epoch": 239, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00269, acc=99.97%; val CE=8.39469, acc=19.11%; 7.5s
+cosine: epoch 240/300, lr=0.0049295631
+  batch 1/56 CE=0.01662
+  batch 20/56 CE=0.00406
+  batch 40/56 CE=0.00324
+  batch 56/56 CE=0.00298
+  performance: {"train_seconds": 6.77675150000141, "validation_seconds": 0.7784316000033868, "checkpoint_seconds": 0.6498561000043992, "best_checkpoint_skipped": true, "epoch": 240, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00298, acc=99.96%; val CE=8.39021, acc=19.05%; 7.6s
+cosine: epoch 241/300, lr=0.0047745751
+  batch 1/56 CE=0.00413
+  batch 20/56 CE=0.00184
+  batch 40/56 CE=0.00157
+  batch 56/56 CE=0.00187
+  performance: {"train_seconds": 6.866145799998776, "validation_seconds": 0.8093583000008948, "checkpoint_seconds": 0.6537285999947926, "best_checkpoint_skipped": true, "epoch": 241, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00187, acc=99.99%; val CE=8.40897, acc=19.50%; 7.7s
+cosine: epoch 242/300, lr=0.0046218051
+  batch 1/56 CE=0.00127
+  batch 20/56 CE=0.00326
+  batch 40/56 CE=0.00341
+  batch 56/56 CE=0.00364
+  performance: {"train_seconds": 6.741133899995475, "validation_seconds": 0.7818992000102298, "checkpoint_seconds": 0.6535377999971388, "best_checkpoint_skipped": true, "epoch": 242, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00364, acc=99.89%; val CE=8.40364, acc=19.24%; 7.5s
+cosine: epoch 243/300, lr=0.0044712698
+  batch 1/56 CE=0.00130
+  batch 20/56 CE=0.00225
+  batch 40/56 CE=0.00270
+  batch 56/56 CE=0.00288
+  performance: {"train_seconds": 6.802250900000217, "validation_seconds": 0.815094700010377, "checkpoint_seconds": 0.6962973999907263, "best_checkpoint_skipped": true, "epoch": 243, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00288, acc=99.94%; val CE=8.42952, acc=19.11%; 7.6s
+cosine: epoch 244/300, lr=0.0043229856
+  batch 1/56 CE=0.00466
+  batch 20/56 CE=0.00198
+  batch 40/56 CE=0.00191
+  batch 56/56 CE=0.00263
+  performance: {"train_seconds": 6.81816290000279, "validation_seconds": 0.808765100009623, "checkpoint_seconds": 0.6482229999965057, "best_checkpoint_skipped": true, "epoch": 244, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00263, acc=99.97%; val CE=8.43565, acc=19.24%; 7.6s
+cosine: epoch 245/300, lr=0.004176969
+  batch 1/56 CE=0.01891
+  batch 20/56 CE=0.00266
+  batch 40/56 CE=0.00266
+  batch 56/56 CE=0.00233
+  performance: {"train_seconds": 6.7379476000060095, "validation_seconds": 0.8107578999915859, "checkpoint_seconds": 0.654758499993477, "best_checkpoint_skipped": true, "epoch": 245, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00233, acc=99.97%; val CE=8.39424, acc=19.24%; 7.5s
+cosine: epoch 246/300, lr=0.0040332358
+  batch 1/56 CE=0.00415
+  batch 20/56 CE=0.00227
+  batch 40/56 CE=0.00248
+  batch 56/56 CE=0.00307
+  performance: {"train_seconds": 7.25914300000295, "validation_seconds": 0.8397696999891195, "checkpoint_seconds": 0.6820938000018941, "best_checkpoint_skipped": true, "epoch": 246, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00307, acc=99.92%; val CE=8.41714, acc=19.24%; 8.1s
+cosine: epoch 247/300, lr=0.0038918019
+  batch 1/56 CE=0.00023
+  batch 20/56 CE=0.00486
+  batch 40/56 CE=0.00339
+  batch 56/56 CE=0.00304
+  performance: {"train_seconds": 6.928986200000509, "validation_seconds": 0.7730851999949664, "checkpoint_seconds": 0.6555107999884058, "best_checkpoint_skipped": true, "epoch": 247, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00304, acc=99.90%; val CE=8.40647, acc=18.79%; 7.7s
+cosine: epoch 248/300, lr=0.0037526827
+  batch 1/56 CE=0.00170
+  batch 20/56 CE=0.00136
+  batch 40/56 CE=0.00239
+  batch 56/56 CE=0.00261
+  performance: {"train_seconds": 6.844073000000208, "validation_seconds": 0.7748158000031253, "checkpoint_seconds": 0.6556450000061886, "best_checkpoint_skipped": true, "epoch": 248, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00261, acc=99.94%; val CE=8.40197, acc=19.11%; 7.6s
+cosine: epoch 249/300, lr=0.0036158935
+  batch 1/56 CE=0.00314
+  batch 20/56 CE=0.00292
+  batch 40/56 CE=0.00350
+  batch 56/56 CE=0.00324
+  performance: {"train_seconds": 6.8641080999950645, "validation_seconds": 0.7737133000046015, "checkpoint_seconds": 0.6499374999984866, "best_checkpoint_skipped": true, "epoch": 249, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00324, acc=99.93%; val CE=8.42210, acc=18.98%; 7.6s
+cosine: epoch 250/300, lr=0.0034814493
+  batch 1/56 CE=0.00254
+  batch 20/56 CE=0.00131
+  batch 40/56 CE=0.00233
+  batch 56/56 CE=0.00278
+  performance: {"train_seconds": 6.944867199999862, "validation_seconds": 0.8057178000017302, "checkpoint_seconds": 0.6905240999913076, "best_checkpoint_skipped": true, "epoch": 250, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00278, acc=99.93%; val CE=8.40587, acc=18.85%; 7.8s
+cosine: epoch 251/300, lr=0.0033493649
+  batch 1/56 CE=0.00380
+  batch 20/56 CE=0.00295
+  batch 40/56 CE=0.00259
+  batch 56/56 CE=0.00253
+  performance: {"train_seconds": 6.7420112999971025, "validation_seconds": 0.7827956000110134, "checkpoint_seconds": 0.6563799000141444, "best_checkpoint_skipped": true, "epoch": 251, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00253, acc=99.93%; val CE=8.40664, acc=18.79%; 7.5s
+cosine: epoch 252/300, lr=0.0032196547
+  batch 1/56 CE=0.00091
+  batch 20/56 CE=0.00157
+  batch 40/56 CE=0.00194
+  batch 56/56 CE=0.00249
+  performance: {"train_seconds": 6.928351299997303, "validation_seconds": 0.8100768000003882, "checkpoint_seconds": 0.6522804999985965, "best_checkpoint_skipped": true, "epoch": 252, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00249, acc=99.94%; val CE=8.39366, acc=18.66%; 7.7s
+cosine: epoch 253/300, lr=0.003092333
+  batch 1/56 CE=0.01021
+  batch 20/56 CE=0.00178
+  batch 40/56 CE=0.00229
+  batch 56/56 CE=0.00267
+  performance: {"train_seconds": 6.947942800004967, "validation_seconds": 0.8004454000038095, "checkpoint_seconds": 0.6505123000097228, "best_checkpoint_skipped": true, "epoch": 253, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00267, acc=99.94%; val CE=8.41411, acc=19.31%; 7.7s
+cosine: epoch 254/300, lr=0.0029674137
+  batch 1/56 CE=0.00689
+  batch 20/56 CE=0.00208
+  batch 40/56 CE=0.00217
+  batch 56/56 CE=0.00242
+  performance: {"train_seconds": 6.822693599999184, "validation_seconds": 0.7747189000074286, "checkpoint_seconds": 0.6549507000017911, "best_checkpoint_skipped": true, "epoch": 254, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00242, acc=99.96%; val CE=8.39100, acc=19.11%; 7.6s
+cosine: epoch 255/300, lr=0.0028449105
+  batch 1/56 CE=0.00027
+  batch 20/56 CE=0.00214
+  batch 40/56 CE=0.00192
+  batch 56/56 CE=0.00164
+  performance: {"train_seconds": 6.822280799999135, "validation_seconds": 0.8681586000020616, "checkpoint_seconds": 0.6800419000064721, "best_checkpoint_skipped": true, "epoch": 255, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00164, acc=99.99%; val CE=8.41731, acc=19.37%; 7.7s
+cosine: epoch 256/300, lr=0.0027248369
+  batch 1/56 CE=0.01189
+  batch 20/56 CE=0.00215
+  batch 40/56 CE=0.00243
+  batch 56/56 CE=0.00256
+  performance: {"train_seconds": 6.776266599990777, "validation_seconds": 0.809501800002181, "checkpoint_seconds": 0.748548400006257, "best_checkpoint_skipped": true, "epoch": 256, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00256, acc=99.93%; val CE=8.44947, acc=18.40%; 7.6s
+cosine: epoch 257/300, lr=0.002607206
+  batch 1/56 CE=0.00017
+  batch 20/56 CE=0.00132
+  batch 40/56 CE=0.00235
+  batch 56/56 CE=0.00251
+  performance: {"train_seconds": 6.95942460000515, "validation_seconds": 0.7898764999990817, "checkpoint_seconds": 0.7003371999890078, "best_checkpoint_skipped": true, "epoch": 257, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00251, acc=99.92%; val CE=8.41091, acc=19.24%; 7.7s
+cosine: epoch 258/300, lr=0.0024920307
+  batch 1/56 CE=0.00064
+  batch 20/56 CE=0.00228
+  batch 40/56 CE=0.00286
+  batch 56/56 CE=0.00287
+  performance: {"train_seconds": 6.946587200000067, "validation_seconds": 0.8033543000055943, "checkpoint_seconds": 0.6738599000091199, "best_checkpoint_skipped": true, "epoch": 258, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00287, acc=99.92%; val CE=8.40676, acc=18.79%; 7.8s
+cosine: epoch 259/300, lr=0.0023793237
+  batch 1/56 CE=0.00097
+  batch 20/56 CE=0.00193
+  batch 40/56 CE=0.00237
+  batch 56/56 CE=0.00230
+  performance: {"train_seconds": 6.897444100002758, "validation_seconds": 0.8112237000023015, "checkpoint_seconds": 0.7287397000036435, "best_checkpoint_skipped": true, "epoch": 259, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00230, acc=99.94%; val CE=8.44123, acc=19.11%; 7.7s
+cosine: epoch 260/300, lr=0.0022690973
+  batch 1/56 CE=0.00752
+  batch 20/56 CE=0.00253
+  batch 40/56 CE=0.00314
+  batch 56/56 CE=0.00264
+  performance: {"train_seconds": 7.076669899994158, "validation_seconds": 0.8365476000035414, "checkpoint_seconds": 0.9468499999929918, "best_checkpoint_skipped": true, "epoch": 260, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00264, acc=99.93%; val CE=8.38515, acc=18.92%; 7.9s
+cosine: epoch 261/300, lr=0.0021613636
+  batch 1/56 CE=0.01315
+  batch 20/56 CE=0.00448
+  batch 40/56 CE=0.00308
+  batch 56/56 CE=0.00304
+  performance: {"train_seconds": 13.09291839999787, "validation_seconds": 2.681830200002878, "checkpoint_seconds": 0.9291947000019718, "best_checkpoint_skipped": true, "epoch": 261, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00304, acc=99.89%; val CE=8.40985, acc=19.50%; 15.8s
+cosine: epoch 262/300, lr=0.0020561344
+  batch 1/56 CE=0.00606
+  batch 20/56 CE=0.00186
+  batch 40/56 CE=0.00183
+  batch 56/56 CE=0.00252
+  performance: {"train_seconds": 6.9144312999997055, "validation_seconds": 0.9099787000013748, "checkpoint_seconds": 1.0551907000044594, "best_checkpoint_skipped": true, "epoch": 262, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00252, acc=99.97%; val CE=8.44931, acc=18.92%; 7.8s
+cosine: epoch 263/300, lr=0.0019534212
+  batch 1/56 CE=0.00117
+  batch 20/56 CE=0.00321
+  batch 40/56 CE=0.00288
+  batch 56/56 CE=0.00271
+  performance: {"train_seconds": 6.76106279999658, "validation_seconds": 0.8230507999978727, "checkpoint_seconds": 0.8383412999974098, "best_checkpoint_skipped": true, "epoch": 263, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00271, acc=99.93%; val CE=8.44332, acc=18.98%; 7.6s
+cosine: epoch 264/300, lr=0.0018532354
+  batch 1/56 CE=0.00031
+  batch 20/56 CE=0.00287
+  batch 40/56 CE=0.00215
+  batch 56/56 CE=0.00216
+  performance: {"train_seconds": 6.990818300007959, "validation_seconds": 0.7893020000046818, "checkpoint_seconds": 0.6994793999911053, "best_checkpoint_skipped": true, "epoch": 264, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00216, acc=99.93%; val CE=8.44273, acc=18.92%; 7.8s
+cosine: epoch 265/300, lr=0.0017555879
+  batch 1/56 CE=0.00057
+  batch 20/56 CE=0.00340
+  batch 40/56 CE=0.00244
+  batch 56/56 CE=0.00274
+  performance: {"train_seconds": 6.908869999999297, "validation_seconds": 0.8142733999993652, "checkpoint_seconds": 0.8339389000029769, "best_checkpoint_skipped": true, "epoch": 265, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00274, acc=99.90%; val CE=8.42357, acc=18.92%; 7.7s
+cosine: epoch 266/300, lr=0.0016604893
+  batch 1/56 CE=0.01638
+  batch 20/56 CE=0.00360
+  batch 40/56 CE=0.00327
+  batch 56/56 CE=0.00297
+  performance: {"train_seconds": 6.893177299993113, "validation_seconds": 0.8271323999942979, "checkpoint_seconds": 0.739189300002181, "best_checkpoint_skipped": true, "epoch": 266, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00297, acc=99.90%; val CE=8.44151, acc=19.05%; 7.7s
+cosine: epoch 267/300, lr=0.0015679503
+  batch 1/56 CE=0.00116
+  batch 20/56 CE=0.00225
+  batch 40/56 CE=0.00301
+  batch 56/56 CE=0.00303
+  performance: {"train_seconds": 7.0569188999943435, "validation_seconds": 0.8675819999916712, "checkpoint_seconds": 0.7250454000022728, "best_checkpoint_skipped": true, "epoch": 267, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00303, acc=99.90%; val CE=8.45129, acc=18.66%; 7.9s
+cosine: epoch 268/300, lr=0.0014779808
+  batch 1/56 CE=0.00194
+  batch 20/56 CE=0.00270
+  batch 40/56 CE=0.00214
+  batch 56/56 CE=0.00271
+  performance: {"train_seconds": 6.873858600010863, "validation_seconds": 0.7921903999958886, "checkpoint_seconds": 0.7934383000101661, "best_checkpoint_skipped": true, "epoch": 268, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00271, acc=99.93%; val CE=8.41303, acc=19.18%; 7.7s
+cosine: epoch 269/300, lr=0.0013905907
+  batch 1/56 CE=0.00149
+  batch 20/56 CE=0.00130
+  batch 40/56 CE=0.00298
+  batch 56/56 CE=0.00256
+  performance: {"train_seconds": 7.029328399992664, "validation_seconds": 0.7902731999929529, "checkpoint_seconds": 0.7389487000036752, "best_checkpoint_skipped": true, "epoch": 269, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00256, acc=99.94%; val CE=8.41150, acc=19.05%; 7.8s
+cosine: epoch 270/300, lr=0.0013057897
+  batch 1/56 CE=0.00077
+  batch 20/56 CE=0.00231
+  batch 40/56 CE=0.00300
+  batch 56/56 CE=0.00251
+  performance: {"train_seconds": 6.939298299999791, "validation_seconds": 0.793564299994614, "checkpoint_seconds": 0.7729191000107676, "best_checkpoint_skipped": true, "epoch": 270, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00251, acc=99.96%; val CE=8.39443, acc=18.98%; 7.7s
+cosine: epoch 271/300, lr=0.0012235871
+  batch 1/56 CE=0.00055
+  batch 20/56 CE=0.00256
+  batch 40/56 CE=0.00212
+  batch 56/56 CE=0.00236
+  performance: {"train_seconds": 6.867790599993896, "validation_seconds": 0.844380499998806, "checkpoint_seconds": 0.7358432000037283, "best_checkpoint_skipped": true, "epoch": 271, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00236, acc=99.96%; val CE=8.41701, acc=18.92%; 7.7s
+cosine: epoch 272/300, lr=0.0011439918
+  batch 1/56 CE=0.00035
+  batch 20/56 CE=0.00215
+  batch 40/56 CE=0.00168
+  batch 56/56 CE=0.00221
+  performance: {"train_seconds": 6.8815362000023015, "validation_seconds": 0.8148475999914808, "checkpoint_seconds": 0.6882898000039859, "best_checkpoint_skipped": true, "epoch": 272, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00221, acc=99.96%; val CE=8.43231, acc=18.85%; 7.7s
+cosine: epoch 273/300, lr=0.0010670126
+  batch 1/56 CE=0.00428
+  batch 20/56 CE=0.00283
+  batch 40/56 CE=0.00336
+  batch 56/56 CE=0.00323
+  performance: {"train_seconds": 6.870698099999572, "validation_seconds": 0.7945077000040328, "checkpoint_seconds": 0.7112991999892984, "best_checkpoint_skipped": true, "epoch": 273, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00323, acc=99.92%; val CE=8.43089, acc=18.98%; 7.7s
+cosine: epoch 274/300, lr=0.00099265786
+  batch 1/56 CE=0.00267
+  batch 20/56 CE=0.00324
+  batch 40/56 CE=0.00244
+  batch 56/56 CE=0.00260
+  performance: {"train_seconds": 6.815502999990713, "validation_seconds": 0.780846499998006, "checkpoint_seconds": 0.7404819000075804, "best_checkpoint_skipped": true, "epoch": 274, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00260, acc=99.94%; val CE=8.44654, acc=18.72%; 7.6s
+cosine: epoch 275/300, lr=0.00092093583
+  batch 1/56 CE=0.00289
+  batch 20/56 CE=0.00650
+  batch 40/56 CE=0.00518
+  batch 56/56 CE=0.00411
+  performance: {"train_seconds": 6.954721900008735, "validation_seconds": 0.79043079999974, "checkpoint_seconds": 0.6946709000039846, "best_checkpoint_skipped": true, "epoch": 275, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00411, acc=99.93%; val CE=8.42187, acc=19.24%; 7.7s
+cosine: epoch 276/300, lr=0.00085185434
+  batch 1/56 CE=0.00121
+  batch 20/56 CE=0.00404
+  batch 40/56 CE=0.00353
+  batch 56/56 CE=0.00366
+  performance: {"train_seconds": 6.706039499986218, "validation_seconds": 0.8356981999968411, "checkpoint_seconds": 0.6754127000021981, "best_checkpoint_skipped": true, "epoch": 276, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00366, acc=99.89%; val CE=8.41946, acc=18.79%; 7.5s
+cosine: epoch 277/300, lr=0.00078542097
+  batch 1/56 CE=0.00105
+  batch 20/56 CE=0.00257
+  batch 40/56 CE=0.00312
+  batch 56/56 CE=0.00386
+  performance: {"train_seconds": 6.884099400005653, "validation_seconds": 0.7915131000045221, "checkpoint_seconds": 0.6629149000073085, "best_checkpoint_skipped": true, "epoch": 277, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00386, acc=99.90%; val CE=8.42920, acc=19.11%; 7.7s
+cosine: epoch 278/300, lr=0.000721643
+  batch 1/56 CE=0.00031
+  batch 20/56 CE=0.00290
+  batch 40/56 CE=0.00243
+  batch 56/56 CE=0.00237
+  performance: {"train_seconds": 6.98163619999832, "validation_seconds": 0.821248199994443, "checkpoint_seconds": 0.7991087999980664, "best_checkpoint_skipped": true, "epoch": 278, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00237, acc=99.92%; val CE=8.39928, acc=19.31%; 7.8s
+cosine: epoch 279/300, lr=0.00066052743
+  batch 1/56 CE=0.00197
+  batch 20/56 CE=0.00193
+  batch 40/56 CE=0.00176
+  batch 56/56 CE=0.00175
+  performance: {"train_seconds": 6.895969099990907, "validation_seconds": 0.7887927999981912, "checkpoint_seconds": 0.6832370000047376, "best_checkpoint_skipped": true, "epoch": 279, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00175, acc=99.97%; val CE=8.41639, acc=19.11%; 7.7s
+cosine: epoch 280/300, lr=0.00060208095
+  batch 1/56 CE=0.00018
+  batch 20/56 CE=0.00189
+  batch 40/56 CE=0.00203
+  batch 56/56 CE=0.00218
+  performance: {"train_seconds": 7.008709000001545, "validation_seconds": 0.8378674000123283, "checkpoint_seconds": 0.6819727999973111, "best_checkpoint_skipped": true, "epoch": 280, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00218, acc=99.97%; val CE=8.39132, acc=19.11%; 7.8s
+cosine: epoch 281/300, lr=0.00054630998
+  batch 1/56 CE=0.00352
+  batch 20/56 CE=0.00274
+  batch 40/56 CE=0.00262
+  batch 56/56 CE=0.00260
+  performance: {"train_seconds": 7.132858199998736, "validation_seconds": 0.8279749999928754, "checkpoint_seconds": 0.7511935999937123, "best_checkpoint_skipped": true, "epoch": 281, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00260, acc=99.96%; val CE=8.39206, acc=19.18%; 8.0s
+cosine: epoch 282/300, lr=0.00049322063
+  batch 1/56 CE=0.00369
+  batch 20/56 CE=0.00153
+  batch 40/56 CE=0.00180
+  batch 56/56 CE=0.00271
+  performance: {"train_seconds": 6.890845899994019, "validation_seconds": 0.8018081999907736, "checkpoint_seconds": 0.6615770000062184, "best_checkpoint_skipped": true, "epoch": 282, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00271, acc=99.94%; val CE=8.43019, acc=18.98%; 7.7s
+cosine: epoch 283/300, lr=0.00044281873
+  batch 1/56 CE=0.00257
+  batch 20/56 CE=0.00290
+  batch 40/56 CE=0.00214
+  batch 56/56 CE=0.00225
+  performance: {"train_seconds": 6.826976399999694, "validation_seconds": 0.8452583999896888, "checkpoint_seconds": 0.6780263999971794, "best_checkpoint_skipped": true, "epoch": 283, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00225, acc=99.94%; val CE=8.41714, acc=19.11%; 7.7s
+cosine: epoch 284/300, lr=0.0003951098
+  batch 1/56 CE=0.00031
+  batch 20/56 CE=0.00263
+  batch 40/56 CE=0.00232
+  batch 56/56 CE=0.00223
+  performance: {"train_seconds": 6.784625000000233, "validation_seconds": 0.784381100005703, "checkpoint_seconds": 0.6736233999981778, "best_checkpoint_skipped": true, "epoch": 284, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00223, acc=99.93%; val CE=8.41560, acc=18.59%; 7.6s
+cosine: epoch 285/300, lr=0.00035009907
+  batch 1/56 CE=0.00134
+  batch 20/56 CE=0.00186
+  batch 40/56 CE=0.00332
+  batch 56/56 CE=0.00289
+  performance: {"train_seconds": 6.860173300010501, "validation_seconds": 0.7746372999972664, "checkpoint_seconds": 0.640249500007485, "best_checkpoint_skipped": true, "epoch": 285, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00289, acc=99.93%; val CE=8.40152, acc=19.31%; 7.6s
+cosine: epoch 286/300, lr=0.00030779149
+  batch 1/56 CE=0.00014
+  batch 20/56 CE=0.00163
+  batch 40/56 CE=0.00207
+  batch 56/56 CE=0.00188
+  performance: {"train_seconds": 6.9310491000069305, "validation_seconds": 0.7889415000099689, "checkpoint_seconds": 0.666581600002246, "best_checkpoint_skipped": true, "epoch": 286, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00188, acc=99.96%; val CE=8.39961, acc=19.18%; 7.7s
+cosine: epoch 287/300, lr=0.00026819168
+  batch 1/56 CE=0.01280
+  batch 20/56 CE=0.00212
+  batch 40/56 CE=0.00314
+  batch 56/56 CE=0.00263
+  performance: {"train_seconds": 6.8859058000089135, "validation_seconds": 0.781281300005503, "checkpoint_seconds": 0.6901221000007354, "best_checkpoint_skipped": true, "epoch": 287, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00263, acc=99.89%; val CE=8.41602, acc=19.18%; 7.7s
+cosine: epoch 288/300, lr=0.00023130399
+  batch 1/56 CE=0.00487
+  batch 20/56 CE=0.00270
+  batch 40/56 CE=0.00215
+  batch 56/56 CE=0.00245
+  performance: {"train_seconds": 6.770819600002142, "validation_seconds": 0.7917442000034498, "checkpoint_seconds": 0.6626419999956852, "best_checkpoint_skipped": true, "epoch": 288, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00245, acc=99.93%; val CE=8.41198, acc=19.24%; 7.6s
+cosine: epoch 289/300, lr=0.00019713247
+  batch 1/56 CE=0.00102
+  batch 20/56 CE=0.00125
+  batch 40/56 CE=0.00347
+  batch 56/56 CE=0.00309
+  performance: {"train_seconds": 6.8918957999994745, "validation_seconds": 0.795343399993726, "checkpoint_seconds": 0.654572300001746, "best_checkpoint_skipped": true, "epoch": 289, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00309, acc=99.94%; val CE=8.40612, acc=19.05%; 7.7s
+cosine: epoch 290/300, lr=0.00016568086
+  batch 1/56 CE=0.00095
+  batch 20/56 CE=0.00357
+  batch 40/56 CE=0.00282
+  batch 56/56 CE=0.00245
+  performance: {"train_seconds": 6.719810599999619, "validation_seconds": 0.7967155999940587, "checkpoint_seconds": 0.6862031999917235, "best_checkpoint_skipped": true, "epoch": 290, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00245, acc=99.96%; val CE=8.41880, acc=19.44%; 7.5s
+cosine: epoch 291/300, lr=0.00013695262
+  batch 1/56 CE=0.00901
+  batch 20/56 CE=0.00198
+  batch 40/56 CE=0.00230
+  batch 56/56 CE=0.00219
+  performance: {"train_seconds": 6.880929100007052, "validation_seconds": 0.7945764000032796, "checkpoint_seconds": 0.7251599000010174, "best_checkpoint_skipped": true, "epoch": 291, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00219, acc=99.94%; val CE=8.40337, acc=19.24%; 7.7s
+cosine: epoch 292/300, lr=0.00011095088
+  batch 1/56 CE=0.00148
+  batch 20/56 CE=0.00214
+  batch 40/56 CE=0.00312
+  batch 56/56 CE=0.00377
+  performance: {"train_seconds": 6.854904199994053, "validation_seconds": 0.8097985999920638, "checkpoint_seconds": 0.6860910999967018, "best_checkpoint_skipped": true, "epoch": 292, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00377, acc=99.90%; val CE=8.42378, acc=19.24%; 7.7s
+cosine: epoch 293/300, lr=8.7678519e-05
+  batch 1/56 CE=0.00116
+  batch 20/56 CE=0.00218
+  batch 40/56 CE=0.00234
+  batch 56/56 CE=0.00210
+  performance: {"train_seconds": 6.703748800005997, "validation_seconds": 0.7907581000035862, "checkpoint_seconds": 0.6480714999925112, "best_checkpoint_skipped": true, "epoch": 293, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00210, acc=99.97%; val CE=8.38997, acc=19.37%; 7.5s
+cosine: epoch 294/300, lr=6.7138069e-05
+  batch 1/56 CE=0.00112
+  batch 20/56 CE=0.00207
+  batch 40/56 CE=0.00238
+  batch 56/56 CE=0.00263
+  performance: {"train_seconds": 6.798020700007328, "validation_seconds": 0.7954801000014413, "checkpoint_seconds": 0.6539572000037879, "best_checkpoint_skipped": true, "epoch": 294, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00263, acc=99.96%; val CE=8.44961, acc=19.18%; 7.6s
+cosine: epoch 295/300, lr=4.9331789e-05
+  batch 1/56 CE=0.00099
+  batch 20/56 CE=0.00306
+  batch 40/56 CE=0.00295
+  batch 56/56 CE=0.00260
+  performance: {"train_seconds": 6.820999700008542, "validation_seconds": 0.7797094999987166, "checkpoint_seconds": 0.6706481000001077, "best_checkpoint_skipped": true, "epoch": 295, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00260, acc=99.94%; val CE=8.42278, acc=19.05%; 7.6s
+cosine: epoch 296/300, lr=3.4261631e-05
+  batch 1/56 CE=0.00068
+  batch 20/56 CE=0.00269
+  batch 40/56 CE=0.00309
+  batch 56/56 CE=0.00317
+  performance: {"train_seconds": 6.832066000002669, "validation_seconds": 0.8011421999981394, "checkpoint_seconds": 0.6540821999951731, "best_checkpoint_skipped": true, "epoch": 296, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00317, acc=99.93%; val CE=8.43331, acc=19.31%; 7.6s
+cosine: epoch 297/300, lr=2.1929248e-05
+  batch 1/56 CE=0.00055
+  batch 20/56 CE=0.00157
+  batch 40/56 CE=0.00196
+  batch 56/56 CE=0.00279
+  performance: {"train_seconds": 6.707047799995053, "validation_seconds": 0.7814617999974871, "checkpoint_seconds": 0.7548221000033664, "best_checkpoint_skipped": true, "epoch": 297, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00279, acc=99.93%; val CE=8.40478, acc=19.11%; 7.5s
+cosine: epoch 298/300, lr=1.2335991e-05
+  batch 1/56 CE=0.00441
+  batch 20/56 CE=0.00257
+  batch 40/56 CE=0.00258
+  batch 56/56 CE=0.00298
+  performance: {"train_seconds": 6.728570799998124, "validation_seconds": 0.8047128000034718, "checkpoint_seconds": 0.6408077999949455, "best_checkpoint_skipped": true, "epoch": 298, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00298, acc=99.92%; val CE=8.42570, acc=19.37%; 7.5s
+cosine: epoch 299/300, lr=5.4829131e-06
+  batch 1/56 CE=0.00030
+  batch 20/56 CE=0.00243
+  batch 40/56 CE=0.00241
+  batch 56/56 CE=0.00231
+  performance: {"train_seconds": 6.864529800004675, "validation_seconds": 0.7740556999924593, "checkpoint_seconds": 0.6514309999911347, "best_checkpoint_skipped": true, "epoch": 299, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00231, acc=99.93%; val CE=8.41592, acc=19.24%; 7.6s
+cosine: epoch 300/300, lr=1.3707659e-06
+  batch 1/56 CE=0.00183
+  batch 20/56 CE=0.00283
+  batch 40/56 CE=0.00229
+  batch 56/56 CE=0.00224
+  performance: {"train_seconds": 6.748441899995669, "validation_seconds": 0.800929899996845, "checkpoint_seconds": 0.6475377000024309, "best_checkpoint_skipped": true, "epoch": 300, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.00224, acc=99.97%; val CE=8.42966, acc=19.05%; 7.5s

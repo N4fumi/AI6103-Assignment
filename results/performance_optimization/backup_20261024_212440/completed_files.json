@@ -1,0 +1,146 @@
+[
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_05\\config.json",
+    "sha256": "546ac0ef191c2ceb1fd128225a7e7ee01c63b4dc6bfc09324cccc3f450ce2622"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_05\\history.json",
+    "sha256": "7bddb594791f78ae98c5cb09c8ce70618cc0847b0a66c903771eac399feac646"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_05\\metadata.json",
+    "sha256": "a2e25155b8e8eee027ad2181efaa371db908526dddbbfbbcf2af85a948f801f1"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_05\\metrics.csv",
+    "sha256": "1cbbc013e53d34f2010daef96eb23c85898c6454bb2afc107f5309f2b488214d"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_05\\status.json",
+    "sha256": "0203bc3b2c4dbdbbf32a491c0610a997c1884b33ad9a64de92ee953838b0cee1"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_05\\summary.json",
+    "sha256": "23c2d879aba1c671e1b2617573268b9627787e48083384f9b072206f8fd37e7b"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\checkpoints\\lr_05\\best.pt",
+    "sha256": "00dc1cc35b137d15a219e6518f972ab10330afbdaae545c7f791d35312b02c11"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\checkpoints\\lr_05\\final.pt",
+    "sha256": "a2ebb2e5e777222afbf0291aa7508b3df8be112a366acc6cd6a7bd7989eaa176"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\checkpoints\\lr_05\\last.pt",
+    "sha256": "a2ebb2e5e777222afbf0291aa7508b3df8be112a366acc6cd6a7bd7989eaa176"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_005\\config.json",
+    "sha256": "d5b20ae9e13feccae086485f05a423f80fab3ba9b678322033d5027bd2be9a36"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_005\\history.json",
+    "sha256": "8f5922684c055f2c07c58e2aa4793239cf1429bd36fdc0243038b71f4e14cfef"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_005\\metadata.json",
+    "sha256": "a2e25155b8e8eee027ad2181efaa371db908526dddbbfbbcf2af85a948f801f1"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_005\\metrics.csv",
+    "sha256": "440bb391f00b83ec8364cc24a3b8c815e824074a290f4e6e9dbba61f57785db1"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_005\\status.json",
+    "sha256": "0203bc3b2c4dbdbbf32a491c0610a997c1884b33ad9a64de92ee953838b0cee1"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_005\\summary.json",
+    "sha256": "5dbaf817d8669fc0410b2865f2f28105826061f66ab8037c47fe6ecbbda72dbc"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\checkpoints\\lr_005\\best.pt",
+    "sha256": "0cc5bead4e4de998dc0a45ce96d19305e594b3b3e91ec8e38af9a782d2647fde"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\checkpoints\\lr_005\\final.pt",
+    "sha256": "32faf38a83a12b64d826c8ee2db171e20f1770adfebee103cb6e65b9b3d5f682"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\checkpoints\\lr_005\\last.pt",
+    "sha256": "32faf38a83a12b64d826c8ee2db171e20f1770adfebee103cb6e65b9b3d5f682"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_0001\\config.json",
+    "sha256": "2c2907f04f296d73e5f8dec9103819231b7775a2eea79f0903fd299af9549512"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_0001\\history.json",
+    "sha256": "0b74e38b46a8874f405ebaab863fc9f7968691b7481c59b07bfe623ca63d647a"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_0001\\metadata.json",
+    "sha256": "a2e25155b8e8eee027ad2181efaa371db908526dddbbfbbcf2af85a948f801f1"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_0001\\metrics.csv",
+    "sha256": "ffc7a0e2af5ff12eb213a834070a1aba3c72f81fffb43b2be3154aa2c6a2c046"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_0001\\status.json",
+    "sha256": "0203bc3b2c4dbdbbf32a491c0610a997c1884b33ad9a64de92ee953838b0cee1"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\lr_0001\\summary.json",
+    "sha256": "798685cbd45086aae8961d87b11ef99f1c41f4a55fb520fd0d693e9cb44c4987"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\checkpoints\\lr_0001\\best.pt",
+    "sha256": "e4bba45b717394aa624b85c8f86dd898b44889be52600c2780958f59e3ff947b"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\checkpoints\\lr_0001\\final.pt",
+    "sha256": "8da48c49e146c0319e6882ed74d80929f8a8cc51ebdf28523bb9d1470b01bcd2"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\checkpoints\\lr_0001\\last.pt",
+    "sha256": "8da48c49e146c0319e6882ed74d80929f8a8cc51ebdf28523bb9d1470b01bcd2"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\constant\\config.json",
+    "sha256": "3cf315a94a0ebecd288aecbca6134f27b397c56959b4881ad97aac993d7bf6ad"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\constant\\history.json",
+    "sha256": "c126bc412b8f14de3d927a7ab5a8e0813b81f1c419bef97bae443e7cb2f5e41f"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\constant\\metadata.json",
+    "sha256": "a2e25155b8e8eee027ad2181efaa371db908526dddbbfbbcf2af85a948f801f1"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\constant\\metrics.csv",
+    "sha256": "7a10c29c297139107cc43abede03cd7d97d3726e7ff43e3673b1902d25bb4d80"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\constant\\status.json",
+    "sha256": "c75945fec9ed64b4426007f450be6e5f81b74f1fb6c197f0835321836d5e18a8"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\results\\constant\\summary.json",
+    "sha256": "fe91582c36104ed9cf607ed4734ec9f9a7c3aef3a642e575171558af9f65792d"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\checkpoints\\constant\\best.pt",
+    "sha256": "79c90c70739c754e0958614ed9fda9e1421ae6510c9ec883509ddf043acd14db"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\checkpoints\\constant\\final.pt",
+    "sha256": "b1c824d2ea15a5597b685a71371f8e9157ec31b23f7147cfcd0f2068cfc1b4e4"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\checkpoints\\constant\\last.pt",
+    "sha256": "b1c824d2ea15a5597b685a71371f8e9157ec31b23f7147cfcd0f2068cfc1b4e4"
+  }
+]

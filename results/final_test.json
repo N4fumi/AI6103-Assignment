@@ -1,0 +1,12 @@
+{
+  "checkpoint_sha256": "0609a1441414064c03bc50baad4e50d953aaf8dd0a3af364fb948996c4d4b973",
+  "count": 1534,
+  "data_signature": "590ead402d48eecbd75c1f418419c3c13dd2f9a8a517826328edd554dd19ea11",
+  "device": "cuda",
+  "epoch": 273,
+  "experiment": "mixup",
+  "precision": "fp32",
+  "selection_signature": "aeb13b7521a045a7589954db0137d7e6783793a6ad0c5b70cb66ef8df4af2e0f",
+  "test_accuracy": 0.3754889178617992,
+  "test_loss": 2.750519468078713
+}

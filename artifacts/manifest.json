@@ -1,0 +1,11 @@
+{
+  "selected_experiment": "mixup",
+  "epoch": 273,
+  "local_path_after_download": "checkpoints/mixup/best.pt",
+  "release_asset": "mixup-best-epoch273.pt",
+  "size": 82186403,
+  "sha256": "0609a1441414064c03bc50baad4e50d953aaf8dd0a3af364fb948996c4d4b973",
+  "release_url": "https://github.com/N4fumi/AI6103-Assignment/releases/tag/v1.0-results",
+  "download_url": "https://github.com/N4fumi/AI6103-Assignment/releases/download/v1.0-results/mixup-best-epoch273.pt",
+  "scope": "Only the selected inference checkpoint is published; other checkpoints and raw images remain local."
+}

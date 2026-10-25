@@ -1,0 +1,44 @@
+{
+  "batch_size": 128,
+  "channels_last": false,
+  "content_duplicate_policy": "preserve_official",
+  "data_root": "data",
+  "dependencies": {
+    "lr_experiment": "lr_005",
+    "lr_sources": {
+      "lr_0001": "798685cbd45086aae8961d87b11ef99f1c41f4a55fb520fd0d693e9cb44c4987",
+      "lr_005": "5dbaf817d8669fc0410b2865f2f28105826061f66ab8037c47fe6ecbbda72dbc",
+      "lr_05": "23c2d879aba1c671e1b2617573268b9627787e48083384f9b072206f8fd37e7b"
+    }
+  },
+  "deterministic": true,
+  "device": "cuda",
+  "epochs": 300,
+  "experiment": "wd_1e4",
+  "flip_probability": 0.5,
+  "image_size": 100,
+  "lr": 0.05,
+  "manifest": "data/manifest.json",
+  "memory_fraction": 1.0,
+  "mixup_alpha": 0.0,
+  "model": "efficientnet_v2_s",
+  "momentum": 0.9,
+  "num_classes": 120,
+  "optimizer": "SGD",
+  "padding": 12,
+  "persistent_workers": false,
+  "pin_memory": true,
+  "precision": "amp_bf16",
+  "prefetch_factor": 2,
+  "pretrained": false,
+  "scheduler": "cosine",
+  "seed": 6103,
+  "split_counts": [
+    7155,
+    1533,
+    1534
+  ],
+  "statistics": "data/statistics.json",
+  "weight_decay": 0.0001,
+  "workers": 4
+}

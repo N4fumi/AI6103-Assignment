@@ -1,0 +1,2102 @@
+Verified execution adapter: {'version': 1, 'adapter': 'scripts\\optimized_runtime.py', 'adapter_sha256': 'f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd', 'evidence': 'results\\performance_optimization\\equivalence.json', 'evidence_sha256': '2f981d9ea604ca06ece589ffdbe4d870670e54193bf485fc5a030b22c5828923', 'effective_from_epoch': 1, 'persistent_workers': True, 'sampler_rng_compatible': True, 'gradient_checks': 'same finite predicate; one host synchronization', 'best_checkpoint_policy': 'write on improvement; last.pt still written every epoch', 'frozen_recipe_unchanged': True, 'timing_comparability': 'execution changed; recipe and numerical trajectory verified'}
+WARNING: official data have 10 cross-split duplicate groups and 6 conflicting-label groups; original membership/labels are preserved and audited.
+wd_5e4: epoch 1/300, lr=0.05
+  batch 1/56 CE=4.83301
+  batch 20/56 CE=4.97855
+  batch 40/56 CE=5.00181
+  batch 56/56 CE=4.97954
+  performance: {"train_seconds": 30.445029499998782, "validation_seconds": 13.854155300010461, "checkpoint_seconds": 0.9134061999939149, "best_checkpoint_skipped": false, "epoch": 1, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.97954, acc=0.96%; val CE=4.84618, acc=1.50%; 44.3s
+wd_5e4: epoch 2/300, lr=0.049998629
+  batch 1/56 CE=4.80151
+  batch 20/56 CE=4.83367
+  batch 40/56 CE=4.81296
+  batch 56/56 CE=4.80602
+  performance: {"train_seconds": 6.945728100006818, "validation_seconds": 0.7990069000079529, "checkpoint_seconds": 0.7471685000055004, "best_checkpoint_skipped": true, "epoch": 2, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.80602, acc=0.98%; val CE=4.96663, acc=1.24%; 7.7s
+wd_5e4: epoch 3/300, lr=0.049994517
+  batch 1/56 CE=4.76611
+  batch 20/56 CE=4.77511
+  batch 40/56 CE=4.77485
+  batch 56/56 CE=4.77136
+  performance: {"train_seconds": 6.905145700002322, "validation_seconds": 0.7913886000023922, "checkpoint_seconds": 0.6781404999928782, "best_checkpoint_skipped": true, "epoch": 3, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.77136, acc=1.54%; val CE=4.80167, acc=1.30%; 7.7s
+wd_5e4: epoch 4/300, lr=0.049987664
+  batch 1/56 CE=4.74976
+  batch 20/56 CE=4.74210
+  batch 40/56 CE=4.73905
+  batch 56/56 CE=4.73919
+  performance: {"train_seconds": 6.955051500000991, "validation_seconds": 0.7911376999982167, "checkpoint_seconds": 0.8666011000022991, "best_checkpoint_skipped": false, "epoch": 4, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.73919, acc=1.40%; val CE=4.72833, acc=1.76%; 7.7s
+wd_5e4: epoch 5/300, lr=0.049978071
+  batch 1/56 CE=4.71448
+  batch 20/56 CE=4.71451
+  batch 40/56 CE=4.71158
+  batch 56/56 CE=4.70902
+  performance: {"train_seconds": 7.035732899996219, "validation_seconds": 0.7962148000078741, "checkpoint_seconds": 0.6725062000041362, "best_checkpoint_skipped": true, "epoch": 5, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.70902, acc=1.65%; val CE=4.81968, acc=1.37%; 7.8s
+wd_5e4: epoch 6/300, lr=0.049965738
+  batch 1/56 CE=4.67957
+  batch 20/56 CE=4.66903
+  batch 40/56 CE=4.67283
+  batch 56/56 CE=4.66950
+  performance: {"train_seconds": 6.928272199991625, "validation_seconds": 0.7994306000036886, "checkpoint_seconds": 0.8838662000052864, "best_checkpoint_skipped": false, "epoch": 6, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.66950, acc=1.75%; val CE=4.67301, acc=2.22%; 7.7s
+wd_5e4: epoch 7/300, lr=0.049950668
+  batch 1/56 CE=4.65076
+  batch 20/56 CE=4.63170
+  batch 40/56 CE=4.62803
+  batch 56/56 CE=4.62048
+  performance: {"train_seconds": 6.906761900012498, "validation_seconds": 0.7922991000086768, "checkpoint_seconds": 0.9356854999932693, "best_checkpoint_skipped": false, "epoch": 7, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.62048, acc=2.26%; val CE=4.56260, acc=2.54%; 7.7s
+wd_5e4: epoch 8/300, lr=0.049932862
+  batch 1/56 CE=4.47522
+  batch 20/56 CE=4.53264
+  batch 40/56 CE=4.52868
+  batch 56/56 CE=4.52061
+  performance: {"train_seconds": 7.266021600007662, "validation_seconds": 0.816564600012498, "checkpoint_seconds": 0.9546251000138, "best_checkpoint_skipped": false, "epoch": 8, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.52061, acc=2.70%; val CE=4.45791, acc=4.24%; 8.1s
+wd_5e4: epoch 9/300, lr=0.049912321
+  batch 1/56 CE=4.35754
+  batch 20/56 CE=4.44544
+  batch 40/56 CE=4.47163
+  batch 56/56 CE=4.46703
+  performance: {"train_seconds": 7.3131577000021935, "validation_seconds": 0.819927499993355, "checkpoint_seconds": 0.7272107000026153, "best_checkpoint_skipped": true, "epoch": 9, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.46703, acc=3.34%; val CE=4.53235, acc=3.07%; 8.1s
+wd_5e4: epoch 10/300, lr=0.049889049
+  batch 1/56 CE=4.44385
+  batch 20/56 CE=4.38916
+  batch 40/56 CE=4.37283
+  batch 56/56 CE=4.35463
+  performance: {"train_seconds": 7.39788169998792, "validation_seconds": 0.8255352999985917, "checkpoint_seconds": 0.8443173999985447, "best_checkpoint_skipped": true, "epoch": 10, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.35463, acc=4.46%; val CE=4.45178, acc=3.13%; 8.2s
+wd_5e4: epoch 11/300, lr=0.049863047
+  batch 1/56 CE=4.07782
+  batch 20/56 CE=4.26394
+  batch 40/56 CE=4.31198
+  batch 56/56 CE=4.32601
+  performance: {"train_seconds": 7.101226300001144, "validation_seconds": 0.8190009000099963, "checkpoint_seconds": 0.8880709999939427, "best_checkpoint_skipped": false, "epoch": 11, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.32601, acc=4.50%; val CE=4.47590, acc=4.70%; 7.9s
+wd_5e4: epoch 12/300, lr=0.049834319
+  batch 1/56 CE=4.21271
+  batch 20/56 CE=4.30223
+  batch 40/56 CE=4.29651
+  batch 56/56 CE=4.28244
+  performance: {"train_seconds": 7.037021800002549, "validation_seconds": 0.7987020000000484, "checkpoint_seconds": 0.9016762000101153, "best_checkpoint_skipped": false, "epoch": 12, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.28244, acc=4.88%; val CE=4.31459, acc=5.28%; 7.8s
+wd_5e4: epoch 13/300, lr=0.049802868
+  batch 1/56 CE=4.23663
+  batch 20/56 CE=4.18952
+  batch 40/56 CE=4.17613
+  batch 56/56 CE=4.19629
+  performance: {"train_seconds": 7.050268299994059, "validation_seconds": 0.7963228000007803, "checkpoint_seconds": 0.6964154000015697, "best_checkpoint_skipped": true, "epoch": 13, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.19629, acc=5.66%; val CE=4.24641, acc=5.22%; 7.8s
+wd_5e4: epoch 14/300, lr=0.049768696
+  batch 1/56 CE=4.05298
+  batch 20/56 CE=4.10608
+  batch 40/56 CE=4.13687
+  batch 56/56 CE=4.14328
+  performance: {"train_seconds": 7.058326599988504, "validation_seconds": 0.8032920999976341, "checkpoint_seconds": 0.7042166000028374, "best_checkpoint_skipped": true, "epoch": 14, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.14328, acc=5.90%; val CE=4.26222, acc=4.89%; 7.9s
+wd_5e4: epoch 15/300, lr=0.049731808
+  batch 1/56 CE=4.08273
+  batch 20/56 CE=4.06826
+  batch 40/56 CE=4.10841
+  batch 56/56 CE=4.10934
+  performance: {"train_seconds": 7.075843099999474, "validation_seconds": 0.7877217000059318, "checkpoint_seconds": 0.7501946999982465, "best_checkpoint_skipped": true, "epoch": 15, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.10934, acc=6.29%; val CE=4.23833, acc=4.57%; 7.9s
+wd_5e4: epoch 16/300, lr=0.049692209
+  batch 1/56 CE=3.95123
+  batch 20/56 CE=4.03631
+  batch 40/56 CE=4.05638
+  batch 56/56 CE=4.06748
+  performance: {"train_seconds": 7.098747600000934, "validation_seconds": 0.801597400000901, "checkpoint_seconds": 0.99143360000744, "best_checkpoint_skipped": false, "epoch": 16, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.06748, acc=6.79%; val CE=4.27422, acc=5.74%; 7.9s
+wd_5e4: epoch 17/300, lr=0.049649901
+  batch 1/56 CE=3.83600
+  batch 20/56 CE=3.98980
+  batch 40/56 CE=4.00623
+  batch 56/56 CE=4.00047
+  performance: {"train_seconds": 7.011355299997376, "validation_seconds": 0.8012182000093162, "checkpoint_seconds": 0.9444869999861112, "best_checkpoint_skipped": false, "epoch": 17, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=4.00047, acc=7.13%; val CE=4.11399, acc=6.26%; 7.8s
+wd_5e4: epoch 18/300, lr=0.04960489
+  batch 1/56 CE=3.81525
+  batch 20/56 CE=3.95278
+  batch 40/56 CE=3.98417
+  batch 56/56 CE=3.98334
+  performance: {"train_seconds": 7.0526530999923125, "validation_seconds": 0.7949642000021413, "checkpoint_seconds": 0.9282215999992331, "best_checkpoint_skipped": false, "epoch": 18, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.98334, acc=7.56%; val CE=4.09452, acc=7.50%; 7.8s
+wd_5e4: epoch 19/300, lr=0.049557181
+  batch 1/56 CE=4.01941
+  batch 20/56 CE=3.89143
+  batch 40/56 CE=3.92062
+  batch 56/56 CE=3.91651
+  performance: {"train_seconds": 7.067547099999501, "validation_seconds": 0.7970482999953674, "checkpoint_seconds": 0.6884636000031605, "best_checkpoint_skipped": true, "epoch": 19, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.91651, acc=8.02%; val CE=4.26370, acc=6.46%; 7.9s
+wd_5e4: epoch 20/300, lr=0.049506779
+  batch 1/56 CE=3.64569
+  batch 20/56 CE=3.87459
+  batch 40/56 CE=3.89032
+  batch 56/56 CE=3.90084
+  performance: {"train_seconds": 7.071500899997773, "validation_seconds": 0.8044099999970058, "checkpoint_seconds": 0.8093165000027511, "best_checkpoint_skipped": true, "epoch": 20, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.90084, acc=8.50%; val CE=4.07969, acc=7.44%; 7.9s
+wd_5e4: epoch 21/300, lr=0.04945369
+  batch 1/56 CE=3.83508
+  batch 20/56 CE=3.85492
+  batch 40/56 CE=3.85391
+  batch 56/56 CE=3.86573
+  performance: {"train_seconds": 7.065510700005689, "validation_seconds": 0.8023417999938829, "checkpoint_seconds": 0.7018446000001859, "best_checkpoint_skipped": true, "epoch": 21, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.86573, acc=9.18%; val CE=4.23602, acc=6.98%; 7.9s
+wd_5e4: epoch 22/300, lr=0.049397919
+  batch 1/56 CE=3.75522
+  batch 20/56 CE=3.73887
+  batch 40/56 CE=3.77434
+  batch 56/56 CE=3.79232
+  performance: {"train_seconds": 7.060383400006685, "validation_seconds": 0.817446100001689, "checkpoint_seconds": 0.9256768000050215, "best_checkpoint_skipped": false, "epoch": 22, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.79232, acc=10.27%; val CE=4.09137, acc=7.76%; 7.9s
+wd_5e4: epoch 23/300, lr=0.049339473
+  batch 1/56 CE=3.68094
+  batch 20/56 CE=3.73557
+  batch 40/56 CE=3.74735
+  batch 56/56 CE=3.75668
+  performance: {"train_seconds": 7.14555040000414, "validation_seconds": 0.7840402000001632, "checkpoint_seconds": 0.9316111000080127, "best_checkpoint_skipped": false, "epoch": 23, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.75668, acc=10.43%; val CE=4.05061, acc=8.22%; 7.9s
+wd_5e4: epoch 24/300, lr=0.049278357
+  batch 1/56 CE=3.53740
+  batch 20/56 CE=3.72490
+  batch 40/56 CE=3.70720
+  batch 56/56 CE=3.73048
+  performance: {"train_seconds": 7.051715800000238, "validation_seconds": 0.795252600000822, "checkpoint_seconds": 0.6994082000019262, "best_checkpoint_skipped": true, "epoch": 24, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.73048, acc=10.82%; val CE=4.09917, acc=7.89%; 7.8s
+wd_5e4: epoch 25/300, lr=0.049214579
+  batch 1/56 CE=3.80316
+  batch 20/56 CE=3.65419
+  batch 40/56 CE=3.69275
+  batch 56/56 CE=3.71639
+  performance: {"train_seconds": 7.022947899997234, "validation_seconds": 0.7895181000058074, "checkpoint_seconds": 1.0297348000021884, "best_checkpoint_skipped": false, "epoch": 25, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.71639, acc=11.36%; val CE=3.95806, acc=8.22%; 7.8s
+wd_5e4: epoch 26/300, lr=0.049148146
+  batch 1/56 CE=3.56728
+  batch 20/56 CE=3.61678
+  batch 40/56 CE=3.60831
+  batch 56/56 CE=3.64477
+  performance: {"train_seconds": 7.0698473999946145, "validation_seconds": 0.7882517999969423, "checkpoint_seconds": 0.9309647000191035, "best_checkpoint_skipped": false, "epoch": 26, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.64477, acc=12.40%; val CE=3.98596, acc=8.87%; 7.9s
+wd_5e4: epoch 27/300, lr=0.049079064
+  batch 1/56 CE=3.31335
+  batch 20/56 CE=3.57491
+  batch 40/56 CE=3.58425
+  batch 56/56 CE=3.57881
+  performance: {"train_seconds": 7.024991199999931, "validation_seconds": 0.8034855000005336, "checkpoint_seconds": 0.8937025000050198, "best_checkpoint_skipped": false, "epoch": 27, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.57881, acc=13.00%; val CE=4.06852, acc=9.13%; 7.8s
+wd_5e4: epoch 28/300, lr=0.049007342
+  batch 1/56 CE=3.47565
+  batch 20/56 CE=3.46544
+  batch 40/56 CE=3.52447
+  batch 56/56 CE=3.54559
+  performance: {"train_seconds": 7.084118900005706, "validation_seconds": 0.796216499991715, "checkpoint_seconds": 0.6627356999961194, "best_checkpoint_skipped": true, "epoch": 28, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.54559, acc=13.84%; val CE=3.96513, acc=8.22%; 7.9s
+wd_5e4: epoch 29/300, lr=0.048932987
+  batch 1/56 CE=3.51019
+  batch 20/56 CE=3.46071
+  batch 40/56 CE=3.48197
+  batch 56/56 CE=3.48508
+  performance: {"train_seconds": 7.072820999994292, "validation_seconds": 0.7893688999902224, "checkpoint_seconds": 0.8703569000062998, "best_checkpoint_skipped": false, "epoch": 29, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.48508, acc=14.27%; val CE=3.97562, acc=9.52%; 7.9s
+wd_5e4: epoch 30/300, lr=0.048856008
+  batch 1/56 CE=3.29108
+  batch 20/56 CE=3.41272
+  batch 40/56 CE=3.45102
+  batch 56/56 CE=3.48577
+  performance: {"train_seconds": 7.061077200007276, "validation_seconds": 0.7956556999997701, "checkpoint_seconds": 0.9563292999955593, "best_checkpoint_skipped": false, "epoch": 30, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.48577, acc=15.46%; val CE=3.82933, acc=10.44%; 7.9s
+wd_5e4: epoch 31/300, lr=0.048776413
+  batch 1/56 CE=3.30978
+  batch 20/56 CE=3.33590
+  batch 40/56 CE=3.35417
+  batch 56/56 CE=3.39398
+  performance: {"train_seconds": 6.957363599998644, "validation_seconds": 0.8037294999958249, "checkpoint_seconds": 0.637288300000364, "best_checkpoint_skipped": true, "epoch": 31, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.39398, acc=16.79%; val CE=3.87812, acc=10.31%; 7.8s
+wd_5e4: epoch 32/300, lr=0.04869421
+  batch 1/56 CE=3.13966
+  batch 20/56 CE=3.34840
+  batch 40/56 CE=3.35561
+  batch 56/56 CE=3.37819
+  performance: {"train_seconds": 7.072197199988295, "validation_seconds": 0.8112222000054317, "checkpoint_seconds": 0.902808200000436, "best_checkpoint_skipped": false, "epoch": 32, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.37819, acc=16.30%; val CE=3.79725, acc=12.72%; 7.9s
+wd_5e4: epoch 33/300, lr=0.048609409
+  batch 1/56 CE=3.18314
+  batch 20/56 CE=3.25521
+  batch 40/56 CE=3.30382
+  batch 56/56 CE=3.32847
+  performance: {"train_seconds": 6.980956700004754, "validation_seconds": 0.8153072999994038, "checkpoint_seconds": 0.6428258999949321, "best_checkpoint_skipped": true, "epoch": 33, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.32847, acc=17.41%; val CE=3.93098, acc=11.15%; 7.8s
+wd_5e4: epoch 34/300, lr=0.048522019
+  batch 1/56 CE=3.09616
+  batch 20/56 CE=3.19272
+  batch 40/56 CE=3.23916
+  batch 56/56 CE=3.26620
+  performance: {"train_seconds": 6.966568000003463, "validation_seconds": 0.8467626000056043, "checkpoint_seconds": 0.9829689000180224, "best_checkpoint_skipped": false, "epoch": 34, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.26620, acc=18.48%; val CE=3.79041, acc=13.63%; 7.8s
+wd_5e4: epoch 35/300, lr=0.04843205
+  batch 1/56 CE=3.15649
+  batch 20/56 CE=3.16348
+  batch 40/56 CE=3.21801
+  batch 56/56 CE=3.23745
+  performance: {"train_seconds": 7.057919899991248, "validation_seconds": 0.7731395000009798, "checkpoint_seconds": 0.6852871000010055, "best_checkpoint_skipped": true, "epoch": 35, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.23745, acc=19.37%; val CE=3.77168, acc=12.59%; 7.8s
+wd_5e4: epoch 36/300, lr=0.048339511
+  batch 1/56 CE=3.44090
+  batch 20/56 CE=3.21185
+  batch 40/56 CE=3.22544
+  batch 56/56 CE=3.21321
+  performance: {"train_seconds": 7.045735299994703, "validation_seconds": 0.8002306999987923, "checkpoint_seconds": 0.7536409999884199, "best_checkpoint_skipped": true, "epoch": 36, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.21321, acc=19.58%; val CE=3.96829, acc=11.29%; 7.8s
+wd_5e4: epoch 37/300, lr=0.048244412
+  batch 1/56 CE=3.16371
+  batch 20/56 CE=3.15996
+  batch 40/56 CE=3.16222
+  batch 56/56 CE=3.17206
+  performance: {"train_seconds": 7.0914885999955, "validation_seconds": 0.8127612999960547, "checkpoint_seconds": 0.6903510999982245, "best_checkpoint_skipped": true, "epoch": 37, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.17206, acc=20.01%; val CE=3.77156, acc=13.05%; 7.9s
+wd_5e4: epoch 38/300, lr=0.048146765
+  batch 1/56 CE=2.97229
+  batch 20/56 CE=3.06652
+  batch 40/56 CE=3.09987
+  batch 56/56 CE=3.12651
+  performance: {"train_seconds": 7.075526200002059, "validation_seconds": 0.7925968000054127, "checkpoint_seconds": 0.7958951000036905, "best_checkpoint_skipped": true, "epoch": 38, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.12651, acc=21.03%; val CE=3.82202, acc=12.85%; 7.9s
+wd_5e4: epoch 39/300, lr=0.048046579
+  batch 1/56 CE=2.96860
+  batch 20/56 CE=3.08517
+  batch 40/56 CE=3.08316
+  batch 56/56 CE=3.09445
+  performance: {"train_seconds": 7.105169100002968, "validation_seconds": 0.8078160000004573, "checkpoint_seconds": 0.989732100002584, "best_checkpoint_skipped": false, "epoch": 39, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.09445, acc=21.75%; val CE=3.67715, acc=16.37%; 7.9s
+wd_5e4: epoch 40/300, lr=0.047943866
+  batch 1/56 CE=2.99004
+  batch 20/56 CE=2.98984
+  batch 40/56 CE=3.03775
+  batch 56/56 CE=3.04866
+  performance: {"train_seconds": 7.125422700002673, "validation_seconds": 0.7998152000072878, "checkpoint_seconds": 0.7504781000025105, "best_checkpoint_skipped": true, "epoch": 40, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=3.04866, acc=22.75%; val CE=3.78332, acc=13.96%; 7.9s
+wd_5e4: epoch 41/300, lr=0.047838636
+  batch 1/56 CE=2.93764
+  batch 20/56 CE=2.89258
+  batch 40/56 CE=2.94873
+  batch 56/56 CE=2.96955
+  performance: {"train_seconds": 7.0927309000107925, "validation_seconds": 0.8076661999948556, "checkpoint_seconds": 0.7155411999992793, "best_checkpoint_skipped": true, "epoch": 41, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.96955, acc=24.42%; val CE=4.03651, acc=12.39%; 7.9s
+wd_5e4: epoch 42/300, lr=0.047730903
+  batch 1/56 CE=2.85764
+  batch 20/56 CE=2.93983
+  batch 40/56 CE=2.93183
+  batch 56/56 CE=2.95301
+  performance: {"train_seconds": 7.355710999996518, "validation_seconds": 0.8136911000037799, "checkpoint_seconds": 0.8250398000091081, "best_checkpoint_skipped": true, "epoch": 42, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.95301, acc=24.49%; val CE=3.53473, acc=16.24%; 8.2s
+wd_5e4: epoch 43/300, lr=0.047620676
+  batch 1/56 CE=2.71299
+  batch 20/56 CE=2.82770
+  batch 40/56 CE=2.87799
+  batch 56/56 CE=2.89245
+  performance: {"train_seconds": 7.2797423000010895, "validation_seconds": 0.7979619999969145, "checkpoint_seconds": 0.7055112999951234, "best_checkpoint_skipped": true, "epoch": 43, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.89245, acc=25.03%; val CE=3.60359, acc=15.66%; 8.1s
+wd_5e4: epoch 44/300, lr=0.047507969
+  batch 1/56 CE=2.66282
+  batch 20/56 CE=2.77766
+  batch 40/56 CE=2.82884
+  batch 56/56 CE=2.85494
+  performance: {"train_seconds": 7.098125799995614, "validation_seconds": 0.8059537999943132, "checkpoint_seconds": 0.9241381000028923, "best_checkpoint_skipped": false, "epoch": 44, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.85494, acc=26.62%; val CE=3.58578, acc=17.16%; 7.9s
+wd_5e4: epoch 45/300, lr=0.047392794
+  batch 1/56 CE=2.73578
+  batch 20/56 CE=2.73129
+  batch 40/56 CE=2.78316
+  batch 56/56 CE=2.80472
+  performance: {"train_seconds": 7.114366500012693, "validation_seconds": 0.7887273999949684, "checkpoint_seconds": 0.6852385000092909, "best_checkpoint_skipped": true, "epoch": 45, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.80472, acc=26.69%; val CE=3.65233, acc=15.98%; 7.9s
+wd_5e4: epoch 46/300, lr=0.047275163
+  batch 1/56 CE=2.63794
+  batch 20/56 CE=2.75307
+  batch 40/56 CE=2.75081
+  batch 56/56 CE=2.75192
+  performance: {"train_seconds": 7.045380199997453, "validation_seconds": 0.7904699999926379, "checkpoint_seconds": 0.8707569999969564, "best_checkpoint_skipped": false, "epoch": 46, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.75192, acc=28.08%; val CE=3.44232, acc=17.68%; 7.8s
+wd_5e4: epoch 47/300, lr=0.047155089
+  batch 1/56 CE=2.64313
+  batch 20/56 CE=2.56580
+  batch 40/56 CE=2.61979
+  batch 56/56 CE=2.68558
+  performance: {"train_seconds": 7.066099999996368, "validation_seconds": 0.8043479999905685, "checkpoint_seconds": 0.7054639000125462, "best_checkpoint_skipped": true, "epoch": 47, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.68558, acc=29.81%; val CE=3.65308, acc=16.96%; 7.9s
+wd_5e4: epoch 48/300, lr=0.047032586
+  batch 1/56 CE=2.50790
+  batch 20/56 CE=2.73563
+  batch 40/56 CE=2.73353
+  batch 56/56 CE=2.73270
+  performance: {"train_seconds": 7.028623100006371, "validation_seconds": 0.8236189000017475, "checkpoint_seconds": 0.9361877000046661, "best_checkpoint_skipped": false, "epoch": 48, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.73270, acc=28.20%; val CE=3.34956, acc=20.22%; 7.9s
+wd_5e4: epoch 49/300, lr=0.046907667
+  batch 1/56 CE=2.23739
+  batch 20/56 CE=2.57742
+  batch 40/56 CE=2.62454
+  batch 56/56 CE=2.66239
+  performance: {"train_seconds": 7.114113100004033, "validation_seconds": 0.8080085999972653, "checkpoint_seconds": 0.644285200003651, "best_checkpoint_skipped": true, "epoch": 49, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.66239, acc=30.15%; val CE=3.51056, acc=18.72%; 7.9s
+wd_5e4: epoch 50/300, lr=0.046780345
+  batch 1/56 CE=2.53269
+  batch 20/56 CE=2.59658
+  batch 40/56 CE=2.57772
+  batch 56/56 CE=2.60216
+  performance: {"train_seconds": 7.044939500003238, "validation_seconds": 0.7861537999997381, "checkpoint_seconds": 0.8928709999890998, "best_checkpoint_skipped": false, "epoch": 50, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.60216, acc=30.37%; val CE=3.38997, acc=20.55%; 7.8s
+wd_5e4: epoch 51/300, lr=0.046650635
+  batch 1/56 CE=2.63866
+  batch 20/56 CE=2.49729
+  batch 40/56 CE=2.50863
+  batch 56/56 CE=2.52321
+  performance: {"train_seconds": 7.046203699996113, "validation_seconds": 0.8223926999926334, "checkpoint_seconds": 0.6711284000048181, "best_checkpoint_skipped": true, "epoch": 51, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.52321, acc=32.75%; val CE=3.64836, acc=18.00%; 7.9s
+wd_5e4: epoch 52/300, lr=0.046518551
+  batch 1/56 CE=2.56451
+  batch 20/56 CE=2.45406
+  batch 40/56 CE=2.50992
+  batch 56/56 CE=2.53500
+  performance: {"train_seconds": 7.052342100010719, "validation_seconds": 0.8018112999998266, "checkpoint_seconds": 0.7042720000026748, "best_checkpoint_skipped": true, "epoch": 52, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.53500, acc=33.28%; val CE=3.64863, acc=18.98%; 7.9s
+wd_5e4: epoch 53/300, lr=0.046384107
+  batch 1/56 CE=2.51988
+  batch 20/56 CE=2.42929
+  batch 40/56 CE=2.44402
+  batch 56/56 CE=2.47521
+  performance: {"train_seconds": 7.110706300009042, "validation_seconds": 0.7961557999951765, "checkpoint_seconds": 0.7291785999987042, "best_checkpoint_skipped": true, "epoch": 53, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.47521, acc=33.08%; val CE=3.51069, acc=20.55%; 7.9s
+wd_5e4: epoch 54/300, lr=0.046247317
+  batch 1/56 CE=2.36509
+  batch 20/56 CE=2.38379
+  batch 40/56 CE=2.40463
+  batch 56/56 CE=2.41656
+  performance: {"train_seconds": 7.0492490000033285, "validation_seconds": 0.790453499997966, "checkpoint_seconds": 1.0178903000050923, "best_checkpoint_skipped": false, "epoch": 54, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.41656, acc=35.18%; val CE=3.31578, acc=21.79%; 7.8s
+wd_5e4: epoch 55/300, lr=0.046108198
+  batch 1/56 CE=2.31989
+  batch 20/56 CE=2.31211
+  batch 40/56 CE=2.33403
+  batch 56/56 CE=2.34438
+  performance: {"train_seconds": 7.039947700002813, "validation_seconds": 0.7988288999913493, "checkpoint_seconds": 0.6787961999943946, "best_checkpoint_skipped": true, "epoch": 55, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.34438, acc=37.15%; val CE=3.41931, acc=20.55%; 7.8s
+wd_5e4: epoch 56/300, lr=0.045966764
+  batch 1/56 CE=2.13965
+  batch 20/56 CE=2.25745
+  batch 40/56 CE=2.31630
+  batch 56/56 CE=2.35440
+  performance: {"train_seconds": 7.187172299993108, "validation_seconds": 0.7817264000041177, "checkpoint_seconds": 0.6403224000096088, "best_checkpoint_skipped": true, "epoch": 56, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.35440, acc=36.60%; val CE=3.41656, acc=20.29%; 8.0s
+wd_5e4: epoch 57/300, lr=0.045823031
+  batch 1/56 CE=2.16269
+  batch 20/56 CE=2.26130
+  batch 40/56 CE=2.32180
+  batch 56/56 CE=2.34052
+  performance: {"train_seconds": 7.091992800007574, "validation_seconds": 0.8070849000068847, "checkpoint_seconds": 0.9322015999932773, "best_checkpoint_skipped": false, "epoch": 57, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.34052, acc=37.19%; val CE=3.28444, acc=22.50%; 7.9s
+wd_5e4: epoch 58/300, lr=0.045677014
+  batch 1/56 CE=2.22889
+  batch 20/56 CE=2.16644
+  batch 40/56 CE=2.20519
+  batch 56/56 CE=2.21913
+  performance: {"train_seconds": 7.044024599992554, "validation_seconds": 0.809959100006381, "checkpoint_seconds": 0.7005708000069717, "best_checkpoint_skipped": true, "epoch": 58, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.21913, acc=39.16%; val CE=3.52943, acc=20.74%; 7.9s
+wd_5e4: epoch 59/300, lr=0.04552873
+  batch 1/56 CE=2.20845
+  batch 20/56 CE=2.15531
+  batch 40/56 CE=2.25082
+  batch 56/56 CE=2.26168
+  performance: {"train_seconds": 7.089870499999961, "validation_seconds": 0.8184233999927528, "checkpoint_seconds": 0.9309383000072557, "best_checkpoint_skipped": false, "epoch": 59, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.26168, acc=38.62%; val CE=3.26421, acc=22.70%; 7.9s
+wd_5e4: epoch 60/300, lr=0.045378195
+  batch 1/56 CE=2.38842
+  batch 20/56 CE=2.14107
+  batch 40/56 CE=2.17376
+  batch 56/56 CE=2.20672
+  performance: {"train_seconds": 7.062806500005536, "validation_seconds": 0.8014094000100158, "checkpoint_seconds": 0.7526715000130935, "best_checkpoint_skipped": true, "epoch": 60, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.20672, acc=39.50%; val CE=3.51835, acc=20.16%; 7.9s
+wd_5e4: epoch 61/300, lr=0.045225425
+  batch 1/56 CE=2.23984
+  batch 20/56 CE=2.16051
+  batch 40/56 CE=2.13903
+  batch 56/56 CE=2.14476
+  performance: {"train_seconds": 7.036592500007828, "validation_seconds": 0.7783548000006704, "checkpoint_seconds": 0.650194100002409, "best_checkpoint_skipped": true, "epoch": 61, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.14476, acc=41.30%; val CE=3.36197, acc=22.37%; 7.8s
+wd_5e4: epoch 62/300, lr=0.045070437
+  batch 1/56 CE=1.90056
+  batch 20/56 CE=1.98536
+  batch 40/56 CE=2.03686
+  batch 56/56 CE=2.08429
+  performance: {"train_seconds": 7.094233800002257, "validation_seconds": 0.7982980000087991, "checkpoint_seconds": 0.8831447999982629, "best_checkpoint_skipped": false, "epoch": 62, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.08429, acc=42.57%; val CE=3.32223, acc=23.03%; 7.9s
+wd_5e4: epoch 63/300, lr=0.044913248
+  batch 1/56 CE=2.22979
+  batch 20/56 CE=2.04748
+  batch 40/56 CE=2.08071
+  batch 56/56 CE=2.11872
+  performance: {"train_seconds": 7.0361539000005, "validation_seconds": 0.8041107000026386, "checkpoint_seconds": 0.675516899995273, "best_checkpoint_skipped": true, "epoch": 63, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.11872, acc=41.72%; val CE=3.34722, acc=22.70%; 7.8s
+wd_5e4: epoch 64/300, lr=0.044753875
+  batch 1/56 CE=1.76625
+  batch 20/56 CE=1.97291
+  batch 40/56 CE=2.00507
+  batch 56/56 CE=2.04008
+  performance: {"train_seconds": 7.073223600003985, "validation_seconds": 0.7870531000080518, "checkpoint_seconds": 0.8823457000107737, "best_checkpoint_skipped": false, "epoch": 64, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.04008, acc=43.28%; val CE=3.44075, acc=24.33%; 7.9s
+wd_5e4: epoch 65/300, lr=0.044592336
+  batch 1/56 CE=2.03311
+  batch 20/56 CE=1.94819
+  batch 40/56 CE=1.95826
+  batch 56/56 CE=1.96966
+  performance: {"train_seconds": 7.0330356000049505, "validation_seconds": 0.8110648000001675, "checkpoint_seconds": 0.9124813999951584, "best_checkpoint_skipped": false, "epoch": 65, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.96966, acc=45.73%; val CE=3.28592, acc=25.83%; 7.8s
+wd_5e4: epoch 66/300, lr=0.044428649
+  batch 1/56 CE=1.93708
+  batch 20/56 CE=1.90955
+  batch 40/56 CE=1.94240
+  batch 56/56 CE=1.99681
+  performance: {"train_seconds": 7.1155316999938805, "validation_seconds": 0.7804479999904288, "checkpoint_seconds": 0.6823753000062425, "best_checkpoint_skipped": true, "epoch": 66, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.99681, acc=44.92%; val CE=3.43051, acc=23.22%; 7.9s
+wd_5e4: epoch 67/300, lr=0.044262831
+  batch 1/56 CE=1.78674
+  batch 20/56 CE=1.94860
+  batch 40/56 CE=1.97810
+  batch 56/56 CE=2.01627
+  performance: {"train_seconds": 7.108757699999842, "validation_seconds": 0.799536899998202, "checkpoint_seconds": 0.6645147000090219, "best_checkpoint_skipped": true, "epoch": 67, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=2.01627, acc=43.66%; val CE=3.51828, acc=21.92%; 7.9s
+wd_5e4: epoch 68/300, lr=0.044094901
+  batch 1/56 CE=1.78069
+  batch 20/56 CE=1.87235
+  batch 40/56 CE=1.90581
+  batch 56/56 CE=1.92978
+  performance: {"train_seconds": 7.079805400004261, "validation_seconds": 0.7968925000022864, "checkpoint_seconds": 0.8948151999939, "best_checkpoint_skipped": false, "epoch": 68, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.92978, acc=45.86%; val CE=3.19303, acc=25.96%; 7.9s
+wd_5e4: epoch 69/300, lr=0.043924876
+  batch 1/56 CE=1.75507
+  batch 20/56 CE=1.74854
+  batch 40/56 CE=1.81183
+  batch 56/56 CE=1.84298
+  performance: {"train_seconds": 7.038817799999379, "validation_seconds": 0.7955161999998381, "checkpoint_seconds": 0.6348374999943189, "best_checkpoint_skipped": true, "epoch": 69, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.84298, acc=48.50%; val CE=3.63635, acc=21.53%; 7.8s
+wd_5e4: epoch 70/300, lr=0.043752777
+  batch 1/56 CE=1.64415
+  batch 20/56 CE=1.78302
+  batch 40/56 CE=1.86733
+  batch 56/56 CE=1.89354
+  performance: {"train_seconds": 7.065653500001645, "validation_seconds": 0.8051749000005657, "checkpoint_seconds": 0.6577346999984002, "best_checkpoint_skipped": true, "epoch": 70, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.89354, acc=47.23%; val CE=3.44673, acc=24.33%; 7.9s
+wd_5e4: epoch 71/300, lr=0.043578621
+  batch 1/56 CE=1.83310
+  batch 20/56 CE=1.75319
+  batch 40/56 CE=1.80973
+  batch 56/56 CE=1.82678
+  performance: {"train_seconds": 7.088743799991789, "validation_seconds": 0.7838149000017438, "checkpoint_seconds": 0.6427988999930676, "best_checkpoint_skipped": true, "epoch": 71, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.82678, acc=48.99%; val CE=3.36819, acc=23.48%; 7.9s
+wd_5e4: epoch 72/300, lr=0.043402427
+  batch 1/56 CE=1.60856
+  batch 20/56 CE=1.71432
+  batch 40/56 CE=1.75872
+  batch 56/56 CE=1.78716
+  performance: {"train_seconds": 6.958346500003245, "validation_seconds": 0.817741400009254, "checkpoint_seconds": 0.701449500003946, "best_checkpoint_skipped": true, "epoch": 72, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.78716, acc=49.36%; val CE=3.34797, acc=25.31%; 7.8s
+wd_5e4: epoch 73/300, lr=0.043224216
+  batch 1/56 CE=1.96764
+  batch 20/56 CE=1.77794
+  batch 40/56 CE=1.77805
+  batch 56/56 CE=1.78773
+  performance: {"train_seconds": 7.078098800004227, "validation_seconds": 0.792111400005524, "checkpoint_seconds": 0.6584776000090642, "best_checkpoint_skipped": true, "epoch": 73, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.78773, acc=49.17%; val CE=3.36413, acc=25.96%; 7.9s
+wd_5e4: epoch 74/300, lr=0.043044006
+  batch 1/56 CE=1.42156
+  batch 20/56 CE=1.66077
+  batch 40/56 CE=1.71383
+  batch 56/56 CE=1.75275
+  performance: {"train_seconds": 7.025734299997566, "validation_seconds": 0.7985382999904687, "checkpoint_seconds": 0.6428595999896061, "best_checkpoint_skipped": true, "epoch": 74, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.75275, acc=50.47%; val CE=3.35458, acc=25.38%; 7.8s
+wd_5e4: epoch 75/300, lr=0.042861817
+  batch 1/56 CE=1.52913
+  batch 20/56 CE=1.66177
+  batch 40/56 CE=1.67084
+  batch 56/56 CE=1.69936
+  performance: {"train_seconds": 7.071501499987789, "validation_seconds": 0.8054075999971246, "checkpoint_seconds": 0.650946900001145, "best_checkpoint_skipped": true, "epoch": 75, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.69936, acc=52.58%; val CE=3.39850, acc=24.92%; 7.9s
+wd_5e4: epoch 76/300, lr=0.04267767
+  batch 1/56 CE=1.45364
+  batch 20/56 CE=1.59130
+  batch 40/56 CE=1.65920
+  batch 56/56 CE=1.67490
+  performance: {"train_seconds": 7.108777699992061, "validation_seconds": 0.7961554000066826, "checkpoint_seconds": 0.6950153000070713, "best_checkpoint_skipped": true, "epoch": 76, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.67490, acc=51.95%; val CE=3.44960, acc=23.48%; 7.9s
+wd_5e4: epoch 77/300, lr=0.042491584
+  batch 1/56 CE=1.46024
+  batch 20/56 CE=1.57083
+  batch 40/56 CE=1.60893
+  batch 56/56 CE=1.64017
+  performance: {"train_seconds": 7.204084300014074, "validation_seconds": 0.8252422999939881, "checkpoint_seconds": 0.6968286999908742, "best_checkpoint_skipped": true, "epoch": 77, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.64017, acc=52.76%; val CE=3.53156, acc=24.79%; 8.0s
+wd_5e4: epoch 78/300, lr=0.042303579
+  batch 1/56 CE=1.48570
+  batch 20/56 CE=1.53985
+  batch 40/56 CE=1.53142
+  batch 56/56 CE=1.57813
+  performance: {"train_seconds": 7.25264549998974, "validation_seconds": 0.7814488000003621, "checkpoint_seconds": 0.7136568999994779, "best_checkpoint_skipped": true, "epoch": 78, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.57813, acc=54.65%; val CE=6.06141, acc=23.81%; 8.0s
+wd_5e4: epoch 79/300, lr=0.042113678
+  batch 1/56 CE=1.53501
+  batch 20/56 CE=1.47254
+  batch 40/56 CE=1.55029
+  batch 56/56 CE=1.56425
+  performance: {"train_seconds": 7.112675299998955, "validation_seconds": 0.8222199999872828, "checkpoint_seconds": 0.6580486000020755, "best_checkpoint_skipped": true, "epoch": 79, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.56425, acc=54.76%; val CE=3.39736, acc=24.98%; 7.9s
+wd_5e4: epoch 80/300, lr=0.041921899
+  batch 1/56 CE=1.39512
+  batch 20/56 CE=1.51768
+  batch 40/56 CE=1.51320
+  batch 56/56 CE=1.54695
+  performance: {"train_seconds": 6.966261299996404, "validation_seconds": 0.7981568999966839, "checkpoint_seconds": 0.8799814999947557, "best_checkpoint_skipped": false, "epoch": 80, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.54695, acc=55.25%; val CE=3.47381, acc=26.22%; 7.8s
+wd_5e4: epoch 81/300, lr=0.041728265
+  batch 1/56 CE=1.40955
+  batch 20/56 CE=1.45624
+  batch 40/56 CE=1.50147
+  batch 56/56 CE=1.53115
+  performance: {"train_seconds": 7.125158399998327, "validation_seconds": 0.7861286999977892, "checkpoint_seconds": 0.998563600005582, "best_checkpoint_skipped": false, "epoch": 81, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.53115, acc=56.21%; val CE=3.40500, acc=26.29%; 7.9s
+wd_5e4: epoch 82/300, lr=0.041532797
+  batch 1/56 CE=1.57338
+  batch 20/56 CE=1.49255
+  batch 40/56 CE=1.49773
+  batch 56/56 CE=1.51697
+  performance: {"train_seconds": 7.099752099995385, "validation_seconds": 0.8016110000025947, "checkpoint_seconds": 0.75763089999964, "best_checkpoint_skipped": true, "epoch": 82, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.51697, acc=55.71%; val CE=3.42592, acc=24.66%; 7.9s
+wd_5e4: epoch 83/300, lr=0.041335515
+  batch 1/56 CE=1.63774
+  batch 20/56 CE=1.43321
+  batch 40/56 CE=1.45883
+  batch 56/56 CE=1.46863
+  performance: {"train_seconds": 7.029445300009684, "validation_seconds": 0.8042937999998685, "checkpoint_seconds": 1.0834838999871863, "best_checkpoint_skipped": false, "epoch": 83, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.46863, acc=57.33%; val CE=3.34255, acc=26.74%; 7.8s
+wd_5e4: epoch 84/300, lr=0.041136442
+  batch 1/56 CE=1.46643
+  batch 20/56 CE=1.28937
+  batch 40/56 CE=1.38013
+  batch 56/56 CE=1.43036
+  performance: {"train_seconds": 7.086134600001969, "validation_seconds": 0.8064836999983527, "checkpoint_seconds": 0.7349758000054862, "best_checkpoint_skipped": true, "epoch": 84, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.43036, acc=58.78%; val CE=3.57447, acc=25.57%; 7.9s
+wd_5e4: epoch 85/300, lr=0.0409356
+  batch 1/56 CE=1.45990
+  batch 20/56 CE=1.29574
+  batch 40/56 CE=1.32608
+  batch 56/56 CE=1.38988
+  performance: {"train_seconds": 7.133962000007159, "validation_seconds": 0.849176300005638, "checkpoint_seconds": 0.7613875999959419, "best_checkpoint_skipped": true, "epoch": 85, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.38988, acc=59.85%; val CE=3.77056, acc=24.33%; 8.0s
+wd_5e4: epoch 86/300, lr=0.04073301
+  batch 1/56 CE=1.20426
+  batch 20/56 CE=1.34780
+  batch 40/56 CE=1.37079
+  batch 56/56 CE=1.37824
+  performance: {"train_seconds": 7.074163900004351, "validation_seconds": 0.8181538999924669, "checkpoint_seconds": 0.660075699997833, "best_checkpoint_skipped": true, "epoch": 86, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.37824, acc=59.39%; val CE=3.53522, acc=25.11%; 7.9s
+wd_5e4: epoch 87/300, lr=0.040528695
+  batch 1/56 CE=1.45995
+  batch 20/56 CE=1.23315
+  batch 40/56 CE=1.25637
+  batch 56/56 CE=1.30545
+  performance: {"train_seconds": 7.054613699991023, "validation_seconds": 0.8027074999990873, "checkpoint_seconds": 0.6880647000070894, "best_checkpoint_skipped": true, "epoch": 87, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.30545, acc=61.97%; val CE=3.51394, acc=25.90%; 7.9s
+wd_5e4: epoch 88/300, lr=0.040322676
+  batch 1/56 CE=1.38607
+  batch 20/56 CE=1.24534
+  batch 40/56 CE=1.29140
+  batch 56/56 CE=1.33877
+  performance: {"train_seconds": 7.134937299997546, "validation_seconds": 0.8043834999989485, "checkpoint_seconds": 0.7013300999969942, "best_checkpoint_skipped": true, "epoch": 88, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.33877, acc=60.50%; val CE=3.61820, acc=24.59%; 7.9s
+wd_5e4: epoch 89/300, lr=0.040114978
+  batch 1/56 CE=1.24414
+  batch 20/56 CE=1.25957
+  batch 40/56 CE=1.25437
+  batch 56/56 CE=1.27572
+  performance: {"train_seconds": 6.961313100007828, "validation_seconds": 0.792847000004258, "checkpoint_seconds": 0.7774996999942232, "best_checkpoint_skipped": true, "epoch": 89, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.27572, acc=62.11%; val CE=4.16606, acc=25.31%; 7.8s
+wd_5e4: epoch 90/300, lr=0.039905622
+  batch 1/56 CE=1.17300
+  batch 20/56 CE=1.23385
+  batch 40/56 CE=1.25405
+  batch 56/56 CE=1.28515
+  performance: {"train_seconds": 7.096157099993434, "validation_seconds": 0.8047049999877345, "checkpoint_seconds": 0.6842342000018107, "best_checkpoint_skipped": true, "epoch": 90, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.28515, acc=62.10%; val CE=3.71176, acc=24.79%; 7.9s
+wd_5e4: epoch 91/300, lr=0.039694631
+  batch 1/56 CE=0.92850
+  batch 20/56 CE=1.15257
+  batch 40/56 CE=1.20653
+  batch 56/56 CE=1.24318
+  performance: {"train_seconds": 7.065079899999546, "validation_seconds": 0.8001029000006383, "checkpoint_seconds": 0.6535607999976492, "best_checkpoint_skipped": true, "epoch": 91, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.24318, acc=63.42%; val CE=3.75983, acc=23.68%; 7.9s
+wd_5e4: epoch 92/300, lr=0.039482029
+  batch 1/56 CE=1.18706
+  batch 20/56 CE=1.15707
+  batch 40/56 CE=1.21242
+  batch 56/56 CE=1.23076
+  performance: {"train_seconds": 7.089608399997815, "validation_seconds": 0.7844321000011405, "checkpoint_seconds": 0.9266589999897406, "best_checkpoint_skipped": false, "epoch": 92, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.23076, acc=63.41%; val CE=3.31354, acc=27.14%; 7.9s
+wd_5e4: epoch 93/300, lr=0.039267839
+  batch 1/56 CE=0.86253
+  batch 20/56 CE=1.04644
+  batch 40/56 CE=1.05601
+  batch 56/56 CE=1.11525
+  performance: {"train_seconds": 7.060595299990382, "validation_seconds": 0.793913400004385, "checkpoint_seconds": 0.7235645999899134, "best_checkpoint_skipped": true, "epoch": 93, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.11525, acc=66.64%; val CE=3.77933, acc=25.64%; 7.9s
+wd_5e4: epoch 94/300, lr=0.039052084
+  batch 1/56 CE=1.10822
+  batch 20/56 CE=1.05463
+  batch 40/56 CE=1.09208
+  batch 56/56 CE=1.12149
+  performance: {"train_seconds": 7.136451600003056, "validation_seconds": 0.7809933000098681, "checkpoint_seconds": 0.7774435999890557, "best_checkpoint_skipped": true, "epoch": 94, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.12149, acc=66.30%; val CE=3.76638, acc=27.07%; 7.9s
+wd_5e4: epoch 95/300, lr=0.038834789
+  batch 1/56 CE=0.88104
+  batch 20/56 CE=1.05760
+  batch 40/56 CE=1.07681
+  batch 56/56 CE=1.11402
+  performance: {"train_seconds": 7.034214700004668, "validation_seconds": 0.7808340000046883, "checkpoint_seconds": 0.685577900003409, "best_checkpoint_skipped": true, "epoch": 95, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.11402, acc=67.16%; val CE=4.48152, acc=25.24%; 7.8s
+wd_5e4: epoch 96/300, lr=0.038615976
+  batch 1/56 CE=0.76146
+  batch 20/56 CE=0.96064
+  batch 40/56 CE=1.01340
+  batch 56/56 CE=1.03606
+  performance: {"train_seconds": 7.188143699997454, "validation_seconds": 0.8305346999986796, "checkpoint_seconds": 0.8953011999983573, "best_checkpoint_skipped": false, "epoch": 96, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.03606, acc=69.08%; val CE=3.96533, acc=29.09%; 8.0s
+wd_5e4: epoch 97/300, lr=0.03839567
+  batch 1/56 CE=0.77416
+  batch 20/56 CE=0.94752
+  batch 40/56 CE=0.98117
+  batch 56/56 CE=1.02764
+  performance: {"train_seconds": 7.115991500002565, "validation_seconds": 0.8221621999982744, "checkpoint_seconds": 0.688841199997114, "best_checkpoint_skipped": true, "epoch": 97, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.02764, acc=68.75%; val CE=4.05210, acc=24.66%; 7.9s
+wd_5e4: epoch 98/300, lr=0.038173895
+  batch 1/56 CE=1.11338
+  batch 20/56 CE=1.04262
+  batch 40/56 CE=1.04221
+  batch 56/56 CE=1.05253
+  performance: {"train_seconds": 7.043661999996402, "validation_seconds": 0.8005700999929104, "checkpoint_seconds": 0.6394641999941086, "best_checkpoint_skipped": true, "epoch": 98, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=1.05253, acc=68.71%; val CE=3.65766, acc=26.09%; 7.8s
+wd_5e4: epoch 99/300, lr=0.037950675
+  batch 1/56 CE=0.81879
+  batch 20/56 CE=0.91581
+  batch 40/56 CE=0.94917
+  batch 56/56 CE=0.98856
+  performance: {"train_seconds": 7.080485500002396, "validation_seconds": 0.8069321000075433, "checkpoint_seconds": 0.6533463000087067, "best_checkpoint_skipped": true, "epoch": 99, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.98856, acc=70.02%; val CE=4.38032, acc=25.96%; 7.9s
+wd_5e4: epoch 100/300, lr=0.037726035
+  batch 1/56 CE=0.77873
+  batch 20/56 CE=0.87173
+  batch 40/56 CE=0.90384
+  batch 56/56 CE=0.93930
+  performance: {"train_seconds": 7.104336599993985, "validation_seconds": 0.8043589000008069, "checkpoint_seconds": 0.6459220999968238, "best_checkpoint_skipped": true, "epoch": 100, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.93930, acc=71.64%; val CE=4.37899, acc=27.53%; 7.9s
+wd_5e4: epoch 101/300, lr=0.0375
+  batch 1/56 CE=0.88724
+  batch 20/56 CE=0.93810
+  batch 40/56 CE=0.95293
+  batch 56/56 CE=0.96504
+  performance: {"train_seconds": 7.034430500003509, "validation_seconds": 0.8014659999898868, "checkpoint_seconds": 0.7193907000037143, "best_checkpoint_skipped": true, "epoch": 101, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.96504, acc=71.06%; val CE=6.09190, acc=26.48%; 7.8s
+wd_5e4: epoch 102/300, lr=0.037272594
+  batch 1/56 CE=0.93598
+  batch 20/56 CE=0.93632
+  batch 40/56 CE=0.96299
+  batch 56/56 CE=0.98341
+  performance: {"train_seconds": 7.046423899999354, "validation_seconds": 0.7898153999994975, "checkpoint_seconds": 0.6493497999908868, "best_checkpoint_skipped": true, "epoch": 102, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.98341, acc=70.75%; val CE=3.85667, acc=25.44%; 7.8s
+wd_5e4: epoch 103/300, lr=0.037043842
+  batch 1/56 CE=0.63718
+  batch 20/56 CE=0.85145
+  batch 40/56 CE=0.86093
+  batch 56/56 CE=0.88972
+  performance: {"train_seconds": 7.119125000011991, "validation_seconds": 0.7957567999983439, "checkpoint_seconds": 0.9247064000082901, "best_checkpoint_skipped": false, "epoch": 103, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.88972, acc=72.82%; val CE=3.58619, acc=29.16%; 7.9s
+wd_5e4: epoch 104/300, lr=0.036813769
+  batch 1/56 CE=0.81046
+  batch 20/56 CE=0.79375
+  batch 40/56 CE=0.83003
+  batch 56/56 CE=0.86068
+  performance: {"train_seconds": 7.108468599995831, "validation_seconds": 0.8008571999962442, "checkpoint_seconds": 0.6580048999894643, "best_checkpoint_skipped": true, "epoch": 104, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.86068, acc=74.23%; val CE=4.05622, acc=27.53%; 7.9s
+wd_5e4: epoch 105/300, lr=0.036582401
+  batch 1/56 CE=0.66695
+  batch 20/56 CE=0.79508
+  batch 40/56 CE=0.79975
+  batch 56/56 CE=0.81611
+  performance: {"train_seconds": 7.070711399996071, "validation_seconds": 0.7787240000034217, "checkpoint_seconds": 0.6513086000049952, "best_checkpoint_skipped": true, "epoch": 105, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.81611, acc=75.49%; val CE=4.09431, acc=28.38%; 7.8s
+wd_5e4: epoch 106/300, lr=0.036349762
+  batch 1/56 CE=0.75767
+  batch 20/56 CE=0.77488
+  batch 40/56 CE=0.78249
+  batch 56/56 CE=0.80634
+  performance: {"train_seconds": 7.158002099997248, "validation_seconds": 0.7837881000014022, "checkpoint_seconds": 0.6409053999959724, "best_checkpoint_skipped": true, "epoch": 106, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.80634, acc=75.85%; val CE=4.18105, acc=25.18%; 7.9s
+wd_5e4: epoch 107/300, lr=0.036115879
+  batch 1/56 CE=0.79208
+  batch 20/56 CE=0.74404
+  batch 40/56 CE=0.78268
+  batch 56/56 CE=0.79331
+  performance: {"train_seconds": 6.996082900004694, "validation_seconds": 0.8046105999965221, "checkpoint_seconds": 0.6844056999980239, "best_checkpoint_skipped": true, "epoch": 107, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.79331, acc=75.75%; val CE=4.36700, acc=27.98%; 7.8s
+wd_5e4: epoch 108/300, lr=0.035880777
+  batch 1/56 CE=0.64500
+  batch 20/56 CE=0.71787
+  batch 40/56 CE=0.73923
+  batch 56/56 CE=0.78853
+  performance: {"train_seconds": 7.038589799994952, "validation_seconds": 0.7838399999891408, "checkpoint_seconds": 0.725661400007084, "best_checkpoint_skipped": true, "epoch": 108, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.78853, acc=76.14%; val CE=4.13024, acc=24.33%; 7.8s
+wd_5e4: epoch 109/300, lr=0.035644482
+  batch 1/56 CE=0.83049
+  batch 20/56 CE=0.77066
+  batch 40/56 CE=0.78755
+  batch 56/56 CE=0.81166
+  performance: {"train_seconds": 7.1052086999989115, "validation_seconds": 0.8058473999990383, "checkpoint_seconds": 0.6569641000096453, "best_checkpoint_skipped": true, "epoch": 109, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.81166, acc=75.16%; val CE=4.34074, acc=24.59%; 7.9s
+wd_5e4: epoch 110/300, lr=0.03540702
+  batch 1/56 CE=0.68108
+  batch 20/56 CE=0.74254
+  batch 40/56 CE=0.72531
+  batch 56/56 CE=0.74110
+  performance: {"train_seconds": 7.088058699999237, "validation_seconds": 0.7992276000004495, "checkpoint_seconds": 0.6669274000014411, "best_checkpoint_skipped": true, "epoch": 110, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.74110, acc=77.48%; val CE=3.94302, acc=25.77%; 7.9s
+wd_5e4: epoch 111/300, lr=0.035168416
+  batch 1/56 CE=0.63268
+  batch 20/56 CE=0.66151
+  batch 40/56 CE=0.70413
+  batch 56/56 CE=0.73405
+  performance: {"train_seconds": 7.299271099996986, "validation_seconds": 0.8087787999975262, "checkpoint_seconds": 0.7017752999963704, "best_checkpoint_skipped": true, "epoch": 111, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.73405, acc=77.36%; val CE=6.87487, acc=25.44%; 8.1s
+wd_5e4: epoch 112/300, lr=0.034928697
+  batch 1/56 CE=0.65262
+  batch 20/56 CE=0.69481
+  batch 40/56 CE=0.70733
+  batch 56/56 CE=0.72459
+  performance: {"train_seconds": 7.3409756000037305, "validation_seconds": 0.8172476000036113, "checkpoint_seconds": 0.6803197000117507, "best_checkpoint_skipped": true, "epoch": 112, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.72459, acc=78.17%; val CE=4.03884, acc=26.35%; 8.2s
+wd_5e4: epoch 113/300, lr=0.03468789
+  batch 1/56 CE=0.63225
+  batch 20/56 CE=0.63525
+  batch 40/56 CE=0.67426
+  batch 56/56 CE=0.68823
+  performance: {"train_seconds": 6.96314719998918, "validation_seconds": 0.7657760000001872, "checkpoint_seconds": 0.6522948000056203, "best_checkpoint_skipped": true, "epoch": 113, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.68823, acc=79.41%; val CE=3.98332, acc=24.98%; 7.7s
+wd_5e4: epoch 114/300, lr=0.03444602
+  batch 1/56 CE=0.53618
+  batch 20/56 CE=0.64119
+  batch 40/56 CE=0.65715
+  batch 56/56 CE=0.66572
+  performance: {"train_seconds": 7.033075100000133, "validation_seconds": 0.778310199995758, "checkpoint_seconds": 0.6358354999974836, "best_checkpoint_skipped": true, "epoch": 114, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.66572, acc=79.36%; val CE=4.24873, acc=26.09%; 7.8s
+wd_5e4: epoch 115/300, lr=0.034203114
+  batch 1/56 CE=0.63519
+  batch 20/56 CE=0.57119
+  batch 40/56 CE=0.58576
+  batch 56/56 CE=0.60584
+  performance: {"train_seconds": 6.993333199992776, "validation_seconds": 0.7734889999992447, "checkpoint_seconds": 0.7253980999958003, "best_checkpoint_skipped": true, "epoch": 115, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.60584, acc=81.48%; val CE=4.88949, acc=27.53%; 7.8s
+wd_5e4: epoch 116/300, lr=0.033959199
+  batch 1/56 CE=0.49938
+  batch 20/56 CE=0.54774
+  batch 40/56 CE=0.58726
+  batch 56/56 CE=0.60663
+  performance: {"train_seconds": 6.962320799997542, "validation_seconds": 0.804251599998679, "checkpoint_seconds": 0.6467950999940513, "best_checkpoint_skipped": true, "epoch": 116, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.60663, acc=81.17%; val CE=4.10772, acc=26.03%; 7.8s
+wd_5e4: epoch 117/300, lr=0.033714301
+  batch 1/56 CE=0.42954
+  batch 20/56 CE=0.54911
+  batch 40/56 CE=0.54788
+  batch 56/56 CE=0.57562
+  performance: {"train_seconds": 7.12439950001135, "validation_seconds": 0.8106524000031641, "checkpoint_seconds": 0.6601472000038484, "best_checkpoint_skipped": true, "epoch": 117, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.57562, acc=82.96%; val CE=3.91127, acc=27.92%; 7.9s
+wd_5e4: epoch 118/300, lr=0.033468448
+  batch 1/56 CE=0.55843
+  batch 20/56 CE=0.49673
+  batch 40/56 CE=0.55257
+  batch 56/56 CE=0.56037
+  performance: {"train_seconds": 7.011980899987975, "validation_seconds": 0.8032608999928925, "checkpoint_seconds": 0.6874219000019366, "best_checkpoint_skipped": true, "epoch": 118, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.56037, acc=83.48%; val CE=4.28276, acc=27.72%; 7.8s
+wd_5e4: epoch 119/300, lr=0.033221666
+  batch 1/56 CE=0.36422
+  batch 20/56 CE=0.49127
+  batch 40/56 CE=0.50403
+  batch 56/56 CE=0.51994
+  performance: {"train_seconds": 7.098581199999899, "validation_seconds": 0.7736627999984194, "checkpoint_seconds": 0.9187699000030989, "best_checkpoint_skipped": false, "epoch": 119, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.51994, acc=84.56%; val CE=3.83416, acc=29.35%; 7.9s
+wd_5e4: epoch 120/300, lr=0.032973983
+  batch 1/56 CE=0.43924
+  batch 20/56 CE=0.49360
+  batch 40/56 CE=0.50588
+  batch 56/56 CE=0.52354
+  performance: {"train_seconds": 7.219855999996071, "validation_seconds": 0.8270782999898074, "checkpoint_seconds": 0.6943341000005603, "best_checkpoint_skipped": true, "epoch": 120, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.52354, acc=84.08%; val CE=4.09535, acc=28.96%; 8.0s
+wd_5e4: epoch 121/300, lr=0.032725425
+  batch 1/56 CE=0.42478
+  batch 20/56 CE=0.50088
+  batch 40/56 CE=0.51206
+  batch 56/56 CE=0.52938
+  performance: {"train_seconds": 7.043585899999016, "validation_seconds": 0.7886789000040153, "checkpoint_seconds": 0.7028588999964995, "best_checkpoint_skipped": true, "epoch": 121, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.52938, acc=84.56%; val CE=4.00740, acc=28.25%; 7.8s
+wd_5e4: epoch 122/300, lr=0.03247602
+  batch 1/56 CE=0.45673
+  batch 20/56 CE=0.47029
+  batch 40/56 CE=0.51061
+  batch 56/56 CE=0.52039
+  performance: {"train_seconds": 7.277463199992781, "validation_seconds": 0.8197600000130478, "checkpoint_seconds": 0.6914664000069024, "best_checkpoint_skipped": true, "epoch": 122, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.52039, acc=84.16%; val CE=4.05494, acc=27.92%; 8.1s
+wd_5e4: epoch 123/300, lr=0.032225795
+  batch 1/56 CE=0.35672
+  batch 20/56 CE=0.48618
+  batch 40/56 CE=0.51392
+  batch 56/56 CE=0.52805
+  performance: {"train_seconds": 7.058909400002449, "validation_seconds": 0.8066730999998981, "checkpoint_seconds": 0.7124485000094865, "best_checkpoint_skipped": true, "epoch": 123, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.52805, acc=84.30%; val CE=4.09381, acc=28.31%; 7.9s
+wd_5e4: epoch 124/300, lr=0.031974778
+  batch 1/56 CE=0.38657
+  batch 20/56 CE=0.46259
+  batch 40/56 CE=0.47579
+  batch 56/56 CE=0.49703
+  performance: {"train_seconds": 7.0200249000045005, "validation_seconds": 0.8257891999965068, "checkpoint_seconds": 0.6560524000087753, "best_checkpoint_skipped": true, "epoch": 124, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.49703, acc=85.09%; val CE=3.99134, acc=28.05%; 7.8s
+wd_5e4: epoch 125/300, lr=0.031722996
+  batch 1/56 CE=0.35936
+  batch 20/56 CE=0.45038
+  batch 40/56 CE=0.45611
+  batch 56/56 CE=0.47140
+  performance: {"train_seconds": 7.181105700001353, "validation_seconds": 0.7881314999976894, "checkpoint_seconds": 0.6740310999884969, "best_checkpoint_skipped": true, "epoch": 125, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.47140, acc=86.19%; val CE=3.92031, acc=28.38%; 8.0s
+wd_5e4: epoch 126/300, lr=0.031470476
+  batch 1/56 CE=0.45557
+  batch 20/56 CE=0.41184
+  batch 40/56 CE=0.42275
+  batch 56/56 CE=0.43804
+  performance: {"train_seconds": 7.1475127000012435, "validation_seconds": 0.7878674999956274, "checkpoint_seconds": 0.7498350000096252, "best_checkpoint_skipped": true, "epoch": 126, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.43804, acc=87.10%; val CE=4.12974, acc=28.18%; 7.9s
+wd_5e4: epoch 127/300, lr=0.031217247
+  batch 1/56 CE=0.35248
+  batch 20/56 CE=0.40092
+  batch 40/56 CE=0.43017
+  batch 56/56 CE=0.44824
+  performance: {"train_seconds": 7.076932299998589, "validation_seconds": 0.768651399994269, "checkpoint_seconds": 0.8040198999951826, "best_checkpoint_skipped": true, "epoch": 127, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.44824, acc=86.75%; val CE=4.13629, acc=27.85%; 7.8s
+wd_5e4: epoch 128/300, lr=0.030963336
+  batch 1/56 CE=0.31208
+  batch 20/56 CE=0.36804
+  batch 40/56 CE=0.39922
+  batch 56/56 CE=0.41657
+  performance: {"train_seconds": 6.920163800008595, "validation_seconds": 0.7852826999878744, "checkpoint_seconds": 0.7398231999977725, "best_checkpoint_skipped": true, "epoch": 128, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.41657, acc=87.76%; val CE=4.19245, acc=28.05%; 7.7s
+wd_5e4: epoch 129/300, lr=0.030708772
+  batch 1/56 CE=0.31010
+  batch 20/56 CE=0.38216
+  batch 40/56 CE=0.40397
+  batch 56/56 CE=0.40411
+  performance: {"train_seconds": 7.120564999990165, "validation_seconds": 0.7875260000000708, "checkpoint_seconds": 0.9829633999906946, "best_checkpoint_skipped": false, "epoch": 129, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.40411, acc=87.97%; val CE=4.06621, acc=29.88%; 7.9s
+wd_5e4: epoch 130/300, lr=0.030453581
+  batch 1/56 CE=0.23849
+  batch 20/56 CE=0.34998
+  batch 40/56 CE=0.36454
+  batch 56/56 CE=0.38842
+  performance: {"train_seconds": 7.008281699992949, "validation_seconds": 0.7987557000014931, "checkpoint_seconds": 0.75342679998721, "best_checkpoint_skipped": true, "epoch": 130, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.38842, acc=88.43%; val CE=4.10179, acc=29.09%; 7.8s
+wd_5e4: epoch 131/300, lr=0.030197792
+  batch 1/56 CE=0.39996
+  batch 20/56 CE=0.37253
+  batch 40/56 CE=0.38252
+  batch 56/56 CE=0.38583
+  performance: {"train_seconds": 7.137575199987623, "validation_seconds": 0.8175615000072867, "checkpoint_seconds": 0.794613499994739, "best_checkpoint_skipped": true, "epoch": 131, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.38583, acc=88.74%; val CE=4.13991, acc=28.11%; 8.0s
+wd_5e4: epoch 132/300, lr=0.029941434
+  batch 1/56 CE=0.34685
+  batch 20/56 CE=0.33962
+  batch 40/56 CE=0.33985
+  batch 56/56 CE=0.33577
+  performance: {"train_seconds": 7.014583900003345, "validation_seconds": 0.8161701000062749, "checkpoint_seconds": 0.6893390000041109, "best_checkpoint_skipped": true, "epoch": 132, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.33577, acc=90.41%; val CE=3.98397, acc=29.68%; 7.8s
+wd_5e4: epoch 133/300, lr=0.029684533
+  batch 1/56 CE=0.22723
+  batch 20/56 CE=0.27657
+  batch 40/56 CE=0.29097
+  batch 56/56 CE=0.30181
+  performance: {"train_seconds": 7.077820100006647, "validation_seconds": 0.7947217999899294, "checkpoint_seconds": 0.715883600001689, "best_checkpoint_skipped": true, "epoch": 133, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.30181, acc=91.52%; val CE=4.08779, acc=29.35%; 7.9s
+wd_5e4: epoch 134/300, lr=0.029427119
+  batch 1/56 CE=0.29825
+  batch 20/56 CE=0.27541
+  batch 40/56 CE=0.28540
+  batch 56/56 CE=0.29199
+  performance: {"train_seconds": 7.048608400000376, "validation_seconds": 0.7904022000002442, "checkpoint_seconds": 0.9095675999997184, "best_checkpoint_skipped": false, "epoch": 134, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.29199, acc=91.60%; val CE=4.04243, acc=30.27%; 7.8s
+wd_5e4: epoch 135/300, lr=0.029169219
+  batch 1/56 CE=0.25456
+  batch 20/56 CE=0.27347
+  batch 40/56 CE=0.29940
+  batch 56/56 CE=0.30856
+  performance: {"train_seconds": 7.143041899995296, "validation_seconds": 0.8039949999947567, "checkpoint_seconds": 0.9148602000059327, "best_checkpoint_skipped": false, "epoch": 135, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.30856, acc=91.33%; val CE=3.95110, acc=30.40%; 7.9s
+wd_5e4: epoch 136/300, lr=0.028910862
+  batch 1/56 CE=0.23674
+  batch 20/56 CE=0.27726
+  batch 40/56 CE=0.29089
+  batch 56/56 CE=0.29751
+  performance: {"train_seconds": 7.070575899997493, "validation_seconds": 0.7959267999976873, "checkpoint_seconds": 0.6999196999968262, "best_checkpoint_skipped": true, "epoch": 136, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.29751, acc=91.32%; val CE=4.13653, acc=28.31%; 7.9s
+wd_5e4: epoch 137/300, lr=0.028652076
+  batch 1/56 CE=0.25850
+  batch 20/56 CE=0.25506
+  batch 40/56 CE=0.26291
+  batch 56/56 CE=0.27598
+  performance: {"train_seconds": 7.1688368000031915, "validation_seconds": 0.7844253000075696, "checkpoint_seconds": 0.6953588000033051, "best_checkpoint_skipped": true, "epoch": 137, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.27598, acc=92.27%; val CE=4.23696, acc=28.38%; 8.0s
+wd_5e4: epoch 138/300, lr=0.028392889
+  batch 1/56 CE=0.27661
+  batch 20/56 CE=0.24191
+  batch 40/56 CE=0.24959
+  batch 56/56 CE=0.26096
+  performance: {"train_seconds": 7.08000699999684, "validation_seconds": 0.8127347999979975, "checkpoint_seconds": 0.6463328000099864, "best_checkpoint_skipped": true, "epoch": 138, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.26096, acc=92.30%; val CE=4.31326, acc=27.27%; 7.9s
+wd_5e4: epoch 139/300, lr=0.028133331
+  batch 1/56 CE=0.23139
+  batch 20/56 CE=0.23744
+  batch 40/56 CE=0.24119
+  batch 56/56 CE=0.24947
+  performance: {"train_seconds": 7.088737500002026, "validation_seconds": 0.7804748000053223, "checkpoint_seconds": 0.6385445999912918, "best_checkpoint_skipped": true, "epoch": 139, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.24947, acc=92.93%; val CE=4.06818, acc=28.96%; 7.9s
+wd_5e4: epoch 140/300, lr=0.027873429
+  batch 1/56 CE=0.19938
+  batch 20/56 CE=0.22840
+  batch 40/56 CE=0.21815
+  batch 56/56 CE=0.22273
+  performance: {"train_seconds": 7.156033200008096, "validation_seconds": 0.7866983000130858, "checkpoint_seconds": 0.7169030000077328, "best_checkpoint_skipped": true, "epoch": 140, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.22273, acc=94.12%; val CE=4.12314, acc=28.18%; 7.9s
+wd_5e4: epoch 141/300, lr=0.027613212
+  batch 1/56 CE=0.22242
+  batch 20/56 CE=0.24607
+  batch 40/56 CE=0.24433
+  batch 56/56 CE=0.25301
+  performance: {"train_seconds": 7.086373099999037, "validation_seconds": 0.7824687999964226, "checkpoint_seconds": 0.6541983999923104, "best_checkpoint_skipped": true, "epoch": 141, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.25301, acc=92.73%; val CE=4.24050, acc=28.70%; 7.9s
+wd_5e4: epoch 142/300, lr=0.027352708
+  batch 1/56 CE=0.22342
+  batch 20/56 CE=0.23958
+  batch 40/56 CE=0.24936
+  batch 56/56 CE=0.24988
+  performance: {"train_seconds": 7.101560199997039, "validation_seconds": 0.7833144999895012, "checkpoint_seconds": 0.6768548000109149, "best_checkpoint_skipped": true, "epoch": 142, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.24988, acc=92.94%; val CE=4.19498, acc=28.05%; 7.9s
+wd_5e4: epoch 143/300, lr=0.027091946
+  batch 1/56 CE=0.18515
+  batch 20/56 CE=0.20817
+  batch 40/56 CE=0.21663
+  batch 56/56 CE=0.22465
+  performance: {"train_seconds": 7.12639869999839, "validation_seconds": 0.7963422000029823, "checkpoint_seconds": 0.6450388999946881, "best_checkpoint_skipped": true, "epoch": 143, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.22465, acc=93.71%; val CE=4.22384, acc=29.09%; 7.9s
+wd_5e4: epoch 144/300, lr=0.026830955
+  batch 1/56 CE=0.28441
+  batch 20/56 CE=0.21875
+  batch 40/56 CE=0.21851
+  batch 56/56 CE=0.21852
+  performance: {"train_seconds": 7.0023687000066275, "validation_seconds": 0.7909073000046192, "checkpoint_seconds": 0.7127284000016516, "best_checkpoint_skipped": true, "epoch": 144, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.21852, acc=93.96%; val CE=4.13979, acc=29.09%; 7.8s
+wd_5e4: epoch 145/300, lr=0.026569763
+  batch 1/56 CE=0.16021
+  batch 20/56 CE=0.21116
+  batch 40/56 CE=0.22495
+  batch 56/56 CE=0.23189
+  performance: {"train_seconds": 7.150623199995607, "validation_seconds": 0.801125600002706, "checkpoint_seconds": 0.6567544999998063, "best_checkpoint_skipped": true, "epoch": 145, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.23189, acc=93.70%; val CE=4.25184, acc=28.90%; 8.0s
+wd_5e4: epoch 146/300, lr=0.026308399
+  batch 1/56 CE=0.22959
+  batch 20/56 CE=0.23766
+  batch 40/56 CE=0.23228
+  batch 56/56 CE=0.24553
+  performance: {"train_seconds": 7.249121599990758, "validation_seconds": 0.8423693000077037, "checkpoint_seconds": 0.6805211000028066, "best_checkpoint_skipped": true, "epoch": 146, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.24553, acc=93.03%; val CE=4.17349, acc=29.09%; 8.1s
+wd_5e4: epoch 147/300, lr=0.026046891
+  batch 1/56 CE=0.18807
+  batch 20/56 CE=0.20347
+  batch 40/56 CE=0.21638
+  batch 56/56 CE=0.22225
+  performance: {"train_seconds": 7.313441499994951, "validation_seconds": 0.7886813999939477, "checkpoint_seconds": 0.6467763000109699, "best_checkpoint_skipped": true, "epoch": 147, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.22225, acc=93.72%; val CE=4.23189, acc=27.27%; 8.1s
+wd_5e4: epoch 148/300, lr=0.025785269
+  batch 1/56 CE=0.23915
+  batch 20/56 CE=0.20269
+  batch 40/56 CE=0.19507
+  batch 56/56 CE=0.19373
+  performance: {"train_seconds": 7.082815700006904, "validation_seconds": 0.7830133000097703, "checkpoint_seconds": 0.94607810000889, "best_checkpoint_skipped": false, "epoch": 148, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.19373, acc=94.80%; val CE=4.02598, acc=30.85%; 7.9s
+wd_5e4: epoch 149/300, lr=0.02552356
+  batch 1/56 CE=0.17527
+  batch 20/56 CE=0.17284
+  batch 40/56 CE=0.17889
+  batch 56/56 CE=0.18600
+  performance: {"train_seconds": 7.110779900001944, "validation_seconds": 0.8083786000061082, "checkpoint_seconds": 0.7277336000115611, "best_checkpoint_skipped": true, "epoch": 149, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.18600, acc=95.30%; val CE=3.99500, acc=29.81%; 7.9s
+wd_5e4: epoch 150/300, lr=0.025261795
+  batch 1/56 CE=0.16551
+  batch 20/56 CE=0.17187
+  batch 40/56 CE=0.18644
+  batch 56/56 CE=0.19282
+  performance: {"train_seconds": 7.018843199999537, "validation_seconds": 0.8003686999873025, "checkpoint_seconds": 0.6796743000013521, "best_checkpoint_skipped": true, "epoch": 150, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.19282, acc=94.80%; val CE=4.13648, acc=29.88%; 7.8s
+wd_5e4: epoch 151/300, lr=0.025
+  batch 1/56 CE=0.14036
+  batch 20/56 CE=0.17040
+  batch 40/56 CE=0.17346
+  batch 56/56 CE=0.17679
+  performance: {"train_seconds": 7.095474400004605, "validation_seconds": 0.8046667999878991, "checkpoint_seconds": 0.6828645000059623, "best_checkpoint_skipped": true, "epoch": 151, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.17679, acc=95.65%; val CE=3.96664, acc=29.81%; 7.9s
+wd_5e4: epoch 152/300, lr=0.024738205
+  batch 1/56 CE=0.07815
+  batch 20/56 CE=0.14489
+  batch 40/56 CE=0.14873
+  batch 56/56 CE=0.15139
+  performance: {"train_seconds": 7.015726400000858, "validation_seconds": 0.8015006000059657, "checkpoint_seconds": 0.6940078000043286, "best_checkpoint_skipped": true, "epoch": 152, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.15139, acc=96.24%; val CE=4.10540, acc=28.57%; 7.8s
+wd_5e4: epoch 153/300, lr=0.02447644
+  batch 1/56 CE=0.08027
+  batch 20/56 CE=0.12678
+  batch 40/56 CE=0.13547
+  batch 56/56 CE=0.14009
+  performance: {"train_seconds": 7.077013600006467, "validation_seconds": 0.7812355000060052, "checkpoint_seconds": 0.8057905000023311, "best_checkpoint_skipped": true, "epoch": 153, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.14009, acc=96.65%; val CE=3.96020, acc=30.40%; 7.9s
+wd_5e4: epoch 154/300, lr=0.024214731
+  batch 1/56 CE=0.10650
+  batch 20/56 CE=0.12985
+  batch 40/56 CE=0.13292
+  batch 56/56 CE=0.13338
+  performance: {"train_seconds": 7.1432022999943, "validation_seconds": 0.7839376000047196, "checkpoint_seconds": 0.6999075000057928, "best_checkpoint_skipped": true, "epoch": 154, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.13338, acc=97.13%; val CE=4.00753, acc=29.42%; 7.9s
+wd_5e4: epoch 155/300, lr=0.023953109
+  batch 1/56 CE=0.07303
+  batch 20/56 CE=0.12033
+  batch 40/56 CE=0.11930
+  batch 56/56 CE=0.12560
+  performance: {"train_seconds": 7.067518500000006, "validation_seconds": 0.8259955999965314, "checkpoint_seconds": 0.7268617000081576, "best_checkpoint_skipped": true, "epoch": 155, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.12560, acc=97.20%; val CE=4.05769, acc=29.94%; 7.9s
+wd_5e4: epoch 156/300, lr=0.023691601
+  batch 1/56 CE=0.10992
+  batch 20/56 CE=0.11732
+  batch 40/56 CE=0.11858
+  batch 56/56 CE=0.11948
+  performance: {"train_seconds": 7.017880600003991, "validation_seconds": 0.8213958000123966, "checkpoint_seconds": 0.6796351999946637, "best_checkpoint_skipped": true, "epoch": 156, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.11948, acc=97.29%; val CE=4.14490, acc=30.79%; 7.8s
+wd_5e4: epoch 157/300, lr=0.023430237
+  batch 1/56 CE=0.13253
+  batch 20/56 CE=0.10403
+  batch 40/56 CE=0.10856
+  batch 56/56 CE=0.11015
+  performance: {"train_seconds": 7.106437700000242, "validation_seconds": 0.8019664000021294, "checkpoint_seconds": 0.9340958000102546, "best_checkpoint_skipped": false, "epoch": 157, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.11015, acc=97.72%; val CE=3.94829, acc=30.92%; 7.9s
+wd_5e4: epoch 158/300, lr=0.023169045
+  batch 1/56 CE=0.10955
+  batch 20/56 CE=0.11727
+  batch 40/56 CE=0.11776
+  batch 56/56 CE=0.12137
+  performance: {"train_seconds": 7.104072199988877, "validation_seconds": 0.8132293000089703, "checkpoint_seconds": 0.6961195000039879, "best_checkpoint_skipped": true, "epoch": 158, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.12137, acc=97.09%; val CE=4.07747, acc=30.20%; 7.9s
+wd_5e4: epoch 159/300, lr=0.022908054
+  batch 1/56 CE=0.10871
+  batch 20/56 CE=0.10965
+  batch 40/56 CE=0.11615
+  batch 56/56 CE=0.11727
+  performance: {"train_seconds": 7.130164000001969, "validation_seconds": 0.8010306000069249, "checkpoint_seconds": 0.7239248999976553, "best_checkpoint_skipped": true, "epoch": 159, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.11727, acc=97.47%; val CE=3.93434, acc=29.94%; 7.9s
+wd_5e4: epoch 160/300, lr=0.022647292
+  batch 1/56 CE=0.08269
+  batch 20/56 CE=0.09884
+  batch 40/56 CE=0.09713
+  batch 56/56 CE=0.09827
+  performance: {"train_seconds": 7.082453499999247, "validation_seconds": 0.8317535999958636, "checkpoint_seconds": 0.7254381999955513, "best_checkpoint_skipped": true, "epoch": 160, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.09827, acc=98.02%; val CE=3.85266, acc=30.14%; 7.9s
+wd_5e4: epoch 161/300, lr=0.022386788
+  batch 1/56 CE=0.07466
+  batch 20/56 CE=0.08367
+  batch 40/56 CE=0.08780
+  batch 56/56 CE=0.08952
+  performance: {"train_seconds": 7.038666399996146, "validation_seconds": 0.8002623999927891, "checkpoint_seconds": 0.9524040999967838, "best_checkpoint_skipped": false, "epoch": 161, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.08952, acc=98.21%; val CE=3.96450, acc=31.83%; 7.8s
+wd_5e4: epoch 162/300, lr=0.022126571
+  batch 1/56 CE=0.06960
+  batch 20/56 CE=0.08577
+  batch 40/56 CE=0.09369
+  batch 56/56 CE=0.09674
+  performance: {"train_seconds": 7.010469400003785, "validation_seconds": 0.801061700010905, "checkpoint_seconds": 0.6976871000078972, "best_checkpoint_skipped": true, "epoch": 162, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.09674, acc=97.96%; val CE=4.02304, acc=30.14%; 7.8s
+wd_5e4: epoch 163/300, lr=0.021866669
+  batch 1/56 CE=0.07190
+  batch 20/56 CE=0.07793
+  batch 40/56 CE=0.08036
+  batch 56/56 CE=0.08521
+  performance: {"train_seconds": 7.120779200005927, "validation_seconds": 0.7996448000048986, "checkpoint_seconds": 0.6974061000073561, "best_checkpoint_skipped": true, "epoch": 163, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.08521, acc=98.35%; val CE=3.91551, acc=30.79%; 7.9s
+wd_5e4: epoch 164/300, lr=0.021607111
+  batch 1/56 CE=0.07311
+  batch 20/56 CE=0.08175
+  batch 40/56 CE=0.08700
+  batch 56/56 CE=0.09234
+  performance: {"train_seconds": 6.920556500001112, "validation_seconds": 0.7839765999960946, "checkpoint_seconds": 0.6737603000074159, "best_checkpoint_skipped": true, "epoch": 164, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.09234, acc=98.17%; val CE=3.92460, acc=30.92%; 7.7s
+wd_5e4: epoch 165/300, lr=0.021347924
+  batch 1/56 CE=0.14895
+  batch 20/56 CE=0.08972
+  batch 40/56 CE=0.08746
+  batch 56/56 CE=0.08678
+  performance: {"train_seconds": 7.027028500000597, "validation_seconds": 0.787948500001221, "checkpoint_seconds": 0.6336199999932433, "best_checkpoint_skipped": true, "epoch": 165, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.08678, acc=98.34%; val CE=3.90846, acc=30.40%; 7.8s
+wd_5e4: epoch 166/300, lr=0.021089138
+  batch 1/56 CE=0.06499
+  batch 20/56 CE=0.07401
+  batch 40/56 CE=0.07390
+  batch 56/56 CE=0.07473
+  performance: {"train_seconds": 7.122991400014143, "validation_seconds": 0.7813086999958614, "checkpoint_seconds": 0.6478888999990886, "best_checkpoint_skipped": true, "epoch": 166, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.07473, acc=98.60%; val CE=3.99133, acc=30.01%; 7.9s
+wd_5e4: epoch 167/300, lr=0.020830781
+  batch 1/56 CE=0.03965
+  batch 20/56 CE=0.06321
+  batch 40/56 CE=0.06866
+  batch 56/56 CE=0.06907
+  performance: {"train_seconds": 7.091832600010093, "validation_seconds": 0.8056417000043439, "checkpoint_seconds": 0.6843138000112958, "best_checkpoint_skipped": true, "epoch": 167, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.06907, acc=98.92%; val CE=3.92287, acc=31.77%; 7.9s
+wd_5e4: epoch 168/300, lr=0.020572881
+  batch 1/56 CE=0.07034
+  batch 20/56 CE=0.05862
+  batch 40/56 CE=0.05698
+  batch 56/56 CE=0.05614
+  performance: {"train_seconds": 6.985705400002189, "validation_seconds": 0.7976989000017056, "checkpoint_seconds": 0.6503152000077534, "best_checkpoint_skipped": true, "epoch": 168, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.05614, acc=99.26%; val CE=3.96401, acc=29.29%; 7.8s
+wd_5e4: epoch 169/300, lr=0.020315467
+  batch 1/56 CE=0.04997
+  batch 20/56 CE=0.05205
+  batch 40/56 CE=0.05387
+  batch 56/56 CE=0.05536
+  performance: {"train_seconds": 7.072677300006035, "validation_seconds": 0.8380309999920428, "checkpoint_seconds": 0.6636368000035873, "best_checkpoint_skipped": true, "epoch": 169, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.05536, acc=99.30%; val CE=3.80629, acc=31.12%; 7.9s
+wd_5e4: epoch 170/300, lr=0.020058566
+  batch 1/56 CE=0.03859
+  batch 20/56 CE=0.05177
+  batch 40/56 CE=0.05264
+  batch 56/56 CE=0.05242
+  performance: {"train_seconds": 7.083920099990792, "validation_seconds": 0.7918146000010893, "checkpoint_seconds": 0.6642256999912206, "best_checkpoint_skipped": true, "epoch": 170, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.05242, acc=99.30%; val CE=3.96219, acc=30.59%; 7.9s
+wd_5e4: epoch 171/300, lr=0.019802208
+  batch 1/56 CE=0.03333
+  batch 20/56 CE=0.05753
+  batch 40/56 CE=0.05457
+  batch 56/56 CE=0.05383
+  performance: {"train_seconds": 7.10048170000664, "validation_seconds": 0.8091777000081493, "checkpoint_seconds": 0.6781195999938063, "best_checkpoint_skipped": true, "epoch": 171, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.05383, acc=99.26%; val CE=3.85530, acc=31.51%; 7.9s
+wd_5e4: epoch 172/300, lr=0.019546419
+  batch 1/56 CE=0.05375
+  batch 20/56 CE=0.05151
+  batch 40/56 CE=0.05032
+  batch 56/56 CE=0.05162
+  performance: {"train_seconds": 7.093246899996302, "validation_seconds": 0.8018293999921298, "checkpoint_seconds": 0.8681164000008721, "best_checkpoint_skipped": true, "epoch": 172, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.05162, acc=99.36%; val CE=3.82953, acc=31.70%; 7.9s
+wd_5e4: epoch 173/300, lr=0.019291228
+  batch 1/56 CE=0.05464
+  batch 20/56 CE=0.05225
+  batch 40/56 CE=0.05020
+  batch 56/56 CE=0.05065
+  performance: {"train_seconds": 7.076346400004695, "validation_seconds": 0.8042759000090882, "checkpoint_seconds": 0.7023576999927172, "best_checkpoint_skipped": true, "epoch": 173, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.05065, acc=99.32%; val CE=3.83962, acc=30.85%; 7.9s
+wd_5e4: epoch 174/300, lr=0.019036664
+  batch 1/56 CE=0.02715
+  batch 20/56 CE=0.04220
+  batch 40/56 CE=0.04443
+  batch 56/56 CE=0.04626
+  performance: {"train_seconds": 7.094860899989726, "validation_seconds": 0.8025575999927241, "checkpoint_seconds": 0.6924934999988182, "best_checkpoint_skipped": true, "epoch": 174, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.04626, acc=99.39%; val CE=3.78462, acc=31.70%; 7.9s
+wd_5e4: epoch 175/300, lr=0.018782753
+  batch 1/56 CE=0.05323
+  batch 20/56 CE=0.04758
+  batch 40/56 CE=0.05342
+  batch 56/56 CE=0.05578
+  performance: {"train_seconds": 6.940346000003046, "validation_seconds": 0.7835769000084838, "checkpoint_seconds": 0.6858187000034377, "best_checkpoint_skipped": true, "epoch": 175, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.05578, acc=98.97%; val CE=3.76321, acc=29.88%; 7.7s
+wd_5e4: epoch 176/300, lr=0.018529524
+  batch 1/56 CE=0.05165
+  batch 20/56 CE=0.05127
+  batch 40/56 CE=0.05170
+  batch 56/56 CE=0.05242
+  performance: {"train_seconds": 7.021426799998153, "validation_seconds": 0.7969328000035603, "checkpoint_seconds": 0.7450584000034723, "best_checkpoint_skipped": true, "epoch": 176, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.05242, acc=99.23%; val CE=3.88835, acc=31.51%; 7.8s
+wd_5e4: epoch 177/300, lr=0.018277004
+  batch 1/56 CE=0.04385
+  batch 20/56 CE=0.04673
+  batch 40/56 CE=0.05030
+  batch 56/56 CE=0.05256
+  performance: {"train_seconds": 7.129151899993303, "validation_seconds": 0.793150900004548, "checkpoint_seconds": 0.6417370999988634, "best_checkpoint_skipped": true, "epoch": 177, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.05256, acc=99.30%; val CE=3.79245, acc=31.64%; 7.9s
+wd_5e4: epoch 178/300, lr=0.018025222
+  batch 1/56 CE=0.04421
+  batch 20/56 CE=0.04775
+  batch 40/56 CE=0.04722
+  batch 56/56 CE=0.04847
+  performance: {"train_seconds": 7.0540342000022065, "validation_seconds": 0.8026960999995936, "checkpoint_seconds": 0.6462415999994846, "best_checkpoint_skipped": true, "epoch": 178, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.04847, acc=99.43%; val CE=3.82535, acc=30.59%; 7.9s
+wd_5e4: epoch 179/300, lr=0.017774205
+  batch 1/56 CE=0.05388
+  batch 20/56 CE=0.04443
+  batch 40/56 CE=0.04421
+  batch 56/56 CE=0.04795
+  performance: {"train_seconds": 7.03753339999821, "validation_seconds": 0.7829628000035882, "checkpoint_seconds": 0.7227496999985306, "best_checkpoint_skipped": true, "epoch": 179, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.04795, acc=99.29%; val CE=3.68218, acc=31.25%; 7.8s
+wd_5e4: epoch 180/300, lr=0.01752398
+  batch 1/56 CE=0.03810
+  batch 20/56 CE=0.04846
+  batch 40/56 CE=0.04789
+  batch 56/56 CE=0.04656
+  performance: {"train_seconds": 7.051103300007526, "validation_seconds": 0.8127935000084108, "checkpoint_seconds": 0.8988511000061408, "best_checkpoint_skipped": false, "epoch": 180, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.04656, acc=99.45%; val CE=3.79618, acc=32.55%; 7.9s
+wd_5e4: epoch 181/300, lr=0.017274575
+  batch 1/56 CE=0.02571
+  batch 20/56 CE=0.04281
+  batch 40/56 CE=0.04449
+  batch 56/56 CE=0.04375
+  performance: {"train_seconds": 7.4536743000062415, "validation_seconds": 0.8163898000057088, "checkpoint_seconds": 0.728639299995848, "best_checkpoint_skipped": true, "epoch": 181, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.04375, acc=99.47%; val CE=3.69137, acc=31.77%; 8.3s
+wd_5e4: epoch 182/300, lr=0.017026017
+  batch 1/56 CE=0.03396
+  batch 20/56 CE=0.04226
+  batch 40/56 CE=0.04365
+  batch 56/56 CE=0.04299
+  performance: {"train_seconds": 7.163804600000731, "validation_seconds": 0.781839300005231, "checkpoint_seconds": 0.6502474000008078, "best_checkpoint_skipped": true, "epoch": 182, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.04299, acc=99.40%; val CE=3.72989, acc=30.72%; 7.9s
+wd_5e4: epoch 183/300, lr=0.016778334
+  batch 1/56 CE=0.05429
+  batch 20/56 CE=0.04084
+  batch 40/56 CE=0.04216
+  batch 56/56 CE=0.04127
+  performance: {"train_seconds": 7.157512099991436, "validation_seconds": 0.8245852999971248, "checkpoint_seconds": 0.9327851999987615, "best_checkpoint_skipped": false, "epoch": 183, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.04127, acc=99.61%; val CE=3.66342, acc=32.62%; 8.0s
+wd_5e4: epoch 184/300, lr=0.016531552
+  batch 1/56 CE=0.03006
+  batch 20/56 CE=0.03959
+  batch 40/56 CE=0.03868
+  batch 56/56 CE=0.03907
+  performance: {"train_seconds": 7.180138899988378, "validation_seconds": 0.7907241000066279, "checkpoint_seconds": 0.7162135999969905, "best_checkpoint_skipped": true, "epoch": 184, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.03907, acc=99.58%; val CE=3.70517, acc=32.22%; 8.0s
+wd_5e4: epoch 185/300, lr=0.016285699
+  batch 1/56 CE=0.02504
+  batch 20/56 CE=0.04008
+  batch 40/56 CE=0.03983
+  batch 56/56 CE=0.03984
+  performance: {"train_seconds": 7.20291370000632, "validation_seconds": 0.8162653000035789, "checkpoint_seconds": 0.6587897999997949, "best_checkpoint_skipped": true, "epoch": 185, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.03984, acc=99.59%; val CE=3.65532, acc=32.22%; 8.0s
+wd_5e4: epoch 186/300, lr=0.016040801
+  batch 1/56 CE=0.03244
+  batch 20/56 CE=0.03470
+  batch 40/56 CE=0.03492
+  batch 56/56 CE=0.03545
+  performance: {"train_seconds": 7.167879600005108, "validation_seconds": 0.8008474999951432, "checkpoint_seconds": 0.6448002000106499, "best_checkpoint_skipped": true, "epoch": 186, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.03545, acc=99.64%; val CE=3.69120, acc=31.64%; 8.0s
+wd_5e4: epoch 187/300, lr=0.015796886
+  batch 1/56 CE=0.03082
+  batch 20/56 CE=0.03670
+  batch 40/56 CE=0.03655
+  batch 56/56 CE=0.03647
+  performance: {"train_seconds": 7.0390863999928115, "validation_seconds": 0.7985122999962186, "checkpoint_seconds": 0.6516742000094382, "best_checkpoint_skipped": true, "epoch": 187, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.03647, acc=99.72%; val CE=3.61435, acc=31.96%; 7.8s
+wd_5e4: epoch 188/300, lr=0.01555398
+  batch 1/56 CE=0.02112
+  batch 20/56 CE=0.03163
+  batch 40/56 CE=0.03105
+  batch 56/56 CE=0.03079
+  performance: {"train_seconds": 7.025571299993317, "validation_seconds": 0.7943846999987727, "checkpoint_seconds": 0.6510392000054708, "best_checkpoint_skipped": true, "epoch": 188, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.03079, acc=99.80%; val CE=3.68983, acc=32.55%; 7.8s
+wd_5e4: epoch 189/300, lr=0.01531211
+  batch 1/56 CE=0.02794
+  batch 20/56 CE=0.02953
+  batch 40/56 CE=0.02906
+  batch 56/56 CE=0.02936
+  performance: {"train_seconds": 6.996180900008767, "validation_seconds": 0.8031578000081936, "checkpoint_seconds": 0.6461399999971036, "best_checkpoint_skipped": true, "epoch": 189, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02936, acc=99.79%; val CE=3.63620, acc=31.96%; 7.8s
+wd_5e4: epoch 190/300, lr=0.015071303
+  batch 1/56 CE=0.02457
+  batch 20/56 CE=0.02999
+  batch 40/56 CE=0.03034
+  batch 56/56 CE=0.03139
+  performance: {"train_seconds": 7.040786099998513, "validation_seconds": 0.8204336000053445, "checkpoint_seconds": 0.6632701999915298, "best_checkpoint_skipped": true, "epoch": 190, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.03139, acc=99.69%; val CE=3.61247, acc=32.35%; 7.9s
+wd_5e4: epoch 191/300, lr=0.014831584
+  batch 1/56 CE=0.03574
+  batch 20/56 CE=0.03701
+  batch 40/56 CE=0.03574
+  batch 56/56 CE=0.03628
+  performance: {"train_seconds": 7.09568839998974, "validation_seconds": 0.7977654999995138, "checkpoint_seconds": 0.7669391999952495, "best_checkpoint_skipped": true, "epoch": 191, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.03628, acc=99.66%; val CE=3.66029, acc=32.35%; 7.9s
+wd_5e4: epoch 192/300, lr=0.01459298
+  batch 1/56 CE=0.02024
+  batch 20/56 CE=0.03352
+  batch 40/56 CE=0.03661
+  batch 56/56 CE=0.03639
+  performance: {"train_seconds": 7.187892300004023, "validation_seconds": 0.7930467000114731, "checkpoint_seconds": 0.9318652999936603, "best_checkpoint_skipped": false, "epoch": 192, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.03639, acc=99.73%; val CE=3.58688, acc=32.88%; 8.0s
+wd_5e4: epoch 193/300, lr=0.014355518
+  batch 1/56 CE=0.02042
+  batch 20/56 CE=0.03336
+  batch 40/56 CE=0.03319
+  batch 56/56 CE=0.03447
+  performance: {"train_seconds": 7.051460600006976, "validation_seconds": 0.8038377000048058, "checkpoint_seconds": 0.7109043000091333, "best_checkpoint_skipped": true, "epoch": 193, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.03447, acc=99.73%; val CE=3.57552, acc=32.29%; 7.9s
+wd_5e4: epoch 194/300, lr=0.014119223
+  batch 1/56 CE=0.03318
+  batch 20/56 CE=0.03955
+  batch 40/56 CE=0.03508
+  batch 56/56 CE=0.03422
+  performance: {"train_seconds": 7.102461900009075, "validation_seconds": 0.7846111000108067, "checkpoint_seconds": 0.6973873000097228, "best_checkpoint_skipped": true, "epoch": 194, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.03422, acc=99.75%; val CE=3.52576, acc=32.03%; 7.9s
+wd_5e4: epoch 195/300, lr=0.013884121
+  batch 1/56 CE=0.01771
+  batch 20/56 CE=0.03027
+  batch 40/56 CE=0.02989
+  batch 56/56 CE=0.03107
+  performance: {"train_seconds": 7.119629499997245, "validation_seconds": 0.7888710999977775, "checkpoint_seconds": 0.6900994000025094, "best_checkpoint_skipped": true, "epoch": 195, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.03107, acc=99.80%; val CE=3.54182, acc=32.09%; 7.9s
+wd_5e4: epoch 196/300, lr=0.013650238
+  batch 1/56 CE=0.02750
+  batch 20/56 CE=0.02522
+  batch 40/56 CE=0.02763
+  batch 56/56 CE=0.02788
+  performance: {"train_seconds": 7.0938009999954375, "validation_seconds": 0.7925166999921203, "checkpoint_seconds": 0.9555643000057898, "best_checkpoint_skipped": false, "epoch": 196, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02788, acc=99.87%; val CE=3.53958, acc=33.07%; 7.9s
+wd_5e4: epoch 197/300, lr=0.013417599
+  batch 1/56 CE=0.01878
+  batch 20/56 CE=0.03039
+  batch 40/56 CE=0.02988
+  batch 56/56 CE=0.03148
+  performance: {"train_seconds": 6.992001300008269, "validation_seconds": 0.8258344000059878, "checkpoint_seconds": 0.8261453000013717, "best_checkpoint_skipped": true, "epoch": 197, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.03148, acc=99.75%; val CE=3.55813, acc=31.83%; 7.8s
+wd_5e4: epoch 198/300, lr=0.013186231
+  batch 1/56 CE=0.02800
+  batch 20/56 CE=0.03067
+  batch 40/56 CE=0.03101
+  batch 56/56 CE=0.03070
+  performance: {"train_seconds": 7.152017499989597, "validation_seconds": 0.808236199998646, "checkpoint_seconds": 0.7063339000014821, "best_checkpoint_skipped": true, "epoch": 198, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.03070, acc=99.79%; val CE=3.55597, acc=32.29%; 8.0s
+wd_5e4: epoch 199/300, lr=0.012956158
+  batch 1/56 CE=0.02354
+  batch 20/56 CE=0.02672
+  batch 40/56 CE=0.02734
+  batch 56/56 CE=0.02915
+  performance: {"train_seconds": 7.088892500003567, "validation_seconds": 0.7974050999910105, "checkpoint_seconds": 0.6866516000009142, "best_checkpoint_skipped": true, "epoch": 199, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02915, acc=99.85%; val CE=3.53340, acc=31.64%; 7.9s
+wd_5e4: epoch 200/300, lr=0.012727406
+  batch 1/56 CE=0.02665
+  batch 20/56 CE=0.03153
+  batch 40/56 CE=0.02972
+  batch 56/56 CE=0.03052
+  performance: {"train_seconds": 7.1054326000012225, "validation_seconds": 0.8021212000021478, "checkpoint_seconds": 0.6434608999988995, "best_checkpoint_skipped": true, "epoch": 200, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.03052, acc=99.79%; val CE=3.47863, acc=32.62%; 7.9s
+wd_5e4: epoch 201/300, lr=0.0125
+  batch 1/56 CE=0.03703
+  batch 20/56 CE=0.02932
+  batch 40/56 CE=0.02853
+  batch 56/56 CE=0.02961
+  performance: {"train_seconds": 7.131345599991619, "validation_seconds": 0.8016310999955749, "checkpoint_seconds": 0.6832294000050751, "best_checkpoint_skipped": true, "epoch": 201, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02961, acc=99.78%; val CE=3.55074, acc=32.03%; 7.9s
+wd_5e4: epoch 202/300, lr=0.012273965
+  batch 1/56 CE=0.02256
+  batch 20/56 CE=0.02730
+  batch 40/56 CE=0.02654
+  batch 56/56 CE=0.02672
+  performance: {"train_seconds": 7.0701235000015, "validation_seconds": 0.795857299992349, "checkpoint_seconds": 0.6667412999959197, "best_checkpoint_skipped": true, "epoch": 202, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02672, acc=99.86%; val CE=3.50241, acc=32.09%; 7.9s
+wd_5e4: epoch 203/300, lr=0.012049325
+  batch 1/56 CE=0.05302
+  batch 20/56 CE=0.02765
+  batch 40/56 CE=0.02934
+  batch 56/56 CE=0.02878
+  performance: {"train_seconds": 7.0686653000011574, "validation_seconds": 0.7979541000095196, "checkpoint_seconds": 0.6387283999938518, "best_checkpoint_skipped": true, "epoch": 203, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02878, acc=99.85%; val CE=3.52041, acc=32.35%; 7.9s
+wd_5e4: epoch 204/300, lr=0.011826105
+  batch 1/56 CE=0.04781
+  batch 20/56 CE=0.03574
+  batch 40/56 CE=0.03400
+  batch 56/56 CE=0.03361
+  performance: {"train_seconds": 7.040836599990143, "validation_seconds": 0.8174353999929735, "checkpoint_seconds": 0.7672562000079779, "best_checkpoint_skipped": true, "epoch": 204, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.03361, acc=99.73%; val CE=3.52632, acc=32.49%; 7.9s
+wd_5e4: epoch 205/300, lr=0.01160433
+  batch 1/56 CE=0.02731
+  batch 20/56 CE=0.02711
+  batch 40/56 CE=0.02647
+  batch 56/56 CE=0.02725
+  performance: {"train_seconds": 7.0084376000013435, "validation_seconds": 0.7857012000022223, "checkpoint_seconds": 0.8952080000017304, "best_checkpoint_skipped": false, "epoch": 205, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02725, acc=99.87%; val CE=3.45525, acc=33.99%; 7.8s
+wd_5e4: epoch 206/300, lr=0.011384024
+  batch 1/56 CE=0.02401
+  batch 20/56 CE=0.02771
+  batch 40/56 CE=0.02786
+  batch 56/56 CE=0.02685
+  performance: {"train_seconds": 7.1045931999979075, "validation_seconds": 0.8236811999959173, "checkpoint_seconds": 0.6842984999966575, "best_checkpoint_skipped": true, "epoch": 206, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02685, acc=99.93%; val CE=3.45722, acc=33.66%; 7.9s
+wd_5e4: epoch 207/300, lr=0.011165211
+  batch 1/56 CE=0.02540
+  batch 20/56 CE=0.02725
+  batch 40/56 CE=0.02529
+  batch 56/56 CE=0.02556
+  performance: {"train_seconds": 7.132797300000675, "validation_seconds": 0.8075967000040691, "checkpoint_seconds": 0.6818502000096487, "best_checkpoint_skipped": true, "epoch": 207, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02556, acc=99.86%; val CE=3.44115, acc=33.27%; 7.9s
+wd_5e4: epoch 208/300, lr=0.010947916
+  batch 1/56 CE=0.02392
+  batch 20/56 CE=0.03148
+  batch 40/56 CE=0.03043
+  batch 56/56 CE=0.02946
+  performance: {"train_seconds": 7.064435599997523, "validation_seconds": 0.8082025999901816, "checkpoint_seconds": 0.6568327999993926, "best_checkpoint_skipped": true, "epoch": 208, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02946, acc=99.79%; val CE=3.43478, acc=33.33%; 7.9s
+wd_5e4: epoch 209/300, lr=0.010732161
+  batch 1/56 CE=0.02985
+  batch 20/56 CE=0.02522
+  batch 40/56 CE=0.02470
+  batch 56/56 CE=0.02519
+  performance: {"train_seconds": 7.125078199998825, "validation_seconds": 0.7832403999927919, "checkpoint_seconds": 0.6440387000038754, "best_checkpoint_skipped": true, "epoch": 209, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02519, acc=99.94%; val CE=3.45808, acc=33.46%; 7.9s
+wd_5e4: epoch 210/300, lr=0.010517971
+  batch 1/56 CE=0.02918
+  batch 20/56 CE=0.02546
+  batch 40/56 CE=0.02677
+  batch 56/56 CE=0.02642
+  performance: {"train_seconds": 7.034591100004036, "validation_seconds": 0.7966166999976849, "checkpoint_seconds": 0.6688304999988759, "best_checkpoint_skipped": true, "epoch": 210, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02642, acc=99.92%; val CE=3.43651, acc=33.27%; 7.8s
+wd_5e4: epoch 211/300, lr=0.010305369
+  batch 1/56 CE=0.01602
+  batch 20/56 CE=0.02220
+  batch 40/56 CE=0.02228
+  batch 56/56 CE=0.02384
+  performance: {"train_seconds": 7.006961199993384, "validation_seconds": 0.8157217999978457, "checkpoint_seconds": 0.6448870000021998, "best_checkpoint_skipped": true, "epoch": 211, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02384, acc=99.93%; val CE=3.44743, acc=33.20%; 7.8s
+wd_5e4: epoch 212/300, lr=0.010094378
+  batch 1/56 CE=0.01891
+  batch 20/56 CE=0.02437
+  batch 40/56 CE=0.02694
+  batch 56/56 CE=0.02774
+  performance: {"train_seconds": 7.131159299999126, "validation_seconds": 0.7920171999867307, "checkpoint_seconds": 0.6527519000082975, "best_checkpoint_skipped": true, "epoch": 212, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02774, acc=99.80%; val CE=3.45336, acc=32.29%; 7.9s
+wd_5e4: epoch 213/300, lr=0.0098850221
+  batch 1/56 CE=0.04204
+  batch 20/56 CE=0.02867
+  batch 40/56 CE=0.02735
+  batch 56/56 CE=0.02814
+  performance: {"train_seconds": 7.103026199998567, "validation_seconds": 0.8028677999973297, "checkpoint_seconds": 0.6480526000086684, "best_checkpoint_skipped": true, "epoch": 213, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02814, acc=99.85%; val CE=3.42056, acc=32.68%; 7.9s
+wd_5e4: epoch 214/300, lr=0.0096773237
+  batch 1/56 CE=0.03118
+  batch 20/56 CE=0.02458
+  batch 40/56 CE=0.02548
+  batch 56/56 CE=0.02475
+  performance: {"train_seconds": 7.010932100005448, "validation_seconds": 0.7958402999938698, "checkpoint_seconds": 0.8941181000118377, "best_checkpoint_skipped": false, "epoch": 214, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02475, acc=99.87%; val CE=3.42114, acc=34.77%; 7.8s
+wd_5e4: epoch 215/300, lr=0.0094713055
+  batch 1/56 CE=0.01591
+  batch 20/56 CE=0.02170
+  batch 40/56 CE=0.02314
+  batch 56/56 CE=0.02454
+  performance: {"train_seconds": 7.215959000008297, "validation_seconds": 0.8323093000071822, "checkpoint_seconds": 0.6852434000029461, "best_checkpoint_skipped": true, "epoch": 215, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02454, acc=99.82%; val CE=3.40155, acc=32.88%; 8.0s
+wd_5e4: epoch 216/300, lr=0.0092669902
+  batch 1/56 CE=0.04306
+  batch 20/56 CE=0.02535
+  batch 40/56 CE=0.02533
+  batch 56/56 CE=0.02517
+  performance: {"train_seconds": 7.426341899990803, "validation_seconds": 0.8179216999997152, "checkpoint_seconds": 0.6811918000021251, "best_checkpoint_skipped": true, "epoch": 216, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02517, acc=99.85%; val CE=3.41200, acc=32.94%; 8.2s
+wd_5e4: epoch 217/300, lr=0.0090644003
+  batch 1/56 CE=0.01885
+  batch 20/56 CE=0.02493
+  batch 40/56 CE=0.02475
+  batch 56/56 CE=0.02498
+  performance: {"train_seconds": 7.273548299999675, "validation_seconds": 0.8027497000002768, "checkpoint_seconds": 0.7152392999996664, "best_checkpoint_skipped": true, "epoch": 217, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02498, acc=99.90%; val CE=3.39230, acc=33.14%; 8.1s
+wd_5e4: epoch 218/300, lr=0.0088635578
+  batch 1/56 CE=0.03829
+  batch 20/56 CE=0.02603
+  batch 40/56 CE=0.02433
+  batch 56/56 CE=0.02451
+  performance: {"train_seconds": 7.1517158999922685, "validation_seconds": 0.7918761000037193, "checkpoint_seconds": 0.6972274999861838, "best_checkpoint_skipped": true, "epoch": 218, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02451, acc=99.92%; val CE=3.37941, acc=33.59%; 7.9s
+wd_5e4: epoch 219/300, lr=0.0086644849
+  batch 1/56 CE=0.02108
+  batch 20/56 CE=0.02120
+  batch 40/56 CE=0.02299
+  batch 56/56 CE=0.02502
+  performance: {"train_seconds": 7.098407199999201, "validation_seconds": 0.7799354000017047, "checkpoint_seconds": 0.7342093000042951, "best_checkpoint_skipped": true, "epoch": 219, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02502, acc=99.83%; val CE=3.39464, acc=33.20%; 7.9s
+wd_5e4: epoch 220/300, lr=0.0084672034
+  batch 1/56 CE=0.01351
+  batch 20/56 CE=0.02469
+  batch 40/56 CE=0.02311
+  batch 56/56 CE=0.02392
+  performance: {"train_seconds": 7.1062879000091925, "validation_seconds": 0.8097185000078753, "checkpoint_seconds": 0.7104206000076374, "best_checkpoint_skipped": true, "epoch": 220, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02392, acc=99.89%; val CE=3.38420, acc=33.66%; 7.9s
+wd_5e4: epoch 221/300, lr=0.0082717348
+  batch 1/56 CE=0.02594
+  batch 20/56 CE=0.02278
+  batch 40/56 CE=0.02401
+  batch 56/56 CE=0.02372
+  performance: {"train_seconds": 7.137592699989909, "validation_seconds": 0.8444805000035558, "checkpoint_seconds": 0.8373514999984764, "best_checkpoint_skipped": true, "epoch": 221, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02372, acc=99.92%; val CE=3.37270, acc=33.40%; 8.0s
+wd_5e4: epoch 222/300, lr=0.0080781008
+  batch 1/56 CE=0.01662
+  batch 20/56 CE=0.02405
+  batch 40/56 CE=0.02644
+  batch 56/56 CE=0.02722
+  performance: {"train_seconds": 7.077708899989375, "validation_seconds": 0.8009485999937169, "checkpoint_seconds": 0.6696238000004087, "best_checkpoint_skipped": true, "epoch": 222, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02722, acc=99.83%; val CE=3.41050, acc=32.75%; 7.9s
+wd_5e4: epoch 223/300, lr=0.0078863224
+  batch 1/56 CE=0.02255
+  batch 20/56 CE=0.02949
+  batch 40/56 CE=0.02726
+  batch 56/56 CE=0.02686
+  performance: {"train_seconds": 7.096184699999867, "validation_seconds": 0.7679624000011245, "checkpoint_seconds": 0.6788142000004882, "best_checkpoint_skipped": true, "epoch": 223, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02686, acc=99.86%; val CE=3.40666, acc=32.22%; 7.9s
+wd_5e4: epoch 224/300, lr=0.0076964207
+  batch 1/56 CE=0.02009
+  batch 20/56 CE=0.02471
+  batch 40/56 CE=0.02463
+  batch 56/56 CE=0.02471
+  performance: {"train_seconds": 7.145144900001469, "validation_seconds": 0.8135585999989416, "checkpoint_seconds": 0.6969184000045061, "best_checkpoint_skipped": true, "epoch": 224, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02471, acc=99.89%; val CE=3.39196, acc=32.68%; 8.0s
+wd_5e4: epoch 225/300, lr=0.0075084165
+  batch 1/56 CE=0.02159
+  batch 20/56 CE=0.02259
+  batch 40/56 CE=0.02338
+  batch 56/56 CE=0.02348
+  performance: {"train_seconds": 7.107934999992722, "validation_seconds": 0.8013342999911401, "checkpoint_seconds": 0.7395078999979887, "best_checkpoint_skipped": true, "epoch": 225, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02348, acc=99.93%; val CE=3.34990, acc=33.33%; 7.9s
+wd_5e4: epoch 226/300, lr=0.0073223305
+  batch 1/56 CE=0.01586
+  batch 20/56 CE=0.02294
+  batch 40/56 CE=0.02389
+  batch 56/56 CE=0.02400
+  performance: {"train_seconds": 7.05218889999378, "validation_seconds": 0.8044646000053035, "checkpoint_seconds": 0.7556901000061771, "best_checkpoint_skipped": true, "epoch": 226, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02400, acc=99.93%; val CE=3.38778, acc=33.40%; 7.9s
+wd_5e4: epoch 227/300, lr=0.007138183
+  batch 1/56 CE=0.01908
+  batch 20/56 CE=0.02194
+  batch 40/56 CE=0.02248
+  batch 56/56 CE=0.02294
+  performance: {"train_seconds": 7.156361200002721, "validation_seconds": 0.7979252000077395, "checkpoint_seconds": 0.7080616000021109, "best_checkpoint_skipped": true, "epoch": 227, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02294, acc=99.90%; val CE=3.37589, acc=33.07%; 8.0s
+wd_5e4: epoch 228/300, lr=0.0069559943
+  batch 1/56 CE=0.01947
+  batch 20/56 CE=0.02263
+  batch 40/56 CE=0.02355
+  batch 56/56 CE=0.02330
+  performance: {"train_seconds": 7.10669990000315, "validation_seconds": 0.8176374000031501, "checkpoint_seconds": 0.7143633000086993, "best_checkpoint_skipped": true, "epoch": 228, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02330, acc=99.89%; val CE=3.40984, acc=32.94%; 7.9s
+wd_5e4: epoch 229/300, lr=0.0067757843
+  batch 1/56 CE=0.01973
+  batch 20/56 CE=0.02390
+  batch 40/56 CE=0.02270
+  batch 56/56 CE=0.02292
+  performance: {"train_seconds": 7.137668399998802, "validation_seconds": 0.7968510999926366, "checkpoint_seconds": 0.654946899987408, "best_checkpoint_skipped": true, "epoch": 229, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02292, acc=99.93%; val CE=3.35224, acc=33.33%; 7.9s
+wd_5e4: epoch 230/300, lr=0.0065975728
+  batch 1/56 CE=0.02077
+  batch 20/56 CE=0.02121
+  batch 40/56 CE=0.02232
+  batch 56/56 CE=0.02298
+  performance: {"train_seconds": 7.070120399992447, "validation_seconds": 0.7814206999901216, "checkpoint_seconds": 0.6411517999949865, "best_checkpoint_skipped": true, "epoch": 230, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02298, acc=99.97%; val CE=3.36620, acc=32.22%; 7.9s
+wd_5e4: epoch 231/300, lr=0.0064213794
+  batch 1/56 CE=0.02299
+  batch 20/56 CE=0.02031
+  batch 40/56 CE=0.02074
+  batch 56/56 CE=0.02278
+  performance: {"train_seconds": 6.9695504999981495, "validation_seconds": 0.8078136999974959, "checkpoint_seconds": 0.6624400000000605, "best_checkpoint_skipped": true, "epoch": 231, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02278, acc=99.90%; val CE=3.34984, acc=33.72%; 7.8s
+wd_5e4: epoch 232/300, lr=0.0062472233
+  batch 1/56 CE=0.02148
+  batch 20/56 CE=0.02496
+  batch 40/56 CE=0.02412
+  batch 56/56 CE=0.02475
+  performance: {"train_seconds": 7.049225499999011, "validation_seconds": 0.8155506999901263, "checkpoint_seconds": 0.6648944000044139, "best_checkpoint_skipped": true, "epoch": 232, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02475, acc=99.93%; val CE=3.34555, acc=33.46%; 7.9s
+wd_5e4: epoch 233/300, lr=0.0060751236
+  batch 1/56 CE=0.01637
+  batch 20/56 CE=0.02051
+  batch 40/56 CE=0.02275
+  batch 56/56 CE=0.02266
+  performance: {"train_seconds": 7.023511599996709, "validation_seconds": 0.8021035999991, "checkpoint_seconds": 0.7568629999877885, "best_checkpoint_skipped": true, "epoch": 233, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02266, acc=99.93%; val CE=3.34913, acc=32.88%; 7.8s
+wd_5e4: epoch 234/300, lr=0.0059050993
+  batch 1/56 CE=0.02648
+  batch 20/56 CE=0.02039
+  batch 40/56 CE=0.02085
+  batch 56/56 CE=0.02129
+  performance: {"train_seconds": 7.068934800001443, "validation_seconds": 0.7978578000038397, "checkpoint_seconds": 0.6607091000041692, "best_checkpoint_skipped": true, "epoch": 234, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02129, acc=99.94%; val CE=3.35412, acc=33.07%; 7.9s
+wd_5e4: epoch 235/300, lr=0.0057371689
+  batch 1/56 CE=0.02278
+  batch 20/56 CE=0.02125
+  batch 40/56 CE=0.02217
+  batch 56/56 CE=0.02233
+  performance: {"train_seconds": 7.123623499996029, "validation_seconds": 0.8181739999999991, "checkpoint_seconds": 0.6684380000078818, "best_checkpoint_skipped": true, "epoch": 235, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02233, acc=99.94%; val CE=3.34060, acc=33.46%; 7.9s
+wd_5e4: epoch 236/300, lr=0.005571351
+  batch 1/56 CE=0.02581
+  batch 20/56 CE=0.02226
+  batch 40/56 CE=0.02348
+  batch 56/56 CE=0.02399
+  performance: {"train_seconds": 7.14002010000695, "validation_seconds": 0.7988724000024376, "checkpoint_seconds": 0.6545285000029253, "best_checkpoint_skipped": true, "epoch": 236, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02399, acc=99.89%; val CE=3.36678, acc=32.75%; 7.9s
+wd_5e4: epoch 237/300, lr=0.0054076636
+  batch 1/56 CE=0.02093
+  batch 20/56 CE=0.02306
+  batch 40/56 CE=0.02280
+  batch 56/56 CE=0.02330
+  performance: {"train_seconds": 7.112898400009726, "validation_seconds": 0.786575799997081, "checkpoint_seconds": 0.643161300002248, "best_checkpoint_skipped": true, "epoch": 237, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02330, acc=99.94%; val CE=3.31988, acc=32.29%; 7.9s
+wd_5e4: epoch 238/300, lr=0.0052461247
+  batch 1/56 CE=0.01730
+  batch 20/56 CE=0.01965
+  batch 40/56 CE=0.02220
+  batch 56/56 CE=0.02196
+  performance: {"train_seconds": 7.098176400002558, "validation_seconds": 0.8068875999888405, "checkpoint_seconds": 0.647197900005267, "best_checkpoint_skipped": true, "epoch": 238, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02196, acc=99.93%; val CE=3.34739, acc=32.49%; 7.9s
+wd_5e4: epoch 239/300, lr=0.005086752
+  batch 1/56 CE=0.01870
+  batch 20/56 CE=0.02058
+  batch 40/56 CE=0.02129
+  batch 56/56 CE=0.02333
+  performance: {"train_seconds": 7.086730799986981, "validation_seconds": 0.8012754000083078, "checkpoint_seconds": 0.6906004000047687, "best_checkpoint_skipped": true, "epoch": 239, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02333, acc=99.93%; val CE=3.33041, acc=33.46%; 7.9s
+wd_5e4: epoch 240/300, lr=0.0049295631
+  batch 1/56 CE=0.03803
+  batch 20/56 CE=0.02220
+  batch 40/56 CE=0.02351
+  batch 56/56 CE=0.02353
+  performance: {"train_seconds": 7.082085600006394, "validation_seconds": 0.8003504000080284, "checkpoint_seconds": 0.6439325000101235, "best_checkpoint_skipped": true, "epoch": 240, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02353, acc=99.93%; val CE=3.34607, acc=32.75%; 7.9s
+wd_5e4: epoch 241/300, lr=0.0047745751
+  batch 1/56 CE=0.02336
+  batch 20/56 CE=0.02234
+  batch 40/56 CE=0.02260
+  batch 56/56 CE=0.02353
+  performance: {"train_seconds": 7.106060399994021, "validation_seconds": 0.8150629000010667, "checkpoint_seconds": 0.7187571999966167, "best_checkpoint_skipped": true, "epoch": 241, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02353, acc=99.89%; val CE=3.34465, acc=32.68%; 7.9s
+wd_5e4: epoch 242/300, lr=0.0046218051
+  batch 1/56 CE=0.02296
+  batch 20/56 CE=0.02108
+  batch 40/56 CE=0.02096
+  batch 56/56 CE=0.02170
+  performance: {"train_seconds": 6.996726199999102, "validation_seconds": 0.8303489000099944, "checkpoint_seconds": 0.669588599994313, "best_checkpoint_skipped": true, "epoch": 242, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02170, acc=99.93%; val CE=3.33194, acc=32.42%; 7.8s
+wd_5e4: epoch 243/300, lr=0.0044712698
+  batch 1/56 CE=0.02786
+  batch 20/56 CE=0.02123
+  batch 40/56 CE=0.02237
+  batch 56/56 CE=0.02235
+  performance: {"train_seconds": 7.231778799992753, "validation_seconds": 0.7843833999941126, "checkpoint_seconds": 0.6498791000049096, "best_checkpoint_skipped": true, "epoch": 243, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02235, acc=99.89%; val CE=3.33826, acc=32.62%; 8.0s
+wd_5e4: epoch 244/300, lr=0.0043229856
+  batch 1/56 CE=0.03275
+  batch 20/56 CE=0.02113
+  batch 40/56 CE=0.02102
+  batch 56/56 CE=0.02102
+  performance: {"train_seconds": 7.11609340000723, "validation_seconds": 0.81259190000128, "checkpoint_seconds": 0.648568400007207, "best_checkpoint_skipped": true, "epoch": 244, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02102, acc=99.96%; val CE=3.32772, acc=32.94%; 7.9s
+wd_5e4: epoch 245/300, lr=0.004176969
+  batch 1/56 CE=0.02455
+  batch 20/56 CE=0.02294
+  batch 40/56 CE=0.02276
+  batch 56/56 CE=0.02240
+  performance: {"train_seconds": 7.108079199999338, "validation_seconds": 0.8332924999995157, "checkpoint_seconds": 0.6587261999957263, "best_checkpoint_skipped": true, "epoch": 245, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02240, acc=99.93%; val CE=3.33155, acc=32.75%; 7.9s
+wd_5e4: epoch 246/300, lr=0.0040332358
+  batch 1/56 CE=0.02080
+  batch 20/56 CE=0.02018
+  batch 40/56 CE=0.02090
+  batch 56/56 CE=0.02072
+  performance: {"train_seconds": 7.022021500000847, "validation_seconds": 0.7792135999916354, "checkpoint_seconds": 0.6863090000115335, "best_checkpoint_skipped": true, "epoch": 246, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02072, acc=99.96%; val CE=3.32861, acc=33.01%; 7.8s
+wd_5e4: epoch 247/300, lr=0.0038918019
+  batch 1/56 CE=0.01690
+  batch 20/56 CE=0.02216
+  batch 40/56 CE=0.02141
+  batch 56/56 CE=0.02158
+  performance: {"train_seconds": 7.062485500006005, "validation_seconds": 0.800846600002842, "checkpoint_seconds": 0.6600967999984277, "best_checkpoint_skipped": true, "epoch": 247, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02158, acc=99.92%; val CE=3.33541, acc=33.20%; 7.9s
+wd_5e4: epoch 248/300, lr=0.0037526827
+  batch 1/56 CE=0.01877
+  batch 20/56 CE=0.01972
+  batch 40/56 CE=0.01977
+  batch 56/56 CE=0.02057
+  performance: {"train_seconds": 7.097552000006544, "validation_seconds": 0.7937799000064842, "checkpoint_seconds": 0.6501730000018142, "best_checkpoint_skipped": true, "epoch": 248, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02057, acc=99.99%; val CE=3.33507, acc=32.75%; 7.9s
+wd_5e4: epoch 249/300, lr=0.0036158935
+  batch 1/56 CE=0.02043
+  batch 20/56 CE=0.02121
+  batch 40/56 CE=0.02173
+  batch 56/56 CE=0.02175
+  performance: {"train_seconds": 7.0138998000038555, "validation_seconds": 0.7897333000000799, "checkpoint_seconds": 0.6669572999962838, "best_checkpoint_skipped": true, "epoch": 249, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02175, acc=99.92%; val CE=3.35748, acc=32.88%; 7.8s
+wd_5e4: epoch 250/300, lr=0.0034814493
+  batch 1/56 CE=0.02832
+  batch 20/56 CE=0.01932
+  batch 40/56 CE=0.02059
+  batch 56/56 CE=0.02076
+  performance: {"train_seconds": 7.2433945999946445, "validation_seconds": 0.828559799992945, "checkpoint_seconds": 0.6647166000038851, "best_checkpoint_skipped": true, "epoch": 250, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02076, acc=99.94%; val CE=3.32058, acc=33.07%; 8.1s
+wd_5e4: epoch 251/300, lr=0.0033493649
+  batch 1/56 CE=0.02043
+  batch 20/56 CE=0.02012
+  batch 40/56 CE=0.02099
+  batch 56/56 CE=0.02102
+  performance: {"train_seconds": 7.222519500006456, "validation_seconds": 0.7947238000051584, "checkpoint_seconds": 0.6485552999947686, "best_checkpoint_skipped": true, "epoch": 251, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02102, acc=99.94%; val CE=3.34337, acc=32.81%; 8.0s
+wd_5e4: epoch 252/300, lr=0.0032196547
+  batch 1/56 CE=0.01671
+  batch 20/56 CE=0.02228
+  batch 40/56 CE=0.02150
+  batch 56/56 CE=0.02196
+  performance: {"train_seconds": 7.0934210999985225, "validation_seconds": 0.7726929000054952, "checkpoint_seconds": 0.6860022999899229, "best_checkpoint_skipped": true, "epoch": 252, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02196, acc=99.93%; val CE=3.34995, acc=33.14%; 7.9s
+wd_5e4: epoch 253/300, lr=0.003092333
+  batch 1/56 CE=0.02900
+  batch 20/56 CE=0.02370
+  batch 40/56 CE=0.02445
+  batch 56/56 CE=0.02388
+  performance: {"train_seconds": 7.145993899990572, "validation_seconds": 0.7865908999956446, "checkpoint_seconds": 0.7191406000056304, "best_checkpoint_skipped": true, "epoch": 253, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02388, acc=99.90%; val CE=3.32871, acc=32.55%; 7.9s
+wd_5e4: epoch 254/300, lr=0.0029674137
+  batch 1/56 CE=0.02128
+  batch 20/56 CE=0.02006
+  batch 40/56 CE=0.02037
+  batch 56/56 CE=0.02012
+  performance: {"train_seconds": 7.131172099994728, "validation_seconds": 0.7848176999978023, "checkpoint_seconds": 0.6522915000095963, "best_checkpoint_skipped": true, "epoch": 254, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02012, acc=99.97%; val CE=3.33832, acc=32.62%; 7.9s
+wd_5e4: epoch 255/300, lr=0.0028449105
+  batch 1/56 CE=0.01512
+  batch 20/56 CE=0.01942
+  batch 40/56 CE=0.02134
+  batch 56/56 CE=0.02150
+  performance: {"train_seconds": 7.110941500010085, "validation_seconds": 0.7831097000016598, "checkpoint_seconds": 0.6955070999974851, "best_checkpoint_skipped": true, "epoch": 255, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02150, acc=99.92%; val CE=3.30279, acc=33.14%; 7.9s
+wd_5e4: epoch 256/300, lr=0.0027248369
+  batch 1/56 CE=0.02591
+  batch 20/56 CE=0.02166
+  batch 40/56 CE=0.02129
+  batch 56/56 CE=0.02082
+  performance: {"train_seconds": 7.078980900012539, "validation_seconds": 0.8228213999973377, "checkpoint_seconds": 0.6666863999998895, "best_checkpoint_skipped": true, "epoch": 256, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02082, acc=99.94%; val CE=3.30581, acc=32.88%; 7.9s
+wd_5e4: epoch 257/300, lr=0.002607206
+  batch 1/56 CE=0.02178
+  batch 20/56 CE=0.02087
+  batch 40/56 CE=0.02192
+  batch 56/56 CE=0.02159
+  performance: {"train_seconds": 7.083970400010003, "validation_seconds": 0.8046577000059187, "checkpoint_seconds": 0.6488631999964127, "best_checkpoint_skipped": true, "epoch": 257, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02159, acc=99.97%; val CE=3.32792, acc=32.62%; 7.9s
+wd_5e4: epoch 258/300, lr=0.0024920307
+  batch 1/56 CE=0.01501
+  batch 20/56 CE=0.01993
+  batch 40/56 CE=0.02120
+  batch 56/56 CE=0.02125
+  performance: {"train_seconds": 7.071457800004282, "validation_seconds": 0.8037815999996383, "checkpoint_seconds": 0.6441844999935711, "best_checkpoint_skipped": true, "epoch": 258, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02125, acc=99.87%; val CE=3.32926, acc=32.62%; 7.9s
+wd_5e4: epoch 259/300, lr=0.0023793237
+  batch 1/56 CE=0.01766
+  batch 20/56 CE=0.02140
+  batch 40/56 CE=0.02217
+  batch 56/56 CE=0.02200
+  performance: {"train_seconds": 7.058240600003046, "validation_seconds": 0.8241187000094214, "checkpoint_seconds": 0.6711804999940796, "best_checkpoint_skipped": true, "epoch": 259, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02200, acc=99.94%; val CE=3.33285, acc=32.88%; 7.9s
+wd_5e4: epoch 260/300, lr=0.0022690973
+  batch 1/56 CE=0.01581
+  batch 20/56 CE=0.02126
+  batch 40/56 CE=0.02188
+  batch 56/56 CE=0.02107
+  performance: {"train_seconds": 7.02891219999583, "validation_seconds": 0.7804928999976255, "checkpoint_seconds": 0.6515734999993583, "best_checkpoint_skipped": true, "epoch": 260, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02107, acc=99.97%; val CE=3.32228, acc=33.01%; 7.8s
+wd_5e4: epoch 261/300, lr=0.0021613636
+  batch 1/56 CE=0.02037
+  batch 20/56 CE=0.02118
+  batch 40/56 CE=0.02001
+  batch 56/56 CE=0.02056
+  performance: {"train_seconds": 7.162217499993858, "validation_seconds": 0.7937206999922637, "checkpoint_seconds": 0.6490948999999091, "best_checkpoint_skipped": true, "epoch": 261, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02056, acc=99.94%; val CE=3.32285, acc=33.79%; 8.0s
+wd_5e4: epoch 262/300, lr=0.0020561344
+  batch 1/56 CE=0.01844
+  batch 20/56 CE=0.02017
+  batch 40/56 CE=0.01980
+  batch 56/56 CE=0.01989
+  performance: {"train_seconds": 7.022369700003765, "validation_seconds": 0.7996022000006633, "checkpoint_seconds": 0.7555252000020118, "best_checkpoint_skipped": true, "epoch": 262, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01989, acc=99.94%; val CE=3.31388, acc=32.88%; 7.8s
+wd_5e4: epoch 263/300, lr=0.0019534212
+  batch 1/56 CE=0.02554
+  batch 20/56 CE=0.02024
+  batch 40/56 CE=0.02045
+  batch 56/56 CE=0.02098
+  performance: {"train_seconds": 7.044696300014039, "validation_seconds": 0.7863531000039075, "checkpoint_seconds": 0.740022099998896, "best_checkpoint_skipped": true, "epoch": 263, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02098, acc=99.97%; val CE=3.31905, acc=32.88%; 7.8s
+wd_5e4: epoch 264/300, lr=0.0018532354
+  batch 1/56 CE=0.01936
+  batch 20/56 CE=0.02138
+  batch 40/56 CE=0.02081
+  batch 56/56 CE=0.02037
+  performance: {"train_seconds": 7.109789499998442, "validation_seconds": 0.7999600000039209, "checkpoint_seconds": 0.7470181000098819, "best_checkpoint_skipped": true, "epoch": 264, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02037, acc=99.96%; val CE=3.31334, acc=33.59%; 7.9s
+wd_5e4: epoch 265/300, lr=0.0017555879
+  batch 1/56 CE=0.01728
+  batch 20/56 CE=0.02120
+  batch 40/56 CE=0.02209
+  batch 56/56 CE=0.02236
+  performance: {"train_seconds": 7.09789560000354, "validation_seconds": 0.7744735000014771, "checkpoint_seconds": 0.7012929000047734, "best_checkpoint_skipped": true, "epoch": 265, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02236, acc=99.89%; val CE=3.31032, acc=32.88%; 7.9s
+wd_5e4: epoch 266/300, lr=0.0016604893
+  batch 1/56 CE=0.01798
+  batch 20/56 CE=0.02093
+  batch 40/56 CE=0.02095
+  batch 56/56 CE=0.02091
+  performance: {"train_seconds": 7.063581099995645, "validation_seconds": 0.7952583000005689, "checkpoint_seconds": 0.7080047000054037, "best_checkpoint_skipped": true, "epoch": 266, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02091, acc=99.94%; val CE=3.30205, acc=32.88%; 7.9s
+wd_5e4: epoch 267/300, lr=0.0015679503
+  batch 1/56 CE=0.01633
+  batch 20/56 CE=0.02085
+  batch 40/56 CE=0.02156
+  batch 56/56 CE=0.02175
+  performance: {"train_seconds": 7.018646600001375, "validation_seconds": 0.7998533000063617, "checkpoint_seconds": 0.6948951000085799, "best_checkpoint_skipped": true, "epoch": 267, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02175, acc=99.90%; val CE=3.31482, acc=32.94%; 7.8s
+wd_5e4: epoch 268/300, lr=0.0014779808
+  batch 1/56 CE=0.02200
+  batch 20/56 CE=0.02004
+  batch 40/56 CE=0.01917
+  batch 56/56 CE=0.01943
+  performance: {"train_seconds": 7.000028599999496, "validation_seconds": 0.7914577000046847, "checkpoint_seconds": 0.653869499990833, "best_checkpoint_skipped": true, "epoch": 268, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01943, acc=99.92%; val CE=3.31353, acc=32.88%; 7.8s
+wd_5e4: epoch 269/300, lr=0.0013905907
+  batch 1/56 CE=0.02310
+  batch 20/56 CE=0.02036
+  batch 40/56 CE=0.02135
+  batch 56/56 CE=0.02151
+  performance: {"train_seconds": 7.121894000010798, "validation_seconds": 0.7990933999972185, "checkpoint_seconds": 0.6483545999944909, "best_checkpoint_skipped": true, "epoch": 269, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02151, acc=99.94%; val CE=3.30603, acc=33.07%; 7.9s
+wd_5e4: epoch 270/300, lr=0.0013057897
+  batch 1/56 CE=0.01911
+  batch 20/56 CE=0.02015
+  batch 40/56 CE=0.01995
+  batch 56/56 CE=0.02025
+  performance: {"train_seconds": 7.03097579999303, "validation_seconds": 0.8162198999925749, "checkpoint_seconds": 0.7049001999985194, "best_checkpoint_skipped": true, "epoch": 270, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02025, acc=100.00%; val CE=3.31540, acc=33.14%; 7.8s
+wd_5e4: epoch 271/300, lr=0.0012235871
+  batch 1/56 CE=0.01907
+  batch 20/56 CE=0.01949
+  batch 40/56 CE=0.01994
+  batch 56/56 CE=0.02005
+  performance: {"train_seconds": 7.047414500004379, "validation_seconds": 0.8036944000050426, "checkpoint_seconds": 0.6506099999969592, "best_checkpoint_skipped": true, "epoch": 271, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02005, acc=99.97%; val CE=3.30832, acc=32.75%; 7.9s
+wd_5e4: epoch 272/300, lr=0.0011439918
+  batch 1/56 CE=0.01674
+  batch 20/56 CE=0.01828
+  batch 40/56 CE=0.01991
+  batch 56/56 CE=0.02012
+  performance: {"train_seconds": 7.15762420000101, "validation_seconds": 0.7954448000091361, "checkpoint_seconds": 0.6793718999979319, "best_checkpoint_skipped": true, "epoch": 272, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02012, acc=99.97%; val CE=3.30382, acc=33.46%; 8.0s
+wd_5e4: epoch 273/300, lr=0.0010670126
+  batch 1/56 CE=0.02494
+  batch 20/56 CE=0.01949
+  batch 40/56 CE=0.01988
+  batch 56/56 CE=0.02045
+  performance: {"train_seconds": 7.052313699998194, "validation_seconds": 0.7793248999951174, "checkpoint_seconds": 0.6551798000000417, "best_checkpoint_skipped": true, "epoch": 273, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02045, acc=99.90%; val CE=3.29370, acc=33.66%; 7.8s
+wd_5e4: epoch 274/300, lr=0.00099265786
+  batch 1/56 CE=0.01677
+  batch 20/56 CE=0.01963
+  batch 40/56 CE=0.01956
+  batch 56/56 CE=0.02050
+  performance: {"train_seconds": 7.097808400008944, "validation_seconds": 0.7995584000018425, "checkpoint_seconds": 0.6739034999918658, "best_checkpoint_skipped": true, "epoch": 274, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02050, acc=99.93%; val CE=3.30274, acc=32.94%; 7.9s
+wd_5e4: epoch 275/300, lr=0.00092093583
+  batch 1/56 CE=0.01513
+  batch 20/56 CE=0.01921
+  batch 40/56 CE=0.01928
+  batch 56/56 CE=0.01964
+  performance: {"train_seconds": 7.03475960000651, "validation_seconds": 0.8132610000029672, "checkpoint_seconds": 0.6633619000058388, "best_checkpoint_skipped": true, "epoch": 275, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01964, acc=99.97%; val CE=3.29520, acc=33.14%; 7.8s
+wd_5e4: epoch 276/300, lr=0.00085185434
+  batch 1/56 CE=0.02453
+  batch 20/56 CE=0.02008
+  batch 40/56 CE=0.01995
+  batch 56/56 CE=0.02055
+  performance: {"train_seconds": 7.115204100002302, "validation_seconds": 0.7768643999879714, "checkpoint_seconds": 0.6853851000050781, "best_checkpoint_skipped": true, "epoch": 276, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02055, acc=99.94%; val CE=3.29225, acc=32.62%; 7.9s
+wd_5e4: epoch 277/300, lr=0.00078542097
+  batch 1/56 CE=0.02288
+  batch 20/56 CE=0.01937
+  batch 40/56 CE=0.02081
+  batch 56/56 CE=0.02173
+  performance: {"train_seconds": 7.065278399997624, "validation_seconds": 0.8097067999915453, "checkpoint_seconds": 0.7389021999988472, "best_checkpoint_skipped": true, "epoch": 277, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02173, acc=99.93%; val CE=3.29773, acc=33.33%; 7.9s
+wd_5e4: epoch 278/300, lr=0.000721643
+  batch 1/56 CE=0.02101
+  batch 20/56 CE=0.02022
+  batch 40/56 CE=0.02023
+  batch 56/56 CE=0.02000
+  performance: {"train_seconds": 7.130343600001652, "validation_seconds": 0.8056145000009565, "checkpoint_seconds": 0.6607302000047639, "best_checkpoint_skipped": true, "epoch": 278, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02000, acc=99.96%; val CE=3.29876, acc=32.55%; 7.9s
+wd_5e4: epoch 279/300, lr=0.00066052743
+  batch 1/56 CE=0.02276
+  batch 20/56 CE=0.01996
+  batch 40/56 CE=0.01973
+  batch 56/56 CE=0.01929
+  performance: {"train_seconds": 7.101072999997996, "validation_seconds": 0.8055479999893578, "checkpoint_seconds": 0.6604013000032865, "best_checkpoint_skipped": true, "epoch": 279, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01929, acc=99.94%; val CE=3.30441, acc=33.33%; 7.9s
+wd_5e4: epoch 280/300, lr=0.00060208095
+  batch 1/56 CE=0.01687
+  batch 20/56 CE=0.01844
+  batch 40/56 CE=0.02034
+  batch 56/56 CE=0.02037
+  performance: {"train_seconds": 7.017640200007008, "validation_seconds": 0.8282171999890124, "checkpoint_seconds": 0.6515641999867512, "best_checkpoint_skipped": true, "epoch": 280, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02037, acc=99.93%; val CE=3.30179, acc=33.27%; 7.8s
+wd_5e4: epoch 281/300, lr=0.00054630998
+  batch 1/56 CE=0.02145
+  batch 20/56 CE=0.02069
+  batch 40/56 CE=0.02055
+  batch 56/56 CE=0.02033
+  performance: {"train_seconds": 7.178349699999671, "validation_seconds": 0.7948105999967083, "checkpoint_seconds": 0.6489523999916855, "best_checkpoint_skipped": true, "epoch": 281, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02033, acc=99.96%; val CE=3.29372, acc=33.33%; 8.0s
+wd_5e4: epoch 282/300, lr=0.00049322063
+  batch 1/56 CE=0.04503
+  batch 20/56 CE=0.02115
+  batch 40/56 CE=0.01980
+  batch 56/56 CE=0.01989
+  performance: {"train_seconds": 7.069318199995905, "validation_seconds": 0.7869037000054959, "checkpoint_seconds": 0.6515752999985125, "best_checkpoint_skipped": true, "epoch": 282, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01989, acc=99.96%; val CE=3.29191, acc=33.01%; 7.9s
+wd_5e4: epoch 283/300, lr=0.00044281873
+  batch 1/56 CE=0.01632
+  batch 20/56 CE=0.01898
+  batch 40/56 CE=0.01964
+  batch 56/56 CE=0.01945
+  performance: {"train_seconds": 7.102942299999995, "validation_seconds": 0.7837421000003815, "checkpoint_seconds": 0.6517926000087755, "best_checkpoint_skipped": true, "epoch": 283, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01945, acc=99.96%; val CE=3.30126, acc=33.33%; 7.9s
+wd_5e4: epoch 284/300, lr=0.0003951098
+  batch 1/56 CE=0.01320
+  batch 20/56 CE=0.02064
+  batch 40/56 CE=0.02069
+  batch 56/56 CE=0.02041
+  performance: {"train_seconds": 7.068487099997583, "validation_seconds": 0.8135174000053667, "checkpoint_seconds": 0.7359566999948584, "best_checkpoint_skipped": true, "epoch": 284, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02041, acc=99.93%; val CE=3.28720, acc=33.27%; 7.9s
+wd_5e4: epoch 285/300, lr=0.00035009907
+  batch 1/56 CE=0.01299
+  batch 20/56 CE=0.01850
+  batch 40/56 CE=0.01874
+  batch 56/56 CE=0.01898
+  performance: {"train_seconds": 7.104256099992199, "validation_seconds": 0.8304517000069609, "checkpoint_seconds": 0.6631574000057299, "best_checkpoint_skipped": true, "epoch": 285, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01898, acc=99.94%; val CE=3.30719, acc=33.59%; 7.9s
+wd_5e4: epoch 286/300, lr=0.00030779149
+  batch 1/56 CE=0.01635
+  batch 20/56 CE=0.01929
+  batch 40/56 CE=0.02084
+  batch 56/56 CE=0.02041
+  performance: {"train_seconds": 7.279147600012948, "validation_seconds": 0.7943912000046112, "checkpoint_seconds": 0.6706011000060244, "best_checkpoint_skipped": true, "epoch": 286, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02041, acc=99.93%; val CE=3.29647, acc=33.53%; 8.1s
+wd_5e4: epoch 287/300, lr=0.00026819168
+  batch 1/56 CE=0.01443
+  batch 20/56 CE=0.01996
+  batch 40/56 CE=0.02006
+  batch 56/56 CE=0.02030
+  performance: {"train_seconds": 7.049307499997667, "validation_seconds": 0.8042171000124654, "checkpoint_seconds": 0.6422846999921603, "best_checkpoint_skipped": true, "epoch": 287, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02030, acc=99.96%; val CE=3.29323, acc=33.33%; 7.9s
+wd_5e4: epoch 288/300, lr=0.00023130399
+  batch 1/56 CE=0.02256
+  batch 20/56 CE=0.01966
+  batch 40/56 CE=0.01969
+  batch 56/56 CE=0.01947
+  performance: {"train_seconds": 7.128381200003787, "validation_seconds": 0.7984948999946937, "checkpoint_seconds": 0.6565098999999464, "best_checkpoint_skipped": true, "epoch": 288, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01947, acc=99.97%; val CE=3.30052, acc=32.88%; 7.9s
+wd_5e4: epoch 289/300, lr=0.00019713247
+  batch 1/56 CE=0.01974
+  batch 20/56 CE=0.01935
+  batch 40/56 CE=0.01921
+  batch 56/56 CE=0.01980
+  performance: {"train_seconds": 6.994548899994697, "validation_seconds": 0.7995763000071747, "checkpoint_seconds": 0.6791935999935959, "best_checkpoint_skipped": true, "epoch": 289, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01980, acc=99.96%; val CE=3.30277, acc=32.94%; 7.8s
+wd_5e4: epoch 290/300, lr=0.00016568086
+  batch 1/56 CE=0.01583
+  batch 20/56 CE=0.01991
+  batch 40/56 CE=0.02002
+  batch 56/56 CE=0.01998
+  performance: {"train_seconds": 7.018215499992948, "validation_seconds": 0.7961311999970349, "checkpoint_seconds": 0.6854716999951052, "best_checkpoint_skipped": true, "epoch": 290, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01998, acc=99.96%; val CE=3.29824, acc=33.53%; 7.8s
+wd_5e4: epoch 291/300, lr=0.00013695262
+  batch 1/56 CE=0.02846
+  batch 20/56 CE=0.02047
+  batch 40/56 CE=0.02062
+  batch 56/56 CE=0.02054
+  performance: {"train_seconds": 7.145946100004949, "validation_seconds": 0.8292320000036852, "checkpoint_seconds": 0.6657791000034194, "best_checkpoint_skipped": true, "epoch": 291, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02054, acc=99.92%; val CE=3.29288, acc=33.01%; 8.0s
+wd_5e4: epoch 292/300, lr=0.00011095088
+  batch 1/56 CE=0.02604
+  batch 20/56 CE=0.01956
+  batch 40/56 CE=0.02015
+  batch 56/56 CE=0.02027
+  performance: {"train_seconds": 7.126245500010555, "validation_seconds": 0.808265500003472, "checkpoint_seconds": 0.6619340000033844, "best_checkpoint_skipped": true, "epoch": 292, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02027, acc=99.87%; val CE=3.29120, acc=33.07%; 7.9s
+wd_5e4: epoch 293/300, lr=8.7678519e-05
+  batch 1/56 CE=0.01699
+  batch 20/56 CE=0.01980
+  batch 40/56 CE=0.01922
+  batch 56/56 CE=0.02007
+  performance: {"train_seconds": 7.068677699993714, "validation_seconds": 0.79873320000479, "checkpoint_seconds": 0.6428615000040736, "best_checkpoint_skipped": true, "epoch": 293, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02007, acc=99.96%; val CE=3.29155, acc=33.20%; 7.9s
+wd_5e4: epoch 294/300, lr=6.7138069e-05
+  batch 1/56 CE=0.01961
+  batch 20/56 CE=0.01991
+  batch 40/56 CE=0.01994
+  batch 56/56 CE=0.02029
+  performance: {"train_seconds": 7.04366540000774, "validation_seconds": 0.8138458000030369, "checkpoint_seconds": 0.6961603999952786, "best_checkpoint_skipped": true, "epoch": 294, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02029, acc=99.96%; val CE=3.30038, acc=33.14%; 7.9s
+wd_5e4: epoch 295/300, lr=4.9331789e-05
+  batch 1/56 CE=0.01387
+  batch 20/56 CE=0.02005
+  batch 40/56 CE=0.01974
+  batch 56/56 CE=0.01938
+  performance: {"train_seconds": 7.032586100001936, "validation_seconds": 0.7981389000051422, "checkpoint_seconds": 0.6883474999922328, "best_checkpoint_skipped": true, "epoch": 295, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01938, acc=99.96%; val CE=3.29397, acc=33.40%; 7.8s
+wd_5e4: epoch 296/300, lr=3.4261631e-05
+  batch 1/56 CE=0.01428
+  batch 20/56 CE=0.01993
+  batch 40/56 CE=0.01940
+  batch 56/56 CE=0.01927
+  performance: {"train_seconds": 7.066192800004501, "validation_seconds": 0.796399200000451, "checkpoint_seconds": 0.7553180000104476, "best_checkpoint_skipped": true, "epoch": 296, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01927, acc=99.97%; val CE=3.29835, acc=33.46%; 7.9s
+wd_5e4: epoch 297/300, lr=2.1929248e-05
+  batch 1/56 CE=0.01785
+  batch 20/56 CE=0.01970
+  batch 40/56 CE=0.01956
+  batch 56/56 CE=0.02009
+  performance: {"train_seconds": 7.05857449999894, "validation_seconds": 0.7846302999969339, "checkpoint_seconds": 0.681938200010336, "best_checkpoint_skipped": true, "epoch": 297, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02009, acc=99.93%; val CE=3.29207, acc=32.81%; 7.8s
+wd_5e4: epoch 298/300, lr=1.2335991e-05
+  batch 1/56 CE=0.02421
+  batch 20/56 CE=0.01955
+  batch 40/56 CE=0.01926
+  batch 56/56 CE=0.01979
+  performance: {"train_seconds": 7.142748300000676, "validation_seconds": 0.8098984999960521, "checkpoint_seconds": 0.7209433999960311, "best_checkpoint_skipped": true, "epoch": 298, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01979, acc=99.97%; val CE=3.29572, acc=33.33%; 8.0s
+wd_5e4: epoch 299/300, lr=5.4829131e-06
+  batch 1/56 CE=0.01777
+  batch 20/56 CE=0.02109
+  batch 40/56 CE=0.02148
+  batch 56/56 CE=0.02095
+  performance: {"train_seconds": 7.137442299994291, "validation_seconds": 0.7999060000001919, "checkpoint_seconds": 0.693380700002308, "best_checkpoint_skipped": true, "epoch": 299, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.02095, acc=99.93%; val CE=3.29864, acc=33.14%; 7.9s
+wd_5e4: epoch 300/300, lr=1.3707659e-06
+  batch 1/56 CE=0.02873
+  batch 20/56 CE=0.01958
+  batch 40/56 CE=0.01968
+  batch 56/56 CE=0.01989
+  performance: {"train_seconds": 7.103241999997408, "validation_seconds": 0.7989818999922136, "checkpoint_seconds": 0.6590475000120932, "best_checkpoint_skipped": true, "epoch": 300, "runtime": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd"}
+  train CE=0.01989, acc=99.99%; val CE=3.29105, acc=32.88%; 7.9s

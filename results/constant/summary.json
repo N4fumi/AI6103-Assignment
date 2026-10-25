@@ -1,0 +1,77 @@
+{
+  "best_validation": {
+    "elapsed_seconds": 10131.790394899945,
+    "epoch": 291,
+    "epoch_seconds": 34.81701559999783,
+    "lr": 0.05,
+    "next_lr": 0.05,
+    "train_accuracy": 0.9990216631726065,
+    "train_loss": 0.005195176358003453,
+    "val_accuracy": 0.19699934768427918,
+    "val_loss": 8.752121132802746
+  },
+  "checkpoint_sha256": {
+    "best.pt": "79c90c70739c754e0958614ed9fda9e1421ae6510c9ec883509ddf043acd14db",
+    "final.pt": "b1c824d2ea15a5597b685a71371f8e9157ec31b23f7147cfcd0f2068cfc1b4e4"
+  },
+  "config": {
+    "batch_size": 128,
+    "channels_last": false,
+    "content_duplicate_policy": "preserve_official",
+    "data_root": "data",
+    "dependencies": {
+      "lr_experiment": "lr_005",
+      "lr_sources": {
+        "lr_0001": "798685cbd45086aae8961d87b11ef99f1c41f4a55fb520fd0d693e9cb44c4987",
+        "lr_005": "5dbaf817d8669fc0410b2865f2f28105826061f66ab8037c47fe6ecbbda72dbc",
+        "lr_05": "23c2d879aba1c671e1b2617573268b9627787e48083384f9b072206f8fd37e7b"
+      }
+    },
+    "deterministic": true,
+    "device": "cuda",
+    "epochs": 300,
+    "experiment": "constant",
+    "flip_probability": 0.5,
+    "image_size": 100,
+    "lr": 0.05,
+    "manifest": "data/manifest.json",
+    "memory_fraction": 1.0,
+    "mixup_alpha": 0.0,
+    "model": "efficientnet_v2_s",
+    "momentum": 0.9,
+    "num_classes": 120,
+    "optimizer": "SGD",
+    "padding": 12,
+    "persistent_workers": false,
+    "pin_memory": true,
+    "precision": "amp_bf16",
+    "prefetch_factor": 2,
+    "pretrained": false,
+    "scheduler": "constant",
+    "seed": 6103,
+    "split_counts": [
+      7155,
+      1533,
+      1534
+    ],
+    "statistics": "data/statistics.json",
+    "weight_decay": 0.0,
+    "workers": 4
+  },
+  "config_signature": "abcab062e5eca2249081e7462c7ae950acaeffb0089340d2e5d08adaddc0d15d",
+  "data_signature": "590ead402d48eecbd75c1f418419c3c13dd2f9a8a517826328edd554dd19ea11",
+  "final": {
+    "elapsed_seconds": 10445.215601199961,
+    "epoch": 300,
+    "epoch_seconds": 34.370522700002766,
+    "lr": 0.05,
+    "next_lr": 0.05,
+    "train_accuracy": 0.9966457023060796,
+    "train_loss": 0.00878019251064726,
+    "val_accuracy": 0.18134377038486627,
+    "val_loss": 8.974051487966838
+  },
+  "history_signature": "3bc548a6e33b3cc91bfd77d82095368a1d726d141f7abcd944d2124b6e362afe",
+  "source_signature": "f37db4df955bc604d261ff862ddd75f19f7809c1f59dc666ff801f762a01c196",
+  "status": "complete"
+}

@@ -1,0 +1,628 @@
+{
+  "example_paths": [
+    "test\\images\\001cdf01b096e06d78e9e5112d419397.jpg",
+    "test\\images\\002a283a315af96eaea0e28e7163b21b.jpg",
+    "test\\images\\003df8b8a8b05244b1d920bb6cf451f9.jpg",
+    "test\\images\\007b5a16db9d9ff9d7ad39982703e429.jpg",
+    "test\\images\\007b8a07882822475a4ce6581e70b1f8.jpg",
+    "test\\images\\008ba178d6dfc1a583617470d19c1673.jpg",
+    "test\\images\\0097c6242c6f3071762d9f85c3ef1b2f.jpg",
+    "test\\images\\00a338a92e4e7bf543340dc849230e75.jpg",
+    "test\\images\\011bd7fd7c036dbb243d0e37329c77b7.jpg",
+    "test\\images\\012ff2d21dad14452ea16b4cda7eef4c.jpg",
+    "test\\images\\0161847d5bfae154af084993fa26a1a7.jpg",
+    "test\\images\\0162b3e0144fb1d1ab82fbff3ace9938.jpg"
+  ],
+  "image_count": 10222,
+  "loader_shapes": {
+    "train": {
+      "images": [
+        128,
+        3,
+        100,
+        100
+      ],
+      "labels": [
+        128
+      ]
+    },
+    "val": {
+      "images": [
+        128,
+        3,
+        100,
+        100
+      ],
+      "labels": [
+        128
+      ]
+    }
+  },
+  "manifest": {
+    "class_distribution": {
+      "test": {
+        "affenpinscher": 12,
+        "afghan_hound": 18,
+        "african_hunting_dog": 13,
+        "airedale": 16,
+        "american_staffordshire_terrier": 11,
+        "appenzeller": 11,
+        "australian_terrier": 16,
+        "basenji": 17,
+        "basset": 12,
+        "beagle": 16,
+        "bedlington_terrier": 14,
+        "bernese_mountain_dog": 17,
+        "black-and-tan_coonhound": 11,
+        "blenheim_spaniel": 16,
+        "bloodhound": 13,
+        "bluetick": 12,
+        "border_collie": 11,
+        "border_terrier": 14,
+        "borzoi": 11,
+        "boston_bull": 13,
+        "bouvier_des_flandres": 13,
+        "boxer": 11,
+        "brabancon_griffon": 10,
+        "briard": 10,
+        "brittany_spaniel": 11,
+        "bull_mastiff": 11,
+        "cairn": 16,
+        "cardigan": 11,
+        "chesapeake_bay_retriever": 13,
+        "chihuahua": 10,
+        "chow": 14,
+        "clumber": 12,
+        "cocker_spaniel": 11,
+        "collie": 13,
+        "curly-coated_retriever": 11,
+        "dandie_dinmont": 14,
+        "dhole": 11,
+        "dingo": 12,
+        "doberman": 11,
+        "english_foxhound": 13,
+        "english_setter": 12,
+        "english_springer": 11,
+        "entlebucher": 18,
+        "eskimo_dog": 10,
+        "flat-coated_retriever": 11,
+        "french_bulldog": 10,
+        "german_shepherd": 10,
+        "german_short-haired_pointer": 11,
+        "giant_schnauzer": 10,
+        "golden_retriever": 10,
+        "gordon_setter": 12,
+        "great_dane": 11,
+        "great_pyrenees": 17,
+        "greater_swiss_mountain_dog": 13,
+        "groenendael": 12,
+        "ibizan_hound": 14,
+        "irish_setter": 13,
+        "irish_terrier": 13,
+        "irish_water_spaniel": 11,
+        "irish_wolfhound": 15,
+        "italian_greyhound": 14,
+        "japanese_spaniel": 16,
+        "keeshond": 12,
+        "kelpie": 13,
+        "kerry_blue_terrier": 12,
+        "komondor": 10,
+        "kuvasz": 10,
+        "labrador_retriever": 13,
+        "lakeland_terrier": 15,
+        "leonberg": 16,
+        "lhasa": 14,
+        "malamute": 12,
+        "malinois": 11,
+        "maltese_dog": 18,
+        "mexican_hairless": 12,
+        "miniature_pinscher": 16,
+        "miniature_poodle": 12,
+        "miniature_schnauzer": 11,
+        "newfoundland": 14,
+        "norfolk_terrier": 12,
+        "norwegian_elkhound": 14,
+        "norwich_terrier": 11,
+        "old_english_sheepdog": 13,
+        "otterhound": 10,
+        "papillon": 15,
+        "pekinese": 11,
+        "pembroke": 14,
+        "pomeranian": 17,
+        "pug": 14,
+        "redbone": 11,
+        "rhodesian_ridgeback": 13,
+        "rottweiler": 11,
+        "saint_bernard": 13,
+        "saluki": 15,
+        "samoyed": 17,
+        "schipperke": 13,
+        "scotch_terrier": 12,
+        "scottish_deerhound": 19,
+        "sealyham_terrier": 13,
+        "shetland_sheepdog": 11,
+        "shih-tzu": 17,
+        "siberian_husky": 14,
+        "silky_terrier": 14,
+        "soft-coated_wheaten_terrier": 10,
+        "staffordshire_bullterrier": 12,
+        "standard_poodle": 12,
+        "standard_schnauzer": 11,
+        "sussex_spaniel": 11,
+        "tibetan_mastiff": 10,
+        "tibetan_terrier": 16,
+        "toy_poodle": 12,
+        "toy_terrier": 12,
+        "vizsla": 10,
+        "walker_hound": 10,
+        "weimaraner": 13,
+        "welsh_springer_spaniel": 12,
+        "west_highland_white_terrier": 12,
+        "whippet": 14,
+        "wire-haired_fox_terrier": 13,
+        "yorkshire_terrier": 13
+      },
+      "train": {
+        "affenpinscher": 56,
+        "afghan_hound": 81,
+        "african_hunting_dog": 60,
+        "airedale": 75,
+        "american_staffordshire_terrier": 52,
+        "appenzeller": 55,
+        "australian_terrier": 71,
+        "basenji": 77,
+        "basset": 57,
+        "beagle": 74,
+        "bedlington_terrier": 62,
+        "bernese_mountain_dog": 80,
+        "black-and-tan_coonhound": 54,
+        "blenheim_spaniel": 71,
+        "bloodhound": 60,
+        "bluetick": 60,
+        "border_collie": 50,
+        "border_terrier": 64,
+        "borzoi": 53,
+        "boston_bull": 61,
+        "bouvier_des_flandres": 60,
+        "boxer": 53,
+        "brabancon_griffon": 47,
+        "briard": 46,
+        "brittany_spaniel": 51,
+        "bull_mastiff": 53,
+        "cairn": 74,
+        "cardigan": 53,
+        "chesapeake_bay_retriever": 58,
+        "chihuahua": 50,
+        "chow": 65,
+        "clumber": 56,
+        "cocker_spaniel": 52,
+        "collie": 61,
+        "curly-coated_retriever": 50,
+        "dandie_dinmont": 62,
+        "dhole": 53,
+        "dingo": 56,
+        "doberman": 52,
+        "english_foxhound": 60,
+        "english_setter": 58,
+        "english_springer": 53,
+        "entlebucher": 80,
+        "eskimo_dog": 46,
+        "flat-coated_retriever": 50,
+        "french_bulldog": 49,
+        "german_shepherd": 48,
+        "german_short-haired_pointer": 53,
+        "giant_schnauzer": 48,
+        "golden_retriever": 47,
+        "gordon_setter": 57,
+        "great_dane": 53,
+        "great_pyrenees": 78,
+        "greater_swiss_mountain_dog": 57,
+        "groenendael": 57,
+        "ibizan_hound": 64,
+        "irish_setter": 62,
+        "irish_terrier": 57,
+        "irish_water_spaniel": 55,
+        "irish_wolfhound": 71,
+        "italian_greyhound": 64,
+        "japanese_spaniel": 73,
+        "keeshond": 57,
+        "kelpie": 60,
+        "kerry_blue_terrier": 57,
+        "komondor": 47,
+        "kuvasz": 50,
+        "labrador_retriever": 59,
+        "lakeland_terrier": 69,
+        "leonberg": 74,
+        "lhasa": 63,
+        "malamute": 57,
+        "malinois": 51,
+        "maltese_dog": 82,
+        "mexican_hairless": 56,
+        "miniature_pinscher": 71,
+        "miniature_poodle": 55,
+        "miniature_schnauzer": 55,
+        "newfoundland": 64,
+        "norfolk_terrier": 58,
+        "norwegian_elkhound": 67,
+        "norwich_terrier": 55,
+        "old_english_sheepdog": 61,
+        "otterhound": 48,
+        "papillon": 67,
+        "pekinese": 53,
+        "pembroke": 64,
+        "pomeranian": 78,
+        "pug": 66,
+        "redbone": 50,
+        "rhodesian_ridgeback": 62,
+        "rottweiler": 53,
+        "saint_bernard": 59,
+        "saluki": 69,
+        "samoyed": 76,
+        "schipperke": 60,
+        "scotch_terrier": 57,
+        "scottish_deerhound": 88,
+        "sealyham_terrier": 62,
+        "shetland_sheepdog": 53,
+        "shih-tzu": 78,
+        "siberian_husky": 67,
+        "silky_terrier": 63,
+        "soft-coated_wheaten_terrier": 50,
+        "staffordshire_bullterrier": 55,
+        "standard_poodle": 55,
+        "standard_schnauzer": 50,
+        "sussex_spaniel": 55,
+        "tibetan_mastiff": 48,
+        "tibetan_terrier": 75,
+        "toy_poodle": 56,
+        "toy_terrier": 55,
+        "vizsla": 49,
+        "walker_hound": 48,
+        "weimaraner": 60,
+        "welsh_springer_spaniel": 55,
+        "west_highland_white_terrier": 57,
+        "whippet": 67,
+        "wire-haired_fox_terrier": 57,
+        "yorkshire_terrier": 57
+      },
+      "val": {
+        "affenpinscher": 12,
+        "afghan_hound": 17,
+        "african_hunting_dog": 13,
+        "airedale": 16,
+        "american_staffordshire_terrier": 11,
+        "appenzeller": 12,
+        "australian_terrier": 15,
+        "basenji": 16,
+        "basset": 13,
+        "beagle": 15,
+        "bedlington_terrier": 13,
+        "bernese_mountain_dog": 17,
+        "black-and-tan_coonhound": 12,
+        "blenheim_spaniel": 15,
+        "bloodhound": 12,
+        "bluetick": 13,
+        "border_collie": 11,
+        "border_terrier": 13,
+        "borzoi": 11,
+        "boston_bull": 13,
+        "bouvier_des_flandres": 13,
+        "boxer": 11,
+        "brabancon_griffon": 10,
+        "briard": 10,
+        "brittany_spaniel": 11,
+        "bull_mastiff": 11,
+        "cairn": 16,
+        "cardigan": 12,
+        "chesapeake_bay_retriever": 12,
+        "chihuahua": 11,
+        "chow": 14,
+        "clumber": 12,
+        "cocker_spaniel": 11,
+        "collie": 13,
+        "curly-coated_retriever": 11,
+        "dandie_dinmont": 13,
+        "dhole": 12,
+        "dingo": 12,
+        "doberman": 11,
+        "english_foxhound": 13,
+        "english_setter": 13,
+        "english_springer": 11,
+        "entlebucher": 17,
+        "eskimo_dog": 10,
+        "flat-coated_retriever": 11,
+        "french_bulldog": 11,
+        "german_shepherd": 11,
+        "german_short-haired_pointer": 11,
+        "giant_schnauzer": 11,
+        "golden_retriever": 10,
+        "gordon_setter": 12,
+        "great_dane": 11,
+        "great_pyrenees": 16,
+        "greater_swiss_mountain_dog": 12,
+        "groenendael": 13,
+        "ibizan_hound": 13,
+        "irish_setter": 13,
+        "irish_terrier": 12,
+        "irish_water_spaniel": 12,
+        "irish_wolfhound": 15,
+        "italian_greyhound": 14,
+        "japanese_spaniel": 16,
+        "keeshond": 12,
+        "kelpie": 13,
+        "kerry_blue_terrier": 13,
+        "komondor": 10,
+        "kuvasz": 11,
+        "labrador_retriever": 12,
+        "lakeland_terrier": 15,
+        "leonberg": 16,
+        "lhasa": 13,
+        "malamute": 12,
+        "malinois": 11,
+        "maltese_dog": 17,
+        "mexican_hairless": 12,
+        "miniature_pinscher": 15,
+        "miniature_poodle": 12,
+        "miniature_schnauzer": 12,
+        "newfoundland": 13,
+        "norfolk_terrier": 13,
+        "norwegian_elkhound": 14,
+        "norwich_terrier": 12,
+        "old_english_sheepdog": 13,
+        "otterhound": 11,
+        "papillon": 14,
+        "pekinese": 11,
+        "pembroke": 14,
+        "pomeranian": 16,
+        "pug": 14,
+        "redbone": 11,
+        "rhodesian_ridgeback": 13,
+        "rottweiler": 12,
+        "saint_bernard": 12,
+        "saluki": 15,
+        "samoyed": 16,
+        "schipperke": 13,
+        "scotch_terrier": 13,
+        "scottish_deerhound": 19,
+        "sealyham_terrier": 13,
+        "shetland_sheepdog": 12,
+        "shih-tzu": 17,
+        "siberian_husky": 14,
+        "silky_terrier": 13,
+        "soft-coated_wheaten_terrier": 11,
+        "staffordshire_bullterrier": 12,
+        "standard_poodle": 12,
+        "standard_schnauzer": 11,
+        "sussex_spaniel": 12,
+        "tibetan_mastiff": 11,
+        "tibetan_terrier": 16,
+        "toy_poodle": 12,
+        "toy_terrier": 12,
+        "vizsla": 11,
+        "walker_hound": 11,
+        "weimaraner": 12,
+        "welsh_springer_spaniel": 12,
+        "west_highland_white_terrier": 12,
+        "whippet": 14,
+        "wire-haired_fox_terrier": 12,
+        "yorkshire_terrier": 12
+      }
+    },
+    "conflicting_label_groups": 6,
+    "content_duplicate_policy": "preserve_official",
+    "counts": {
+      "test": 1534,
+      "train": 7155,
+      "val": 1533
+    },
+    "cross_split_content_groups": 10,
+    "duplicate_content_groups": 15,
+    "duplicate_groups": [
+      [
+        {
+          "label": "scottish_deerhound",
+          "path": "train/images/19205fceb3eb41ba27f1b0b946934789.jpg",
+          "split": "train"
+        },
+        {
+          "label": "scottish_deerhound",
+          "path": "train/images/9bf3d79a743c864430ddc69fcc4e4c0d.jpg",
+          "split": "train"
+        }
+      ],
+      [
+        {
+          "label": "mexican_hairless",
+          "path": "train/images/5f716d6b2bf014733df54adfe6c62914.jpg",
+          "split": "train"
+        },
+        {
+          "label": "mexican_hairless",
+          "path": "test/images/8199436be9930c4cc9cb747199b316f5.jpg",
+          "split": "test"
+        }
+      ],
+      [
+        {
+          "label": "silky_terrier",
+          "path": "train/images/1928d59eba4b9470a8fb79eb56041c42.jpg",
+          "split": "train"
+        },
+        {
+          "label": "silky_terrier",
+          "path": "train/images/f8d48f89aaa55962d4beb853a128eac7.jpg",
+          "split": "train"
+        }
+      ],
+      [
+        {
+          "label": "saluki",
+          "path": "train/images/5aef2850c1ad620dafdeb39745316d81.jpg",
+          "split": "train"
+        },
+        {
+          "label": "saluki",
+          "path": "test/images/1b7cb7dc162a25d4f264eaf04ba3ddcc.jpg",
+          "split": "test"
+        }
+      ],
+      [
+        {
+          "label": "wire-haired_fox_terrier",
+          "path": "train/images/94a513cd73ba792bc888b644541121f0.jpg",
+          "split": "train"
+        },
+        {
+          "label": "wire-haired_fox_terrier",
+          "path": "val/images/4ae0622f7637ed62d3276bdc3bb267fa.jpg",
+          "split": "val"
+        }
+      ],
+      [
+        {
+          "label": "japanese_spaniel",
+          "path": "train/images/bb498a83a13172068481ab3513469efa.jpg",
+          "split": "train"
+        },
+        {
+          "label": "papillon",
+          "path": "train/images/726cb4a436dec4b66c87f1e78c4315e1.jpg",
+          "split": "train"
+        }
+      ],
+      [
+        {
+          "label": "briard",
+          "path": "train/images/e85f6d7af1405365c8e576d0a0aa7a2b.jpg",
+          "split": "train"
+        },
+        {
+          "label": "whippet",
+          "path": "test/images/7cbf5c9694a8b039a2d3b47e64a7f750.jpg",
+          "split": "test"
+        }
+      ],
+      [
+        {
+          "label": "bedlington_terrier",
+          "path": "train/images/ef1129cb127bff04fd3940d94f2a259b.jpg",
+          "split": "train"
+        },
+        {
+          "label": "bedlington_terrier",
+          "path": "val/images/002211c81b498ef88e1b40b9abf84e1d.jpg",
+          "split": "val"
+        }
+      ],
+      [
+        {
+          "label": "sussex_spaniel",
+          "path": "train/images/0964e161b379740955fa95d8d4c8697e.jpg",
+          "split": "train"
+        },
+        {
+          "label": "sussex_spaniel",
+          "path": "train/images/6c98cfb82ee6bf1083f3f752fd1b9c11.jpg",
+          "split": "train"
+        }
+      ],
+      [
+        {
+          "label": "scottish_deerhound",
+          "path": "train/images/a25ddbe69eddafe9bbf2e542dc8cb487.jpg",
+          "split": "train"
+        },
+        {
+          "label": "scottish_deerhound",
+          "path": "train/images/0fee7eb61d52b589414845803d73f2f9.jpg",
+          "split": "train"
+        }
+      ],
+      [
+        {
+          "label": "toy_poodle",
+          "path": "train/images/e673bb6ca717b8dffe3b5ba35da07a83.jpg",
+          "split": "train"
+        },
+        {
+          "label": "miniature_poodle",
+          "path": "test/images/aa7c04434a8f718b639c4b73030349e2.jpg",
+          "split": "test"
+        }
+      ],
+      [
+        {
+          "label": "japanese_spaniel",
+          "path": "train/images/4f873d1f4c298939a77dba5e939a77ea.jpg",
+          "split": "train"
+        },
+        {
+          "label": "blenheim_spaniel",
+          "path": "val/images/5e6b5db5a4b4e716c0349840498b1126.jpg",
+          "split": "val"
+        }
+      ],
+      [
+        {
+          "label": "brabancon_griffon",
+          "path": "train/images/49f02ef8a1f6f1104af5e12262a8a76b.jpg",
+          "split": "train"
+        },
+        {
+          "label": "brabancon_griffon",
+          "path": "val/images/dac0943bf45a8f3f1a8f374cf72dc50e.jpg",
+          "split": "val"
+        }
+      ],
+      [
+        {
+          "label": "lakeland_terrier",
+          "path": "train/images/6b3f1fd13a925f11c01ec3f58a680115.jpg",
+          "split": "train"
+        },
+        {
+          "label": "wire-haired_fox_terrier",
+          "path": "test/images/bb33d498880146058bd331d7cb6e7fda.jpg",
+          "split": "test"
+        }
+      ],
+      [
+        {
+          "label": "standard_schnauzer",
+          "path": "val/images/2fbd0bd840f1b4f80656d90fcc6bcfd5.jpg",
+          "split": "val"
+        },
+        {
+          "label": "giant_schnauzer",
+          "path": "test/images/2352a3eb1ba8bcd1171a812413147f00.jpg",
+          "split": "test"
+        }
+      ]
+    ],
+    "num_classes": 120,
+    "path_overlap": 0
+  },
+  "metadata_files": [
+    "duplicate_audit.json",
+    "inspection.json",
+    "manifest.json",
+    "statistics.json",
+    "test_labels.csv",
+    "train_labels.csv",
+    "val_labels.csv"
+  ],
+  "root": "C:\\Users\\ROG\\Documents\\Codex\\2026-10-24\\files-pasted-by-the-user-ai6103\\outputs\\AI6103_Assignment\\data",
+  "top_level": [
+    "README.md",
+    "duplicate_audit.json",
+    "inspection.json",
+    "manifest.json",
+    "raw",
+    "statistics.json",
+    "test",
+    "test_labels.csv",
+    "train",
+    "train_labels.csv",
+    "val",
+    "val_labels.csv"
+  ]
+}

@@ -1,0 +1,7 @@
+# Install the matched CUDA-enabled torch pair first; see README.
+torch==2.8.0
+torchvision==0.23.0
+numpy==2.2.6
+Pillow==11.3.0
+PyYAML==6.0.2
+matplotlib==3.10.5

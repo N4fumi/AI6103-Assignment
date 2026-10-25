@@ -1,0 +1,121 @@
+[
+  {
+    "arguments": [
+      "-m",
+      "src.experiments",
+      "--validate-configs"
+    ],
+    "expected_exit": 0,
+    "actual_exit": 0,
+    "passed": true,
+    "output": "lr_05: valid; lr=0.5, epochs=15\nlr_005: valid; lr=0.05, epochs=15\nlr_0001: valid; lr=0.001, epochs=15\nconstant: valid; lr=requires completed LR selection, epochs=300\ncosine: valid; lr=requires completed LR selection, epochs=300\nwd_5e4: valid; lr=requires completed LR selection, epochs=300\nwd_1e4: valid; lr=requires completed LR selection, epochs=300\nmixup: valid; lr=requires completed LR selection, epochs=300\n"
+  },
+  {
+    "arguments": [
+      "-m",
+      "src.experiments",
+      "--experiment",
+      "lr_005",
+      "--dry-run"
+    ],
+    "expected_exit": 0,
+    "actual_exit": 0,
+    "passed": true,
+    "output": "{\n  \"seed\": 6103,\n  \"model\": \"efficientnet_v2_s\",\n  \"pretrained\": false,\n  \"num_classes\": 120,\n  \"data_root\": \"data\",\n  \"manifest\": \"data/manifest.json\",\n  \"statistics\": \"data/statistics.json\",\n  \"split_counts\": [\n    7155,\n    1533,\n    1534\n  ],\n  \"content_duplicate_policy\": \"preserve_official\",\n  \"image_size\": 100,\n  \"padding\": 12,\n  \"flip_probability\": 0.5,\n  \"batch_size\": 128,\n  \"optimizer\": \"SGD\",\n  \"momentum\": 0.9,\n  \"lr\": 0.05,\n  \"epochs\": 15,\n  \"scheduler\": \"constant\",\n  \"weight_decay\": 0.0,\n  \"mixup_alpha\": 0.0,\n  \"precision\": \"amp_bf16\",\n  \"device\": \"cuda\",\n  \"workers\": 4,\n  \"pin_memory\": true,\n  \"persistent_workers\": false,\n  \"prefetch_factor\": 2,\n  \"deterministic\": true,\n  \"memory_fraction\": 1.0,\n  \"channels_last\": false,\n  \"experiment\": \"lr_005\"\n}\n"
+  },
+  {
+    "arguments": [
+      "-m",
+      "src.experiments",
+      "--experiment",
+      "cosine",
+      "--dry-run"
+    ],
+    "expected_exit": 2,
+    "actual_exit": 2,
+    "passed": true,
+    "output": "ERROR: Missing/incomplete/invalid prerequisites; no selection made:\nlr_05: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ROG\\\\Documents\\\\Codex\\\\2026-10-24\\\\files-pasted-by-the-user-ai6103\\\\outputs\\\\AI6103_Assignment\\\\results\\\\lr_05\\\\summary.json'\n  python -m src.experiments --experiment lr_05  # add --resume if interrupted\nlr_005: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ROG\\\\Documents\\\\Codex\\\\2026-10-24\\\\files-pasted-by-the-user-ai6103\\\\outputs\\\\AI6103_Assignment\\\\results\\\\lr_005\\\\summary.json'\n  python -m src.experiments --experiment lr_005  # add --resume if interrupted\nlr_0001: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ROG\\\\Documents\\\\Codex\\\\2026-10-24\\\\files-pasted-by-the-user-ai6103\\\\outputs\\\\AI6103_Assignment\\\\results\\\\lr_0001\\\\summary.json'\n  python -m src.experiments --experiment lr_0001  # add --resume if interrupted\n"
+  },
+  {
+    "arguments": [
+      "-m",
+      "src.experiments",
+      "--select-final"
+    ],
+    "expected_exit": 2,
+    "actual_exit": 2,
+    "passed": true,
+    "output": "ERROR: Missing/incomplete/invalid prerequisites; no selection made:\nlr_05: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ROG\\\\Documents\\\\Codex\\\\2026-10-24\\\\files-pasted-by-the-user-ai6103\\\\outputs\\\\AI6103_Assignment\\\\results\\\\lr_05\\\\summary.json'\n  python -m src.experiments --experiment lr_05  # add --resume if interrupted\nlr_005: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ROG\\\\Documents\\\\Codex\\\\2026-10-24\\\\files-pasted-by-the-user-ai6103\\\\outputs\\\\AI6103_Assignment\\\\results\\\\lr_005\\\\summary.json'\n  python -m src.experiments --experiment lr_005  # add --resume if interrupted\nlr_0001: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ROG\\\\Documents\\\\Codex\\\\2026-10-24\\\\files-pasted-by-the-user-ai6103\\\\outputs\\\\AI6103_Assignment\\\\results\\\\lr_0001\\\\summary.json'\n  python -m src.experiments --experiment lr_0001  # add --resume if interrupted\n"
+  },
+  {
+    "arguments": [
+      "-m",
+      "src.evaluate",
+      "--help"
+    ],
+    "expected_exit": 0,
+    "actual_exit": 0,
+    "passed": true,
+    "output": "usage: evaluate.py [-h] --test [--workers WORKERS] [--device {cpu,cuda}]\n\nExplicit hold-out evaluation, gated on a verified final model selection.\n\noptions:\n  -h, --help           show this help message and exit\n  --test               Explicitly authorize a single hold-out evaluation\n  --workers WORKERS    Optional inference-only worker count\n  --device {cpu,cuda}  Optional inference-only device override\n"
+  },
+  {
+    "arguments": [
+      "scripts/check_environment.py",
+      "--help"
+    ],
+    "expected_exit": 0,
+    "actual_exit": 0,
+    "passed": true,
+    "output": "usage: check_environment.py [-h] [--forward-check]\n\nRead-only environment checks; optional single inference pass, never training.\n\noptions:\n  -h, --help       show this help message and exit\n  --forward-check  One eval-mode EfficientNetV2-S inference, no\n                   backward/optimizer\n"
+  },
+  {
+    "arguments": [
+      "scripts/inspect_dataset.py",
+      "--help"
+    ],
+    "expected_exit": 0,
+    "actual_exit": 0,
+    "passed": true,
+    "output": "usage: inspect_dataset.py [-h] [--data-root DATA_ROOT] [--prepare]\n                          [--create-splits] [--official-csv OFFICIAL_CSV]\n                          [--verify-loaders] [--verify-hashes]\n\nInspect layout first. Explicit preparation preserves official splits.\n\noptions:\n  -h, --help            show this help message and exit\n  --data-root DATA_ROOT\n  --prepare             Create a manifest from official splits\n  --create-splits       Explicitly authorize deterministic splitting only when\n                        no official split exists\n  --official-csv OFFICIAL_CSV\n                        Explicit CSV adapter: path,label,split\n  --verify-loaders      Read one train and validation minibatch; never\n                        evaluate test\n  --verify-hashes\n"
+  },
+  {
+    "arguments": [
+      "scripts/compute_statistics.py",
+      "--help"
+    ],
+    "expected_exit": 0,
+    "actual_exit": 0,
+    "passed": true,
+    "output": "usage: compute_statistics.py [-h] [--data-root DATA_ROOT]\n\nCompute channel population moments on resized, unaugmented training images.\n\noptions:\n  -h, --help            show this help message and exit\n  --data-root DATA_ROOT\n"
+  },
+  {
+    "arguments": [
+      "scripts/generate_figures.py",
+      "--help"
+    ],
+    "expected_exit": 0,
+    "actual_exit": 0,
+    "passed": true,
+    "output": "usage: generate_figures.py [-h] [--theory-only]\n\nPlot saved trajectories; mathematical Beta/cosine plots do not require\ntraining.\n\noptions:\n  -h, --help     show this help message and exit\n  --theory-only\n"
+  },
+  {
+    "arguments": [
+      "scripts/summarize_results.py",
+      "--help"
+    ],
+    "expected_exit": 0,
+    "actual_exit": 0,
+    "passed": true,
+    "output": "usage: summarize_results.py [-h]\n\nExport only actual saved measurements; missing results stay missing.\n\noptions:\n  -h, --help  show this help message and exit\n"
+  },
+  {
+    "arguments": [
+      "scripts/generate_report_tables.py",
+      "--help"
+    ],
+    "expected_exit": 0,
+    "actual_exit": 0,
+    "passed": true,
+    "output": "usage: generate_report_tables.py [-h]\n\nExport numeric LaTeX tables/code excerpts only; no report prose is written.\n\noptions:\n  -h, --help  show this help message and exit\n"
+  }
+]

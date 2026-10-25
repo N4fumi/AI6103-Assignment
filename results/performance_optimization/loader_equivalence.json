@@ -1,0 +1,71 @@
+{
+  "evidence": [
+    {
+      "batch_hashes": [
+        "3e83c9c50107355ad20e24126b0d815a9e378b463eed774b11dc0096accef702",
+        "bb6ca4bd8737147689417c0e91b986bd35ade3a54f227b9e6034e6544200fce3",
+        "621b5d3c75ae3a90ed25bc984beacaa4e345719f58604645c5c91fd8a6b84806"
+      ],
+      "batches": 3,
+      "epoch": 132,
+      "identical": true,
+      "split": "train"
+    },
+    {
+      "batch_hashes": [
+        "8c899255d673fa2828f703c3e4d65a041b4925e0ed22129d092b6186c1fb450a",
+        "9f2096e0c280e83d2d96d939aee30c3c2c6f361af7f35d339bb23deebe72a067",
+        "a6a34d0a25ead949254a3572f463e78647c843f339dafa67daf756695fcb92c2"
+      ],
+      "batches": 3,
+      "epoch": 133,
+      "identical": true,
+      "split": "train"
+    },
+    {
+      "batch_hashes": [
+        "efabd89b45ed13b6c80410769bd72105afa9673a24715372db26ea0b7a2e1de9",
+        "28985f495d7446c209f0b111ea75b4351bef9c1402c788542f487fbe9a96218f",
+        "f2b1263c9f27c3f338d193a7b5f1397f63f5f9e61596a507a70d2cfb5726c614"
+      ],
+      "batches": 3,
+      "epoch": 134,
+      "identical": true,
+      "split": "train"
+    },
+    {
+      "batch_hashes": [
+        "983c5b71207bb60e117b1419ebbe9187cea42263d778f5a743f4efc15e8eddfd",
+        "b530efd2ebd41ea8e695430a6e55fceae23aebb73556f887629e7e15df295a32",
+        "7934f08604863a9f95c82f261e1a51e905214d28aa0f03aab5cfd408896a9e99"
+      ],
+      "batches": 3,
+      "epoch": 132,
+      "identical": true,
+      "split": "val"
+    },
+    {
+      "batch_hashes": [
+        "983c5b71207bb60e117b1419ebbe9187cea42263d778f5a743f4efc15e8eddfd",
+        "b530efd2ebd41ea8e695430a6e55fceae23aebb73556f887629e7e15df295a32",
+        "7934f08604863a9f95c82f261e1a51e905214d28aa0f03aab5cfd408896a9e99"
+      ],
+      "batches": 3,
+      "epoch": 133,
+      "identical": true,
+      "split": "val"
+    },
+    {
+      "batch_hashes": [
+        "983c5b71207bb60e117b1419ebbe9187cea42263d778f5a743f4efc15e8eddfd",
+        "b530efd2ebd41ea8e695430a6e55fceae23aebb73556f887629e7e15df295a32",
+        "7934f08604863a9f95c82f261e1a51e905214d28aa0f03aab5cfd408896a9e99"
+      ],
+      "batches": 3,
+      "epoch": 134,
+      "identical": true,
+      "split": "val"
+    }
+  ],
+  "status": "passed"
+}

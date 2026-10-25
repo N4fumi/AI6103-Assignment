@@ -1,0 +1,36 @@
+WARNING: official data have 10 cross-split duplicate groups and 6 conflicting-label groups; original membership/labels are preserved and audited.
+D:\WORKSPACE\Anaconda\envs\ntuai\lib\site-packages\torch\backends\__init__.py:46: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\Context.cpp:85.)
+  self.setter(val)
+  batch 1/56 CE=0.01024
+  batch 20/56 CE=0.01954
+  batch 40/56 CE=0.01925
+  batch 56/56 CE=0.01884
+{"optimized": false, "epoch": 142, "train_seconds": 43.04517100000521, "validation_seconds": 17.945247899988317, "epoch_seconds": 60.990420100002666, "train": [0.018839533041360847, 0.9941299790356394], "validation": [8.207301462077659, 0.19112850619699934], "model_sha256": "0a68e99389035308eb1489bcf51ac986f8dcaf40984a04560b435d6a5b88ecd2", "optimizer_sha256": "a4013c21c0c58d5ca50ea4d1618f394bb71e8283d2e8b7440f0616907b8d1e34", "scheduler_sha256": "3b3eb59952d1e5ce226a4e113da2a0eb39fdecf413791ffd7d9045279911d5bd", "rng_sha256": "aeb2ae57183094e88083bc2f47421f363553e6e4100b3a09771dfe67dd60a135", "loader_rng_sha256": "70a32233aaf2a3c5d2139b10b1cd71ec9d814428dbe7935b822aba96538b99ca"}
+  batch 1/56 CE=0.01032
+  batch 20/56 CE=0.01781
+  batch 40/56 CE=0.01740
+  batch 56/56 CE=0.01663
+{"optimized": false, "epoch": 143, "train_seconds": 27.62956899999699, "validation_seconds": 17.892821699992055, "epoch_seconds": 45.52239220000047, "train": [0.016633109849891324, 0.9953878406708595], "validation": [8.18042902688302, 0.18395303326810175], "model_sha256": "1403486ded5ad8c7fcd3cfc13d47386729df944c23307600fbab5229f3a9c9b8", "optimizer_sha256": "8774154a199b2d2ebd8381826537bf1d5205dd198a9f53b81601172ca2b860f6", "scheduler_sha256": "a3301fb858fc7398085224476d78b99bf062fe92adecb8d631982d1ca36ef3e1", "rng_sha256": "2e1808c7e2b63e05997cc51b415db94d41cd9d137053d1d7827578007783d636", "loader_rng_sha256": "3793d10b9cc7ba360cc6a6bb1670b620e21eec584873285ee67fb71afa020e10"}
+  batch 1/56 CE=0.01024
+  batch 20/56 CE=0.01954
+  batch 40/56 CE=0.01925
+  batch 56/56 CE=0.01884
+{"optimized": true, "epoch": 142, "train_seconds": 24.893353099992964, "validation_seconds": 16.906131600000663, "epoch_seconds": 41.79948570000124, "train": [0.018839533041360847, 0.9941299790356394], "validation": [8.207301462077659, 0.19112850619699934], "model_sha256": "0a68e99389035308eb1489bcf51ac986f8dcaf40984a04560b435d6a5b88ecd2", "optimizer_sha256": "a4013c21c0c58d5ca50ea4d1618f394bb71e8283d2e8b7440f0616907b8d1e34", "scheduler_sha256": "3b3eb59952d1e5ce226a4e113da2a0eb39fdecf413791ffd7d9045279911d5bd", "rng_sha256": "aeb2ae57183094e88083bc2f47421f363553e6e4100b3a09771dfe67dd60a135", "loader_rng_sha256": "70a32233aaf2a3c5d2139b10b1cd71ec9d814428dbe7935b822aba96538b99ca"}
+  batch 1/56 CE=0.01032
+  batch 20/56 CE=0.01781
+  batch 40/56 CE=0.01740
+  batch 56/56 CE=0.01663
+{"optimized": true, "epoch": 143, "train_seconds": 9.140283000000636, "validation_seconds": 1.1711629000055837, "epoch_seconds": 10.311448000007658, "train": [0.016633109849891324, 0.9953878406708595], "validation": [8.18042902688302, 0.18395303326810175], "model_sha256": "1403486ded5ad8c7fcd3cfc13d47386729df944c23307600fbab5229f3a9c9b8", "optimizer_sha256": "8774154a199b2d2ebd8381826537bf1d5205dd198a9f53b81601172ca2b860f6", "scheduler_sha256": "a3301fb858fc7398085224476d78b99bf062fe92adecb8d631982d1ca36ef3e1", "rng_sha256": "2e1808c7e2b63e05997cc51b415db94d41cd9d137053d1d7827578007783d636", "loader_rng_sha256": "3793d10b9cc7ba360cc6a6bb1670b620e21eec584873285ee67fb71afa020e10"}
+  batch 1/2 CE=6.02634
+  batch 2/2 CE=4.06415
+{"optimized": false, "epoch": 142, "train_seconds": 17.259052300010808, "validation_seconds": 17.145753199991304, "epoch_seconds": 34.40480740000203, "train": [4.064150816128578, 0.720492107878006], "validation": [8.805769920349121, 0.1796875], "model_sha256": "e3c956e5826bd5a619886e6098680e183db3c63e60bcc5b6223837870ef63cff", "optimizer_sha256": "c406621a1e01e51f7cbf1ecdaf3067af444743c3529afbda3aa5f94f36d94b88", "scheduler_sha256": "3b3eb59952d1e5ce226a4e113da2a0eb39fdecf413791ffd7d9045279911d5bd", "rng_sha256": "ae70c26113f4316ffb52bd92754d04e71a035c2eec42457f6dbf8f70f4a76301", "loader_rng_sha256": "2e1372d048565c6f64ba5273cf3c3ce6044a78aaeb5fb1d355fde3e1b4840636"}
+  batch 1/2 CE=3.24190
+  batch 2/2 CE=2.42891
+{"optimized": false, "epoch": 143, "train_seconds": 17.509220499996445, "validation_seconds": 16.79932689999987, "epoch_seconds": 34.30854930001078, "train": [2.4289136085000056, 0.8785781860351562], "validation": [8.817340850830078, 0.1875], "model_sha256": "28d55cbc031e624c6fd4658efba335b118019fa84b312a956c5a98e49d32f33c", "optimizer_sha256": "e01a56ea812f30a5f3caa3061fc752d4350a266e80a4669e870ce9ed0b31b31a", "scheduler_sha256": "a3301fb858fc7398085224476d78b99bf062fe92adecb8d631982d1ca36ef3e1", "rng_sha256": "e77d815854786a540171085330a1726acc4021a35dc2214f9c78db248b164a95", "loader_rng_sha256": "a9d28550c416545338ff595dd8f2dbe454dbd5ec7e6bbfd0be495517c82e1920"}
+  batch 1/2 CE=6.02634
+  batch 2/2 CE=4.06415
+{"optimized": true, "epoch": 142, "train_seconds": 16.616047999996226, "validation_seconds": 16.23236929999257, "epoch_seconds": 32.84841839999717, "train": [4.064150816128578, 0.720492107878006], "validation": [8.805769920349121, 0.1796875], "model_sha256": "e3c956e5826bd5a619886e6098680e183db3c63e60bcc5b6223837870ef63cff", "optimizer_sha256": "c406621a1e01e51f7cbf1ecdaf3067af444743c3529afbda3aa5f94f36d94b88", "scheduler_sha256": "3b3eb59952d1e5ce226a4e113da2a0eb39fdecf413791ffd7d9045279911d5bd", "rng_sha256": "ae70c26113f4316ffb52bd92754d04e71a035c2eec42457f6dbf8f70f4a76301", "loader_rng_sha256": "2e1372d048565c6f64ba5273cf3c3ce6044a78aaeb5fb1d355fde3e1b4840636"}
+  batch 1/2 CE=3.24190
+  batch 2/2 CE=2.42891
+{"optimized": true, "epoch": 143, "train_seconds": 0.563377099999343, "validation_seconds": 0.27214380000077654, "epoch_seconds": 0.8355220999947051, "train": [2.4289136085000056, 0.8785781860351562], "validation": [8.817340850830078, 0.1875], "model_sha256": "28d55cbc031e624c6fd4658efba335b118019fa84b312a956c5a98e49d32f33c", "optimizer_sha256": "e01a56ea812f30a5f3caa3061fc752d4350a266e80a4669e870ce9ed0b31b31a", "scheduler_sha256": "a3301fb858fc7398085224476d78b99bf062fe92adecb8d631982d1ca36ef3e1", "rng_sha256": "e77d815854786a540171085330a1726acc4021a35dc2214f9c78db248b164a95", "loader_rng_sha256": "a9d28550c416545338ff595dd8f2dbe454dbd5ec7e6bbfd0be495517c82e1920"}
+PASSED: metrics, model/optimizer/scheduler, RNG and loader RNG are identical.

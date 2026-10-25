@@ -1,0 +1,2 @@
+# Scheduler and weight decay are resolved from the validation-selected baseline.
+mixup_alpha: 0.2

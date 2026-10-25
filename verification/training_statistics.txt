@@ -1,0 +1,19 @@
+{
+  "mean": [
+    0.4771833948013925,
+    0.45276359907373276,
+    0.39278599580712675
+  ],
+  "std": [
+    0.25341598935370724,
+    0.24796732810649563,
+    0.25226677902637096
+  ],
+  "count": 7155,
+  "pixels_per_channel": 71550000,
+  "split": "train",
+  "image_size": 100,
+  "variance_definition": "population; pixels scaled to [0,1]",
+  "interpolation": "PIL bilinear, antialias",
+  "manifest_signature": "8ff832e927d4f288f988eda0f5e47b91f261ee4061602a63102371adcda7c864"
+}

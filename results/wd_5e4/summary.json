@@ -1,0 +1,91 @@
+{
+  "best_validation": {
+    "elapsed_seconds": 1723.8037866001832,
+    "epoch": 214,
+    "epoch_seconds": 7.806997399995453,
+    "lr": 0.009677323658675586,
+    "next_lr": 0.009471305493042235,
+    "train_accuracy": 0.9987421383647799,
+    "train_loss": 0.02474558068287073,
+    "val_accuracy": 0.3476842791911285,
+    "val_loss": 3.421137941482405
+  },
+  "checkpoint_sha256": {
+    "best.pt": "ae35ef18cb326f51dc7e5c07d43dbafd07c296754e930405b72bd983696bffe7",
+    "final.pt": "16fa04c2e29b4e5194da68dcf13317fabc74e247328a586ac704b4ed679ff835"
+  },
+  "config": {
+    "batch_size": 128,
+    "channels_last": false,
+    "content_duplicate_policy": "preserve_official",
+    "data_root": "data",
+    "dependencies": {
+      "lr_experiment": "lr_005",
+      "lr_sources": {
+        "lr_0001": "798685cbd45086aae8961d87b11ef99f1c41f4a55fb520fd0d693e9cb44c4987",
+        "lr_005": "5dbaf817d8669fc0410b2865f2f28105826061f66ab8037c47fe6ecbbda72dbc",
+        "lr_05": "23c2d879aba1c671e1b2617573268b9627787e48083384f9b072206f8fd37e7b"
+      }
+    },
+    "deterministic": true,
+    "device": "cuda",
+    "epochs": 300,
+    "experiment": "wd_5e4",
+    "flip_probability": 0.5,
+    "image_size": 100,
+    "lr": 0.05,
+    "manifest": "data/manifest.json",
+    "memory_fraction": 1.0,
+    "mixup_alpha": 0.0,
+    "model": "efficientnet_v2_s",
+    "momentum": 0.9,
+    "num_classes": 120,
+    "optimizer": "SGD",
+    "padding": 12,
+    "persistent_workers": false,
+    "pin_memory": true,
+    "precision": "amp_bf16",
+    "prefetch_factor": 2,
+    "pretrained": false,
+    "scheduler": "cosine",
+    "seed": 6103,
+    "split_counts": [
+      7155,
+      1533,
+      1534
+    ],
+    "statistics": "data/statistics.json",
+    "weight_decay": 0.0005,
+    "workers": 4
+  },
+  "config_signature": "ddf73decd73f76a034dac3602304a658425c683c17f7b56853b986078ddc8572",
+  "data_signature": "590ead402d48eecbd75c1f418419c3c13dd2f9a8a517826328edd554dd19ea11",
+  "final": {
+    "elapsed_seconds": 2403.308501000196,
+    "epoch": 300,
+    "epoch_seconds": 7.902457299991511,
+    "lr": 1.3707658621964203e-06,
+    "next_lr": 0.0,
+    "train_accuracy": 0.9998602375960867,
+    "train_loss": 0.019889890616805215,
+    "val_accuracy": 0.3287671232876712,
+    "val_loss": 3.291046759853624
+  },
+  "history_signature": "687c8f482e36d55c4afd83a02d277f384f41bf7905e78dee046ee5e151bb7ffe",
+  "runtime_optimization": {
+    "adapter": "scripts\\optimized_runtime.py",
+    "adapter_sha256": "f17c5092cf0c1b6624eaf7e9b168835d84c4e372b96259a91be5c59f6f757bbd",
+    "best_checkpoint_policy": "write on improvement; last.pt still written every epoch",
+    "effective_from_epoch": 1,
+    "evidence": "results\\performance_optimization\\equivalence.json",
+    "evidence_sha256": "2f981d9ea604ca06ece589ffdbe4d870670e54193bf485fc5a030b22c5828923",
+    "frozen_recipe_unchanged": true,
+    "gradient_checks": "same finite predicate; one host synchronization",
+    "persistent_workers": true,
+    "sampler_rng_compatible": true,
+    "timing_comparability": "execution changed; recipe and numerical trajectory verified",
+    "version": 1
+  },
+  "source_signature": "f37db4df955bc604d261ff862ddd75f19f7809c1f59dc666ff801f762a01c196",
+  "status": "complete"
+}

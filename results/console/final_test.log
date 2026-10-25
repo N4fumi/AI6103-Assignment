@@ -1,0 +1,15 @@
+WARNING: official data have 10 cross-split duplicate groups and 6 conflicting-label groups; original membership/labels are preserved and audited.
+D:\WORKSPACE\Anaconda\envs\ntuai\lib\site-packages\torch\backends\__init__.py:46: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\Context.cpp:85.)
+  self.setter(val)
+{
+  "test_loss": 2.750519468078713,
+  "test_accuracy": 0.3754889178617992,
+  "count": 1534,
+  "experiment": "mixup",
+  "epoch": 273,
+  "checkpoint_sha256": "0609a1441414064c03bc50baad4e50d953aaf8dd0a3af364fb948996c4d4b973",
+  "data_signature": "590ead402d48eecbd75c1f418419c3c13dd2f9a8a517826328edd554dd19ea11",
+  "selection_signature": "aeb13b7521a045a7589954db0137d7e6783793a6ad0c5b70cb66ef8df4af2e0f",
+  "precision": "fp32",
+  "device": "cuda"
+}
