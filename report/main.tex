@@ -14,6 +14,21 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{booktabs}
+\usepackage{listings}
+\lstset{
+    basicstyle=\footnotesize\ttfamily,
+    keywordstyle=\ttfamily,
+    commentstyle=\ttfamily,
+    stringstyle=\ttfamily,
+    showstringspaces=false,
+    keepspaces=true,
+    columns=fullflexible,
+    tabsize=4,
+    breaklines=true,
+    frame=tb,
+    captionpos=t
+}
+\captionsetup[lstlisting]{justification=raggedright,singlelinecheck=false}
 \frenchspacing
 \setlength{\pdfpagewidth}{8.5in}
 \setlength{\pdfpageheight}{11in}
@@ -79,6 +94,30 @@ Blue & 0.392786 & 0.252267 \\
 \end{table}
 
 Training augmentation applies 12-pixel zero padding on each side, followed by a random \(100 \times 100\) crop and horizontal flipping with probability 0.5. The augmented images are converted to tensors and normalized using the training-set channel statistics. Validation and test images undergo resizing, tensor conversion, and normalization.
+
+Listing~\ref{lst:preprocessing} shows the preprocessing code. Here, \texttt{stats} contains the training-set statistics in Table~\ref{tab:statistics}, and \texttt{training} is false for validation and test images.
+
+\begin{lstlisting}[language=Python,float=!t,label={lst:preprocessing},caption={Preprocessing transforms used in the experiments. Images are converted to RGB before applying the transforms.}]
+from torchvision import transforms as T
+
+def make_transform(cfg, stats, training):
+    size = cfg["image_size"]
+    mode = T.InterpolationMode.BILINEAR
+    ops = [T.Resize((size, size),
+                    interpolation=mode,
+                    antialias=True)]
+    if training:
+        ops += [
+            T.Pad(cfg["padding"], fill=0,
+                  padding_mode="constant"),
+            T.RandomCrop(size),
+            T.RandomHorizontalFlip(
+                cfg["flip_probability"])]
+    return T.Compose(ops + [
+        T.ToTensor(),
+        T.Normalize(
+            stats["mean"], stats["std"])])
+\end{lstlisting}
 
 A content audit identifies 10 groups of byte-identical images spanning different splits and six duplicate-content groups with conflicting labels. The supplied split membership and labels are retained throughout the experiments.
 
@@ -193,19 +232,19 @@ $5\times10^{-4}$ & 0.0199 & 3.2910 & 99.99 & 32.88 \\
 
 The best validation accuracies are 19.90\%, 27.33\%, and 34.77\% for $\lambda=0$, $10^{-4}$, and $5\times10^{-4}$, respectively. The strongest coefficient reaches its best validation accuracy at epoch 214 and is selected as the baseline for the Mixup experiment.
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width=\columnwidth]{images/beta.pdf}
-\caption{The $\operatorname{Beta}(0.2,0.2)$ density used for Mixup. The density diverges at both endpoints; the plotted curve is evaluated on $0<\rho<1$.}
-\label{fig:beta}
-\end{figure}
-
 \begin{figure*}[t]
 \centering
 \includegraphics[width=\textwidth]{images/mixup.pdf}
 \caption{The selected weight decay baseline and Mixup over 300 epochs. Mixup training loss and accuracy use interpolated targets; validation metrics use the original images and labels.}
 \label{fig:mixup}
 \end{figure*}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\columnwidth]{images/beta.pdf}
+\caption{The $\operatorname{Beta}(0.2,0.2)$ density used for Mixup. The density diverges at both endpoints; the plotted curve is evaluated on $0<\rho<1$.}
+\label{fig:beta}
+\end{figure}
 
 \section{Mixup and Final Evaluation}
 
@@ -254,7 +293,6 @@ Figure~\ref{fig:mixup} shows that the Mixup objective maintains higher training 
 
 The best Mixup checkpoint occurs at epoch 273, with validation accuracy of 38.62\% and validation cross-entropy of 2.7151. This exceeds the baseline's best validation accuracy by 3.85 percentage points. The selected checkpoint achieves \textbf{37.55\% test accuracy} and cross-entropy of 2.7505 on the 1,534 test images. The final model therefore uses an initial learning rate of 0.05, cosine annealing, weight decay of $5\times10^{-4}$, and Mixup with $\alpha=0.2$.
 
-\clearpage
 \bibliography{references}
 
 \end{document}
